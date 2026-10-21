@@ -99,12 +99,51 @@ def fetch_lever_eu(slug):
     return fetch_lever(slug, host="api.eu.lever.co")
 
 
-ADAPTERS = {"ashby": fetch_ashby, "greenhouse": fetch_greenhouse, "lever": fetch_lever, "lever_eu": fetch_lever_eu}
+def fetch_workable(slug):
+    data = get_json(f"https://apply.workable.com/api/v1/widget/accounts/{slug}")
+    out = []
+    for j in data.get("jobs", []):
+        loc = ", ".join(x for x in [j.get("city"), j.get("country")] if x)
+        out.append({
+            "title": (j.get("title") or "").strip(),
+            "location": loc,
+            "url": j.get("url") or j.get("shortlink"),
+            "posted": j.get("published_on") or j.get("created_at"),
+            "remote": bool(j.get("telecommuting")),
+            "department": j.get("department") or "",
+        })
+    return out
+
+
+def fetch_smartrecruiters(slug):
+    out, offset = [], 0
+    while True:
+        data = get_json(f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=100&offset={offset}")
+        items = data.get("content", [])
+        for j in items:
+            loc = j.get("location") or {}
+            out.append({
+                "title": (j.get("name") or "").strip(),
+                "location": loc.get("fullLocation") or ", ".join(x for x in [loc.get("city"), loc.get("country")] if x),
+                "url": f"https://jobs.smartrecruiters.com/{slug}/{j.get('id')}",
+                "posted": j.get("releasedDate"),
+                "remote": bool(loc.get("remote")),
+                "department": (j.get("department") or {}).get("label", ""),
+            })
+        offset += len(items)
+        if not items or offset >= int(data.get("totalFound", 0)) or offset >= 2000:
+            return out
+
+
+ADAPTERS = {"ashby": fetch_ashby, "greenhouse": fetch_greenhouse, "lever": fetch_lever, "lever_eu": fetch_lever_eu,
+            "workable": fetch_workable, "smartrecruiters": fetch_smartrecruiters}
 BOARD_URL = {
     "ashby": "https://jobs.ashbyhq.com/{slug}",
     "greenhouse": "https://job-boards.greenhouse.io/{slug}",
     "lever": "https://jobs.lever.co/{slug}",
     "lever_eu": "https://jobs.eu.lever.co/{slug}",
+    "workable": "https://apply.workable.com/{slug}",
+    "smartrecruiters": "https://jobs.smartrecruiters.com/{slug}",
 }
 
 
@@ -124,7 +163,8 @@ def parse_date(s):
     if not s:
         return None
     try:
-        return datetime.fromisoformat(s.replace("Z", "+00:00"))
+        d = datetime.fromisoformat(s.replace("Z", "+00:00"))
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
     except ValueError:
         return None
 

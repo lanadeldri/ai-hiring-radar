@@ -16,8 +16,12 @@ No dependencies beyond the Python standard library.
 
 `discover.py` finds new AI companies that are hiring, without you typing names:
 
-- **HN "Who is hiring?"** — reads the latest monthly thread, keeps AI-related posts, and pulls the ATS link from the post. If the post has none, it scans the company's website and `/careers` page for one.
-- **Funding news** — reads the TechCrunch venture RSS feed, picks out "X raises $40M Series B" headlines for AI companies, and guesses the job-board slug.
+- **HN "Who is hiring?"** — reads the latest monthly thread, keeps AI companies, and pulls the ATS link from the post. If the post has none, it scans the company's website and `/careers` page for one.
+- **Funding news** — reads TechCrunch, Crunchbase News and Google News searches, picks out "X raises $40M Series B" headlines for AI companies, and guesses the job-board slug.
+
+Supported job boards: Ashby, Greenhouse, Lever (incl. EU), Workable, SmartRecruiters.
+
+**How "AI company" is decided.** Nearly every post mentions AI now, so a plain "AI" in the body doesn't count. A post needs a score of 3+: AI terms in the headline line (+2), "AI" or `.ai` in the company name/domain (+2), and +1 for each distinct specific term in the body (LLM, inference, computer vision, fine-tuning, ...). Companies auto-added from HN that fail a later, stricter filter are removed automatically and marked `filtered`.
 
 ```bash
 python discover.py --auto-add
