@@ -1,0 +1,228 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Hiring Radar</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one scannable ledger of companies; filters on top, signal columns (eng roles, new this week) right-aligned for quick ranking. */
+:root {
+  --bg: #f4f6f8;
+  --surface: #ffffff;
+  --ink: #141a22;
+  --muted: #5b6573;
+  --line: #dde2e8;
+  --accent: #2443c9;
+  --accent-soft: #e6ebfb;
+  --hot: #b4540c;
+  --hot-soft: #fbeedd;
+  --pending: #8a93a0;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f141a; --surface: #161c24; --ink: #e8edf3; --muted: #97a2b0; --line: #2a333e;
+    --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f141a; --surface: #161c24; --ink: #e8edf3; --muted: #97a2b0; --line: #2a333e;
+  --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+header { display: grid; gap: 10px; margin-bottom: 28px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 44px); line-height: 1.05; margin: 0; text-wrap: balance; letter-spacing: -.01em; }
+.lede { color: var(--muted); max-width: 62ch; margin: 0; }
+
+.status { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; font-family: var(--mono); font-size: 12.5px; color: var(--muted);
+  border: 1px dashed var(--line); border-radius: 8px; padding: 10px 14px; margin-bottom: 20px; }
+.status b { color: var(--ink); font-weight: 500; }
+.status code { background: var(--accent-soft); color: var(--accent); padding: 1px 6px; border-radius: 4px; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+.controls input, .controls select { font: inherit; font-size: 14px; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+.controls input { flex: 1 1 220px; min-width: 0; }
+.controls input:focus-visible, .controls select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
+.chip { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--surface); color: var(--muted);
+  border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+
+.ledger { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.row { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(0, 1.4fr) 84px 84px 84px 96px; gap: 12px; align-items: center;
+  padding: 14px 18px; border-top: 1px solid var(--line); }
+.row:first-child { border-top: 0; }
+.row.head { font-family: var(--mono); font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-block: 10px; background: var(--bg); }
+.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.name { font-weight: 600; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; min-width: 0; }
+.name a { color: var(--ink); text-decoration: none; }
+.name a:hover { text-decoration: underline; }
+.meta { font-size: 12.5px; color: var(--muted); font-weight: 400; }
+.sector { font-size: 13px; color: var(--muted); min-width: 0; }
+.big { font-size: 18px; font-weight: 500; }
+.pending { color: var(--pending); font-size: 13px; }
+.new { display: inline-block; background: var(--hot-soft); color: var(--hot); border-radius: 6px; padding: 1px 7px; }
+.board { text-align: right; font-size: 13px; }
+.board a { color: var(--accent); text-decoration: none; font-weight: 500; }
+.board a:hover { text-decoration: underline; }
+.roles { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 6px; margin-top: -4px; }
+.roles a { font-size: 12.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; text-decoration: none; }
+.roles a:hover { color: var(--accent); border-color: var(--accent); }
+.empty { padding: 40px 18px; text-align: center; color: var(--muted); }
+
+.howto { margin-top: 36px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.howto section { min-width: 0; }
+.howto h2 { font-family: var(--display); font-weight: 500; font-size: 17px; margin: 0 0 6px; }
+.howto p { margin: 0; color: var(--muted); font-size: 14px; }
+.howto code { font-family: var(--mono); font-size: 12.5px; color: var(--ink); }
+
+@media (max-width: 720px) {
+  .row.head { display: none; }
+  .row { grid-template-columns: 1fr 1fr 1fr; row-gap: 6px; }
+  .name { grid-column: 1 / -1; }
+  .sector { grid-column: 1 / -1; }
+  .num::before { content: attr(data-label); display: block; font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .num { text-align: left; }
+  .board { grid-column: 1 / -1; text-align: left; }
+}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI startups · hiring signal</div>
+    <h1>AI Hiring Radar</h1>
+    <p class="lede">AI companies that are hiring right now, ranked by open engineering roles. Every number comes straight from each company's public job board on Ashby, Greenhouse or Lever.</p>
+  </header>
+
+  <div class="status" id="status"></div>
+
+  <div class="controls">
+    <input id="q" type="search" placeholder="Search company, sector, city…" aria-label="Search">
+    <select id="sort" aria-label="Sort">
+      <option value="eng">Most eng roles</option>
+      <option value="new">Most new this week</option>
+      <option value="open">Most open roles</option>
+      <option value="name">Name A–Z</option>
+    </select>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Filter by sector"></div>
+
+  <div class="ledger" id="ledger" role="table" aria-label="Companies"></div>
+
+  <div class="howto">
+    <section>
+      <h2>Refresh the data</h2>
+      <p>Run <code>python fetch_jobs.py --detect</code>. It writes <code>data/companies.json</code>, and this page picks it up automatically.</p>
+    </section>
+    <section>
+      <h2>Add a company</h2>
+      <p>Add a row to <code>data/companies.csv</code> with the name, website and job-board slug. Leave the ATS blank if unsure; <code>--detect</code> tries all three.</p>
+    </section>
+    <section>
+      <h2>Daily refresh</h2>
+      <p>Push to GitHub and the included Action runs the script every day and commits fresh data. Turn on GitHub Pages for a free public site.</p>
+    </section>
+  </div>
+</div>
+
+<script>
+// Seed list, used when data/companies.json is not available (e.g. before the first fetch).
+const SEED = [
+  ["Anthropic","https://anthropic.com","greenhouse","anthropic","Foundation models","San Francisco"],
+  ["OpenAI","https://openai.com","ashby","openai","Foundation models","San Francisco"],
+  ["Cursor (Anysphere)","https://cursor.com","","cursor","Dev tools","San Francisco"],
+  ["Perplexity","https://perplexity.ai","","perplexity","AI search","San Francisco"],
+  ["ElevenLabs","https://elevenlabs.io","","elevenlabs","Voice AI","New York / London"],
+  ["Cohere","https://cohere.com","","cohere","Foundation models","Toronto"],
+  ["Mistral AI","https://mistral.ai","","mistral","Foundation models","Paris"],
+  ["Scale AI","https://scale.com","","scaleai","Data / infra","San Francisco"],
+  ["Databricks","https://databricks.com","","databricks","Data / infra","San Francisco"],
+  ["Glean","https://glean.com","","gleanwork","Enterprise AI","Palo Alto"],
+  ["Harvey","https://harvey.ai","","harvey","Vertical AI (legal)","San Francisco"],
+  ["Sierra","https://sierra.ai","","sierra","AI agents (CX)","San Francisco"],
+  ["Decagon","https://decagon.ai","","decagon","AI agents (CX)","San Francisco"],
+  ["Replit","https://replit.com","","replit","Dev tools","San Francisco"],
+  ["Modal","https://modal.com","","modal","AI infra","New York"],
+  ["Baseten","https://baseten.co","","baseten","AI infra","San Francisco"],
+  ["Together AI","https://together.ai","","togetherai","AI infra","San Francisco"],
+  ["LangChain","https://langchain.com","","langchain","Dev tools","San Francisco"],
+  ["Runway","https://runwayml.com","","runwayml","Generative media","New York"],
+  ["Bland AI","https://bland.ai","","bland","Voice AI","San Francisco"],
+].map(([name, website, ats, slug, sector, hq]) => ({ name, website, ats, slug, sector, hq,
+  board_url: ats === "ashby" ? `https://jobs.ashbyhq.com/${slug}` : ats === "greenhouse" ? `https://job-boards.greenhouse.io/${slug}` : "",
+  open_roles: null, eng_roles: null, new_7d: null, sample_eng_roles: [] }));
+
+let data = SEED, updatedAt = null, sector = "All";
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+function renderStatus() {
+  const live = data.some((c) => c.open_roles != null);
+  if (live) {
+    const total = data.reduce((s, c) => s + (c.eng_roles || 0), 0);
+    $("status").innerHTML = `<span><b>${data.length}</b> companies</span><span><b>${total.toLocaleString()}</b> open eng roles</span><span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>`;
+  } else {
+    $("status").innerHTML = `<span><b>${data.length}</b> seed companies · role counts not fetched yet</span><span>Run <code>python fetch_jobs.py --detect</code> to load live numbers</span>`;
+  }
+}
+
+function renderChips() {
+  const sectors = ["All", ...new Set(data.map((c) => c.sector).filter(Boolean))];
+  $("chips").innerHTML = sectors.map((s) => `<button class="chip" type="button" aria-pressed="${s === sector}">${esc(s)}</button>`).join("");
+  $("chips").querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => { sector = b.textContent; renderChips(); renderRows(); }));
+}
+
+const cell = (v, label, cls = "") => v == null
+  ? `<div class="num" data-label="${label}" role="cell"><span class="pending">—</span></div>`
+  : `<div class="num ${cls}" data-label="${label}" role="cell">${cls === "is-new" && v > 0 ? `<span class="new">+${v}</span>` : v}</div>`;
+
+function renderRows() {
+  const q = $("q").value.trim().toLowerCase();
+  const by = $("sort").value;
+  const key = { eng: "eng_roles", new: "new_7d", open: "open_roles" }[by];
+  const rows = data
+    .filter((c) => sector === "All" || c.sector === sector)
+    .filter((c) => !q || [c.name, c.sector, c.hq].join(" ").toLowerCase().includes(q))
+    .sort((a, b) => by === "name" ? a.name.localeCompare(b.name) : (b[key] ?? -1) - (a[key] ?? -1) || a.name.localeCompare(b.name));
+
+  const head = `<div class="row head" role="row"><div>Company</div><div>Sector</div><div class="num">Eng roles</div><div class="num">All roles</div><div class="num">New (7d)</div><div class="board">Jobs</div></div>`;
+  if (!rows.length) { $("ledger").innerHTML = head + `<div class="empty">No companies match. Try a different search or sector.</div>`; return; }
+
+  $("ledger").innerHTML = head + rows.map((c) => {
+    const raise = [c.stage, c.last_raise].filter(Boolean).join(" · ");
+    const roles = (c.sample_eng_roles || []).map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`).join("");
+    return `<div class="row" role="row">
+      <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span></div>
+      <div class="sector" role="cell">${esc(c.sector)}</div>
+      ${cell(c.eng_roles, "Eng roles", "big")}
+      ${cell(c.open_roles, "All roles")}
+      ${cell(c.new_7d, "New (7d)", "is-new")}
+      <div class="board" role="cell">${c.board_url ? `<a href="${esc(c.board_url)}" target="_blank" rel="noopener">View jobs →</a>` : `<span class="pending">ATS unknown</span>`}</div>
+      ${roles ? `<div class="roles">${roles}</div>` : ""}
+    </div>`;
+  }).join("");
+}
+
+function render() { renderStatus(); renderChips(); renderRows(); }
+$("q").addEventListener("input", renderRows);
+$("sort").addEventListener("change", renderRows);
+
+try { const s = localStorage.getItem("radar-sort"); if (s) $("sort").value = s; } catch (e) {}
+$("sort").addEventListener("change", () => { try { localStorage.setItem("radar-sort", $("sort").value); } catch (e) {} });
+
+render();
+// When served next to data/companies.json (local server or GitHub Pages), load live numbers.
+fetch("data/companies.json").then((r) => r.ok ? r.json() : null).then((j) => {
+  if (j && Array.isArray(j.companies) && j.companies.length) { data = j.companies; updatedAt = j.updated_at; render(); }
+}).catch(() => {});
+</script>
