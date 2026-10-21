@@ -1,0 +1,272 @@
+{
+ "Anthropic": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 675
+  }
+ ],
+ "OpenAI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 811
+  }
+ ],
+ "Cursor (Anysphere)": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 131
+  }
+ ],
+ "Perplexity": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 127
+  }
+ ],
+ "ElevenLabs": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 160
+  }
+ ],
+ "Cohere": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 114
+  }
+ ],
+ "Mistral AI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 220
+  }
+ ],
+ "Scale AI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 175
+  }
+ ],
+ "Databricks": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 897
+  }
+ ],
+ "Glean": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 120
+  }
+ ],
+ "Harvey": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 350
+  }
+ ],
+ "Sierra": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 190
+  }
+ ],
+ "Decagon": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 135
+  }
+ ],
+ "Replit": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 52
+  }
+ ],
+ "Modal": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 43
+  }
+ ],
+ "Baseten": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 103
+  }
+ ],
+ "Together AI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 79
+  }
+ ],
+ "LangChain": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 104
+  }
+ ],
+ "Runway": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 50
+  }
+ ],
+ "Bland AI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 16
+  }
+ ],
+ "Shepherd": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 25
+  }
+ ],
+ "Checkly": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 3
+  }
+ ],
+ "Thunder Compute": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 1
+  }
+ ],
+ "River": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 6
+  }
+ ],
+ "Fazeshift": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 1
+  }
+ ],
+ "Shield AI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 658
+  }
+ ],
+ "Beacon AI": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 17
+  }
+ ],
+ "Hedge": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 16
+  }
+ ],
+ "Curai": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 3
+  }
+ ],
+ "Tandem Health": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 74
+  }
+ ],
+ "Komodo Health": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 23
+  }
+ ],
+ "Sourcegraph": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 8
+  }
+ ],
+ "CoVar": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 6
+  }
+ ],
+ "Radar Labs": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 18
+  }
+ ],
+ "JUPUS": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 5
+  }
+ ],
+ "Rebar": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 16
+  }
+ ],
+ "Prior Labs": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 23
+  }
+ ],
+ "Kraken Tech": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 72
+  }
+ ],
+ "Footprint": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 13
+  }
+ ],
+ "Tenki Cloud by Luxor Tech": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 3
+  }
+ ],
+ "Close": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 6
+  }
+ ],
+ "SentiLink": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 42
+  }
+ ],
+ "Coder": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 27
+  }
+ ],
+ "Mastra": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 2
+  }
+ ],
+ "Ojin": [
+  {
+   "date": "2026-10-21",
+   "open_roles": 3
+  }
+ ]
+}
