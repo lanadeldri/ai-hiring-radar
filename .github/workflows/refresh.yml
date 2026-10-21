@@ -16,11 +16,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python fetch_jobs.py --detect
+      - name: Discover new AI companies (HN Who's Hiring + funding news)
+        run: python discover.py --auto-add
+        continue-on-error: true
+      - name: Fetch open roles
+        run: python fetch_jobs.py --detect
       - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/companies.json data/history.json
+          git add -A data/
           git diff --cached --quiet || git commit -m "Refresh job data $(date -u +%F)"
           git push

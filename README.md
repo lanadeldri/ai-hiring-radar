@@ -12,7 +12,29 @@ python -m http.server 8000         # open http://localhost:8000
 
 No dependencies beyond the Python standard library.
 
-## Add a company
+## Automatic discovery
+
+`discover.py` finds new AI companies that are hiring, without you typing names:
+
+- **HN "Who is hiring?"** — reads the latest monthly thread, keeps AI-related posts, and pulls the ATS link from the post. If the post has none, it scans the company's website and `/careers` page for one.
+- **Funding news** — reads the TechCrunch venture RSS feed, picks out "X raises $40M Series B" headlines for AI companies, and guesses the job-board slug.
+
+```bash
+python discover.py --auto-add
+```
+
+Results go to `data/candidates.csv`:
+
+| confidence | what happens |
+|---|---|
+| `high` (ATS link found in the post or on the company site, board verified) | added to `companies.csv` automatically with `--auto-add` |
+| `review` (slug guessed from a name, or no ATS found) | waits in `candidates.csv` with `status=new` |
+
+To review: edit `data/candidates.csv` (the GitHub web editor works) and set `status` to `approved` or `rejected`. Approved rows are added on the next run. Guessed slugs are never auto-added, because the same slug can belong to a different company on another ATS.
+
+The daily GitHub Action runs discovery first, then fetches roles.
+
+## Add a company by hand
 
 Add a row to `data/companies.csv`:
 
@@ -20,7 +42,7 @@ Add a row to `data/companies.csv`:
 |---|---|---|
 | name | Sierra | display name |
 | website | https://sierra.ai | |
-| ats | ashby | `ashby` / `greenhouse` / `lever`, or leave empty and run with `--detect` |
+| ats | ashby | `ashby` / `greenhouse` / `lever` / `lever_eu`, or leave empty and run with `--detect` |
 | slug | sierra | the board name in `jobs.ashbyhq.com/<slug>`, `job-boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>` |
 | stage, last_raise, last_raise_date | Series C, $175M, 2026-09 | fill in from funding news |
 | sector, hq, notes | AI agents (CX), San Francisco | |
@@ -41,6 +63,6 @@ Finding the slug: open the company's careers page and click any job — the URL 
 
 ## Roadmap
 
-- Auto-discover new companies from HN "Who's Hiring" (Algolia API) and funding-news RSS → a review queue
+- More discovery sources: VC portfolio pages, YC directory, more funding feeds
 - Funding round + investors per company
 - Growth chart from `history.json`

@@ -77,8 +77,8 @@ def fetch_greenhouse(slug):
     return out
 
 
-def fetch_lever(slug):
-    data = get_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
+def fetch_lever(slug, host="api.lever.co"):
+    data = get_json(f"https://{host}/v0/postings/{slug}?mode=json")
     out = []
     for j in data:
         cat = j.get("categories") or {}
@@ -95,11 +95,16 @@ def fetch_lever(slug):
     return out
 
 
-ADAPTERS = {"ashby": fetch_ashby, "greenhouse": fetch_greenhouse, "lever": fetch_lever}
+def fetch_lever_eu(slug):
+    return fetch_lever(slug, host="api.eu.lever.co")
+
+
+ADAPTERS = {"ashby": fetch_ashby, "greenhouse": fetch_greenhouse, "lever": fetch_lever, "lever_eu": fetch_lever_eu}
 BOARD_URL = {
     "ashby": "https://jobs.ashbyhq.com/{slug}",
     "greenhouse": "https://job-boards.greenhouse.io/{slug}",
     "lever": "https://jobs.lever.co/{slug}",
+    "lever_eu": "https://jobs.eu.lever.co/{slug}",
 }
 
 
