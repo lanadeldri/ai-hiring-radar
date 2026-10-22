@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T00:22:22.879898+00:00",
+  "updated_at": "2026-10-22T00:46:39.320902+00:00",
   "companies": [
     {
       "name": "Databricks",
@@ -67,7 +67,7 @@
       "sample_eng_roles": [
         {
           "title": "Software Engineer, Privacy Engineering (Lawful Access)",
-          "location": "London, UK",
+          "location": "London, UK; Dublin, Ireland; London, UK",
           "url": "https://jobs.ashbyhq.com/openai/a0ccedf1-2bb7-4f10-8be8-db50f9ae02c3"
         },
         {
@@ -91,7 +91,7 @@
           "url": "https://jobs.ashbyhq.com/openai/eb112d35-cd7e-45a4-8633-5d7ade298a39"
         }
       ],
-      "delta_since_last": 1
+      "delta_since_last": 0
     },
     {
       "name": "Shield AI",
@@ -105,11 +105,11 @@
       "sector": "",
       "hq": "",
       "notes": "via hn",
-      "open_roles": 658,
+      "open_roles": 659,
       "eng_roles": 443,
-      "new_7d": 71,
-      "new_30d": 229,
-      "remote_roles": 23,
+      "new_7d": 72,
+      "new_30d": 230,
+      "remote_roles": 28,
       "sample_eng_roles": [
         {
           "title": "Staff Field Solution Engineer - XBAT - AMER (R6265)",
@@ -118,7 +118,7 @@
         },
         {
           "title": "Staff Field Solutions Engineer (R6297)",
-          "location": "San Diego, California",
+          "location": "San Diego, California; Washington, D.C.; Dallas, Texas",
           "url": "https://jobs.lever.co/shieldai/ac234764-8e81-4ffb-b822-8ff8338b2fda"
         },
         {
@@ -137,7 +137,7 @@
           "url": "https://jobs.lever.co/shieldai/c572c4ac-5a16-40a7-ad56-aee3ebead2ef"
         }
       ],
-      "delta_since_last": 0
+      "delta_since_last": 1
     },
     {
       "name": "Anthropic",
@@ -151,12 +151,22 @@
       "sector": "Foundation models",
       "hq": "San Francisco",
       "notes": "",
-      "open_roles": 675,
-      "eng_roles": 320,
-      "new_7d": 57,
+      "open_roles": 677,
+      "eng_roles": 322,
+      "new_7d": 59,
       "new_30d": 198,
       "remote_roles": 63,
       "sample_eng_roles": [
+        {
+          "title": "Staff Software Engineer, Finance Engineering",
+          "location": "San Francisco, CA | Seattle, WA",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5457716008"
+        },
+        {
+          "title": "Engineering Manager, Finance Engineering",
+          "location": "San Francisco, CA | Seattle, WA",
+          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5457708008"
+        },
         {
           "title": "Research Engineer, Chip Design RL",
           "location": "San Francisco, CA",
@@ -171,19 +181,9 @@
           "title": "Security Engineer / Research Engineer, RL Security",
           "location": "San Francisco, CA | New York City, NY | Seattle, WA",
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458420008"
-        },
-        {
-          "title": "Staff+ Software Engineer, Platform Safety",
-          "location": "San Francisco, CA | New York City, NY",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458794008"
-        },
-        {
-          "title": "Staff+ Software Engineer, VectorDB",
-          "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY | Seattle, WA",
-          "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458044008"
         }
       ],
-      "delta_since_last": 0
+      "delta_since_last": 2
     },
     {
       "name": "Harvey",
@@ -220,7 +220,7 @@
         },
         {
           "title": "Staff Software Engineer, Backend Platform",
-          "location": "San Francisco",
+          "location": "San Francisco; New York",
           "url": "https://jobs.ashbyhq.com/harvey/66a13783-3073-4474-8dad-90f4146885ef"
         },
         {
@@ -275,7 +275,7 @@
           "url": "https://jobs.ashbyhq.com/mistral.ai/926f9306-c524-4161-8b06-21a85cd3bfd5"
         }
       ],
-      "delta_since_last": 2
+      "delta_since_last": 0
     },
     {
       "name": "Scale AI",
@@ -343,7 +343,7 @@
       "sample_eng_roles": [
         {
           "title": "Associate Sales Engineer",
-          "location": "San Francisco, CA",
+          "location": "San Francisco, CA; US - Remote; New York, NY; Atlanta, GA",
           "url": "https://jobs.ashbyhq.com/sierra/cfecdf07-ee22-45a0-b472-5de10f167984"
         },
         {
@@ -363,7 +363,7 @@
         },
         {
           "title": "Software Engineer, Agent (Spanish speaking)",
-          "location": "San Francisco, CA",
+          "location": "San Francisco, CA; New York, NY; Toronto",
           "url": "https://jobs.ashbyhq.com/sierra/9d59c96e-e7f7-43cc-8069-bcdf3798fe2b"
         }
       ],
@@ -440,12 +440,12 @@
         },
         {
           "title": "Software Engineer, Model Lifecycle and Signals",
-          "location": "New York",
+          "location": "New York; San Francisco",
           "url": "https://jobs.ashbyhq.com/cursor/a577902e-28e9-4e68-9ee9-91e34d1b59c4"
         },
         {
           "title": "Forward Deployed Engineer",
-          "location": "Australia",
+          "location": "Australia; Singapore",
           "url": "https://jobs.ashbyhq.com/cursor/44264403-5674-40b7-8b8d-e60b0a86e9ec"
         },
         {
@@ -455,7 +455,7 @@
         },
         {
           "title": "Forward Deployed Engineer - Japan",
-          "location": "Japan",
+          "location": "Japan; Japan",
           "url": "https://jobs.ashbyhq.com/cursor/38bd03a3-3d65-4868-87df-cb248d0a45e3"
         }
       ],
@@ -501,7 +501,7 @@
         },
         {
           "title": "Staff Software Engineer, Platform Security",
-          "location": "San Francisco",
+          "location": "San Francisco; New York City",
           "url": "https://jobs.ashbyhq.com/decagon/36a16618-abdc-41bd-80f6-a1203e38026b"
         }
       ],
@@ -527,27 +527,27 @@
       "sample_eng_roles": [
         {
           "title": "Member of Technical Staff (Software Engineer, Enterprise Agent Evals & Efficiency)",
-          "location": "San Francisco",
+          "location": "San Francisco; Seattle; New York City",
           "url": "https://jobs.ashbyhq.com/perplexity/f3814af2-55a3-49a5-b0cb-67199a2a45fb"
         },
         {
           "title": "Member of Technical Staff (Software Engineer, Enterprise Trust & Governance)",
-          "location": "San Francisco",
+          "location": "San Francisco; London; Seattle; New York City; Toronto",
           "url": "https://jobs.ashbyhq.com/perplexity/63785f62-07ac-4dc5-8f68-57779dddb1f3"
         },
         {
           "title": "Member of Technical Staff (Android Engineer, Computer Growth)",
-          "location": "San Francisco",
+          "location": "San Francisco; New York City",
           "url": "https://jobs.ashbyhq.com/perplexity/375f9fc9-392e-4d0b-9a10-4b2013e05ad4"
         },
         {
           "title": "Member of Technical Staff (iOS Engineer, Computer Growth)",
-          "location": "San Francisco",
+          "location": "San Francisco; New York City",
           "url": "https://jobs.ashbyhq.com/perplexity/fcb4cc78-d4bd-4489-8756-7d39e755ac76"
         },
         {
           "title": "Member of Technical Staff (Machine Learning Engineer, Search Agent RL)",
-          "location": "Belgrade",
+          "location": "Belgrade; London; Berlin",
           "url": "https://jobs.ashbyhq.com/perplexity/9cec9b33-06f2-4ba1-8c9e-20a598361ca2"
         }
       ],
@@ -588,7 +588,7 @@
         },
         {
           "title": "FullStack Engineer,  AI Observability & Evals Platform (LangSmith)",
-          "location": "San Francisco, CA",
+          "location": "San Francisco, CA; Boston, MA; New York, NY",
           "url": "https://jobs.ashbyhq.com/langchain/ddf92275-1cc3-49c0-9f25-e8ded43b07f6"
         },
         {
@@ -619,17 +619,17 @@
       "sample_eng_roles": [
         {
           "title": "Senior/Staff Software Engineer (Back-End), Inference",
-          "location": "Canada",
+          "location": "Canada; San Francisco; United States; New York; Ottawa; Toronto; Montreal",
           "url": "https://jobs.ashbyhq.com/cohere/14aef6d9-763e-4f56-a498-206fb31dd0c6"
         },
         {
           "title": "Member of Technical Staff - Post-training (Data Infrastructure)",
-          "location": "United States",
+          "location": "United States; Canada",
           "url": "https://jobs.ashbyhq.com/cohere/eef82766-7e31-430f-a102-bc33a5022597"
         },
         {
           "title": "Senior Full-Stack Engineer, Cohere Dashboard",
-          "location": "Toronto",
+          "location": "Toronto; Ottawa; Montreal",
           "url": "https://jobs.ashbyhq.com/cohere/7e0e08ed-4b12-4aaa-8dda-ad6292992061"
         },
         {
@@ -639,7 +639,7 @@
         },
         {
           "title": "Design Engineer",
-          "location": "United States",
+          "location": "United States; San Francisco; Canada; New York; Toronto",
           "url": "https://jobs.ashbyhq.com/cohere/75765a04-82cb-4d17-ac53-09b156656a7d"
         }
       ],
@@ -657,12 +657,17 @@
       "sector": "AI infra",
       "hq": "San Francisco",
       "notes": "",
-      "open_roles": 103,
-      "eng_roles": 46,
-      "new_7d": 3,
-      "new_30d": 22,
-      "remote_roles": 97,
+      "open_roles": 104,
+      "eng_roles": 47,
+      "new_7d": 4,
+      "new_30d": 23,
+      "remote_roles": 98,
       "sample_eng_roles": [
+        {
+          "title": "Product Platform: Product Engineer",
+          "location": "San Francisco; New York; Seattle",
+          "url": "https://jobs.ashbyhq.com/baseten/7428d7cc-36d7-4d02-b19a-bd558fba6751"
+        },
         {
           "title": "IT Systems Engineer",
           "location": "Remote",
@@ -680,16 +685,11 @@
         },
         {
           "title": "Engineering Manager - Inference Performance",
-          "location": "San Francisco",
+          "location": "San Francisco; New York",
           "url": "https://jobs.ashbyhq.com/baseten/6b105131-d5d6-4d41-96ce-7fe71ff87769"
-        },
-        {
-          "title": "Solutions Architect, EMEA",
-          "location": "Remote",
-          "url": "https://jobs.ashbyhq.com/baseten/5a1a7b6c-646b-495c-911a-8fa435c78b6f"
         }
       ],
-      "delta_since_last": 0
+      "delta_since_last": 1
     },
     {
       "name": "ElevenLabs",
@@ -711,12 +711,12 @@
       "sample_eng_roles": [
         {
           "title": "Applied AI Engineer",
-          "location": "United Kingdom",
+          "location": "United Kingdom; Dublin; Spain; Hungary; Bulgaria; Germany; Poland; Italy; Netherlands; France",
           "url": "https://jobs.ashbyhq.com/elevenlabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef"
         },
         {
           "title": "Data Scientist - Product Analytics",
-          "location": "United Kingdom",
+          "location": "United Kingdom; Spain; Hungary; Bulgaria; Germany; Poland; Italy; France",
           "url": "https://jobs.ashbyhq.com/elevenlabs/41b892ba-b530-44cb-9ae1-178908fc324c"
         },
         {
@@ -726,12 +726,12 @@
         },
         {
           "title": "Site Reliability Engineer",
-          "location": "London",
+          "location": "London; Dublin; New York; Sofia; Switzerland; Poland",
           "url": "https://jobs.ashbyhq.com/elevenlabs/2a99d0a0-adae-41b5-a7ef-f1d3faee60a7"
         },
         {
           "title": "Research Engineer - Data Infrastructure",
-          "location": "United Kingdom",
+          "location": "United Kingdom; United States; Poland; Bulgaria",
           "url": "https://jobs.ashbyhq.com/elevenlabs/9fbd9227-57e0-4221-9255-1a1d967be8ed"
         }
       ],
@@ -854,12 +854,12 @@
         },
         {
           "title": "Forward Deployed Engineer",
-          "location": "Remote",
+          "location": "Remote; Seattle, WA; London; New York, NY; San Francisco, CA",
           "url": "https://jobs.ashbyhq.com/runway-ml/d761c781-5291-461e-aa7a-d25b3165663b"
         },
         {
           "title": "Prototype Researcher",
-          "location": "Remote",
+          "location": "Remote; Seattle, WA; New York, NY; San Francisco, CA",
           "url": "https://jobs.ashbyhq.com/runway-ml/d8afa330-e713-4a2d-833b-cd2e4c6e0fcc"
         },
         {
@@ -895,12 +895,12 @@
       "sample_eng_roles": [
         {
           "title": "GTM Engineer - Data Platform",
-          "location": "New York",
+          "location": "New York; San Francisco",
           "url": "https://jobs.ashbyhq.com/modal/dd6fe63b-8265-474e-b1f0-fcc1c5a28daf"
         },
         {
           "title": "Analytics Engineer",
-          "location": "New York",
+          "location": "New York; Stockholm; San Francisco",
           "url": "https://jobs.ashbyhq.com/modal/a518f2cd-e0c7-4105-9004-d7971f7b1daf"
         },
         {
@@ -965,7 +965,7 @@
           "url": "https://apply.workable.com/j/F4EA21F6D3"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Kraken Tech",
@@ -987,7 +987,7 @@
       "sample_eng_roles": [
         {
           "title": "Software Engineer (Autonomous Agents)",
-          "location": "London, UK",
+          "location": "London, UK; Paris, France; Berlin, Germany",
           "url": "https://jobs.ashbyhq.com/krakentech/5e764541-4e9b-41cf-84f4-8503fc07f093"
         },
         {
@@ -997,7 +997,7 @@
         },
         {
           "title": "Mid level Software Engineer (Backend - Python/Django)",
-          "location": "Tokyo, Japan",
+          "location": "Tokyo, Japan; Remote, Japan",
           "url": "https://jobs.ashbyhq.com/krakentech/ebceacfe-b47a-43bf-b963-06be91b2adb0"
         },
         {
@@ -1130,12 +1130,12 @@
         },
         {
           "title": "ML Engineer, Infrastructure",
-          "location": "Berlin",
+          "location": "Berlin; Freiburg; New York",
           "url": "https://jobs.ashbyhq.com/prior-labs/bd4fe067-0e99-4268-b5ad-d1f8e36c6976"
         },
         {
           "title": "Research Scientist, Foundational Data Science",
-          "location": "Berlin",
+          "location": "Berlin; Freiburg; New York",
           "url": "https://jobs.ashbyhq.com/prior-labs/f3b358fd-7cc8-417c-9181-c02213935e54"
         },
         {
@@ -1145,7 +1145,7 @@
         },
         {
           "title": "ML Engineer, Forward Deployed",
-          "location": "New York",
+          "location": "New York; Berlin",
           "url": "https://jobs.ashbyhq.com/prior-labs/928de80c-278f-4f38-aeb2-e4d10b79f38e"
         }
       ],
@@ -1443,7 +1443,7 @@
       "sample_eng_roles": [
         {
           "title": "Staff Data Engineer",
-          "location": "Cologne",
+          "location": "Cologne; United Kingdom; Spain; Portugal",
           "url": "https://jobs.ashbyhq.com/jupus/b57a2594-6815-487c-9ed1-2c606a3bcc02"
         }
       ],
@@ -1499,7 +1499,7 @@
           "url": "https://jobs.ashbyhq.com/growfig/7a5b4941-ae83-4480-a062-51f2f89da920"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     }
   ]
 }

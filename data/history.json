@@ -7,6 +7,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 675
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 677
   }
  ],
  "OpenAI": [
@@ -17,11 +21,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 812
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 812
   }
  ],
  "Cursor (Anysphere)": [
   {
    "date": "2026-10-21",
+   "open_roles": 131
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 131
   },
   {
@@ -37,11 +49,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 127
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 127
   }
  ],
  "ElevenLabs": [
   {
    "date": "2026-10-21",
+   "open_roles": 160
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 160
   },
   {
@@ -57,6 +77,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 114
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 114
   }
  ],
  "Mistral AI": [
@@ -67,11 +91,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 222
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 222
   }
  ],
  "Scale AI": [
   {
    "date": "2026-10-21",
+   "open_roles": 175
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 175
   },
   {
@@ -87,11 +119,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 897
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 897
   }
  ],
  "Glean": [
   {
    "date": "2026-10-21",
+   "open_roles": 120
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 120
   },
   {
@@ -107,11 +147,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 350
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 350
   }
  ],
  "Sierra": [
   {
    "date": "2026-10-21",
+   "open_roles": 190
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 190
   },
   {
@@ -127,11 +175,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 135
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 135
   }
  ],
  "Replit": [
   {
    "date": "2026-10-21",
+   "open_roles": 52
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 52
   },
   {
@@ -147,6 +203,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 43
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 43
   }
  ],
  "Baseten": [
@@ -157,11 +217,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 103
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 104
   }
  ],
  "Together AI": [
   {
    "date": "2026-10-21",
+   "open_roles": 79
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 79
   },
   {
@@ -177,11 +245,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 104
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 104
   }
  ],
  "Runway": [
   {
    "date": "2026-10-21",
+   "open_roles": 50
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 50
   },
   {
@@ -197,11 +273,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 16
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 16
   }
  ],
  "Shepherd": [
   {
    "date": "2026-10-21",
+   "open_roles": 25
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 25
   },
   {
@@ -241,6 +325,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 658
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 659
   }
  ],
  "Beacon AI": [
@@ -251,11 +339,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 17
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 17
   }
  ],
  "Hedge": [
   {
    "date": "2026-10-21",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 16
   },
   {
@@ -277,6 +373,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 74
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 74
   }
  ],
  "Komodo Health": [
@@ -288,6 +388,10 @@
  "Sourcegraph": [
   {
    "date": "2026-10-21",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 8
   },
   {
@@ -315,11 +419,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
   }
  ],
  "Rebar": [
   {
    "date": "2026-10-21",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 16
   },
   {
@@ -335,11 +447,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 23
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 23
   }
  ],
  "Kraken Tech": [
   {
    "date": "2026-10-21",
+   "open_roles": 72
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 72
   },
   {
@@ -367,6 +487,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
   }
  ],
  "SentiLink": [
@@ -389,11 +513,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
   }
  ],
  "Ojin": [
   {
    "date": "2026-10-21",
+   "open_roles": 3
+  },
+  {
+   "date": "2026-10-22",
    "open_roles": 3
   },
   {
@@ -405,9 +537,17 @@
   {
    "date": "2026-10-22",
    "open_roles": 31
+  },
+  {
+   "date": "2026-10-22",
+   "open_roles": 31
   }
  ],
  "Fig": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  },
   {
    "date": "2026-10-22",
    "open_roles": 2
