@@ -1,6 +1,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AI Hiring Radar</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M35DWB1NK7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M35DWB1NK7');
+</script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -260,6 +268,10 @@ function renderLocations() {
   tSel.innerHTML = opts(tc, ci, "Any city");
 }
 const $ = (id) => document.getElementById(id);
+// Analytics events (no-op if the Google tag is blocked)
+const track = (name, params = {}) => { try { window.gtag && gtag("event", name, params); } catch (e) {} };
+let searchTimer;
+const trackLater = (name, params) => { clearTimeout(searchTimer); searchTimer = setTimeout(() => track(name, params), 1500); };
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 function renderStatus() {
@@ -298,7 +310,7 @@ function renderChips() {
     ? `<button class="chip chip-more" type="button" aria-expanded="${showAllSectors}">${showAllSectors ? "Fewer" : `+${sorted.length - TOP} more`}</button>` : "";
   $("chips").innerHTML = ["All", ...shown].map((s) =>
     `<button class="chip" type="button" data-s="${esc(s)}" aria-pressed="${s === sector}">${esc(s)}${s !== "All" ? ` <span class="n">${counts.get(s)}</span>` : ""}</button>`).join("") + more;
-  $("chips").querySelectorAll(".chip[data-s]").forEach((b) => b.addEventListener("click", () => { sector = b.dataset.s; limit = PAGE; renderChips(); renderRows(); }));
+  $("chips").querySelectorAll(".chip[data-s]").forEach((b) => b.addEventListener("click", () => { sector = b.dataset.s; limit = PAGE; track("sector_filter", { sector }); renderChips(); renderRows(); }));
   $("chips").querySelector(".chip-more")?.addEventListener("click", () => { showAllSectors = !showAllSectors; renderChips(); });
 }
 
@@ -307,6 +319,7 @@ function renderPresets() {
     `<button class="chip preset" type="button" data-k="${k}" aria-pressed="${k === preset}">${esc(p.label)}</button>`).join("");
   $("presets").querySelectorAll(".preset").forEach((b) => b.addEventListener("click", () => {
     preset = preset === b.dataset.k ? "" : b.dataset.k;
+    if (preset) track("role_preset", { preset });
     if (preset) $("role").value = "";
     try { history.replaceState(null, "", preset ? "#" + preset : location.pathname); } catch (e) {}
     limit = PAGE; renderPresets(); renderLocations(); renderStatus(); renderRows();
@@ -365,14 +378,30 @@ function renderRows() {
 }
 
 function render() { renderStatus(); renderChips(); renderPresets(); renderLocations(); renderRows(); }
-$("q").addEventListener("input", () => { limit = PAGE; renderRows(); });
+$("q").addEventListener("input", () => {
+  limit = PAGE; renderRows();
+  const term = $("q").value.trim().toLowerCase();
+  if (term.length > 2) trackLater("company_search", { search_term: term });
+});
+// outbound clicks: which jobs and companies people open
+$("ledger").addEventListener("click", (e) => {
+  const a = e.target.closest("a[href]");
+  if (!a) return;
+  const row = a.closest(".row");
+  const company = row?.querySelector(".name a")?.textContent || "";
+  const kind = a.closest(".match") || a.closest(".roles") ? "job_click"
+    : a.closest(".board") || a.classList.contains("more") ? "board_click" : "company_click";
+  track(kind, { company, ...(kind === "job_click" ? { job_title: a.textContent.trim(), preset: preset || "(none)" } : {}) });
+});
 $("role").addEventListener("input", () => {
   if (preset) { preset = ""; try { history.replaceState(null, "", location.pathname); } catch (e) {} renderPresets(); }
   limit = PAGE; renderLocations(); renderStatus(); renderRows();
+  const term = $("role").value.trim().toLowerCase();
+  if (term.length > 2) trackLater("role_search", { search_term: term });
 });
-$("remote").addEventListener("change", () => { limit = PAGE; renderLocations(); renderStatus(); renderRows(); });
-$("country").addEventListener("change", () => { limit = PAGE; $("city").value = ""; renderLocations(); renderStatus(); renderRows(); });
-$("city").addEventListener("change", () => { limit = PAGE; renderLocations(); renderStatus(); renderRows(); });
+$("remote").addEventListener("change", () => { limit = PAGE; if ($("remote").checked) track("remote_only"); renderLocations(); renderStatus(); renderRows(); });
+$("country").addEventListener("change", () => { limit = PAGE; $("city").value = ""; if ($("country").value) track("location_filter", { country: $("country").value }); renderLocations(); renderStatus(); renderRows(); });
+$("city").addEventListener("change", () => { limit = PAGE; if ($("city").value) track("location_filter", { country: $("country").value || "(any)", city: $("city").value }); renderLocations(); renderStatus(); renderRows(); });
 // Shareable preset links, e.g. …/ai-hiring-radar/#fde
 const h = (location.hash || "").slice(1).toLowerCase();
 if (PRESETS[h]) preset = h;
