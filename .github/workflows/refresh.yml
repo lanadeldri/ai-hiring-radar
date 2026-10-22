@@ -8,12 +8,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so the pre-push rebase has a merge base
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -27,5 +33,12 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add -A data/
-          git diff --cached --quiet || git commit -m "Refresh job data $(date -u +%F)"
-          git push
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh job data $(date -u +%F)"
+          # someone may have pushed while this ran (code changes, hand-edited CSVs):
+          # replay our data commit on top, keeping this run's fresh data on conflicts
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
