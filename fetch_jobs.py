@@ -27,6 +27,7 @@ ROOT = Path(__file__).parent
 CSV_PATH = ROOT / "data" / "companies.csv"
 OUT_PATH = ROOT / "data" / "companies.json"
 HISTORY_PATH = ROOT / "data" / "history.json"
+JOBS_PATH = ROOT / "data" / "jobs.json"
 
 ENG_RE = re.compile(
     r"\b(engineer|engineering|developer|swe|sre|devops|research(er)?|scientist|ml|machine learning|"
@@ -198,7 +199,7 @@ def main():
     now = datetime.now(timezone.utc)
     rows = list(csv.DictReader(CSV_PATH.open(encoding="utf-8")))
     history = json.loads(HISTORY_PATH.read_text()) if HISTORY_PATH.exists() else {}
-    results, failures = [], []
+    results, failures, all_jobs = [], [], []
 
     for row in rows:
         name, slug, ats = row["name"].strip(), row["slug"].strip(), row["ats"].strip().lower()
@@ -217,6 +218,11 @@ def main():
             continue
 
         stats = summarize(jobs, now)
+        # every role, compact keys, for the role filter on the page
+        for j in jobs:
+            d = parse_date(j["posted"])
+            all_jobs.append({"c": name, "t": j["title"], "l": j["location"], "u": j["url"],
+                             "p": d.date().isoformat() if d else "", "r": 1 if j["remote"] else 0})
         # growth vs. last snapshot
         prev = history.get(name, [])
         prev_count = prev[-1]["open_roles"] if prev else None
@@ -244,7 +250,8 @@ def main():
     results.sort(key=lambda r: r["eng_roles"], reverse=True)
     OUT_PATH.write_text(json.dumps({"updated_at": now.isoformat(), "companies": results}, indent=2, ensure_ascii=False))
     HISTORY_PATH.write_text(json.dumps(history, indent=1))
-    print(f"\nWrote {len(results)} companies → {OUT_PATH.relative_to(ROOT)}  ({len(failures)} failed)")
+    JOBS_PATH.write_text(json.dumps({"updated_at": now.isoformat(), "jobs": all_jobs}, ensure_ascii=False, separators=(",", ":")))
+    print(f"\nWrote {len(results)} companies and {len(all_jobs)} roles → data/  ({len(failures)} failed)")
     if failures:
         print("Fix the slug/ats for failed rows in data/companies.csv (or run with --detect).")
 

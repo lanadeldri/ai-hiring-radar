@@ -59,6 +59,14 @@ Finding the slug: open the company's careers page and click any job — the URL 
 2. Settings → Pages → deploy from the `main` branch root.
 3. The workflow in `.github/workflows/refresh.yml` refreshes the data daily and commits it.
 
+## Filter by role
+
+The page has a role filter above the company list: type any job title (comma-separate several, e.g. `forward deployed, solutions engineer`) or click a preset. Presets: Forward Deployed (FDE), Solutions / Sales Eng, Customer / Support Eng, Applied AI / ML Eng, Research, Infra / Platform. Add **Remote only** to narrow further.
+
+Each preset has its own link, e.g. `…/ai-hiring-radar/#fde`, so you can bookmark it.
+
+The filter reads `data/jobs.json`, which `fetch_jobs.py` writes with every open role.
+
 ## What each number means
 
 - **Eng roles** — titles matching engineer, researcher, scientist, ML, infra, platform, etc.
