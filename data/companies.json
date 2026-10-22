@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T23:40:54.110771+00:00",
+  "updated_at": "2026-10-22T00:22:22.879898+00:00",
   "companies": [
     {
       "name": "Databricks",
@@ -45,7 +45,7 @@
           "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8885043002"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "OpenAI",
@@ -59,11 +59,11 @@
       "sector": "Foundation models",
       "hq": "San Francisco",
       "notes": "",
-      "open_roles": 811,
+      "open_roles": 812,
       "eng_roles": 494,
-      "new_7d": 65,
-      "new_30d": 242,
-      "remote_roles": 535,
+      "new_7d": 63,
+      "new_30d": 243,
+      "remote_roles": 536,
       "sample_eng_roles": [
         {
           "title": "Software Engineer, Privacy Engineering (Lawful Access)",
@@ -91,7 +91,7 @@
           "url": "https://jobs.ashbyhq.com/openai/eb112d35-cd7e-45a4-8633-5d7ade298a39"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 1
     },
     {
       "name": "Shield AI",
@@ -137,7 +137,7 @@
           "url": "https://jobs.lever.co/shieldai/c572c4ac-5a16-40a7-ad56-aee3ebead2ef"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Anthropic",
@@ -153,8 +153,8 @@
       "notes": "",
       "open_roles": 675,
       "eng_roles": 320,
-      "new_7d": 58,
-      "new_30d": 199,
+      "new_7d": 57,
+      "new_30d": 198,
       "remote_roles": 63,
       "sample_eng_roles": [
         {
@@ -183,7 +183,7 @@
           "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458044008"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Harvey",
@@ -229,7 +229,7 @@
           "url": "https://jobs.ashbyhq.com/harvey/2807b46b-3ea5-43e2-94ea-4e6cdc6d4bb2"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Mistral AI",
@@ -243,11 +243,11 @@
       "sector": "Foundation models",
       "hq": "Paris",
       "notes": "",
-      "open_roles": 220,
+      "open_roles": 222,
       "eng_roles": 106,
-      "new_7d": 26,
-      "new_30d": 65,
-      "remote_roles": 85,
+      "new_7d": 28,
+      "new_30d": 67,
+      "remote_roles": 86,
       "sample_eng_roles": [
         {
           "title": "Data Center Hardware Engineer",
@@ -275,7 +275,7 @@
           "url": "https://jobs.ashbyhq.com/mistral.ai/926f9306-c524-4161-8b06-21a85cd3bfd5"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 2
     },
     {
       "name": "Scale AI",
@@ -321,7 +321,7 @@
           "url": "https://job-boards.greenhouse.io/scaleai/jobs/4742042005"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Sierra",
@@ -367,7 +367,7 @@
           "url": "https://jobs.ashbyhq.com/sierra/9d59c96e-e7f7-43cc-8069-bcdf3798fe2b"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Together AI",
@@ -413,7 +413,7 @@
           "url": "https://job-boards.greenhouse.io/togetherai/jobs/5261592007"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Cursor (Anysphere)",
@@ -459,7 +459,7 @@
           "url": "https://jobs.ashbyhq.com/cursor/38bd03a3-3d65-4868-87df-cb248d0a45e3"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Decagon",
@@ -476,7 +476,7 @@
       "open_roles": 135,
       "eng_roles": 59,
       "new_7d": 8,
-      "new_30d": 21,
+      "new_30d": 20,
       "remote_roles": 16,
       "sample_eng_roles": [
         {
@@ -505,7 +505,7 @@
           "url": "https://jobs.ashbyhq.com/decagon/36a16618-abdc-41bd-80f6-a1203e38026b"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Perplexity",
@@ -551,7 +551,7 @@
           "url": "https://jobs.ashbyhq.com/perplexity/9cec9b33-06f2-4ba1-8c9e-20a598361ca2"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "LangChain",
@@ -597,7 +597,7 @@
           "url": "https://jobs.ashbyhq.com/langchain/fc868832-3865-4f4a-8222-33422a7d3d96"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Cohere",
@@ -643,7 +643,7 @@
           "url": "https://jobs.ashbyhq.com/cohere/75765a04-82cb-4d17-ac53-09b156656a7d"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Baseten",
@@ -659,7 +659,7 @@
       "notes": "",
       "open_roles": 103,
       "eng_roles": 46,
-      "new_7d": 4,
+      "new_7d": 3,
       "new_30d": 22,
       "remote_roles": 97,
       "sample_eng_roles": [
@@ -689,7 +689,7 @@
           "url": "https://jobs.ashbyhq.com/baseten/5a1a7b6c-646b-495c-911a-8fa435c78b6f"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "ElevenLabs",
@@ -735,7 +735,7 @@
           "url": "https://jobs.ashbyhq.com/elevenlabs/9fbd9227-57e0-4221-9255-1a1d967be8ed"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Glean",
@@ -781,7 +781,7 @@
           "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4740921005"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Replit",
@@ -827,7 +827,7 @@
           "url": "https://jobs.ashbyhq.com/replit/1015fa18-69d0-49e5-a785-afe5cbcc4760"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Runway",
@@ -873,7 +873,7 @@
           "url": "https://jobs.ashbyhq.com/runway-ml/06590ce3-fe8f-493f-8545-3f905c74f05f"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Modal",
@@ -917,6 +917,52 @@
           "title": "Detection and Response Engineer",
           "location": "New York",
           "url": "https://jobs.ashbyhq.com/modal/e1915603-d9de-4760-b445-c266a1080499"
+        }
+      ],
+      "delta_since_last": 0
+    },
+    {
+      "name": "Seeq",
+      "website": "https://seeq.com",
+      "ats": "workable",
+      "slug": "seeq",
+      "board_url": "https://apply.workable.com/seeq",
+      "stage": "",
+      "last_raise": "",
+      "last_raise_date": "",
+      "sector": "",
+      "hq": "",
+      "notes": "via hn",
+      "open_roles": 31,
+      "eng_roles": 18,
+      "new_7d": 6,
+      "new_30d": 14,
+      "remote_roles": 31,
+      "sample_eng_roles": [
+        {
+          "title": "Senior Analytics Engineer - EMEA",
+          "location": "United Kingdom",
+          "url": "https://apply.workable.com/j/F4EA21F6D3"
+        },
+        {
+          "title": "Senior Analytics Engineer - EMEA",
+          "location": "Ireland",
+          "url": "https://apply.workable.com/j/F4EA21F6D3"
+        },
+        {
+          "title": "Senior Analytics Engineer - EMEA",
+          "location": "Spain",
+          "url": "https://apply.workable.com/j/F4EA21F6D3"
+        },
+        {
+          "title": "Senior Analytics Engineer - EMEA",
+          "location": "France",
+          "url": "https://apply.workable.com/j/F4EA21F6D3"
+        },
+        {
+          "title": "Senior Analytics Engineer - EMEA",
+          "location": "Germany",
+          "url": "https://apply.workable.com/j/F4EA21F6D3"
         }
       ],
       "delta_since_last": null
@@ -965,7 +1011,7 @@
           "url": "https://jobs.ashbyhq.com/krakentech/089fb82d-00a5-4e4e-bf5d-3a0ebde82bc5"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Beacon AI",
@@ -1011,7 +1057,7 @@
           "url": "https://jobs.ashbyhq.com/beaconai/fea3faa3-da5c-404d-87b4-5bd8ab38ce85"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Tandem Health",
@@ -1057,99 +1103,7 @@
           "url": "https://jobs.ashbyhq.com/tandem-health/63dd3066-aa8e-4bcf-a723-bbddd119a8ff"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Radar Labs",
-      "website": "https://radar.com",
-      "ats": "ashby",
-      "slug": "radar",
-      "board_url": "https://jobs.ashbyhq.com/radar",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 18,
-      "eng_roles": 13,
-      "new_7d": 1,
-      "new_30d": 1,
-      "remote_roles": 0,
-      "sample_eng_roles": [
-        {
-          "title": "Senior / Staff Backend Engineer, Maps",
-          "location": "New York ",
-          "url": "https://jobs.ashbyhq.com/radar/944aaea8-b40a-4347-9a51-91064e146948"
-        },
-        {
-          "title": "Engineering Manager, Site Reliability",
-          "location": "New York ",
-          "url": "https://jobs.ashbyhq.com/radar/906e500f-0ff0-43c0-b115-b757b6ff3f6f"
-        },
-        {
-          "title": "Engineering Manager, Platform",
-          "location": "New York ",
-          "url": "https://jobs.ashbyhq.com/radar/3ed6ca07-0857-47c2-a96b-f9b077eb68be"
-        },
-        {
-          "title": "Sales Engineer / Enterprise Sales Engineer",
-          "location": "New York ",
-          "url": "https://jobs.ashbyhq.com/radar/981e7a5e-b93e-4cbf-9cc8-befe2ef70545"
-        },
-        {
-          "title": "Senior / Staff Platform Engineer",
-          "location": "New York ",
-          "url": "https://jobs.ashbyhq.com/radar/ee0bf269-c286-4815-86d4-2b19d7b77448"
-        }
-      ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Coder",
-      "website": "https://coder.com",
-      "ats": "ashby",
-      "slug": "Coder",
-      "board_url": "https://jobs.ashbyhq.com/Coder",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 27,
-      "eng_roles": 13,
-      "new_7d": 6,
-      "new_30d": 7,
-      "remote_roles": 25,
-      "sample_eng_roles": [
-        {
-          "title": "Software Engineering Manager (Agentic Engineering, US Eastern)",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/Coder/4c6614a8-4b44-4044-a9bf-4c59c4475b18"
-        },
-        {
-          "title": "Senior Customer Support Engineer",
-          "location": "North America",
-          "url": "https://jobs.ashbyhq.com/Coder/04cb8b49-6954-43d1-95c4-c14e3a261713"
-        },
-        {
-          "title": "Software Engineer (Enterprise Experience, Backend)",
-          "location": "Europe",
-          "url": "https://jobs.ashbyhq.com/Coder/8d76dce2-97f7-413e-a93e-9e3f0ba8d259"
-        },
-        {
-          "title": "Customer Support Engineer",
-          "location": "Poland",
-          "url": "https://jobs.ashbyhq.com/Coder/e8499cd9-44c2-4ee8-bce8-9f2794da4dd3"
-        },
-        {
-          "title": "Senior Software Engineer (Multiple Teams, North America)",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/Coder/cd346ef3-24dd-4e1f-b863-4af569def480"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Prior Labs",
@@ -1195,53 +1149,7 @@
           "url": "https://jobs.ashbyhq.com/prior-labs/928de80c-278f-4f38-aeb2-e4d10b79f38e"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "SentiLink",
-      "website": "https://www.sentilink.com",
-      "ats": "ashby",
-      "slug": "sentilink",
-      "board_url": "https://jobs.ashbyhq.com/sentilink",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 42,
-      "eng_roles": 10,
-      "new_7d": 3,
-      "new_30d": 6,
-      "remote_roles": 42,
-      "sample_eng_roles": [
-        {
-          "title": "Founding Mobile Developer",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/sentilink/f4d310e6-0117-47fa-ac2a-21efc6e3a5d7"
-        },
-        {
-          "title": "Senior Software Engineer, Platform/Backend",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/sentilink/cbeda58b-9a35-4c75-a89a-5fa2c6dd83c1"
-        },
-        {
-          "title": "Senior Engineering Manager, Backend/Platform",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/sentilink/70988c63-5a7a-4b5d-9c8f-27ca0da03318"
-        },
-        {
-          "title": "Senior Data Platform Engineer",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/sentilink/17997e89-d67b-4365-b673-f7521ac4dcb0"
-        },
-        {
-          "title": "Principal Software Engineer, Product Security",
-          "location": "United States",
-          "url": "https://jobs.ashbyhq.com/sentilink/48ebd3af-54cd-429a-ae59-256feea94cdf"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Shepherd",
@@ -1287,53 +1195,7 @@
           "url": "https://jobs.ashbyhq.com/shepherd/2ee4ffbf-a5fd-4f6b-99bd-a06eb0efc4ce"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Komodo Health",
-      "website": "https://komodohealth.com",
-      "ats": "greenhouse",
-      "slug": "komodohealth",
-      "board_url": "https://job-boards.greenhouse.io/komodohealth",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 23,
-      "eng_roles": 8,
-      "new_7d": 0,
-      "new_30d": 4,
-      "remote_roles": 0,
-      "sample_eng_roles": [
-        {
-          "title": "Staff Software Engineer, Query Engine [Rust]",
-          "location": "United States",
-          "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8863980002"
-        },
-        {
-          "title": "Senior Data Platform Engineer",
-          "location": "New York, New York",
-          "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8843099002"
-        },
-        {
-          "title": "Senior/Staff Consultant, Research",
-          "location": "United States",
-          "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8769833002"
-        },
-        {
-          "title": "Senior Infrastructure Engineer",
-          "location": "United States",
-          "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8729911002"
-        },
-        {
-          "title": "Senior Sales Engineer, AI Data Solutions",
-          "location": "United States",
-          "url": "https://job-boards.greenhouse.io/komodohealth/jobs/8588487002"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Rebar",
@@ -1379,7 +1241,7 @@
           "url": "https://jobs.ashbyhq.com/rebar/c227ea05-98f8-4a08-9760-f7e3c37927c4"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Bland AI",
@@ -1425,99 +1287,7 @@
           "url": "https://jobs.ashbyhq.com/bland/a3a383e0-9c15-4777-a95b-536cb8c1174c"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "CoVar",
-      "website": "https://covar.com",
-      "ats": "greenhouse",
-      "slug": "covar",
-      "board_url": "https://job-boards.greenhouse.io/covar",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 6,
-      "eng_roles": 5,
-      "new_7d": 0,
-      "new_30d": 0,
-      "remote_roles": 0,
-      "sample_eng_roles": [
-        {
-          "title": "Machine Learning Internship Summer 2027",
-          "location": "Durham, NC",
-          "url": "https://job-boards.greenhouse.io/covar/jobs/5240360007"
-        },
-        {
-          "title": "Software Engineer",
-          "location": "Durham, NC",
-          "url": "https://job-boards.greenhouse.io/covar/jobs/5175407007"
-        },
-        {
-          "title": "Machine Learning Engineer",
-          "location": "Durham, NC",
-          "url": "https://job-boards.greenhouse.io/covar/jobs/5097883007"
-        },
-        {
-          "title": "Machine Learning Engineer",
-          "location": "McLean, Virginia",
-          "url": "https://job-boards.greenhouse.io/covar/jobs/5070401007"
-        },
-        {
-          "title": "Signal Processing Engineer",
-          "location": "Durham, NC",
-          "url": "https://job-boards.greenhouse.io/covar/jobs/4865336007"
-        }
-      ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Footprint",
-      "website": "",
-      "ats": "ashby",
-      "slug": "footprint",
-      "board_url": "https://jobs.ashbyhq.com/footprint",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 13,
-      "eng_roles": 5,
-      "new_7d": 1,
-      "new_30d": 3,
-      "remote_roles": 0,
-      "sample_eng_roles": [
-        {
-          "title": "Member of Technical Staff (Backend, Rust)",
-          "location": "New York City",
-          "url": "https://jobs.ashbyhq.com/footprint/77131cd8-25ad-4e70-9f21-ba480a67bfe1"
-        },
-        {
-          "title": "Forward Deployed Engineer",
-          "location": "New York City",
-          "url": "https://jobs.ashbyhq.com/footprint/484f5345-2614-4188-b522-dd36cf57170a"
-        },
-        {
-          "title": "Member of Technical Staff (Infrastructure)",
-          "location": "New York City",
-          "url": "https://jobs.ashbyhq.com/footprint/f2b59688-c435-4a24-946e-f18d200a0db3"
-        },
-        {
-          "title": "Member of Technical Staff (Frontend)",
-          "location": "New York City",
-          "url": "https://jobs.ashbyhq.com/footprint/9ee2ccf5-5938-48a2-b4cb-8505cf1625cd"
-        },
-        {
-          "title": "Member of Technical Staff (Backend)",
-          "location": "New York City",
-          "url": "https://jobs.ashbyhq.com/footprint/ff0a1611-7739-41b3-a817-92eaf095fcbd"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Close",
@@ -1563,74 +1333,7 @@
           "url": "https://jobs.ashbyhq.com/close/01fc4ad7-4d33-4f64-919f-502bb2c20efc"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Curai",
-      "website": "https://curaihealth.com",
-      "ats": "lever",
-      "slug": "curai",
-      "board_url": "https://jobs.lever.co/curai",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 3,
-      "eng_roles": 3,
-      "new_7d": 0,
-      "new_30d": 3,
-      "remote_roles": 3,
-      "sample_eng_roles": [
-        {
-          "title": "Senior Software Engineer, Agentic AI",
-          "location": "Remote",
-          "url": "https://jobs.lever.co/curai/cd31b67b-d83c-466a-ac55-cfa4c2ec4237"
-        },
-        {
-          "title": "Senior Software Engineer, Full-Stack",
-          "location": "Remote",
-          "url": "https://jobs.lever.co/curai/46e0dd2f-c1dd-4ca2-9095-5b45f477b656"
-        },
-        {
-          "title": "Senior Software Engineer, Marketing Platform",
-          "location": "Remote",
-          "url": "https://jobs.lever.co/curai/b157298e-4dc7-4594-a9c4-29f0dec4bfa4"
-        }
-      ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Checkly",
-      "website": "https://www.checklyhq.com",
-      "ats": "ashby",
-      "slug": "checkly",
-      "board_url": "https://jobs.ashbyhq.com/checkly",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 3,
-      "eng_roles": 2,
-      "new_7d": 0,
-      "new_30d": 0,
-      "remote_roles": 3,
-      "sample_eng_roles": [
-        {
-          "title": "Solutions Engineer, Post-Sales (remote, US East Coast)",
-          "location": "Eastern Time zone",
-          "url": "https://jobs.ashbyhq.com/checkly/ab803762-3024-4982-90ab-27fbfc17adeb"
-        },
-        {
-          "title": "Senior Product Engineer (DevTools & AI reliability, remote)",
-          "location": "Remote (UTC-3 to UTC+3)",
-          "url": "https://jobs.ashbyhq.com/checkly/8d068314-5ef8-4dcb-96a0-f79030a42dc1"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Sourcegraph",
@@ -1661,38 +1364,7 @@
           "url": "https://job-boards.greenhouse.io/sourcegraph91/jobs/6103628004"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Tenki Cloud by Luxor Tech",
-      "website": "https://tenki.cloud",
-      "ats": "ashby",
-      "slug": "luxor",
-      "board_url": "https://jobs.ashbyhq.com/luxor",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 3,
-      "eng_roles": 2,
-      "new_7d": 0,
-      "new_30d": 1,
-      "remote_roles": 2,
-      "sample_eng_roles": [
-        {
-          "title": "Data Engineer",
-          "location": "Worldwide, Remote",
-          "url": "https://jobs.ashbyhq.com/luxor/710287ed-5596-47a1-b0bc-3fb44ba720b0"
-        },
-        {
-          "title": "Golang Engineer: Cloud Platform",
-          "location": "Philippines, Remote",
-          "url": "https://jobs.ashbyhq.com/luxor/b2b27de6-07ce-4832-abaf-e00d83b2dc93"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Mastra",
@@ -1723,59 +1395,7 @@
           "url": "https://jobs.ashbyhq.com/mastra/05172cb0-47ec-44f9-9fe8-07d4896d10ad"
         }
       ],
-      "delta_since_last": null
-    },
-    {
-      "name": "Thunder Compute",
-      "website": "https://www.thundercompute.com",
-      "ats": "ashby",
-      "slug": "thundercompute",
-      "board_url": "https://jobs.ashbyhq.com/thundercompute",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 1,
-      "eng_roles": 1,
-      "new_7d": 0,
-      "new_30d": 0,
-      "remote_roles": 0,
-      "sample_eng_roles": [
-        {
-          "title": "Software Engineer (C++ Systems)",
-          "location": "San Francisco",
-          "url": "https://jobs.ashbyhq.com/thundercompute/2efae53b-817c-43e7-9da3-72694813f608"
-        }
-      ],
-      "delta_since_last": null
-    },
-    {
-      "name": "River",
-      "website": "",
-      "ats": "ashby",
-      "slug": "river",
-      "board_url": "https://jobs.ashbyhq.com/river",
-      "stage": "",
-      "last_raise": "",
-      "last_raise_date": "",
-      "sector": "",
-      "hq": "",
-      "notes": "via hn",
-      "open_roles": 6,
-      "eng_roles": 1,
-      "new_7d": 0,
-      "new_30d": 3,
-      "remote_roles": 3,
-      "sample_eng_roles": [
-        {
-          "title": "Staff Software Engineer",
-          "location": "Remote Americas + Europe",
-          "url": "https://jobs.ashbyhq.com/river/610f652b-bdb9-4d82-9973-680babe16a07"
-        }
-      ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Hedge",
@@ -1801,7 +1421,7 @@
           "url": "https://jobs.ashbyhq.com/hedge/b79fa956-bda0-467a-a0d1-482c59bf09d8"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "JUPUS",
@@ -1827,7 +1447,7 @@
           "url": "https://jobs.ashbyhq.com/jupus/b57a2594-6815-487c-9ed1-2c606a3bcc02"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
       "name": "Ojin",
@@ -1853,26 +1473,32 @@
           "url": "https://job-boards.eu.greenhouse.io/ojin/jobs/4427313101"
         }
       ],
-      "delta_since_last": null
+      "delta_since_last": 0
     },
     {
-      "name": "Fazeshift",
-      "website": "https://fazeshift.com",
+      "name": "Fig",
+      "website": "https://www.growfig.ai",
       "ats": "ashby",
-      "slug": "fazeshift",
-      "board_url": "https://jobs.ashbyhq.com/fazeshift",
+      "slug": "growfig",
+      "board_url": "https://jobs.ashbyhq.com/growfig",
       "stage": "",
       "last_raise": "",
       "last_raise_date": "",
       "sector": "",
       "hq": "",
       "notes": "via hn",
-      "open_roles": 1,
-      "eng_roles": 0,
+      "open_roles": 2,
+      "eng_roles": 1,
       "new_7d": 0,
-      "new_30d": 1,
-      "remote_roles": 0,
-      "sample_eng_roles": [],
+      "new_30d": 0,
+      "remote_roles": 1,
+      "sample_eng_roles": [
+        {
+          "title": "Founding Engineer",
+          "location": "San Francisco",
+          "url": "https://jobs.ashbyhq.com/growfig/7a5b4941-ae83-4480-a062-51f2f89da920"
+        }
+      ],
       "delta_since_last": null
     }
   ]
