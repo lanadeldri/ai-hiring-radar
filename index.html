@@ -88,6 +88,11 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
 .rolebar input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .rolebar .chips { margin: 0; flex-basis: 100%; }
 .preset[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.sel { display: inline-flex; align-items: center; gap: 6px; min-width: 0; }
+.sel select { font: inherit; font-size: 14px; color: var(--ink); background: var(--bg); border: 1px solid var(--line);
+  border-radius: 8px; padding: 7px 10px; max-width: 220px; }
+.sel select:disabled { opacity: .55; }
+.sel select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13.5px; color: var(--muted); cursor: pointer; }
 .toggle input { accent-color: var(--accent); width: 16px; height: 16px; }
 .matches { grid-column: 1 / -1; display: grid; gap: 4px; margin-top: -2px; }
@@ -128,6 +133,8 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
   <div class="rolebar">
     <span class="lbl">Role</span>
     <input id="role" type="search" placeholder="Filter by job title, e.g. forward deployed, solutions engineer" aria-label="Filter by job title">
+    <label class="sel" for="country"><span class="lbl">Country</span><select id="country"><option value="">Any country</option></select></label>
+    <label class="sel" for="city"><span class="lbl">City</span><select id="city"><option value="">Any city</option></select></label>
     <label class="toggle" for="remote"><input id="remote" type="checkbox"> Remote only</label>
     <div class="chips" id="presets" role="group" aria-label="Role presets"></div>
   </div>
@@ -207,11 +214,44 @@ function roleMatcher() {
   if (!terms.length) return null;
   return (t) => { const lt = t.toLowerCase(); return terms.some((x) => lt.includes(x)); };
 }
-const roleFilterOn = () => !!(roleMatcher() || $("remote").checked);
+const roleFilterOn = () => !!(roleMatcher() || $("remote").checked || $("country").value || $("city").value);
 
-function matchingJobs(company) {
-  const m = roleMatcher(), remote = $("remote").checked;
-  return (JOBS?.get(company) || []).filter((j) => (!m || m(j.t)) && (!remote || j.r));
+// role + remote filter; location filter unless skipLoc (used to count jobs per country/city)
+function jobFilter(skipLoc = false) {
+  const m = roleMatcher(), remote = $("remote").checked, co = $("country").value, ci = $("city").value;
+  return (j) => (!m || m(j.t)) && (!remote || j.r) &&
+    (skipLoc || ((!co || (j.co || []).includes(co)) && (!ci || (j.ci || []).includes(ci))));
+}
+// short location label: cities first (selected city first), else countries, else the raw text
+function placeText(j) {
+  const ci = $("city").value;
+  let places = (j.ci && j.ci.length) ? [...j.ci] : (j.co && j.co.length) ? [...j.co] : null;
+  if (!places) return j.l || "";
+  if (ci && places.includes(ci)) places = [ci, ...places.filter((x) => x !== ci)];
+  return places.length > 3 ? `${places.slice(0, 3).join(", ")} +${places.length - 3} more` : places.join(", ");
+}
+function matchingJobs(company) { return (JOBS?.get(company) || []).filter(jobFilter()); }
+
+function renderLocations() {
+  const cSel = $("country"), tSel = $("city");
+  const hasLoc = JOBS && [...JOBS.values()].some((js) => js.some((j) => j.co));
+  cSel.disabled = tSel.disabled = !hasLoc;
+  cSel.title = tSel.title = hasLoc ? "" : "Locations load after the next data refresh";
+  if (!hasLoc) return;
+  const f = jobFilter(true), co = cSel.value, ci = tSel.value;
+  const cc = new Map(), tc = new Map();
+  for (const js of JOBS.values()) for (const j of js) {
+    if (!f(j)) continue;
+    for (const c of j.co || []) cc.set(c, (cc.get(c) || 0) + 1);
+    if (!co || (j.co || []).includes(co)) for (const t of j.ci || []) tc.set(t, (tc.get(t) || 0) + 1);
+  }
+  const opts = (map, cur, any) => {
+    if (cur && !map.has(cur)) map.set(cur, 0);
+    return `<option value="">${any}</option>` + [...map].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([k, n]) => `<option value="${esc(k)}"${k === cur ? " selected" : ""}>${esc(k)} (${n})</option>`).join("");
+  };
+  cSel.innerHTML = opts(cc, co, "Any country");
+  tSel.innerHTML = opts(tc, ci, "Any city");
 }
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -225,8 +265,9 @@ function renderStatus() {
     }
     let roles = 0, cos = 0;
     for (const c of data) { const n = matchingJobs(c.name).length; roles += n; cos += n > 0; }
-    const what = preset ? PRESETS[preset].label : ($("role").value.trim() || "all roles");
-    $("status").innerHTML = `<span><b>${roles.toLocaleString()}</b> ${esc(what)}${$("remote").checked ? " remote" : ""} roles</span><span>at <b>${cos}</b> ${cos === 1 ? "company" : "companies"}</span>${updatedAt ? `<span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>` : ""}`;
+    const what = preset ? PRESETS[preset].label : ($("role").value.trim() || "open");
+    const where = $("city").value || $("country").value;
+    $("status").innerHTML = `<span><b>${roles.toLocaleString()}</b> ${esc(what)}${$("remote").checked ? " remote" : ""} roles${where ? " in " + esc(where) : ""}</span><span>at <b>${cos}</b> ${cos === 1 ? "company" : "companies"}</span>${updatedAt ? `<span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>` : ""}`;
     return;
   }
   if (live) {
@@ -250,7 +291,7 @@ function renderPresets() {
     preset = preset === b.dataset.k ? "" : b.dataset.k;
     if (preset) $("role").value = "";
     try { history.replaceState(null, "", preset ? "#" + preset : location.pathname); } catch (e) {}
-    renderPresets(); renderStatus(); renderRows();
+    renderPresets(); renderLocations(); renderStatus(); renderRows();
   }));
 }
 
@@ -287,7 +328,7 @@ function renderRows() {
     const LIMIT = 6;
     const matches = roleMode ? c._m.slice(0, LIMIT).map((j) => `<div class="match">
         <a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.t)}</a>
-        <span class="where">${esc(j.l || "")}${j.r ? " · Remote" : ""}</span>${j.p >= WEEK_AGO ? `<span class="new">new</span>` : ""}
+        <span class="where">${esc(placeText(j))}${j.r ? " · Remote" : ""}</span>${j.p >= WEEK_AGO ? `<span class="new">new</span>` : ""}
       </div>`).join("") + (c._match > LIMIT ? `<a class="more" href="${esc(c.board_url)}" target="_blank" rel="noopener">+${c._match - LIMIT} more on their job board →</a>` : "") : "";
     return `<div class="row" role="row">
       <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span></div>
@@ -302,13 +343,15 @@ function renderRows() {
   }).join("");
 }
 
-function render() { renderStatus(); renderChips(); renderPresets(); renderRows(); }
+function render() { renderStatus(); renderChips(); renderPresets(); renderLocations(); renderRows(); }
 $("q").addEventListener("input", renderRows);
 $("role").addEventListener("input", () => {
   if (preset) { preset = ""; try { history.replaceState(null, "", location.pathname); } catch (e) {} renderPresets(); }
-  renderStatus(); renderRows();
+  renderLocations(); renderStatus(); renderRows();
 });
-$("remote").addEventListener("change", () => { renderStatus(); renderRows(); });
+$("remote").addEventListener("change", () => { renderLocations(); renderStatus(); renderRows(); });
+$("country").addEventListener("change", () => { $("city").value = ""; renderLocations(); renderStatus(); renderRows(); });
+$("city").addEventListener("change", () => { renderLocations(); renderStatus(); renderRows(); });
 // Shareable preset links, e.g. …/ai-hiring-radar/#fde
 const h = (location.hash || "").slice(1).toLowerCase();
 if (PRESETS[h]) preset = h;

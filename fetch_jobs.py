@@ -23,6 +23,8 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
+from locations import COUNTRIES, parse_location
+
 ROOT = Path(__file__).parent
 CSV_PATH = ROOT / "data" / "companies.csv"
 OUT_PATH = ROOT / "data" / "companies.json"
@@ -51,13 +53,17 @@ def fetch_ashby(slug):
     for j in data.get("jobs", []):
         if j.get("isListed") is False:
             continue
+        locs = [j.get("location") or ""] + [x.get("location", "") for x in j.get("secondaryLocations") or []]
+        addrs = [j.get("address")] + [x.get("address") for x in j.get("secondaryLocations") or []]
+        hints = [((a or {}).get("postalAddress") or {}).get("addressCountry", "") for a in addrs]
         out.append({
             "title": j.get("title", "").strip(),
-            "location": j.get("location") or "",
+            "location": "; ".join(l for l in locs if l),
             "url": j.get("jobUrl"),
             "posted": j.get("publishedAt"),
             "remote": bool(j.get("isRemote")) or (j.get("workplaceType") == "Remote"),
             "department": j.get("department") or "",
+            "country_hints": [h for h in hints if h],
         })
     return out
 
@@ -83,7 +89,7 @@ def fetch_lever(slug, host="api.lever.co"):
     out = []
     for j in data:
         cat = j.get("categories") or {}
-        loc = cat.get("location") or ""
+        loc = "; ".join(cat.get("allLocations") or []) or cat.get("location") or ""
         ts = j.get("createdAt")
         out.append({
             "title": j.get("text", "").strip(),
@@ -221,8 +227,15 @@ def main():
         # every role, compact keys, for the role filter on the page
         for j in jobs:
             d = parse_date(j["posted"])
+            loc = parse_location(j["location"])
+            for h in j.get("country_hints", []):
+                c = COUNTRIES.get(h.strip().lower(), h.strip())
+                if c and c not in loc["countries"]:
+                    loc["countries"].append(c)
             all_jobs.append({"c": name, "t": j["title"], "l": j["location"], "u": j["url"],
-                             "p": d.date().isoformat() if d else "", "r": 1 if j["remote"] else 0})
+                             "p": d.date().isoformat() if d else "",
+                             "r": 1 if (j["remote"] or loc["remote"]) else 0,
+                             "ci": loc["cities"], "co": loc["countries"]})
         # growth vs. last snapshot
         prev = history.get(name, [])
         prev_count = prev[-1]["open_roles"] if prev else None

@@ -63,6 +63,10 @@ Finding the slug: open the company's careers page and click any job — the URL 
 
 The page has a role filter above the company list: type any job title (comma-separate several, e.g. `forward deployed, solutions engineer`) or click a preset. Presets: Forward Deployed (FDE), Solutions / Sales Eng, Customer / Support Eng, Applied AI / ML Eng, Research, Infra / Platform. Add **Remote only** to narrow further.
 
+**Country** and **City** dropdowns narrow roles by location. Their counts follow the current role filter, so with FDE selected you see how many FDE roles each country and city has.
+
+Locations are normalized by `locations.py`, which turns the many formats job boards use ("San Francisco, CA | New York City, NY", "Seattle, Washington", "Remote - US", "Bangalore India", ...) into standard city and country names. It resolves a country for about 99.7% of roles; the rest are regions like "EMEA".
+
 Each preset has its own link, e.g. `…/ai-hiring-radar/#fde`, so you can bookmark it.
 
 The filter reads `data/jobs.json`, which `fetch_jobs.py` writes with every open role.
