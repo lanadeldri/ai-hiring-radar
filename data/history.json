@@ -10,7 +10,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 677
+   "open_roles": 678
   }
  ],
  "OpenAI": [
@@ -24,7 +24,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 812
+   "open_roles": 815
   }
  ],
  "Cursor (Anysphere)": [
@@ -80,7 +80,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 114
+   "open_roles": 115
   }
  ],
  "Mistral AI": [
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 175
+   "open_roles": 174
   }
  ],
  "Databricks": [
@@ -150,7 +150,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 350
+   "open_roles": 349
   }
  ],
  "Sierra": [
@@ -164,7 +164,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 190
+   "open_roles": 191
   }
  ],
  "Decagon": [
@@ -220,7 +220,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 104
+   "open_roles": 105
   }
  ],
  "Together AI": [
@@ -262,7 +262,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 50
+   "open_roles": 48
   }
  ],
  "Bland AI": [
@@ -551,6 +551,1284 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  }
+ ],
+ "Tether": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 239
+  }
+ ],
+ "neoshare": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "TypeSafe AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 15
+  }
+ ],
+ "Mach9": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 18
+  }
+ ],
+ "Attendi": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Starbridge": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "WorkHero": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Krea": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 12
+  }
+ ],
+ "Robotics and AI Institute": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "NYC": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 22
+  }
+ ],
+ "Deeter Analytics": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Radical Numerics": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 16
+  }
+ ],
+ "Aptura AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 38
+  }
+ ],
+ "Gauss Labs": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Confido": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 36
+  }
+ ],
+ "Pantograph": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Ai2 / Allen Institute for AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 17
+  }
+ ],
+ "WireScreen": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "fractile.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 39
+  }
+ ],
+ "Grafana Labs": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 145
+  }
+ ],
+ "Tabula Bio": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Complement AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "NODA AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 25
+  }
+ ],
+ "Weave Bio": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Oscilar.com": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 23
+  }
+ ],
+ "BIT Capital": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Kepler": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "Blackshark AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "*Scribd": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 20
+  }
+ ],
+ "Evertune AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Foxglove": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Alembic": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 14
+  }
+ ],
+ "Neo.Tax": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Trace Labs": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Aquabyte": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Second Nature": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Compa.AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Neon Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "Strix": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Cloudflare": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 443
+  }
+ ],
+ "Mercor": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 110
+  }
+ ],
+ "fal": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 45
+  }
+ ],
+ "AirOps": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 20
+  }
+ ],
+ "Rad AI Multiple roles": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 20
+  }
+ ],
+ "PhysicsX": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 42
+  }
+ ],
+ "Akur8": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Nuance Labs": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Quadrature": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "ando.work": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Matterworks.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Onos Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "BrandMultiplier": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 137
+  }
+ ],
+ "Mubit": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Prosper AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "Flux.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Cognite": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 51
+  }
+ ],
+ "akeno": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Signal 1 AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "LiveEO": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 20
+  }
+ ],
+ "Fanvue": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Cleric": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Lightning AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 51
+  }
+ ],
+ "xdof": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 24
+  }
+ ],
+ "Coram.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 43
+  }
+ ],
+ "Kato": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 101
+  }
+ ],
+ "Emergent AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 50
+  }
+ ],
+ "AIRMO": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Cosuno": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 17
+  }
+ ],
+ "Meticulous AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Prompt Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 49
+  }
+ ],
+ "Juna AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Pickle Robot": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "EnsoData": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Legion Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 158
+  }
+ ],
+ "Longshot Systems": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "E2B": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 14
+  }
+ ],
+ "Langdock": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "IDinsight": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Terra AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Mercanis": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 18
+  }
+ ],
+ "Teleskope[0]": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Dialogue AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Adora AI [": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Mithril [": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Radical AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Duranta": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "RADAR": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Qventus": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 17
+  }
+ ],
+ "Mashgin": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 14
+  }
+ ],
+ "Deepgram": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 91
+  }
+ ],
+ "Gecko Robotics": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 21
+  }
+ ],
+ "Athelas": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 79
+  }
+ ],
+ "People.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Speak": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 35
+  }
+ ],
+ "Ambient.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 26
+  }
+ ],
+ "Skyways": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 21
+  }
+ ],
+ "VergeSense": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "May Mobility": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 41
+  }
+ ],
+ "AssemblyAI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 15
+  }
+ ],
+ "Spellbrush": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Promise": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "Within": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 19
+  }
+ ],
+ "Inscribe": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "JITX": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Prodigal": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 14
+  }
+ ],
+ "Mutiny": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Overview": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 58
+  }
+ ],
+ "Bunkerhill Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Ello": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Recall.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Roboflow": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 37
+  }
+ ],
+ "Datafold": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Ready": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Taktile": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 33
+  }
+ ],
+ "Glimpse": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Fieldguide": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 48
+  }
+ ],
+ "Heron": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "authzed": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Humaans": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "Vapi": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Popl": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "LiveFlow": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Slope": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Replo": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Tavus": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 19
+  }
+ ],
+ "OneSchema": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Zensors": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Agave": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Sieve": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 14
+  }
+ ],
+ "Flagright": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Sphere": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 16
+  }
+ ],
+ "PermitFlow": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 44
+  }
+ ],
+ "Cinder": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "GovDash": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Julius": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Blee": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Metriport": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 17
+  }
+ ],
+ "Firecrawl": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 32
+  }
+ ],
+ "Oneleet": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Pump.co": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 18
+  }
+ ],
+ "Knowtex": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Cambio": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Axle": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 14
+  }
+ ],
+ "Credal.ai": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Rollstack": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Concourse": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Latent": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 25
+  }
+ ],
+ "Salient": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 15
+  }
+ ],
+ "Cosine": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Variance": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "LiteLLM": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Elyos AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Casca": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Subsets": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Campfire": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 52
+  }
+ ],
+ "Outset": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 27
+  }
+ ],
+ "Decoda Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Bretton AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Sola": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Strada": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Giga": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 33
+  }
+ ],
+ "Tekton Dynamics": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Momentic": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Tuesday Labs": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Alex": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Garage": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 15
+  }
+ ],
+ "Pivot Robotics": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "PointOne": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 16
+  }
+ ],
+ "Arini": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Greenboard": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Tamarind Bio": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "OffDeal": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Raindrop": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Retell AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 27
+  }
+ ],
+ "Mem0": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Codes Health": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 16
+  }
+ ],
+ "Wordware": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "FirstWork": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 13
+  }
+ ],
+ "Clearly AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Zeit AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "Simple AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Usul": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "CTGT": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Abundant": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Capy": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 2
+  }
+ ],
+ "Innate": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 3
+  }
+ ],
+ "Laminar": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Weave": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 12
+  }
+ ],
+ "SalesPatriot": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Harper": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 36
+  }
+ ],
+ "AfterQuery": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 40
+  }
+ ],
+ "Sim": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Lucis": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 13
+  }
+ ],
+ "Eloquent AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 13
+  }
+ ],
+ "Lapel": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 9
+  }
+ ],
+ "Dedalus Labs": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "Relling": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 12
+  }
+ ],
+ "Finto": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "Reacher": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Interfere": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 5
+  }
+ ],
+ "Veritus": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 4
+  }
+ ],
+ "F2": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 10
+  }
+ ],
+ "Uplane": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 16
+  }
+ ],
+ "Bolna AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 7
+  }
+ ],
+ "DiligenceSquared": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
+  }
+ ],
+ "Open": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 40
+  }
+ ],
+ "Auctor": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 11
+  }
+ ],
+ "Sift": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "PicnicAI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 1
+  }
+ ],
+ "Short Story": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 17
+  }
+ ],
+ "Blissway": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 12
+  }
+ ],
+ "Invert": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 6
+  }
+ ],
+ "FINNY AI": [
+  {
+   "date": "2026-10-22",
+   "open_roles": 8
   }
  ]
 }
