@@ -10,7 +10,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 678
+   "open_roles": 677
   }
  ],
  "OpenAI": [
@@ -24,7 +24,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 815
+   "open_roles": 809
   }
  ],
  "Cursor (Anysphere)": [
@@ -66,7 +66,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 160
+   "open_roles": 159
   }
  ],
  "Cohere": [
@@ -80,7 +80,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 115
+   "open_roles": 114
   }
  ],
  "Mistral AI": [
@@ -94,7 +94,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 222
+   "open_roles": 223
   }
  ],
  "Scale AI": [
@@ -122,7 +122,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 897
+   "open_roles": 902
   }
  ],
  "Glean": [
@@ -150,7 +150,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 349
+   "open_roles": 350
   }
  ],
  "Sierra": [
@@ -234,7 +234,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 79
+   "open_roles": 82
   }
  ],
  "LangChain": [
@@ -328,7 +328,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 659
+   "open_roles": 660
   }
  ],
  "Beacon AI": [
@@ -376,7 +376,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 74
+   "open_roles": 72
   }
  ],
  "Komodo Health": [
@@ -422,7 +422,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 5
+   "open_roles": 9
   }
  ],
  "Rebar": [
@@ -450,7 +450,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 23
+   "open_roles": 22
   }
  ],
  "Kraken Tech": [
@@ -464,7 +464,7 @@
   },
   {
    "date": "2026-10-22",
-   "open_roles": 72
+   "open_roles": 69
   }
  ],
  "Footprint": [
@@ -556,7 +556,7 @@
  "Tether": [
   {
    "date": "2026-10-22",
-   "open_roles": 239
+   "open_roles": 243
   }
  ],
  "neoshare": [
@@ -628,7 +628,7 @@
  "Aptura AI": [
   {
    "date": "2026-10-22",
-   "open_roles": 38
+   "open_roles": 39
   }
  ],
  "Gauss Labs": [
@@ -640,7 +640,7 @@
  "Confido": [
   {
    "date": "2026-10-22",
-   "open_roles": 36
+   "open_roles": 35
   }
  ],
  "Pantograph": [
@@ -670,7 +670,7 @@
  "Grafana Labs": [
   {
    "date": "2026-10-22",
-   "open_roles": 145
+   "open_roles": 141
   }
  ],
  "Tabula Bio": [
@@ -724,7 +724,7 @@
  "*Scribd": [
   {
    "date": "2026-10-22",
-   "open_roles": 20
+   "open_roles": 22
   }
  ],
  "Evertune AI": [
@@ -790,7 +790,7 @@
  "Cloudflare": [
   {
    "date": "2026-10-22",
-   "open_roles": 443
+   "open_roles": 441
   }
  ],
  "Mercor": [
@@ -802,7 +802,7 @@
  "fal": [
   {
    "date": "2026-10-22",
-   "open_roles": 45
+   "open_roles": 44
   }
  ],
  "AirOps": [
@@ -904,7 +904,7 @@
  "LiveEO": [
   {
    "date": "2026-10-22",
-   "open_roles": 20
+   "open_roles": 22
   }
  ],
  "Fanvue": [
@@ -922,13 +922,13 @@
  "Lightning AI": [
   {
    "date": "2026-10-22",
-   "open_roles": 51
+   "open_roles": 49
   }
  ],
  "xdof": [
   {
    "date": "2026-10-22",
-   "open_roles": 24
+   "open_roles": 25
   }
  ],
  "Coram.ai": [
@@ -940,7 +940,7 @@
  "Kato": [
   {
    "date": "2026-10-22",
-   "open_roles": 101
+   "open_roles": 102
   }
  ],
  "Emergent AI": [
@@ -958,7 +958,7 @@
  "Cosuno": [
   {
    "date": "2026-10-22",
-   "open_roles": 17
+   "open_roles": 18
   }
  ],
  "Meticulous AI": [
@@ -988,7 +988,7 @@
  "EnsoData": [
   {
    "date": "2026-10-22",
-   "open_roles": 4
+   "open_roles": 5
   }
  ],
  "Legion Health": [
@@ -1000,7 +1000,7 @@
  "Longshot Systems": [
   {
    "date": "2026-10-22",
-   "open_roles": 5
+   "open_roles": 6
   }
  ],
  "E2B": [
@@ -1084,7 +1084,7 @@
  "Mashgin": [
   {
    "date": "2026-10-22",
-   "open_roles": 14
+   "open_roles": 13
   }
  ],
  "Deepgram": [
@@ -1138,7 +1138,7 @@
  "May Mobility": [
   {
    "date": "2026-10-22",
-   "open_roles": 41
+   "open_roles": 40
   }
  ],
  "AssemblyAI": [
@@ -1162,7 +1162,7 @@
  "Within": [
   {
    "date": "2026-10-22",
-   "open_roles": 19
+   "open_roles": 21
   }
  ],
  "Inscribe": [
@@ -1192,7 +1192,7 @@
  "Overview": [
   {
    "date": "2026-10-22",
-   "open_roles": 58
+   "open_roles": 61
   }
  ],
  "Bunkerhill Health": [
@@ -1234,7 +1234,7 @@
  "Taktile": [
   {
    "date": "2026-10-22",
-   "open_roles": 33
+   "open_roles": 34
   }
  ],
  "Glimpse": [
@@ -1318,7 +1318,7 @@
  "Agave": [
   {
    "date": "2026-10-22",
-   "open_roles": 10
+   "open_roles": 9
   }
  ],
  "Sieve": [
@@ -1486,7 +1486,7 @@
  "Outset": [
   {
    "date": "2026-10-22",
-   "open_roles": 27
+   "open_roles": 33
   }
  ],
  "Decoda Health": [
@@ -1828,7 +1828,7 @@
  "FINNY AI": [
   {
    "date": "2026-10-22",
-   "open_roles": 8
+   "open_roles": 9
   }
  ]
 }
