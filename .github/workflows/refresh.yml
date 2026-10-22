@@ -15,7 +15,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45   # first run scans ~2,000 company sites; later runs reuse a weekly cache
     steps:
       - uses: actions/checkout@v4
         with:
@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Discover new AI companies (HN Who's Hiring + funding news)
+      - name: Discover new AI companies (HN Who's Hiring, YC, funding news)
         run: python discover.py --auto-add
         continue-on-error: true
       - name: Fetch open roles

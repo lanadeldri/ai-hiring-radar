@@ -1,47 +1,53 @@
 #!/usr/bin/env python3
 """
-Discover AI startups that are hiring, and find their ATS job board automatically.
+Discover AI startups that are hiring, and find their job board automatically.
 
 Sources
-  1. HN "Ask HN: Who is hiring?" (latest monthly thread, via the Algolia API)
-     - parses each top-level comment: company name, website, ATS links
-     - keeps only AI companies (scored: headline, company name/domain, specific AI terms in the body)
-     - no ATS link in the post? scans the company's website / careers page for one
-  2. Funding news RSS (TechCrunch, Crunchbase News, Google News searches)
-     - parses "X raises $40M Series B ..." headlines, keeps AI-related ones
-     - guesses the ATS slug from the company name (flagged for review: slugs can collide)
+  1. HN "Ask HN: Who is hiring?"  last N monthly threads (default 12), via the Algolia API.
+     Keeps AI companies (scored filter), takes the job-board link from the post.
+  2. YC directory (yc-oss API)    companies tagged AI / Artificial Intelligence / Generative AI /
+     Machine Learning that YC marks as hiring. Comes with sector, HQ and batch.
+  3. Funding news RSS             TechCrunch, Crunchbase News, Google News searches.
+     Board slug is guessed from the name, so these always wait for review.
 
-Supported ATS: Ashby, Greenhouse, Lever (+EU), Workable, SmartRecruiters
+For leads without a board link, the company website and its /careers pages are scanned for one.
+Scans run in parallel and are cached for a week (checked_at), so daily runs stay fast.
+
+Supported job boards: see ats.py.
 
 Output
-  data/candidates.csv   review queue  (status: new / approved / rejected / added / filtered)
-  data/companies.csv    rows are added automatically for:
-                          - high-confidence finds (ATS link verified) when run with --auto-add
-                          - any candidate you set to status=approved
-                        rows previously auto-added from HN that no longer pass the AI filter are removed
+  data/candidates.csv  every lead and what happened to it. status:
+                         added     in companies.csv
+                         approved  you approved it; added on the next run
+                         new       needs your review (guessed slug, or board empty)
+                         no_ats    no supported job board found (re-checked weekly)
+                         rejected  you rejected it
+                         filtered  not an AI company
+  data/companies.csv   verified finds are added with --auto-add; approved candidates are always added;
+                       earlier HN auto-adds that fail the AI filter are removed.
 
 Usage
   python discover.py --auto-add
-  python discover.py --sources hn            # only HN
-  python discover.py --max-site-checks 50    # cap website scans
+  python discover.py --sources hn,yc --hn-months 6
 """
 import argparse
 import csv
 import html
-import json
 import re
 import sys
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.error import HTTPError, URLError
 from urllib.parse import quote_plus, urlparse
-from urllib.request import Request, urlopen
+
+from ats import ATS_DOMAINS, find_boards, get, get_json, job_count
 
 ROOT = Path(__file__).parent
 COMPANIES = ROOT / "data" / "companies.csv"
 CANDIDATES = ROOT / "data" / "candidates.csv"
+RESCAN_DAYS = 7
 
 
 def google_news(q):
@@ -56,16 +62,17 @@ FUNDING_FEEDS = [
     google_news('AI startup raises "Series B" when:14d'),
     google_news('AI startup raises seed round when:14d'),
 ]
+YC_TAGS = ["ai", "artificial-intelligence", "generative-ai", "machine-learning"]
 
-UA = {"User-Agent": "Mozilla/5.0 (compatible; ai-hiring-radar/0.3; personal project)"}
 CAND_FIELDS = ["status", "name", "website", "ats", "slug", "confidence", "source", "source_url",
-               "signal", "found_at", "notes"]
+               "signal", "sector", "hq", "stage", "found_at", "checked_at", "notes"]
 COMPANY_FIELDS = ["name", "website", "ats", "slug", "stage", "last_raise", "last_raise_date",
                   "sector", "hq", "notes"]
+TERMINAL = {"added", "rejected", "filtered", "approved"}
 
-# --- AI filter -------------------------------------------------------------
+# --- AI filter (for HN posts) --------------------------------------------
 # Plain "AI" in a post body doesn't count: almost every company mentions it now.
-HEAD_CS = re.compile(r"\b(AI|ML|LLMs?|GenAI|NLP|GPUs?|MLOps)\b")                       # case-sensitive
+HEAD_CS = re.compile(r"\b(AI|ML|LLMs?|GenAI|NLP|GPUs?|MLOps)\b")
 HEAD_CI = re.compile(r"\b(machine learning|deep learning|foundation models?|inference|computer vision|"
                      r"AI[- ]native|agentic|applied AI|research (?:engineer|scientist)|robotics)\b", re.I)
 STRONG = re.compile(r"\b(LLMs?|GenAI|generative AI|machine learning|deep learning|foundation models?|"
@@ -90,58 +97,9 @@ def is_ai_company(text, name="", website=""):
     return ai_score(text, name, website) >= 3
 
 
-# --- ATS link patterns → (ats, slug). Order matters: EU hosts before generic ones.
-ATS_PATTERNS = [
-    ("ashby", re.compile(r"jobs\.ashbyhq\.com/([A-Za-z0-9._-]+)", re.I)),
-    ("greenhouse", re.compile(r"(?:job-boards|boards)(?:\.eu)?\.greenhouse\.io/embed/job_board\?for=([A-Za-z0-9_-]+)", re.I)),
-    ("greenhouse", re.compile(r"(?:job-boards|boards)(?:\.eu)?\.greenhouse\.io/(?!embed)([A-Za-z0-9_-]+)", re.I)),
-    ("greenhouse", re.compile(r"boards-api\.greenhouse\.io/v1/boards/([A-Za-z0-9_-]+)", re.I)),
-    ("lever_eu", re.compile(r"jobs\.eu\.lever\.co/([A-Za-z0-9._-]+)", re.I)),
-    ("lever", re.compile(r"jobs\.lever\.co/([A-Za-z0-9._-]+)", re.I)),
-    ("workable", re.compile(r"apply\.workable\.com/(?!j/|api/)([A-Za-z0-9_-]+)", re.I)),
-    ("workable", re.compile(r"\b(?!www\.|apply\.)([a-z0-9-]+)\.workable\.com", re.I)),
-    ("smartrecruiters", re.compile(r"(?:jobs|careers)\.smartrecruiters\.com/([A-Za-z0-9_-]+)", re.I)),
-]
-SLUG_STOPWORDS = {"embed", "jobs", "api", "www", "apply", "j", "search", "careers"}
 SKIP_DOMAINS = ("news.ycombinator.com", "ycombinator.com", "linkedin.com", "twitter.com", "x.com",
-                "github.com", "ashbyhq.com", "greenhouse.io", "lever.co", "workable.com",
-                "smartrecruiters.com", "workatastartup.com", "wellfound.com", "angel.co",
-                "notion.site", "docs.google.com", "forms.gle", "calendly.com", "youtube.com", "medium.com")
-
-
-# ---------------------------------------------------------------- http helpers
-
-def get(url, timeout=12):
-    with urlopen(Request(url, headers=UA), timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="replace")
-
-
-def get_json(url, timeout=12):
-    return json.loads(get(url, timeout))
-
-
-def board_api(ats, slug):
-    return {
-        "ashby": f"https://api.ashbyhq.com/posting-api/job-board/{slug}",
-        "greenhouse": f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs",
-        "lever": f"https://api.lever.co/v0/postings/{slug}?mode=json",
-        "lever_eu": f"https://api.eu.lever.co/v0/postings/{slug}?mode=json",
-        "workable": f"https://apply.workable.com/api/v1/widget/accounts/{slug}",
-        "smartrecruiters": f"https://api.smartrecruiters.com/v1/companies/{slug}/postings?limit=1",
-    }[ats]
-
-
-def board_job_count(ats, slug):
-    """Return number of open jobs on the board, or None if the board doesn't exist."""
-    try:
-        data = get_json(board_api(ats, slug))
-    except (HTTPError, URLError, ValueError, TimeoutError, ConnectionError):
-        return None
-    if isinstance(data, list):
-        return len(data)
-    if "totalFound" in data:
-        return int(data["totalFound"])
-    return len(data.get("jobs", []))
+                "github.com", "workatastartup.com", "wellfound.com", "angel.co", "notion.site",
+                "docs.google.com", "forms.gle", "calendly.com", "youtube.com", "medium.com") + ATS_DOMAINS
 
 
 # ---------------------------------------------------------------- parsing helpers
@@ -150,17 +108,10 @@ def norm(name):
     return re.sub(r"[^a-z0-9]", "", name.lower().replace(" ai", "").replace(".ai", ""))
 
 
-def find_ats(text):
-    """All (ats, slug) pairs mentioned in text/html, de-duplicated, in order."""
-    seen, out = set(), []
-    for ats, pat in ATS_PATTERNS:
-        for m in pat.finditer(text):
-            slug = m.group(1).rstrip(".")
-            key = (ats.replace("_eu", ""), slug.lower())
-            if key not in seen and slug.lower() not in SLUG_STOPWORDS:
-                seen.add(key)
-                out.append((ats, slug))
-    return out
+def strip_html(s):
+    s = re.sub(r"<p>", "\n", s or "")
+    s = re.sub(r"<[^>]+>", "", s)
+    return html.unescape(s)
 
 
 def find_website(raw_html):
@@ -178,12 +129,6 @@ def find_website(raw_html):
     return ""
 
 
-def strip_html(s):
-    s = re.sub(r"<p>", "\n", s or "")
-    s = re.sub(r"<[^>]+>", "", s)
-    return html.unescape(s)
-
-
 def company_from_hn(text):
     """HN convention: 'Company | Role | Location | ...' on the first line."""
     first = text.strip().split("\n", 1)[0]
@@ -194,91 +139,100 @@ def company_from_hn(text):
 
 
 def slug_guesses(name):
-    base = re.sub(r"\(.*?\)", "", name).strip()
-    words = re.findall(r"[a-z0-9]+", base.lower())
+    words = re.findall(r"[a-z0-9]+", re.sub(r"\(.*?\)", "", name).lower())
     if not words:
         return []
     joined, dashed = "".join(words), "-".join(words)
     guesses = [joined, dashed]
-    if words[-1] != "ai":
-        guesses += [joined + "ai", dashed + "-ai"]
-    else:
-        guesses += ["".join(words[:-1]), "-".join(words[:-1])]
+    guesses += [joined + "ai", dashed + "-ai"] if words[-1] != "ai" else ["".join(words[:-1]), "-".join(words[:-1])]
     return list(dict.fromkeys(g for g in guesses if g))
 
 
 def guess_board(name):
-    """Try common slugs on the three most common startup ATSes; returns (ats, slug, jobs) or None."""
     for slug in slug_guesses(name):
         for ats in ("ashby", "greenhouse", "lever"):
-            n = board_job_count(ats, slug)
+            n = job_count(ats, slug)
             if n:
                 return ats, slug, n
-            time.sleep(0.15)
     return None
 
 
-def scan_site_for_ats(website):
-    """Look for an ATS link on the homepage and common careers paths."""
+def scan_site(website):
+    """Look for a job-board link on the homepage and common careers paths."""
+    base = website.rstrip("/")
     for path in ("", "/careers", "/jobs", "/company/careers", "/about/careers"):
         try:
-            page = get(website.rstrip("/") + path, timeout=8)
-        except (HTTPError, URLError, ValueError, TimeoutError, ConnectionError, OSError):
+            page = get(base + path, timeout=8)
+        except Exception:  # noqa: BLE001
             continue
-        found = find_ats(page)
+        found = find_boards(page)
         if found:
-            return found[0]
-    return None
+            return found
+    return []
 
 
-# ---------------------------------------------------------------- sources
+# ---------------------------------------------------------------- sources → leads
+# A lead: {name, website, source, source_url, signal, sector, hq, stage, boards: [(ats, slug)], recent, guess}
 
-def discover_hn(max_site_checks, sleep):
-    """Returns (found, not_ai_names). not_ai_names lets us drop earlier false positives."""
-    hits = get_json("https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&hitsPerPage=20")["hits"]
-    thread = next((h for h in hits if h["title"].lower().startswith("ask hn: who is hiring")), None)
-    if not thread:
-        print("  HN: no 'Who is hiring' thread found", file=sys.stderr)
-        return [], set()
-    tid = thread["objectID"]
-    item = get_json(f"https://hn.algolia.com/api/v1/items/{tid}", timeout=60)
-    posts = item.get("children", [])
-    print(f"  HN: {thread['title']}  (id {tid}, {len(posts)} posts)")
-    out, not_ai, site_checks = [], set(), 0
-
-    for c in posts:
-        raw = html.unescape(c.get("text") or "")   # HN escapes "/" as &#x2F; inside links
-        if not raw:
+def leads_hn(months):
+    hits = get_json("https://hn.algolia.com/api/v1/search_by_date?tags=story,author_whoishiring&hitsPerPage=100")["hits"]
+    threads = [h for h in hits if h["title"].lower().startswith("ask hn: who is hiring")][:months]
+    leads, ai_names, not_ai = {}, set(), set()
+    for i, th in enumerate(threads):
+        try:
+            item = get_json(f"https://hn.algolia.com/api/v1/items/{th['objectID']}", timeout=90)
+        except Exception as e:  # noqa: BLE001
+            print(f"  HN: skipped {th['title']}: {e}", file=sys.stderr)
             continue
-        text = strip_html(raw)
-        name = company_from_hn(text)
-        if not name:
-            continue
-        website = find_website(raw)
-        if not is_ai_company(text, name, website):
-            not_ai.add(norm(name))
-            continue
-        signal = text.strip().split("\n", 1)[0][:140]
-        src = f"https://news.ycombinator.com/item?id={c['id']}"
-        base = {"name": name, "website": website, "source": "hn", "source_url": src, "signal": signal}
-
-        ats_links = find_ats(raw)
-        if ats_links:
-            ats, slug = ats_links[0]
-            out.append({**base, "ats": ats, "slug": slug, "confidence": "high", "notes": "ATS link in HN post"})
-            continue
-        if website and site_checks < max_site_checks:
-            site_checks += 1
-            found = scan_site_for_ats(website)
-            time.sleep(sleep)
-            if found:
-                out.append({**base, "ats": found[0], "slug": found[1], "confidence": "high", "notes": "ATS link on company site"})
+        posts = item.get("children", [])
+        n_ai = 0
+        for c in posts:
+            raw = html.unescape(c.get("text") or "")   # HN escapes "/" as &#x2F; inside links
+            if not raw:
                 continue
-        out.append({**base, "ats": "", "slug": "", "confidence": "review",
-                    "notes": "no supported ATS found (may use Rippling, Workday, own site...)"})
-    ai = len(out)
-    print(f"  HN: {ai} AI companies, {len(not_ai)} filtered out, {site_checks} websites scanned")
-    return out, not_ai
+            text = strip_html(raw)
+            name = company_from_hn(text)
+            if not name:
+                continue
+            website = find_website(raw)
+            key = norm(name)
+            if not is_ai_company(text, name, website):
+                not_ai.add(key)
+                continue
+            ai_names.add(key)
+            n_ai += 1
+            if key in leads:           # keep the newest post (threads are newest first)
+                continue
+            leads[key] = {"name": name, "website": website, "source": "hn",
+                          "source_url": f"https://news.ycombinator.com/item?id={c['id']}",
+                          "signal": text.strip().split("\n", 1)[0][:140], "boards": find_boards(raw),
+                          "recent": i == 0, "sector": "", "hq": "", "stage": ""}
+        print(f"  HN: {th['title']}: {len(posts)} posts, {n_ai} AI")
+    return list(leads.values()), not_ai - ai_names
+
+
+def leads_yc():
+    seen, leads = set(), []
+    for tag in YC_TAGS:
+        try:
+            companies = get_json(f"https://yc-oss.github.io/api/tags/{tag}.json", timeout=60)
+        except Exception as e:  # noqa: BLE001
+            print(f"  YC: tag {tag} failed: {e}", file=sys.stderr)
+            continue
+        for c in companies:
+            if not c.get("isHiring") or c.get("status") not in ("Active", "Public") or not c.get("website"):
+                continue
+            key = norm(c.get("name", ""))
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            sub = (c.get("subindustry") or c.get("industry") or "").split("->")[-1].strip()
+            leads.append({"name": c["name"].strip(), "website": c["website"].strip(), "source": "yc",
+                          "source_url": c.get("url", ""), "signal": (c.get("one_liner") or "")[:140],
+                          "sector": sub, "hq": (c.get("all_locations") or "").split(";")[0].strip(),
+                          "stage": f"YC {c['batch']}" if c.get("batch") else "", "boards": [], "recent": True})
+    print(f"  YC: {len(leads)} AI companies marked hiring")
+    return leads
 
 
 FUNDING_RE = re.compile(
@@ -288,56 +242,69 @@ FUNDING_RE = re.compile(
     re.I,
 )
 DESCRIPTOR_RE = re.compile(r"^.*\b(?:startup|start-up|company|firm|maker|platform|developer|unicorn|provider)\s+", re.I)
+PREFIX_RE = re.compile(r"^(?:exclusive|scoop|breaking|report)\s*[:|-]\s*", re.I)
 
 
 def clean_company(name):
-    name = re.sub(r"^(?:exclusive|scoop|breaking|report)\s*[:|-]\s*", "", name, flags=re.I)
-    name = DESCRIPTOR_RE.sub("", name)          # "Legal AI startup Harvey" -> "Harvey"
-    name = name.strip(" '\"’,")
+    name = DESCRIPTOR_RE.sub("", PREFIX_RE.sub("", name)).strip(" '\"’,")   # "Legal AI startup Harvey" -> "Harvey"
     return name if 0 < len(name.split()) <= 4 else ""
 
 
-def discover_funding(sleep, max_items):
-    out, seen = [], set()
+def leads_funding(max_items):
+    leads, seen = [], set()
     for feed in FUNDING_FEEDS:
         try:
             root = ET.fromstring(get(feed, timeout=20))
         except Exception as e:  # noqa: BLE001
-            print(f"  feed failed {feed[:60]}: {e}", file=sys.stderr)
+            print(f"  funding: feed failed {feed[:60]}: {e}", file=sys.stderr)
             continue
-        n_feed = 0
+        n = 0
         for item in root.iter("item"):
-            if len(out) >= max_items:
+            if len(leads) >= max_items:
                 break
             title = html.unescape(item.findtext("title") or "").strip()
-            title = re.sub(r"\s+-\s+[^-]{2,40}$", "", title)       # Google News: "... - Publisher"
-            title = re.sub(r"^(?:exclusive|scoop|breaking|report)\s*[:|-]\s*", "", title, flags=re.I)
-            desc = strip_html(item.findtext("description") or "")
-            link = item.findtext("link") or ""
+            title = PREFIX_RE.sub("", re.sub(r"\s+-\s+[^-]{2,40}$", "", title))   # Google News "- Publisher"
             m = FUNDING_RE.search(title)
-            if not m:
-                continue
-            blob = title + " " + desc
-            if not (re.search(r"\bAI\b", blob) or STRONG.search(blob)):
+            blob = title + " " + strip_html(item.findtext("description") or "")
+            if not m or not (re.search(r"\bAI\b", blob) or STRONG.search(blob)):
                 continue
             name = clean_company(m.group("name"))
             if not name or norm(name) in seen:
                 continue
             seen.add(norm(name))
-            n_feed += 1
-            signal = " ".join(x for x in [m.group("round"), m.group("amount")] if x)
-            board = guess_board(name)
-            time.sleep(sleep)
-            row = {"name": name, "website": "", "source": "funding", "source_url": link,
-                   "signal": signal, "notes": title[:140]}
-            if board:
-                ats, slug, n = board
-                row.update(ats=ats, slug=slug, confidence="review", notes=f"slug guessed ({n} jobs) — check it's the right company")
-            else:
-                row.update(ats="", slug="", confidence="review")
-            out.append(row)
-        print(f"  funding: {n_feed} AI rounds from {urlparse(feed).netloc}")
-    return out
+            n += 1
+            leads.append({"name": name, "website": "", "source": "funding", "source_url": item.findtext("link") or "",
+                          "signal": " ".join(x for x in [m.group("round"), m.group("amount")] if x),
+                          "boards": [], "recent": True, "guess": True, "sector": "", "hq": "", "stage": "",
+                          "headline": title[:140]})
+        print(f"  funding: {n} AI rounds from {urlparse(feed).netloc}")
+    return leads
+
+
+# ---------------------------------------------------------------- resolve a lead to a job board
+
+def resolve(lead):
+    """Runs in a worker thread. Returns the lead with ats/slug/status/notes filled in."""
+    boards, how = lead["boards"], "job-board link in HN post"
+    if not boards and lead.get("website"):
+        boards, how = scan_site(lead["website"]), "job-board link on company site"
+    for ats, slug in boards:
+        n = job_count(ats, slug)
+        if n:
+            return {**lead, "ats": ats, "slug": slug, "status": "high", "notes": f"{how} ({n} jobs)"}
+    if lead.get("guess"):
+        g = guess_board(lead["name"])
+        if g:
+            return {**lead, "ats": g[0], "slug": g[1], "status": "new",
+                    "notes": f"slug guessed ({g[2]} jobs) — check it's the right company. {lead.get('headline', '')}"}
+        return {**lead, "ats": "", "slug": "", "status": "no_ats", "notes": lead.get("headline", "")}
+    if boards:
+        ats, slug = boards[0]
+        if lead["recent"]:
+            return {**lead, "ats": ats, "slug": slug, "status": "new", "notes": f"{how}, but board is empty"}
+        return {**lead, "ats": ats, "slug": slug, "status": "no_ats", "notes": "board no longer has jobs"}
+    return {**lead, "ats": "", "slug": "", "status": "no_ats",
+            "notes": "no supported job board found (may use Rippling, Workday, YC Work at a Startup, own site...)"}
 
 
 # ---------------------------------------------------------------- merge + write
@@ -345,7 +312,7 @@ def discover_funding(sleep, max_items):
 def read_csv(path, fields):
     if not path.exists():
         return []
-    return [{f: r.get(f, "") for f in fields} for r in csv.DictReader(path.open(encoding="utf-8"))]
+    return [{f: (r.get(f) or "") for f in fields} for r in csv.DictReader(path.open(encoding="utf-8"))]
 
 
 def write_csv(path, fields, rows):
@@ -355,89 +322,119 @@ def write_csv(path, fields, rows):
         w.writerows(rows)
 
 
+def recently_checked(row, today):
+    try:
+        return (today - date.fromisoformat(row["checked_at"])).days < RESCAN_DAYS
+    except ValueError:
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--sources", default="hn,funding")
-    ap.add_argument("--auto-add", action="store_true", help="add verified high-confidence finds to companies.csv")
-    ap.add_argument("--max-site-checks", type=int, default=150)
+    ap.add_argument("--sources", default="hn,yc,funding")
+    ap.add_argument("--auto-add", action="store_true", help="add verified finds to companies.csv")
+    ap.add_argument("--hn-months", type=int, default=12)
+    ap.add_argument("--max-checks", type=int, default=3000, help="cap on leads resolved per run")
     ap.add_argument("--max-funding", type=int, default=40)
-    ap.add_argument("--sleep", type=float, default=0.3)
+    ap.add_argument("--workers", type=int, default=16)
     args = ap.parse_args()
     sources = set(args.sources.split(","))
-    today = datetime.now(timezone.utc).date().isoformat()
+    started = time.time()
+    today = datetime.now(timezone.utc).date()
 
     companies = read_csv(COMPANIES, COMPANY_FIELDS)
     candidates = read_csv(CANDIDATES, CAND_FIELDS)
+    for c in candidates:                 # older files: unreviewed rows without a board are now "no_ats"
+        if c["status"] == "new" and not c["slug"]:
+            c["status"] = "no_ats"
 
-    found, not_ai = [], set()
+    leads, not_ai = [], set()
     if "hn" in sources:
         try:
-            hn_found, not_ai = discover_hn(args.max_site_checks, args.sleep)
-            found += hn_found
+            hn, not_ai = leads_hn(args.hn_months)
+            leads += hn
         except Exception as e:  # noqa: BLE001
             print(f"  HN failed: {e}", file=sys.stderr)
+    if "yc" in sources:
+        leads += leads_yc()
     if "funding" in sources:
-        found += discover_funding(args.sleep, args.max_funding)
+        leads += leads_funding(args.max_funding)
 
-    # 1) drop earlier HN auto-adds that the current AI filter rejects (hand-added rows are never touched)
+    # 1) drop earlier HN auto-adds that the AI filter rejects (hand-added rows are never touched)
     removed = [c["name"] for c in companies if c["notes"] == "via hn" and norm(c["name"]) in not_ai]
     companies = [c for c in companies if not (c["notes"] == "via hn" and norm(c["name"]) in not_ai)]
     for c in candidates:
-        if c["source"] == "hn" and c["status"] in ("new", "added") and norm(c["name"]) in not_ai:
+        if c["source"] == "hn" and c["status"] in ("new", "added", "no_ats") and norm(c["name"]) in not_ai:
             c["status"], c["notes"] = "filtered", "not an AI company (stricter filter)"
 
-    # 2) merge new finds; upgrade existing review rows when we now found their ATS
+    # 2) pick leads that need resolving: not already listed, not decided, not checked this week
     by_name = {norm(c["name"]): c for c in candidates}
-    known_slugs = {(c["ats"].replace("_eu", ""), c["slug"].lower()) for c in companies if c["slug"]}
-    company_names = {norm(c["name"]) for c in companies}
-    new_cands = upgraded = 0
-    for f in found:
-        key = (f["ats"].replace("_eu", ""), f["slug"].lower())
-        if norm(f["name"]) in company_names or (f["slug"] and key in known_slugs):
+    listed = {norm(c["name"]) for c in companies}
+    listed_slugs = {(c["ats"].replace("_eu", ""), c["slug"].lower()) for c in companies if c["slug"]}
+    todo, seen = [], set()
+    for lead in leads:
+        key = norm(lead["name"])
+        if not key or key in seen or key in listed:
             continue
-        if f["slug"]:  # verify the board exists and is hiring
-            n = board_job_count(f["ats"], f["slug"])
-            time.sleep(args.sleep)
-            if not n:
-                f.update(confidence="review", notes=(f["notes"] + "; board empty or missing").strip("; "))
-        status = "approved" if args.auto_add and f["confidence"] == "high" else "new"
-        row = {k: f.get(k, "") for k in CAND_FIELDS} | {"status": status, "found_at": today}
-
-        existing = by_name.get(norm(f["name"]))
-        if existing:
-            if existing["status"] == "new" and not existing["slug"] and f["slug"]:
-                existing.update({k: row[k] for k in ("ats", "slug", "confidence", "notes", "status")})
-                upgraded += 1
+        seen.add(key)
+        if any((a.replace("_eu", ""), s.lower()) in listed_slugs for a, s in lead["boards"]):
             continue
-        candidates.append(row)
-        by_name[norm(f["name"])] = row
-        if f["slug"]:
-            known_slugs.add(key)
-        new_cands += 1
+        old = by_name.get(key)
+        if old and (old["status"] in TERMINAL or recently_checked(old, today)):
+            continue
+        todo.append(lead)
+    todo = todo[:args.max_checks]
+    print(f"\n  resolving {len(todo)} leads ({len(leads)} found, rest already known or checked this week)...")
 
-    # 3) promote approved candidates into companies.csv
+    with ThreadPoolExecutor(max_workers=args.workers) as pool:
+        resolved = list(pool.map(resolve, todo))
+
+    # 3) merge results into candidates.csv
+    counts = {"high": 0, "new": 0, "no_ats": 0}
+    for r in resolved:
+        counts[r["status"]] += 1
+        key = (r["ats"].replace("_eu", ""), r["slug"].lower())
+        if r["status"] == "high" and key in listed_slugs:       # same board under another name
+            continue
+        status = ("approved" if args.auto_add else "new") if r["status"] == "high" else r["status"]
+        row = {"status": status, "name": r["name"], "website": r["website"], "ats": r["ats"], "slug": r["slug"],
+               "confidence": "high" if r["status"] == "high" else "review", "source": r["source"],
+               "source_url": r["source_url"], "signal": r["signal"], "sector": r.get("sector", ""),
+               "hq": r.get("hq", ""), "stage": r.get("stage", ""), "found_at": today.isoformat(),
+               "checked_at": today.isoformat(), "notes": r["notes"]}
+        old = by_name.get(norm(r["name"]))
+        if old:
+            row["found_at"] = old["found_at"] or row["found_at"]
+            old.update(row)
+        else:
+            candidates.append(row)
+            by_name[norm(r["name"])] = row
+        if r["status"] == "high":
+            listed_slugs.add(key)
+
+    # 4) promote approved candidates into companies.csv
     added = []
     for c in candidates:
-        if c["status"] == "approved" and c["slug"] and norm(c["name"]) not in company_names:
-            is_funding = c["source"] == "funding"
+        if c["status"] == "approved" and c["slug"] and norm(c["name"]) not in listed:
+            funding = c["source"] == "funding"
             companies.append({
                 "name": c["name"], "website": c["website"], "ats": c["ats"], "slug": c["slug"],
-                "stage": c["signal"].split(" $")[0] if is_funding and not c["signal"].startswith("$") else "",
-                "last_raise": c["signal"] if is_funding else "",
-                "last_raise_date": c["found_at"] if is_funding else "",
-                "sector": "", "hq": "", "notes": f"via {c['source']}",
+                "stage": c["stage"] or (c["signal"].split(" $")[0] if funding and not c["signal"].startswith("$") else ""),
+                "last_raise": c["signal"] if funding else "",
+                "last_raise_date": c["found_at"] if funding else "",
+                "sector": c["sector"], "hq": c["hq"], "notes": f"via {c['source']}",
             })
-            company_names.add(norm(c["name"]))
+            listed.add(norm(c["name"]))
             c["status"] = "added"
             added.append(c["name"])
 
     write_csv(CANDIDATES, CAND_FIELDS, candidates)
     write_csv(COMPANIES, COMPANY_FIELDS, companies)
     review = sum(1 for c in candidates if c["status"] == "new")
-    print(f"\n{len(found)} AI hiring signals · {new_cands} new candidates · {upgraded} upgraded · "
-          f"{len(added)} added · {len(removed)} removed (not AI) · {review} waiting for review")
-    for n in added:
-        print(f"  + {n}")
+    print(f"\n{len(todo)} leads checked: {counts['high']} verified boards, {counts['new']} need review, "
+          f"{counts['no_ats']} no supported board")
+    print(f"{len(added)} added · {len(removed)} removed (not AI) · {review} waiting for review · "
+          f"{len(companies)} companies total · {time.time() - started:.0f}s")
     for n in removed:
         print(f"  - {n}")
 

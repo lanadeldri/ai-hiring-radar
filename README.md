@@ -14,29 +14,36 @@ No dependencies beyond the Python standard library.
 
 ## Automatic discovery
 
-`discover.py` finds new AI companies that are hiring, without you typing names:
+`discover.py` finds AI companies that are hiring, without you typing names:
 
-- **HN "Who is hiring?"** — reads the latest monthly thread, keeps AI companies, and pulls the ATS link from the post. If the post has none, it scans the company's website and `/careers` page for one.
-- **Funding news** — reads TechCrunch, Crunchbase News and Google News searches, picks out "X raises $40M Series B" headlines for AI companies, and guesses the job-board slug.
+| source | what it reads | how the job board is found |
+|---|---|---|
+| **HN "Who is hiring?"** | last 12 monthly threads (Algolia API) | link in the post, else the company site |
+| **YC directory** | [yc-oss](https://github.com/yc-oss/api) companies tagged AI / Artificial Intelligence / Generative AI / Machine Learning that YC marks as hiring | company site; also brings sector, HQ and batch |
+| **Funding news** | TechCrunch, Crunchbase News, Google News searches for AI rounds | slug guessed from the name, so always reviewed by hand |
 
-Supported job boards: Ashby, Greenhouse, Lever (incl. EU), Workable, SmartRecruiters.
+For a lead without a job-board link, the company's homepage and `/careers`, `/jobs` pages are scanned for one. Scans run in parallel and are cached for 7 days, so the first run takes 10–15 minutes and later runs a few minutes.
 
-**How "AI company" is decided.** Nearly every post mentions AI now, so a plain "AI" in the body doesn't count. A post needs a score of 3+: AI terms in the headline line (+2), "AI" or `.ai` in the company name/domain (+2), and +1 for each distinct specific term in the body (LLM, inference, computer vision, fine-tuning, ...). Companies auto-added from HN that fail a later, stricter filter are removed automatically and marked `filtered`.
+Supported job boards (`ats.py`): Ashby, Greenhouse, Lever (incl. EU), Workable, SmartRecruiters, Recruitee, Personio, BambooHR, Breezy HR.
+
+**How "AI company" is decided for HN posts.** Nearly every post mentions AI now, so a plain "AI" in the body doesn't count. A post needs a score of 3+: AI terms in the headline line (+2), "AI" or `.ai` in the company name/domain (+2), and +1 for each distinct specific term in the body (LLM, inference, computer vision, fine-tuning, ...). YC companies use YC's own tags instead.
 
 ```bash
-python discover.py --auto-add
+python discover.py --auto-add                  # all sources
+python discover.py --sources hn,yc --hn-months 6
 ```
 
-Results go to `data/candidates.csv`:
+Every lead is recorded in `data/candidates.csv` with a `status`:
 
-| confidence | what happens |
+| status | meaning |
 |---|---|
-| `high` (ATS link found in the post or on the company site, board verified) | added to `companies.csv` automatically with `--auto-add` |
-| `review` (slug guessed from a name, or no ATS found) | waits in `candidates.csv` with `status=new` |
+| `added` | in `companies.csv` (board link found and verified to have jobs) |
+| `new` | needs your review: slug guessed from a name, or the board is empty |
+| `approved` / `rejected` | your decision; approved rows are added on the next run |
+| `no_ats` | no supported job board found; re-checked weekly |
+| `filtered` | not an AI company; earlier HN auto-adds that fail the filter are removed |
 
-To review: edit `data/candidates.csv` (the GitHub web editor works) and set `status` to `approved` or `rejected`. Approved rows are added on the next run. Guessed slugs are never auto-added, because the same slug can belong to a different company on another ATS.
-
-The daily GitHub Action runs discovery first, then fetches roles.
+To review, edit `data/candidates.csv` in the GitHub web editor and change `status`.
 
 ## Add a company by hand
 
@@ -46,7 +53,7 @@ Add a row to `data/companies.csv`:
 |---|---|---|
 | name | Sierra | display name |
 | website | https://sierra.ai | |
-| ats | ashby | `ashby` / `greenhouse` / `lever` / `lever_eu`, or leave empty and run with `--detect` |
+| ats | ashby | any key in `ats.ADAPTERS`, or leave empty and run `fetch_jobs.py --detect` |
 | slug | sierra | the board name in `jobs.ashbyhq.com/<slug>`, `job-boards.greenhouse.io/<slug>`, `jobs.lever.co/<slug>` |
 | stage, last_raise, last_raise_date | Series C, $175M, 2026-09 | fill in from funding news |
 | sector, hq, notes | AI agents (CX), San Francisco | |
@@ -79,6 +86,7 @@ The filter reads `data/jobs.json`, which `fetch_jobs.py` writes with every open 
 
 ## Roadmap
 
-- More discovery sources: VC portfolio pages, YC directory, more funding feeds
+- More discovery sources: VC portfolio job boards (check their terms first)
+- Rippling and Workday job boards
 - Funding round + investors per company
 - Growth chart from `history.json`
