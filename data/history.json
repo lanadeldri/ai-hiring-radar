@@ -11,6 +11,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 677
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 682
   }
  ],
  "OpenAI": [
@@ -25,6 +29,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 809
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 802
   }
  ],
  "Cursor (Anysphere)": [
@@ -39,6 +47,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 131
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 127
   }
  ],
  "Perplexity": [
@@ -52,6 +64,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 127
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 127
   }
  ],
@@ -67,6 +83,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 159
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 156
   }
  ],
  "Cohere": [
@@ -80,6 +100,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 114
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 114
   }
  ],
@@ -95,6 +119,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 223
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 224
   }
  ],
  "Scale AI": [
@@ -109,6 +137,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 174
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 172
   }
  ],
  "Databricks": [
@@ -123,6 +155,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 902
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 901
   }
  ],
  "Glean": [
@@ -137,6 +173,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 120
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 131
   }
  ],
  "Harvey": [
@@ -151,6 +191,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 350
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 347
   }
  ],
  "Sierra": [
@@ -165,6 +209,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 191
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 213
   }
  ],
  "Decagon": [
@@ -179,6 +227,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 135
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 134
   }
  ],
  "Replit": [
@@ -192,6 +244,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 52
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 52
   }
  ],
@@ -207,6 +263,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 43
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 43
   }
  ],
  "Baseten": [
@@ -220,6 +280,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 105
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 105
   }
  ],
@@ -235,6 +299,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 82
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 82
   }
  ],
  "LangChain": [
@@ -248,6 +316,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 104
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 104
   }
  ],
@@ -263,6 +335,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 48
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 47
   }
  ],
  "Bland AI": [
@@ -277,6 +353,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 16
   }
  ],
  "Shepherd": [
@@ -290,6 +370,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 25
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 25
   }
  ],
@@ -329,6 +413,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 660
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 663
   }
  ],
  "Beacon AI": [
@@ -343,6 +431,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 17
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 17
   }
  ],
  "Hedge": [
@@ -356,6 +448,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 16
   }
  ],
@@ -377,6 +473,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 72
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 72
   }
  ],
  "Komodo Health": [
@@ -396,6 +496,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 8
   }
  ],
@@ -423,6 +527,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Rebar": [
@@ -436,6 +544,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 16
   }
  ],
@@ -451,6 +563,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 22
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 22
   }
  ],
  "Kraken Tech": [
@@ -464,6 +580,10 @@
   },
   {
    "date": "2026-10-22",
+   "open_roles": 69
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 69
   }
  ],
@@ -491,6 +611,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "SentiLink": [
@@ -517,6 +641,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Ojin": [
@@ -531,6 +659,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Seeq": [
@@ -541,6 +673,10 @@
   {
    "date": "2026-10-22",
    "open_roles": 31
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 33
   }
  ],
  "Fig": [
@@ -551,11 +687,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Tether": [
   {
    "date": "2026-10-22",
+   "open_roles": 243
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 243
   }
  ],
@@ -563,11 +707,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "TypeSafe AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 15
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 15
   }
  ],
@@ -575,11 +727,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 18
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 18
   }
  ],
  "Attendi": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -587,11 +747,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 11
   }
  ],
  "WorkHero": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -599,11 +767,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 12
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 12
   }
  ],
  "Robotics and AI Institute": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -611,11 +787,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 22
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 21
   }
  ],
  "Deeter Analytics": [
   {
    "date": "2026-10-22",
+   "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 3
   }
  ],
@@ -623,11 +807,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 16
   }
  ],
  "Aptura AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 39
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 39
   }
  ],
@@ -635,11 +827,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Confido": [
   {
    "date": "2026-10-22",
+   "open_roles": 35
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 35
   }
  ],
@@ -647,11 +847,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "Ai2 / Allen Institute for AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 17
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 17
   }
  ],
@@ -659,11 +867,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "fractile.ai": [
   {
    "date": "2026-10-22",
+   "open_roles": 39
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 39
   }
  ],
@@ -671,11 +887,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 141
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 141
   }
  ],
  "Tabula Bio": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -683,11 +907,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 1
   }
  ],
  "NODA AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 25
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 25
   }
  ],
@@ -695,11 +927,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 4
   }
  ],
  "Oscilar.com": [
   {
    "date": "2026-10-22",
+   "open_roles": 23
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 23
   }
  ],
@@ -707,11 +947,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Kepler": [
   {
    "date": "2026-10-22",
+   "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 11
   }
  ],
@@ -719,17 +967,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "*Scribd": [
   {
    "date": "2026-10-22",
    "open_roles": 22
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 23
   }
  ],
  "Evertune AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -737,11 +997,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Alembic": [
   {
    "date": "2026-10-22",
+   "open_roles": 14
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 14
   }
  ],
@@ -749,11 +1017,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Trace Labs": [
   {
    "date": "2026-10-22",
+   "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 2
   }
  ],
@@ -761,17 +1037,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Second Nature": [
   {
    "date": "2026-10-22",
    "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Compa.AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 3
   }
  ],
@@ -779,11 +1067,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 11
   }
  ],
  "Strix": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -791,23 +1087,39 @@
   {
    "date": "2026-10-22",
    "open_roles": 441
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 446
   }
  ],
  "Mercor": [
   {
    "date": "2026-10-22",
    "open_roles": 110
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 112
   }
  ],
  "fal": [
   {
    "date": "2026-10-22",
    "open_roles": 44
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 43
   }
  ],
  "AirOps": [
   {
    "date": "2026-10-22",
+   "open_roles": 20
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 20
   }
  ],
@@ -815,11 +1127,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 20
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 20
   }
  ],
  "PhysicsX": [
   {
    "date": "2026-10-22",
+   "open_roles": 42
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 42
   }
  ],
@@ -827,11 +1147,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 10
   }
  ],
  "Nuance Labs": [
   {
    "date": "2026-10-22",
+   "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 10
   }
  ],
@@ -839,11 +1167,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "ando.work": [
   {
    "date": "2026-10-22",
+   "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 2
   }
  ],
@@ -851,11 +1187,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Onos Health": [
   {
    "date": "2026-10-22",
+   "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 9
   }
  ],
@@ -863,11 +1207,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 137
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 139
   }
  ],
  "Mubit": [
   {
    "date": "2026-10-22",
+   "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 1
   }
  ],
@@ -875,11 +1227,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 11
   }
  ],
  "Flux.ai": [
   {
    "date": "2026-10-22",
+   "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 7
   }
  ],
@@ -887,11 +1247,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 51
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 51
   }
  ],
  "akeno": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -899,11 +1267,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 7
   }
  ],
  "LiveEO": [
   {
    "date": "2026-10-22",
+   "open_roles": 22
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 22
   }
  ],
@@ -911,11 +1287,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Cleric": [
   {
    "date": "2026-10-22",
+   "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 1
   }
  ],
@@ -923,11 +1307,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 49
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 49
   }
  ],
  "xdof": [
   {
    "date": "2026-10-22",
+   "open_roles": 25
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 25
   }
  ],
@@ -935,17 +1327,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 43
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 43
   }
  ],
  "Kato": [
   {
    "date": "2026-10-22",
    "open_roles": 102
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 107
   }
  ],
  "Emergent AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 50
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 50
   }
  ],
@@ -953,11 +1357,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 8
   }
  ],
  "Cosuno": [
   {
    "date": "2026-10-22",
+   "open_roles": 18
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 18
   }
  ],
@@ -965,11 +1377,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "Prompt Health": [
   {
    "date": "2026-10-22",
+   "open_roles": 49
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 49
   }
  ],
@@ -977,11 +1397,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Pickle Robot": [
   {
    "date": "2026-10-22",
+   "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 9
   }
  ],
@@ -989,11 +1417,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Legion Health": [
   {
    "date": "2026-10-22",
+   "open_roles": 158
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 158
   }
  ],
@@ -1001,11 +1437,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "E2B": [
   {
    "date": "2026-10-22",
+   "open_roles": 14
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 14
   }
  ],
@@ -1013,11 +1457,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 11
   }
  ],
  "IDinsight": [
   {
    "date": "2026-10-22",
+   "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 1
   }
  ],
@@ -1025,11 +1477,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 8
   }
  ],
  "Mercanis": [
   {
    "date": "2026-10-22",
+   "open_roles": 18
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 18
   }
  ],
@@ -1037,11 +1497,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Dialogue AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -1049,11 +1517,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 4
   }
  ],
  "Mithril [": [
   {
    "date": "2026-10-22",
+   "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 3
   }
  ],
@@ -1061,11 +1537,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Duranta": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -1073,11 +1557,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 8
   }
  ],
  "Qventus": [
   {
    "date": "2026-10-22",
+   "open_roles": 17
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 17
   }
  ],
@@ -1085,17 +1577,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 13
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 11
   }
  ],
  "Deepgram": [
   {
    "date": "2026-10-22",
    "open_roles": 91
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 87
   }
  ],
  "Gecko Robotics": [
   {
    "date": "2026-10-22",
+   "open_roles": 21
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 21
   }
  ],
@@ -1103,23 +1607,39 @@
   {
    "date": "2026-10-22",
    "open_roles": 79
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 81
   }
  ],
  "People.ai": [
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 10
   }
  ],
  "Speak": [
   {
    "date": "2026-10-22",
    "open_roles": 35
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 34
   }
  ],
  "Ambient.ai": [
   {
    "date": "2026-10-22",
+   "open_roles": 26
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 26
   }
  ],
@@ -1127,11 +1647,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 21
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 21
   }
  ],
  "VergeSense": [
   {
    "date": "2026-10-22",
+   "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 2
   }
  ],
@@ -1139,11 +1667,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 40
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 40
   }
  ],
  "AssemblyAI": [
   {
    "date": "2026-10-22",
+   "open_roles": 15
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 15
   }
  ],
@@ -1151,11 +1687,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 10
   }
  ],
  "Promise": [
   {
    "date": "2026-10-22",
+   "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 11
   }
  ],
@@ -1163,11 +1707,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 21
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 21
   }
  ],
  "Inscribe": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -1175,11 +1727,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Prodigal": [
   {
    "date": "2026-10-22",
+   "open_roles": 14
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 14
   }
  ],
@@ -1187,11 +1747,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 8
   }
  ],
  "Overview": [
   {
    "date": "2026-10-22",
+   "open_roles": 61
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 61
   }
  ],
@@ -1199,11 +1767,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 8
   }
  ],
  "Ello": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -1211,11 +1787,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Roboflow": [
   {
    "date": "2026-10-22",
+   "open_roles": 37
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 37
   }
  ],
@@ -1223,11 +1807,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Ready": [
   {
    "date": "2026-10-22",
+   "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 7
   }
  ],
@@ -1235,11 +1827,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 34
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 34
   }
  ],
  "Glimpse": [
   {
    "date": "2026-10-22",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 8
   }
  ],
@@ -1247,11 +1847,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 48
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 48
   }
  ],
  "Heron": [
   {
    "date": "2026-10-22",
+   "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 6
   }
  ],
@@ -1259,11 +1867,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Humaans": [
   {
    "date": "2026-10-22",
+   "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 11
   }
  ],
@@ -1271,11 +1887,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "Popl": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -1283,11 +1907,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 4
   }
  ],
  "Slope": [
   {
    "date": "2026-10-22",
+   "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 2
   }
  ],
@@ -1295,11 +1927,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Tavus": [
   {
    "date": "2026-10-22",
+   "open_roles": 19
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 19
   }
  ],
@@ -1307,11 +1947,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Zensors": [
   {
    "date": "2026-10-22",
+   "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 6
   }
  ],
@@ -1319,11 +1967,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Sieve": [
   {
    "date": "2026-10-22",
+   "open_roles": 14
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 14
   }
  ],
@@ -1331,11 +1987,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Sphere": [
   {
    "date": "2026-10-22",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 16
   }
  ],
@@ -1343,11 +2007,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 44
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 45
   }
  ],
  "Cinder": [
   {
    "date": "2026-10-22",
+   "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 9
   }
  ],
@@ -1355,11 +2027,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Julius": [
   {
    "date": "2026-10-22",
+   "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 6
   }
  ],
@@ -1367,11 +2047,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 7
   }
  ],
  "Metriport": [
   {
    "date": "2026-10-22",
+   "open_roles": 17
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 17
   }
  ],
@@ -1379,17 +2067,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 32
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 32
   }
  ],
  "Oneleet": [
   {
    "date": "2026-10-22",
    "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 11
   }
  ],
  "Pump.co": [
   {
    "date": "2026-10-22",
+   "open_roles": 18
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 18
   }
  ],
@@ -1397,11 +2097,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Cambio": [
   {
    "date": "2026-10-22",
+   "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 7
   }
  ],
@@ -1409,11 +2117,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 14
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 14
   }
  ],
  "Credal.ai": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -1421,11 +2137,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Concourse": [
   {
    "date": "2026-10-22",
+   "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 7
   }
  ],
@@ -1433,17 +2157,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 25
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 25
   }
  ],
  "Salient": [
   {
    "date": "2026-10-22",
    "open_roles": 15
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 14
   }
  ],
  "Cosine": [
   {
    "date": "2026-10-22",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 8
   }
  ],
@@ -1451,11 +2187,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "LiteLLM": [
   {
    "date": "2026-10-22",
+   "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 9
   }
  ],
@@ -1463,11 +2207,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 10
   }
  ],
  "Casca": [
   {
    "date": "2026-10-22",
+   "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 7
   }
  ],
@@ -1475,29 +2227,49 @@
   {
    "date": "2026-10-22",
    "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 1
   }
  ],
  "Campfire": [
   {
    "date": "2026-10-22",
    "open_roles": 52
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 51
   }
  ],
  "Outset": [
   {
    "date": "2026-10-22",
    "open_roles": 33
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 32
   }
  ],
  "Decoda Health": [
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Bretton AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 6
   }
  ],
@@ -1505,11 +2277,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "Strada": [
   {
    "date": "2026-10-22",
+   "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 6
   }
  ],
@@ -1517,11 +2297,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 33
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 33
   }
  ],
  "Tekton Dynamics": [
   {
    "date": "2026-10-22",
+   "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 2
   }
  ],
@@ -1529,11 +2317,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Tuesday Labs": [
   {
    "date": "2026-10-22",
+   "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 1
   }
  ],
@@ -1541,11 +2337,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Garage": [
   {
    "date": "2026-10-22",
+   "open_roles": 15
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 15
   }
  ],
@@ -1553,11 +2357,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "PointOne": [
   {
    "date": "2026-10-22",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 16
   }
  ],
@@ -1565,11 +2377,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 2
   }
  ],
  "Greenboard": [
   {
    "date": "2026-10-22",
+   "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 6
   }
  ],
@@ -1577,11 +2397,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 7
   }
  ],
  "OffDeal": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -1589,17 +2417,29 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Retell AI": [
   {
    "date": "2026-10-22",
    "open_roles": 27
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 28
   }
  ],
  "Mem0": [
   {
    "date": "2026-10-22",
+   "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 1
   }
  ],
@@ -1607,11 +2447,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 16
   }
  ],
  "Wordware": [
   {
    "date": "2026-10-22",
+   "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 11
   }
  ],
@@ -1619,11 +2467,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 13
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 13
   }
  ],
  "Clearly AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 3
   }
  ],
@@ -1631,11 +2487,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "Simple AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 10
   }
  ],
@@ -1643,11 +2507,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "CTGT": [
   {
    "date": "2026-10-22",
+   "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 3
   }
  ],
@@ -1655,11 +2527,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 9
   }
  ],
  "Capy": [
   {
    "date": "2026-10-22",
+   "open_roles": 2
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 2
   }
  ],
@@ -1667,11 +2547,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 3
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 3
   }
  ],
  "Laminar": [
   {
    "date": "2026-10-22",
+   "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 5
   }
  ],
@@ -1679,11 +2567,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 12
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 12
   }
  ],
  "SalesPatriot": [
   {
    "date": "2026-10-22",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 8
   }
  ],
@@ -1691,11 +2587,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 36
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 36
   }
  ],
  "AfterQuery": [
   {
    "date": "2026-10-22",
+   "open_roles": 40
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 40
   }
  ],
@@ -1703,11 +2607,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Lucis": [
   {
    "date": "2026-10-22",
+   "open_roles": 13
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 13
   }
  ],
@@ -1715,11 +2627,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 13
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 13
   }
  ],
  "Lapel": [
   {
    "date": "2026-10-22",
+   "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 9
   }
  ],
@@ -1727,11 +2647,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 4
   }
  ],
  "Relling": [
   {
    "date": "2026-10-22",
+   "open_roles": 12
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 12
   }
  ],
@@ -1739,11 +2667,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 7
   }
  ],
  "Reacher": [
   {
    "date": "2026-10-22",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 8
   }
  ],
@@ -1751,11 +2687,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 5
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 5
   }
  ],
  "Veritus": [
   {
    "date": "2026-10-22",
+   "open_roles": 4
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 4
   }
  ],
@@ -1763,11 +2707,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 10
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 10
   }
  ],
  "Uplane": [
   {
    "date": "2026-10-22",
+   "open_roles": 16
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 16
   }
  ],
@@ -1775,11 +2727,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 7
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 7
   }
  ],
  "DiligenceSquared": [
   {
    "date": "2026-10-22",
+   "open_roles": 8
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 8
   }
  ],
@@ -1787,11 +2747,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 40
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 40
   }
  ],
  "Auctor": [
   {
    "date": "2026-10-22",
+   "open_roles": 11
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 11
   }
  ],
@@ -1799,11 +2767,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "PicnicAI": [
   {
    "date": "2026-10-22",
+   "open_roles": 1
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 1
   }
  ],
@@ -1811,11 +2787,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 17
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 17
   }
  ],
  "Blissway": [
   {
    "date": "2026-10-22",
+   "open_roles": 12
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 12
   }
  ],
@@ -1823,11 +2807,19 @@
   {
    "date": "2026-10-22",
    "open_roles": 6
+  },
+  {
+   "date": "2026-10-23",
+   "open_roles": 6
   }
  ],
  "FINNY AI": [
   {
    "date": "2026-10-22",
+   "open_roles": 9
+  },
+  {
+   "date": "2026-10-23",
    "open_roles": 9
   }
  ]
