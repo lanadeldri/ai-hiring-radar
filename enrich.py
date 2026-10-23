@@ -58,6 +58,15 @@ def bucket(round_text):
     return ""
 
 
+def estimate(amount):
+    """Rough stage from round size when the headline names no round. USD-ish thresholds."""
+    m = re.match(r"[$€£]([\d.,]+)([MBK]?)", amount or "")
+    if not m:
+        return ""
+    v = float(m.group(1).replace(",", "")) * {"B": 1000, "M": 1, "K": 0.001, "": 1e-6}[m.group(2)]
+    return "Seed" if v < 10 else "Series A" if v < 30 else "Series B" if v < 80 else "Series C+"
+
+
 def norm_amount(text):
     """'$40 million' -> '$40M', '€1.2 billion' -> '€1.2B'."""
     m = re.match(r"([$€£])\s*([\d.,]+)\s*(million|billion|[MBK])?", (text or "").strip(), re.I)
@@ -180,12 +189,24 @@ def main():
                 e.update(hit)
                 found += 1
 
+    # stage: the round the headline names; else an estimate from the amount (flagged round_est)
+    for e in cache.values():
+        if e.get("round_text"):
+            e["round"], e["round_est"] = bucket(e["round_text"]), False
+        elif e.get("amount"):
+            e["round"], e["round_est"] = estimate(e["amount"]), True
+        else:
+            e.pop("round", None); e.pop("round_est", None)
+
     names = {c["name"] for c in companies}
     cache = {k: v for k, v in cache.items() if k in names}   # drop companies no longer listed
     OUT.write_text(json.dumps(cache, indent=1, ensure_ascii=False, sort_keys=True))
-    with_round = sum(1 for v in cache.values() if v.get("round"))
-    print(f"\n{found} rounds found this run · {failed} lookups failed · "
-          f"{with_round}/{len(companies)} companies have a round · {time.time() - started:.0f}s")
+    named = sum(1 for v in cache.values() if v.get("round") and not v.get("round_est"))
+    est = sum(1 for v in cache.values() if v.get("round_est"))
+    yc_only = sum(1 for v in cache.values() if not v.get("round") and v.get("yc_stage"))
+    print(f"\n{found} funding headlines found this run · {failed} lookups failed · {time.time() - started:.0f}s")
+    print(f"stage known for {named + est + yc_only}/{len(companies)}: {named} named round · {est} estimated from amount · "
+          f"{yc_only} YC stage only")
 
 
 if __name__ == "__main__":

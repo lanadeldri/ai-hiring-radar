@@ -155,9 +155,9 @@ def main():
             "stage": row.get("stage", ""), "last_raise": row.get("last_raise", ""),
             "last_raise_date": row.get("last_raise_date", ""), "sector": row.get("sector", ""),
             "hq": row.get("hq", ""), "notes": row.get("notes", ""),
-            **{("funding_" + k if k in ("round", "round_text", "amount", "date", "url", "headline") else k): v
+            **{("funding_" + k if k in ("round", "round_text", "round_est", "amount", "date", "url", "headline") else k): v
                for k, v in (enrich.get(name) or {}).items()
-               if k in ("round", "round_text", "amount", "date", "url", "headline", "team_size", "yc_stage", "yc_batch")},
+               if k in ("round", "round_text", "round_est", "amount", "date", "url", "headline", "team_size", "yc_stage", "yc_batch")},
             **stats,
         })
         print(f"  ✓ {name:<24} {ats:<15} {stats['open_roles']:>4} roles  ({stats['eng_roles']} eng, +{stats['new_7d']} this week)")

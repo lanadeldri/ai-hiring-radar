@@ -85,7 +85,7 @@ The filter reads `data/jobs.json`, which `fetch_jobs.py` writes with every open 
 - **Funding news**: one Google News search per company. The newest headline that names the company and a round or amount ("Decagon raises $131M Series C", "Mastra lands $13 million seed round") is used, with a link to the article. One-word names that are ordinary words (Close, Fig, River) also need a tech term in the headline, so a different company with the same name isn't matched. Lookups are cached for 30 days.
 - **YC directory**: team size and YC's stage label (Early / Growth) for YC companies, matched by website domain or name.
 
-Rounds are grouped as Seed, Series A, Series B and Series C+. Companies with no round found show "Stage unknown" and are never guessed. On the page, filter by stage (including **Early: Seed – Series B**), tick **Small (≤ 20 open roles)**, or sort by **Recently funded**.
+Rounds are grouped as Seed, Series A, Series B and Series C+. When a headline gives only an amount ("AfterQuery raises $30M"), the stage is estimated from the size (under $10M Seed, $10–30M Series A, $30–80M Series B, $80M+ Series C+) and shown as "≈Series A"; the **Named round only** filter excludes those estimates. Companies with no round found show "Stage unknown" and are never guessed. On the page, filter by stage (including **Early: Seed – Series B**), tick **Small (≤ 20 open roles)**, or sort by **Recently funded**.
 
 ## Track your applications (Google sign-in)
 

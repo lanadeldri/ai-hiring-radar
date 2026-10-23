@@ -217,6 +217,7 @@ a.stage:hover { text-decoration: underline; }
       <option value="early">Early (Seed – Series B)</option>
       <option value="Seed">Seed</option><option value="Series A">Series A</option><option value="Series B">Series B</option>
       <option value="Series C+">Series C and later</option><option value="unknown">Stage unknown</option>
+      <option value="named">Named round only (no estimates)</option>
     </select>
     <label class="toggle" for="small"><input id="small" type="checkbox"> Small (≤ 20 open roles)</label>
   </div>
@@ -423,7 +424,8 @@ function companyOk(c) {
   const f = $("stagef").value;
   if (f === "early" && !isEarly(c)) return false;
   if (f === "unknown" && (c.funding_round || c.yc_stage)) return false;
-  if (f && !["early", "unknown"].includes(f) && c.funding_round !== f) return false;
+  if (f === "named" && !(c.funding_round && !c.funding_round_est)) return false;
+  if (f && !["early", "unknown", "named"].includes(f) && c.funding_round !== f) return false;
   if ($("small").checked && !(c.open_roles != null && c.open_roles <= 20)) return false;
   return true;
 }
@@ -433,14 +435,15 @@ function ago(iso) {
   return m < 1 ? "this month" : m < 12 ? `${m} mo ago` : `${(m / 12).toFixed(m < 24 ? 1 : 0)} yr ago`;
 }
 function stageBadge(c) {
-  const label = c.funding_round_text || c.funding_round;
+  const label = c.funding_round_est ? (c.funding_round ? `≈${c.funding_round}` : "") : (c.funding_round_text || c.funding_round);
   const parts = label ? [label, c.funding_amount].filter(Boolean) : c.funding_amount ? [`${c.funding_amount} raised`] : [];
   let html = "";
   if (parts.length) {
     const when = ago(c.funding_date);
     const cls = c.funding_round === "Series C+" ? "stage late" : "stage";
     const inner = `${esc(parts.join(" · "))}${when ? ` <span class="ago">· ${when}</span>` : ""}`;
-    html = c.funding_url ? `<a class="${cls}" href="${esc(c.funding_url)}" target="_blank" rel="noopener" title="${esc(c.funding_headline || "")}">${inner}</a>`
+    const tip = (c.funding_round_est ? `Stage estimated from the round size; the headline doesn't name a round. ` : "") + (c.funding_headline || "");
+    html = c.funding_url ? `<a class="${cls}" href="${esc(c.funding_url)}" target="_blank" rel="noopener" title="${esc(tip)}">${inner}</a>`
       : `<span class="${cls}">${inner}</span>`;
   } else if (c.yc_stage) {
     html = `<span class="stage${c.yc_stage === "Early" ? "" : " late"}" title="YC's stage label">YC ${esc(c.yc_stage)}</span>`;
