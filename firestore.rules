@@ -9,7 +9,7 @@ service cloud.firestore {
 
       allow create, update: if request.auth != null && request.auth.uid == uid
         && request.resource.data.keys().hasOnly(['company', 'title', 'url', 'status', 'updatedAt'])
-        && request.resource.data.status in ['saved', 'applied', 'interviewing', 'offer', 'rejected']
+        && request.resource.data.status in ['saved', 'applied', 'interviewing', 'offer', 'rejected', 'not_interested']
         && request.resource.data.url is string && request.resource.data.url.size() < 2000
         && request.resource.data.company is string && request.resource.data.company.size() < 200
         && request.resource.data.title is string && request.resource.data.title.size() <= 300;

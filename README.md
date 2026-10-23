@@ -80,7 +80,7 @@ The filter reads `data/jobs.json`, which `fetch_jobs.py` writes with every open 
 
 ## Track your applications (Google sign-in)
 
-Sign in with Google (top right) to track roles. Pick a role filter, then use the **Track…** menu next to any job: Saved, Applied, Interviewing, Offer or Rejected. The company row shows a summary (e.g. "Applied 2 · Saved 1"), and the **Mine** filter shows only tracked roles, only applied ones, or hides roles you've already applied to. Tracked roles that disappear from a company's board stay in your list, marked "no longer listed".
+Sign in with Google (top right) to track roles. Pick a role filter, then use the **Track…** menu next to any job: Saved, Applied, Interviewing, Offer, Rejected, or Not interested (the role stays listed and clickable, struck through, so you know you've already reviewed it). The company row shows a summary (e.g. "Applied 2 · Saved 1"), and the **Mine** filter shows only tracked roles, only applied ones, or hides roles you've already applied to or marked not interested. The counts at the top right open those lists too. Tracked roles that disappear from a company's board stay in your list, marked "no longer listed".
 
 Sign-in and storage use Firebase (free tier): Firebase Authentication for Google sign-in, Firestore for the records, stored at `users/{uid}/apps/{jobKey}`. `firestore.rules` limits every user to their own records; paste it into Firebase → Firestore Database → Rules. Visitors who don't sign in see the page exactly as before.
 

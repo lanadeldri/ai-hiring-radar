@@ -97,6 +97,10 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
 .mine-badge { font-family: var(--mono); font-size: 11.5px; font-weight: 500; color: var(--accent); background: var(--accent-soft);
   border-radius: 6px; padding: 1px 7px; }
 .match.closed a { color: var(--pending); }
+.match.skip > a, .roles a.skip { color: var(--pending); text-decoration: line-through; text-decoration-color: var(--pending); }
+.match.skip > a:hover { color: var(--ink); }
+.match.skip .where, .match.skip .new { opacity: .6; }
+.st[data-st="not_interested"] { color: var(--pending); border-style: dashed; }
 .roles a.tracked { border-color: var(--accent); color: var(--accent); }
 .showmore { display: block; width: 100%; font: inherit; font-size: 14px; font-weight: 500; color: var(--accent); background: var(--surface);
   border: 0; border-top: 1px solid var(--line); padding: 14px; cursor: pointer; }
@@ -186,7 +190,7 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
     <label class="toggle" for="remote"><input id="remote" type="checkbox"> Remote only</label>
     <label class="sel" for="mine" id="mineWrap" hidden><span class="lbl">Mine</span><select id="mine">
       <option value="">All jobs</option><option value="tracked">Tracked only</option>
-      <option value="applied">Applied (any stage)</option><option value="saved">Saved</option><option value="hide">Hide applied</option></select></label>
+      <option value="applied">Applied (any stage)</option><option value="saved">Saved</option><option value="not_interested">Not interested</option><option value="hide">Hide applied &amp; not interested</option></select></label>
     <div class="chips" id="presets" role="group" aria-label="Role presets"></div>
   </div>
 
@@ -258,7 +262,7 @@ const PRESETS = {
   infra:     { label: "Infra / Platform",       re: /infrastructure|\binfra\b|platform|\bSRE\b|site reliability|devops|inference|distributed systems|\bGPU/i },
 };
 // ---- application tracking (signed-in users) ----
-const STATUSES = [["saved", "Saved"], ["applied", "Applied"], ["interviewing", "Interviewing"], ["offer", "Offer"], ["rejected", "Rejected"]];
+const STATUSES = [["saved", "Saved"], ["applied", "Applied"], ["interviewing", "Interviewing"], ["offer", "Offer"], ["rejected", "Rejected"], ["not_interested", "Not interested"]];
 const APPLIED = new Set(["applied", "interviewing", "offer", "rejected"]);
 let user = null, MINE = new Map(), saveJob = null;   // MINE: job url -> {company, title, url, status}
 const mineFilter = () => (user && $("mine").value) || "";
@@ -287,7 +291,8 @@ const roleFilterOn = () => !!(roleMatcher() || $("remote").checked || $("country
 function jobFilter(skipLoc = false) {
   const m = roleMatcher(), remote = $("remote").checked, co = $("country").value, ci = $("city").value, mf = mineFilter();
   const mineOk = (j) => { const st = MINE.get(j.u)?.status;
-    return !mf || (mf === "tracked" ? !!st : mf === "applied" ? APPLIED.has(st) : mf === "saved" ? st === "saved" : !APPLIED.has(st)); };
+    return !mf || (mf === "tracked" ? !!st : mf === "applied" ? APPLIED.has(st) : mf === "saved" ? st === "saved" : mf === "not_interested" ? st === "not_interested"
+      : !(APPLIED.has(st) || st === "not_interested")); };
   return (j) => (!m || m(j.t)) && (!remote || j.r) && mineOk(j) &&
     (skipLoc || ((!co || (j.co || []).includes(co)) && (!ci || (j.ci || []).includes(ci))));
 }
@@ -303,7 +308,7 @@ function matchingJobs(company) {
   const open = JOBS?.get(company) || [];
   let list = open;
   // tracked jobs that are no longer on the company's board still show in the "Mine" views
-  if (["tracked", "applied", "saved"].includes(mineFilter())) {
+  if (["tracked", "applied", "saved", "not_interested"].includes(mineFilter())) {
     const urls = new Set(open.map((j) => j.u));
     const gone = (mineByCompany().get(company) || []).filter((a) => !urls.has(a.url))
       .map((a) => ({ c: company, t: a.title, l: "", u: a.url, p: "", r: 0, ci: [], co: [], closed: true }));
@@ -351,7 +356,7 @@ function renderStatus() {
     for (const c of data) { const n = matchingJobs(c.name).length; roles += n; cos += n > 0; }
     const mf = mineFilter();
     const what = (preset ? PRESETS[preset].label + " " : ($("role").value.trim() ? $("role").value.trim() + " " : ""))
-      + ({ tracked: "tracked", applied: "applied", saved: "saved", hide: "not-yet-applied" }[mf] || (preset || $("role").value.trim() ? "" : "open"));
+      + ({ tracked: "tracked", applied: "applied", saved: "saved", not_interested: "not-interested", hide: "not-yet-reviewed" }[mf] || (preset || $("role").value.trim() ? "" : "open"));
     const where = $("city").value || $("country").value;
     $("status").innerHTML = `<span><b>${roles.toLocaleString()}</b> ${esc(what.trim())}${$("remote").checked ? " remote" : ""} roles${where ? " in " + esc(where) : ""}</span><span>at <b>${cos}</b> ${cos === 1 ? "company" : "companies"}</span>${updatedAt ? `<span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>` : ""}`;
     return;
@@ -432,15 +437,15 @@ function renderRows() {
   }
   $("ledger").innerHTML = head + rows.map((c) => {
     const raise = [c.stage, c.last_raise].filter(Boolean).join(" · ");
-    const roles = roleMode ? "" : (c.sample_eng_roles || []).map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener"${MINE.has(r.url) ? ` class="tracked" title="${esc(MINE.get(r.url).status)}"` : ""}>${esc(r.title)}</a>`).join("");
+    const roles = roleMode ? "" : (c.sample_eng_roles || []).map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener"${MINE.has(r.url) ? ` class="tracked${MINE.get(r.url).status === "not_interested" ? " skip" : ""}" title="${esc(MINE.get(r.url).status.replace("_", " "))}"` : ""}>${esc(r.title)}</a>`).join("");
     const LIMIT = mineFilter() ? 100 : 6;
     const mine = user ? (myCounts.get(c.name) || null) : null;
     const badge = mine ? `<span class="mine-badge" title="Your tracked roles here">${mine.applied ? `Applied ${mine.applied}` : ""}${mine.applied && mine.saved ? " · " : ""}${mine.saved ? `Saved ${mine.saved}` : ""}</span>` : "";
-    const matches = roleMode ? c._m.slice(0, LIMIT).map((j) => `<div class="match">
+    const matches = roleMode ? c._m.slice(0, LIMIT).map((j) => `<div class="match${MINE.get(j.u)?.status === "not_interested" ? " skip" : ""}">
         <a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.t)}</a>
         <span class="where">${j.closed ? "no longer listed" : esc(placeText(j)) + (j.r ? " · Remote" : "")}</span>${j.p >= WEEK_AGO ? `<span class="new">new</span>` : ""}
         ${statusCtl(j.u, c.name, j.t)}
-      </div>`.replace('<div class="match">', j.closed ? '<div class="match closed">' : '<div class="match">')).join("") + (c._match > LIMIT ? `<a class="more" href="${esc(c.board_url)}" target="_blank" rel="noopener">+${c._match - LIMIT} more on their job board →</a>` : "") : "";
+      </div>`.replace('<div class="match', j.closed ? '<div class="match closed' : '<div class="match')).join("") + (c._match > LIMIT ? `<a class="more" href="${esc(c.board_url)}" target="_blank" rel="noopener">+${c._match - LIMIT} more on their job board →</a>` : "") : "";
     return `<div class="row" role="row">
       <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span>${badge}</div>
       <div class="sector" role="cell">${esc(c.sector)}</div>
@@ -469,11 +474,11 @@ function renderAccount() {
     $("signin").addEventListener("click", () => signIn());
     return;
   }
-  let applied = 0, saved = 0;
-  for (const a of MINE.values()) { if (APPLIED.has(a.status)) applied++; else saved++; }
+  let applied = 0, saved = 0, skipped = 0;
+  for (const a of MINE.values()) { if (APPLIED.has(a.status)) applied++; else if (a.status === "saved") saved++; else if (a.status === "not_interested") skipped++; }
   const first = (user.displayName || user.email || "").split(" ")[0];
   el.innerHTML = `${user.photoURL ? `<img src="${esc(user.photoURL)}" alt="" referrerpolicy="no-referrer">` : ""}
-    <span class="who">${esc(first)}</span><span class="tally"><button class="tally-btn" type="button" data-view="applied" aria-pressed="${$("mine").value === "applied"}">${applied} applied</button> · <button class="tally-btn" type="button" data-view="saved" aria-pressed="${$("mine").value === "saved"}">${saved} saved</button></span>
+    <span class="who">${esc(first)}</span><span class="tally"><button class="tally-btn" type="button" data-view="applied" aria-pressed="${$("mine").value === "applied"}">${applied} applied</button> · <button class="tally-btn" type="button" data-view="saved" aria-pressed="${$("mine").value === "saved"}">${saved} saved</button>${skipped ? ` · <button class="tally-btn" type="button" data-view="not_interested" aria-pressed="${$("mine").value === "not_interested"}">${skipped} not interested</button>` : ""}</span>
     <button class="btn link" id="signout" type="button">Sign out</button>`;
   $("signout").addEventListener("click", () => signOutFn());
   el.querySelectorAll(".tally-btn").forEach((b) => b.addEventListener("click", () => showMine(b.dataset.view)));
