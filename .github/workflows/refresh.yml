@@ -26,6 +26,9 @@ jobs:
       - name: Discover new AI companies (HN Who's Hiring, YC, funding news)
         run: python discover.py --auto-add
         continue-on-error: true
+      - name: Add funding stage and company size (news, YC; cached 30 days)
+        run: python enrich.py
+        continue-on-error: true
       - name: Fetch open roles
         run: python fetch_jobs.py --detect
       - name: Commit updated data

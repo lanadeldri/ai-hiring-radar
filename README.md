@@ -78,6 +78,15 @@ Each preset has its own link, e.g. `…/ai-hiring-radar/#fde`, so you can bookma
 
 The filter reads `data/jobs.json`, which `fetch_jobs.py` writes with every open role.
 
+## Funding stage and company size
+
+`enrich.py` adds a funding stage to each company, from free public sources:
+
+- **Funding news**: one Google News search per company. The newest headline that names the company and a round or amount ("Decagon raises $131M Series C", "Mastra lands $13 million seed round") is used, with a link to the article. One-word names that are ordinary words (Close, Fig, River) also need a tech term in the headline, so a different company with the same name isn't matched. Lookups are cached for 30 days.
+- **YC directory**: team size and YC's stage label (Early / Growth) for YC companies, matched by website domain or name.
+
+Rounds are grouped as Seed, Series A, Series B and Series C+. Companies with no round found show "Stage unknown" and are never guessed. On the page, filter by stage (including **Early: Seed – Series B**), tick **Small (≤ 20 open roles)**, or sort by **Recently funded**.
+
 ## Track your applications (Google sign-in)
 
 Sign in with Google (top right) to track roles. Pick a role filter, then use the **Track…** menu next to any job: Saved, Applied, Interviewing, Offer, Rejected, or Not interested (the role stays listed and clickable, struck through, so you know you've already reviewed it). The company row shows a summary (e.g. "Applied 2 · Saved 1"), and the **Mine** filter shows only tracked roles, only applied ones, or hides roles you've already applied to or marked not interested. The counts at the top right open those lists too. Tracked roles that disappear from a company's board stay in your list, marked "no longer listed".
@@ -94,5 +103,5 @@ Sign-in and storage use Firebase (free tier): Firebase Authentication for Google
 
 - More discovery sources: VC portfolio job boards (check their terms first)
 - Rippling and Workday job boards
-- Funding round + investors per company
+- Investors per company; SEC Form D filings as a second funding source
 - Growth chart from `history.json`

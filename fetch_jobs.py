@@ -32,6 +32,7 @@ CSV_PATH = ROOT / "data" / "companies.csv"
 OUT_PATH = ROOT / "data" / "companies.json"
 HISTORY_PATH = ROOT / "data" / "history.json"
 JOBS_PATH = ROOT / "data" / "jobs.json"
+ENRICH_PATH = ROOT / "data" / "enrich.json"   # funding stage + size, written by enrich.py
 
 ENG_RE = re.compile(
     r"\b(engineer|engineering|developer|swe|sre|devops|research(er)?|scientist|ml|machine learning|"
@@ -113,6 +114,7 @@ def main():
     now = datetime.now(timezone.utc)
     rows = [r for r in csv.DictReader(CSV_PATH.open(encoding="utf-8")) if r.get("slug", "").strip()]
     history = json.loads(HISTORY_PATH.read_text()) if HISTORY_PATH.exists() else {}
+    enrich = json.loads(ENRICH_PATH.read_text()) if ENRICH_PATH.exists() else {}
     results, failures, all_jobs = [], [], []
 
     with ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -153,6 +155,9 @@ def main():
             "stage": row.get("stage", ""), "last_raise": row.get("last_raise", ""),
             "last_raise_date": row.get("last_raise_date", ""), "sector": row.get("sector", ""),
             "hq": row.get("hq", ""), "notes": row.get("notes", ""),
+            **{("funding_" + k if k in ("round", "round_text", "amount", "date", "url", "headline") else k): v
+               for k, v in (enrich.get(name) or {}).items()
+               if k in ("round", "round_text", "amount", "date", "url", "headline", "team_size", "yc_stage", "yc_batch")},
             **stats,
         })
         print(f"  ✓ {name:<24} {ats:<15} {stats['open_roles']:>4} roles  ({stats['eng_roles']} eng, +{stats['new_7d']} this week)")

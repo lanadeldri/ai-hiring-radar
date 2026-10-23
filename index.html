@@ -27,6 +27,7 @@
   --hot-soft: #fbeedd;
   --pending: #8a93a0;
   --good: #1f7a4d;
+  --good-soft: #e3f3ea;
   --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -34,13 +35,13 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f141a; --surface: #161c24; --ink: #e8edf3; --muted: #97a2b0; --line: #2a333e;
-    --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684; --good: #4fbf86;
+    --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684; --good: #4fbf86; --good-soft: #163325;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f141a; --surface: #161c24; --ink: #e8edf3; --muted: #97a2b0; --line: #2a333e;
-  --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684; --good: #4fbf86;
+  --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684; --good: #4fbf86; --good-soft: #163325;
   color-scheme: dark;
 }
 body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
@@ -61,6 +62,14 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
 .controls input, .controls select { font: inherit; font-size: 14px; color: var(--ink); background: var(--surface);
   border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
 .controls input { flex: 1 1 220px; min-width: 0; }
+.controls input[type="checkbox"] { flex: none; }
+.controls .toggle { color: var(--muted); }
+.stage { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 500; border-radius: 6px; padding: 1px 7px;
+  background: var(--good-soft); color: var(--good); text-decoration: none; white-space: nowrap; }
+.stage.late { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.stage .ago { font-weight: 400; opacity: .8; }
+a.stage:hover { text-decoration: underline; }
+.size { font-size: 12px; color: var(--muted); white-space: nowrap; }
 .controls input:focus-visible, .controls select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 18px; }
 .chip { font: inherit; font-size: 13px; border: 1px solid var(--line); background: var(--surface); color: var(--muted);
@@ -200,8 +209,16 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
       <option value="eng">Most eng roles</option>
       <option value="new">Most new this week</option>
       <option value="open">Most open roles</option>
+      <option value="funded">Recently funded</option>
       <option value="name">Name A–Z</option>
     </select>
+    <select id="stagef" aria-label="Funding stage">
+      <option value="">Any stage</option>
+      <option value="early">Early (Seed – Series B)</option>
+      <option value="Seed">Seed</option><option value="Series A">Series A</option><option value="Series B">Series B</option>
+      <option value="Series C+">Series C and later</option><option value="unknown">Stage unknown</option>
+    </select>
+    <label class="toggle" for="small"><input id="small" type="checkbox"> Small (≤ 20 open roles)</label>
   </div>
   <div class="chips" id="chips" role="group" aria-label="Filter by sector"></div>
 
@@ -353,7 +370,7 @@ function renderStatus() {
       return;
     }
     let roles = 0, cos = 0;
-    for (const c of data) { const n = matchingJobs(c.name).length; roles += n; cos += n > 0; }
+    for (const c of data) { if (!companyOk(c)) continue; const n = matchingJobs(c.name).length; roles += n; cos += n > 0; }
     const mf = mineFilter();
     const what = (preset ? PRESETS[preset].label + " " : ($("role").value.trim() ? $("role").value.trim() + " " : ""))
       + ({ tracked: "tracked", applied: "applied", saved: "saved", not_interested: "not-interested", hide: "not-yet-reviewed" }[mf] || (preset || $("role").value.trim() ? "" : "open"));
@@ -399,6 +416,39 @@ function renderPresets() {
   }));
 }
 
+// ---- funding stage + size ----
+const EARLY = new Set(["Seed", "Series A", "Series B"]);
+function isEarly(c) { return EARLY.has(c.funding_round) || (!c.funding_round && c.yc_stage === "Early"); }
+function companyOk(c) {
+  const f = $("stagef").value;
+  if (f === "early" && !isEarly(c)) return false;
+  if (f === "unknown" && (c.funding_round || c.yc_stage)) return false;
+  if (f && !["early", "unknown"].includes(f) && c.funding_round !== f) return false;
+  if ($("small").checked && !(c.open_roles != null && c.open_roles <= 20)) return false;
+  return true;
+}
+function ago(iso) {
+  if (!iso) return "";
+  const m = Math.round((Date.now() - new Date(iso)) / (30.44 * 864e5));
+  return m < 1 ? "this month" : m < 12 ? `${m} mo ago` : `${(m / 12).toFixed(m < 24 ? 1 : 0)} yr ago`;
+}
+function stageBadge(c) {
+  const label = c.funding_round_text || c.funding_round;
+  const parts = label ? [label, c.funding_amount].filter(Boolean) : c.funding_amount ? [`${c.funding_amount} raised`] : [];
+  let html = "";
+  if (parts.length) {
+    const when = ago(c.funding_date);
+    const cls = c.funding_round === "Series C+" ? "stage late" : "stage";
+    const inner = `${esc(parts.join(" · "))}${when ? ` <span class="ago">· ${when}</span>` : ""}`;
+    html = c.funding_url ? `<a class="${cls}" href="${esc(c.funding_url)}" target="_blank" rel="noopener" title="${esc(c.funding_headline || "")}">${inner}</a>`
+      : `<span class="${cls}">${inner}</span>`;
+  } else if (c.yc_stage) {
+    html = `<span class="stage${c.yc_stage === "Early" ? "" : " late"}" title="YC's stage label">YC ${esc(c.yc_stage)}</span>`;
+  }
+  if (c.team_size) html += ` <span class="size">~${c.team_size} people</span>`;
+  return html;
+}
+
 const cell = (v, label, cls = "") => v == null
   ? `<div class="num" data-label="${label}" role="cell"><span class="pending">—</span></div>`
   : `<div class="num ${cls}" data-label="${label}" role="cell">${cls === "is-new" && v > 0 ? `<span class="new">+${v}</span>` : v}</div>`;
@@ -409,7 +459,7 @@ function renderRows() {
   const key = { eng: "eng_roles", new: "new_7d", open: "open_roles" }[by];
   const roleMode = roleFilterOn() && JOBS;
   let rows = data
-    .filter((c) => sector === "All" || c.sector === sector)
+    .filter((c) => (sector === "All" || c.sector === sector) && companyOk(c))
     .filter((c) => !q || [c.name, c.sector, c.hq].join(" ").toLowerCase().includes(q));
   if (roleMode) {
     rows = rows.map((c) => {
@@ -418,7 +468,9 @@ function renderRows() {
     }).filter((c) => c._match > 0);
   }
   const rkey = roleMode ? { eng: "_match", new: "_new", open: "_match" }[by] : key;
-  rows.sort((a, b) => by === "name" ? a.name.localeCompare(b.name) : (b[rkey] ?? -1) - (a[rkey] ?? -1) || a.name.localeCompare(b.name));
+  rows.sort((a, b) => by === "name" ? a.name.localeCompare(b.name)
+    : by === "funded" ? (b.funding_date || "").localeCompare(a.funding_date || "") || a.name.localeCompare(b.name)
+    : (b[rkey] ?? -1) - (a[rkey] ?? -1) || a.name.localeCompare(b.name));
 
   const head = `<div class="row head" role="row"><div>Company</div><div>Sector</div><div class="num">${roleMode ? "Matching" : "Eng roles"}</div><div class="num">All roles</div><div class="num">New (7d)</div><div class="board">Jobs</div></div>`;
   if (!rows.length) {
@@ -436,7 +488,7 @@ function renderRows() {
     if (k.applied || k.saved) myCounts.set(a.company, k);
   }
   $("ledger").innerHTML = head + rows.map((c) => {
-    const raise = [c.stage, c.last_raise].filter(Boolean).join(" · ");
+    const raise = [c.stage, c.funding_round ? "" : c.last_raise].filter(Boolean).join(" · ");
     const roles = roleMode ? "" : (c.sample_eng_roles || []).map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener"${MINE.has(r.url) ? ` class="tracked${MINE.get(r.url).status === "not_interested" ? " skip" : ""}" title="${esc(MINE.get(r.url).status.replace("_", " "))}"` : ""}>${esc(r.title)}</a>`).join("");
     const LIMIT = mineFilter() ? 100 : 6;
     const mine = user ? (myCounts.get(c.name) || null) : null;
@@ -447,7 +499,7 @@ function renderRows() {
         ${statusCtl(j.u, c.name, j.t)}
       </div>`.replace('<div class="match', j.closed ? '<div class="match closed' : '<div class="match')).join("") + (c._match > LIMIT ? `<a class="more" href="${esc(c.board_url)}" target="_blank" rel="noopener">+${c._match - LIMIT} more on their job board →</a>` : "") : "";
     return `<div class="row" role="row">
-      <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span>${badge}</div>
+      <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span>${stageBadge(c)}${badge}</div>
       <div class="sector" role="cell">${esc(c.sector)}</div>
       ${cell(roleMode ? c._match : c.eng_roles, roleMode ? "Matching" : "Eng roles", "big")}
       ${cell(c.open_roles, "All roles")}
@@ -596,6 +648,8 @@ $("city").addEventListener("change", () => { limit = PAGE; if ($("city").value) 
 const h = (location.hash || "").slice(1).toLowerCase();
 if (PRESETS[h]) preset = h;
 $("sort").addEventListener("change", () => { limit = PAGE; renderRows(); });
+$("stagef").addEventListener("change", () => { limit = PAGE; if ($("stagef").value) track("stage_filter", { stage: $("stagef").value }); renderStatus(); renderRows(); });
+$("small").addEventListener("change", () => { limit = PAGE; if ($("small").checked) track("small_companies"); renderStatus(); renderRows(); });
 
 try { const s = localStorage.getItem("radar-sort"); if (s) $("sort").value = s; } catch (e) {}
 $("sort").addEventListener("change", () => { try { localStorage.setItem("radar-sort", $("sort").value); } catch (e) {} });
