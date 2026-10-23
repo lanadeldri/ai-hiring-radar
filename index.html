@@ -75,6 +75,11 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
 .account img { width: 26px; height: 26px; border-radius: 50%; }
 .account .who { color: var(--ink); font-weight: 500; }
 .account .tally { font-family: var(--mono); font-size: 12px; }
+.tally-btn { font: inherit; color: var(--muted); background: none; border: 0; padding: 2px 3px; border-radius: 4px; cursor: pointer;
+  text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.tally-btn:hover { color: var(--accent); text-decoration-color: var(--accent); }
+.tally-btn[aria-pressed="true"] { color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+.tally-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .btn { font: inherit; font-size: 13.5px; font-weight: 500; border-radius: 8px; padding: 6px 12px; cursor: pointer;
   border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: inline-flex; align-items: center; gap: 8px; }
 .btn:hover { border-color: var(--accent); }
@@ -181,7 +186,7 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
     <label class="toggle" for="remote"><input id="remote" type="checkbox"> Remote only</label>
     <label class="sel" for="mine" id="mineWrap" hidden><span class="lbl">Mine</span><select id="mine">
       <option value="">All jobs</option><option value="tracked">Tracked only</option>
-      <option value="applied">Applied (any stage)</option><option value="hide">Hide applied</option></select></label>
+      <option value="applied">Applied (any stage)</option><option value="saved">Saved</option><option value="hide">Hide applied</option></select></label>
     <div class="chips" id="presets" role="group" aria-label="Role presets"></div>
   </div>
 
@@ -282,7 +287,7 @@ const roleFilterOn = () => !!(roleMatcher() || $("remote").checked || $("country
 function jobFilter(skipLoc = false) {
   const m = roleMatcher(), remote = $("remote").checked, co = $("country").value, ci = $("city").value, mf = mineFilter();
   const mineOk = (j) => { const st = MINE.get(j.u)?.status;
-    return !mf || (mf === "tracked" ? !!st : mf === "applied" ? APPLIED.has(st) : !APPLIED.has(st)); };
+    return !mf || (mf === "tracked" ? !!st : mf === "applied" ? APPLIED.has(st) : mf === "saved" ? st === "saved" : !APPLIED.has(st)); };
   return (j) => (!m || m(j.t)) && (!remote || j.r) && mineOk(j) &&
     (skipLoc || ((!co || (j.co || []).includes(co)) && (!ci || (j.ci || []).includes(ci))));
 }
@@ -298,7 +303,7 @@ function matchingJobs(company) {
   const open = JOBS?.get(company) || [];
   let list = open;
   // tracked jobs that are no longer on the company's board still show in the "Mine" views
-  if (["tracked", "applied"].includes(mineFilter())) {
+  if (["tracked", "applied", "saved"].includes(mineFilter())) {
     const urls = new Set(open.map((j) => j.u));
     const gone = (mineByCompany().get(company) || []).filter((a) => !urls.has(a.url))
       .map((a) => ({ c: company, t: a.title, l: "", u: a.url, p: "", r: 0, ci: [], co: [], closed: true }));
@@ -346,7 +351,7 @@ function renderStatus() {
     for (const c of data) { const n = matchingJobs(c.name).length; roles += n; cos += n > 0; }
     const mf = mineFilter();
     const what = (preset ? PRESETS[preset].label + " " : ($("role").value.trim() ? $("role").value.trim() + " " : ""))
-      + ({ tracked: "tracked", applied: "applied", hide: "not-yet-applied" }[mf] || (preset || $("role").value.trim() ? "" : "open"));
+      + ({ tracked: "tracked", applied: "applied", saved: "saved", hide: "not-yet-applied" }[mf] || (preset || $("role").value.trim() ? "" : "open"));
     const where = $("city").value || $("country").value;
     $("status").innerHTML = `<span><b>${roles.toLocaleString()}</b> ${esc(what.trim())}${$("remote").checked ? " remote" : ""} roles${where ? " in " + esc(where) : ""}</span><span>at <b>${cos}</b> ${cos === 1 ? "company" : "companies"}</span>${updatedAt ? `<span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>` : ""}`;
     return;
@@ -468,9 +473,23 @@ function renderAccount() {
   for (const a of MINE.values()) { if (APPLIED.has(a.status)) applied++; else saved++; }
   const first = (user.displayName || user.email || "").split(" ")[0];
   el.innerHTML = `${user.photoURL ? `<img src="${esc(user.photoURL)}" alt="" referrerpolicy="no-referrer">` : ""}
-    <span class="who">${esc(first)}</span><span class="tally">${applied} applied · ${saved} saved</span>
+    <span class="who">${esc(first)}</span><span class="tally"><button class="tally-btn" type="button" data-view="applied" aria-pressed="${$("mine").value === "applied"}">${applied} applied</button> · <button class="tally-btn" type="button" data-view="saved" aria-pressed="${$("mine").value === "saved"}">${saved} saved</button></span>
     <button class="btn link" id="signout" type="button">Sign out</button>`;
   $("signout").addEventListener("click", () => signOutFn());
+  el.querySelectorAll(".tally-btn").forEach((b) => b.addEventListener("click", () => showMine(b.dataset.view)));
+}
+// open "my applied / saved roles": clear the other filters so every tracked role shows; click again to go back
+function showMine(view) {
+  const on = $("mine").value !== view;
+  $("mine").value = on ? view : "";
+  if (on) {
+    preset = ""; $("role").value = ""; $("country").value = ""; $("city").value = ""; $("remote").checked = false;
+    $("q").value = ""; sector = "All";
+    try { history.replaceState(null, "", location.pathname); } catch (e) {}
+    track("mine_filter", { view, from: "account" });
+  }
+  limit = PAGE; render();
+  if (on) $("status").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
 }
 
 // status menu next to each job
@@ -487,7 +506,7 @@ $("ledger").addEventListener("change", (e) => {
     console.error(err);
   });
 });
-$("mine").addEventListener("change", () => { limit = PAGE; if ($("mine").value) track("mine_filter", { view: $("mine").value }); renderLocations(); renderStatus(); renderRows(); });
+$("mine").addEventListener("change", () => { limit = PAGE; if ($("mine").value) track("mine_filter", { view: $("mine").value }); renderLocations(); renderStatus(); renderRows(); renderAccount(); });
 
 // ---- Firebase: Google sign-in + Firestore (loaded lazily; the page works without it) ----
 const FIREBASE_CONFIG = {
