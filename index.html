@@ -26,6 +26,7 @@
   --hot: #b4540c;
   --hot-soft: #fbeedd;
   --pending: #8a93a0;
+  --good: #1f7a4d;
   --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -33,13 +34,13 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f141a; --surface: #161c24; --ink: #e8edf3; --muted: #97a2b0; --line: #2a333e;
-    --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684;
+    --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684; --good: #4fbf86;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0f141a; --surface: #161c24; --ink: #e8edf3; --muted: #97a2b0; --line: #2a333e;
-  --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684;
+  --accent: #8aa2ff; --accent-soft: #1e2847; --hot: #f0a356; --hot-soft: #3a2614; --pending: #6b7684; --good: #4fbf86;
   color-scheme: dark;
 }
 body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 15px; line-height: 1.5; }
@@ -67,6 +68,31 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
 .chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .chip .n { font-family: var(--mono); font-size: 11px; opacity: .65; }
 .chip-more { border-style: dashed; }
+[hidden] { display: none !important; }
+/* --- account + application tracking --- */
+.topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; min-height: 34px; }
+.account { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: var(--muted); }
+.account img { width: 26px; height: 26px; border-radius: 50%; }
+.account .who { color: var(--ink); font-weight: 500; }
+.account .tally { font-family: var(--mono); font-size: 12px; }
+.btn { font: inherit; font-size: 13.5px; font-weight: 500; border-radius: 8px; padding: 6px 12px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); display: inline-flex; align-items: center; gap: 8px; }
+.btn:hover { border-color: var(--accent); }
+.btn.link { border: 0; background: none; padding: 4px 2px; color: var(--muted); text-decoration: underline; }
+.btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn svg { width: 16px; height: 16px; }
+.autherr { color: var(--hot); font-size: 12.5px; max-width: 42ch; }
+.st { font: inherit; font-size: 12px; border-radius: 999px; padding: 1px 8px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--muted); cursor: pointer; max-width: 140px; }
+.st:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.st[data-st="saved"] { color: var(--accent); border-color: var(--accent); }
+.st[data-st="applied"], .st[data-st="interviewing"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.st[data-st="offer"] { background: var(--good); border-color: var(--good); color: var(--surface); }
+.st[data-st="rejected"] { color: var(--pending); text-decoration: line-through; }
+.mine-badge { font-family: var(--mono); font-size: 11.5px; font-weight: 500; color: var(--accent); background: var(--accent-soft);
+  border-radius: 6px; padding: 1px 7px; }
+.match.closed a { color: var(--pending); }
+.roles a.tracked { border-color: var(--accent); color: var(--accent); }
 .showmore { display: block; width: 100%; font: inherit; font-size: 14px; font-weight: 500; color: var(--accent); background: var(--surface);
   border: 0; border-top: 1px solid var(--line); padding: 14px; cursor: pointer; }
 .showmore:hover { background: var(--accent-soft); }
@@ -137,7 +163,10 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">AI startups · hiring signal</div>
+    <div class="topbar">
+      <div class="eyebrow">AI startups · hiring signal</div>
+      <div class="account" id="account"></div>
+    </div>
     <h1>AI Hiring Radar</h1>
     <p class="lede">AI companies that are hiring right now, ranked by open engineering roles. Companies are found automatically from HN Who's Hiring, the YC directory and funding news; every number comes straight from each company's public job board. Filter by role to find, say, every Forward Deployed Engineer opening.</p>
   </header>
@@ -150,6 +179,9 @@ h1 { font-family: var(--display); font-weight: 700; font-size: clamp(30px, 5vw, 
     <label class="sel" for="country"><span class="lbl">Country</span><select id="country"><option value="">Any country</option></select></label>
     <label class="sel" for="city"><span class="lbl">City</span><select id="city"><option value="">Any city</option></select></label>
     <label class="toggle" for="remote"><input id="remote" type="checkbox"> Remote only</label>
+    <label class="sel" for="mine" id="mineWrap" hidden><span class="lbl">Mine</span><select id="mine">
+      <option value="">All jobs</option><option value="tracked">Tracked only</option>
+      <option value="applied">Applied (any stage)</option><option value="hide">Hide applied</option></select></label>
     <div class="chips" id="presets" role="group" aria-label="Role presets"></div>
   </div>
 
@@ -220,6 +252,22 @@ const PRESETS = {
   research:  { label: "Research",               re: /research (?:engineer|scientist)|\bresearcher\b|member of technical staff|\bMTS\b/i },
   infra:     { label: "Infra / Platform",       re: /infrastructure|\binfra\b|platform|\bSRE\b|site reliability|devops|inference|distributed systems|\bGPU/i },
 };
+// ---- application tracking (signed-in users) ----
+const STATUSES = [["saved", "Saved"], ["applied", "Applied"], ["interviewing", "Interviewing"], ["offer", "Offer"], ["rejected", "Rejected"]];
+const APPLIED = new Set(["applied", "interviewing", "offer", "rejected"]);
+let user = null, MINE = new Map(), saveJob = null;   // MINE: job url -> {company, title, url, status}
+const mineFilter = () => (user && $("mine").value) || "";
+function mineByCompany() {
+  const m = new Map();
+  for (const a of MINE.values()) { if (!m.has(a.company)) m.set(a.company, []); m.get(a.company).push(a); }
+  return m;
+}
+function statusCtl(url, company, title) {
+  if (!user) return "";
+  const st = MINE.get(url)?.status || "";
+  return `<select class="st" data-st="${st}" data-u="${esc(url)}" data-c="${esc(company)}" data-t="${esc(title)}" aria-label="Application status for ${esc(title)}">
+    <option value="">${st ? "Untrack" : "Track…"}</option>${STATUSES.map(([k, l]) => `<option value="${k}"${k === st ? " selected" : ""}>${l}</option>`).join("")}</select>`;
+}
 const WEEK_AGO = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
 
 function roleMatcher() {
@@ -228,12 +276,14 @@ function roleMatcher() {
   if (!terms.length) return null;
   return (t) => { const lt = t.toLowerCase(); return terms.some((x) => lt.includes(x)); };
 }
-const roleFilterOn = () => !!(roleMatcher() || $("remote").checked || $("country").value || $("city").value);
+const roleFilterOn = () => !!(roleMatcher() || $("remote").checked || $("country").value || $("city").value || mineFilter());
 
 // role + remote filter; location filter unless skipLoc (used to count jobs per country/city)
 function jobFilter(skipLoc = false) {
-  const m = roleMatcher(), remote = $("remote").checked, co = $("country").value, ci = $("city").value;
-  return (j) => (!m || m(j.t)) && (!remote || j.r) &&
+  const m = roleMatcher(), remote = $("remote").checked, co = $("country").value, ci = $("city").value, mf = mineFilter();
+  const mineOk = (j) => { const st = MINE.get(j.u)?.status;
+    return !mf || (mf === "tracked" ? !!st : mf === "applied" ? APPLIED.has(st) : !APPLIED.has(st)); };
+  return (j) => (!m || m(j.t)) && (!remote || j.r) && mineOk(j) &&
     (skipLoc || ((!co || (j.co || []).includes(co)) && (!ci || (j.ci || []).includes(ci))));
 }
 // short location label: cities first (selected city first), else countries, else the raw text
@@ -244,7 +294,18 @@ function placeText(j) {
   if (ci && places.includes(ci)) places = [ci, ...places.filter((x) => x !== ci)];
   return places.length > 3 ? `${places.slice(0, 3).join(", ")} +${places.length - 3} more` : places.join(", ");
 }
-function matchingJobs(company) { return (JOBS?.get(company) || []).filter(jobFilter()); }
+function matchingJobs(company) {
+  const open = JOBS?.get(company) || [];
+  let list = open;
+  // tracked jobs that are no longer on the company's board still show in the "Mine" views
+  if (["tracked", "applied"].includes(mineFilter())) {
+    const urls = new Set(open.map((j) => j.u));
+    const gone = (mineByCompany().get(company) || []).filter((a) => !urls.has(a.url))
+      .map((a) => ({ c: company, t: a.title, l: "", u: a.url, p: "", r: 0, ci: [], co: [], closed: true }));
+    if (gone.length) list = open.concat(gone);
+  }
+  return list.filter(jobFilter());
+}
 
 function renderLocations() {
   const cSel = $("country"), tSel = $("city");
@@ -283,9 +344,11 @@ function renderStatus() {
     }
     let roles = 0, cos = 0;
     for (const c of data) { const n = matchingJobs(c.name).length; roles += n; cos += n > 0; }
-    const what = preset ? PRESETS[preset].label : ($("role").value.trim() || "open");
+    const mf = mineFilter();
+    const what = (preset ? PRESETS[preset].label + " " : ($("role").value.trim() ? $("role").value.trim() + " " : ""))
+      + ({ tracked: "tracked", applied: "applied", hide: "not-yet-applied" }[mf] || (preset || $("role").value.trim() ? "" : "open"));
     const where = $("city").value || $("country").value;
-    $("status").innerHTML = `<span><b>${roles.toLocaleString()}</b> ${esc(what)}${$("remote").checked ? " remote" : ""} roles${where ? " in " + esc(where) : ""}</span><span>at <b>${cos}</b> ${cos === 1 ? "company" : "companies"}</span>${updatedAt ? `<span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>` : ""}`;
+    $("status").innerHTML = `<span><b>${roles.toLocaleString()}</b> ${esc(what.trim())}${$("remote").checked ? " remote" : ""} roles${where ? " in " + esc(where) : ""}</span><span>at <b>${cos}</b> ${cos === 1 ? "company" : "companies"}</span>${updatedAt ? `<span>Updated <b>${new Date(updatedAt).toLocaleString()}</b></span>` : ""}`;
     return;
   }
   if (live) {
@@ -349,22 +412,32 @@ function renderRows() {
 
   const head = `<div class="row head" role="row"><div>Company</div><div>Sector</div><div class="num">${roleMode ? "Matching" : "Eng roles"}</div><div class="num">All roles</div><div class="num">New (7d)</div><div class="board">Jobs</div></div>`;
   if (!rows.length) {
-    const msg = roleMode ? "No open roles match that filter right now. Try a broader title or another preset." : "No companies match. Try a different search or sector.";
+    const msg = mineFilter() === "tracked" && !MINE.size ? "You haven't tracked any roles yet. Pick a role filter, then use the Track menu next to a job."
+      : roleMode ? "No open roles match that filter right now. Try a broader title or another preset." : "No companies match. Try a different search or sector.";
     $("ledger").innerHTML = head + `<div class="empty">${msg}</div>`; return;
   }
 
   const total = rows.length;
   rows = rows.slice(0, limit);
+  const myCounts = new Map();
+  for (const a of MINE.values()) {
+    const k = myCounts.get(a.company) || { applied: 0, saved: 0 };
+    if (APPLIED.has(a.status) && a.status !== "rejected") k.applied++; else if (a.status === "saved") k.saved++;
+    if (k.applied || k.saved) myCounts.set(a.company, k);
+  }
   $("ledger").innerHTML = head + rows.map((c) => {
     const raise = [c.stage, c.last_raise].filter(Boolean).join(" · ");
-    const roles = roleMode ? "" : (c.sample_eng_roles || []).map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>`).join("");
-    const LIMIT = 6;
+    const roles = roleMode ? "" : (c.sample_eng_roles || []).map((r) => `<a href="${esc(r.url)}" target="_blank" rel="noopener"${MINE.has(r.url) ? ` class="tracked" title="${esc(MINE.get(r.url).status)}"` : ""}>${esc(r.title)}</a>`).join("");
+    const LIMIT = mineFilter() ? 100 : 6;
+    const mine = user ? (myCounts.get(c.name) || null) : null;
+    const badge = mine ? `<span class="mine-badge" title="Your tracked roles here">${mine.applied ? `Applied ${mine.applied}` : ""}${mine.applied && mine.saved ? " · " : ""}${mine.saved ? `Saved ${mine.saved}` : ""}</span>` : "";
     const matches = roleMode ? c._m.slice(0, LIMIT).map((j) => `<div class="match">
         <a href="${esc(j.u)}" target="_blank" rel="noopener">${esc(j.t)}</a>
-        <span class="where">${esc(placeText(j))}${j.r ? " · Remote" : ""}</span>${j.p >= WEEK_AGO ? `<span class="new">new</span>` : ""}
-      </div>`).join("") + (c._match > LIMIT ? `<a class="more" href="${esc(c.board_url)}" target="_blank" rel="noopener">+${c._match - LIMIT} more on their job board →</a>` : "") : "";
+        <span class="where">${j.closed ? "no longer listed" : esc(placeText(j)) + (j.r ? " · Remote" : "")}</span>${j.p >= WEEK_AGO ? `<span class="new">new</span>` : ""}
+        ${statusCtl(j.u, c.name, j.t)}
+      </div>`.replace('<div class="match">', j.closed ? '<div class="match closed">' : '<div class="match">')).join("") + (c._match > LIMIT ? `<a class="more" href="${esc(c.board_url)}" target="_blank" rel="noopener">+${c._match - LIMIT} more on their job board →</a>` : "") : "";
     return `<div class="row" role="row">
-      <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span></div>
+      <div class="name" role="cell"><a href="${esc(c.website)}" target="_blank" rel="noopener">${esc(c.name)}</a><span class="meta">${esc(c.hq)}${raise ? " · " + esc(raise) : ""}</span>${badge}</div>
       <div class="sector" role="cell">${esc(c.sector)}</div>
       ${cell(roleMode ? c._match : c.eng_roles, roleMode ? "Matching" : "Eng roles", "big")}
       ${cell(c.open_roles, "All roles")}
@@ -377,7 +450,100 @@ function renderRows() {
   $("showmore")?.addEventListener("click", () => { limit += PAGE; renderRows(); });
 }
 
-function render() { renderStatus(); renderChips(); renderPresets(); renderLocations(); renderRows(); }
+function render() { renderStatus(); renderChips(); renderPresets(); renderLocations(); renderRows(); renderAccount(); }
+
+const G_ICON = `<svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-8l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>`;
+let authReady = false, authError = "", signIn = null, signOutFn = null;
+function renderAccount() {
+  const el = $("account");
+  $("mineWrap").hidden = !user;
+  if (!authReady) { el.innerHTML = authError ? `<span class="autherr">${esc(authError)}</span>` : ""; return; }
+  if (!user) {
+    el.innerHTML = `${authError ? `<span class="autherr">${esc(authError)}</span>` : `<span>Sign in to track your applications</span>`}
+      <button class="btn" id="signin" type="button">${G_ICON}Sign in with Google</button>`;
+    $("signin").addEventListener("click", () => signIn());
+    return;
+  }
+  let applied = 0, saved = 0;
+  for (const a of MINE.values()) { if (APPLIED.has(a.status)) applied++; else saved++; }
+  const first = (user.displayName || user.email || "").split(" ")[0];
+  el.innerHTML = `${user.photoURL ? `<img src="${esc(user.photoURL)}" alt="" referrerpolicy="no-referrer">` : ""}
+    <span class="who">${esc(first)}</span><span class="tally">${applied} applied · ${saved} saved</span>
+    <button class="btn link" id="signout" type="button">Sign out</button>`;
+  $("signout").addEventListener("click", () => signOutFn());
+}
+
+// status menu next to each job
+$("ledger").addEventListener("change", (e) => {
+  const sel = e.target.closest("select.st");
+  if (!sel || !saveJob) return;
+  const status = sel.value, url = sel.dataset.u;
+  if (status) MINE.set(url, { company: sel.dataset.c, title: sel.dataset.t, url, status });
+  else MINE.delete(url);
+  track("track_job", { status: status || "untracked", company: sel.dataset.c });
+  render();                                                   // optimistic; Firestore snapshot confirms
+  saveJob(url, sel.dataset.c, sel.dataset.t, status).catch((err) => {
+    authError = "Couldn't save that change. Check your connection and try again."; render();
+    console.error(err);
+  });
+});
+$("mine").addEventListener("change", () => { limit = PAGE; if ($("mine").value) track("mine_filter", { view: $("mine").value }); renderLocations(); renderStatus(); renderRows(); });
+
+// ---- Firebase: Google sign-in + Firestore (loaded lazily; the page works without it) ----
+const FIREBASE_CONFIG = {
+  apiKey: "AIzaSyDoT7tLkDWspTGQSZonzF-U7ePpDslWiWM",
+  authDomain: "ai-hiring-radar.firebaseapp.com",
+  projectId: "ai-hiring-radar",
+  storageBucket: "ai-hiring-radar.firebasestorage.app",
+  messagingSenderId: "471311696267",
+  appId: "1:471311696267:web:e7dbf9277179f244bc6f8e",
+};
+const FB = "https://www.gstatic.com/firebasejs/13.1.0/";
+// Firestore doc ids can't contain "/", so key each job by a hash of its URL
+function jobKey(url) {
+  let h1 = 0x811c9dc5, h2 = 0x01000193;
+  for (let i = 0; i < url.length; i++) { const c = url.charCodeAt(i); h1 = Math.imul(h1 ^ c, 16777619); h2 = Math.imul(h2 ^ c, 2246822519); }
+  return (h1 >>> 0).toString(16).padStart(8, "0") + (h2 >>> 0).toString(16).padStart(8, "0");
+}
+async function initAuth() {
+  let app, auth, fs;
+  try {
+    [app, auth, fs] = await Promise.all([import(FB + "firebase-app.js"), import(FB + "firebase-auth.js"), import(FB + "firebase-firestore.js")]);
+  } catch (e) { return; }                                     // e.g. blocked: page keeps working without sign-in
+  const fbApp = app.initializeApp(FIREBASE_CONFIG);
+  const a = auth.getAuth(fbApp), db = fs.getFirestore(fbApp);
+  const provider = new auth.GoogleAuthProvider();
+  provider.setCustomParameters({ prompt: "select_account" });
+  signIn = async () => {
+    authError = "";
+    try { await auth.signInWithPopup(a, provider); track("login", { method: "Google" }); }
+    catch (err) {
+      if (err.code === "auth/popup-blocked") return auth.signInWithRedirect(a, provider);
+      if (err.code === "auth/popup-closed-by-user" || err.code === "auth/cancelled-popup-request") return;
+      authError = err.code === "auth/unauthorized-domain"
+        ? "Sign-in isn't enabled for this address yet. Add it under Firebase → Authentication → Settings → Authorized domains."
+        : "Sign-in didn't work. Please try again.";
+      renderAccount(); console.error(err);
+    }
+  };
+  signOutFn = () => auth.signOut(a);
+  saveJob = (url, company, title, status) => {
+    const ref = fs.doc(db, "users", user.uid, "apps", jobKey(url));
+    return status ? fs.setDoc(ref, { company, title: title.slice(0, 300), url, status, updatedAt: fs.serverTimestamp() }) : fs.deleteDoc(ref);
+  };
+  let unsub = null;
+  auth.onAuthStateChanged(a, (u) => {
+    user = u; MINE = new Map(); authReady = true;
+    if (unsub) { unsub(); unsub = null; }
+    if (!u) { $("mine").value = ""; render(); return; }
+    unsub = fs.onSnapshot(fs.collection(db, "users", u.uid, "apps"), (snap) => {
+      MINE = new Map(); snap.forEach((d) => { const x = d.data(); if (x.url) MINE.set(x.url, x); });
+      render();
+    }, (err) => { authError = "Couldn't load your tracked roles."; render(); console.error(err); });
+    render();
+  });
+}
+initAuth();
 $("q").addEventListener("input", () => {
   limit = PAGE; renderRows();
   const term = $("q").value.trim().toLowerCase();
