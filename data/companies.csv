@@ -43,12 +43,12 @@ Starbridge,https://starbridge.ai,ashby,starbridge,,,,,,via hn
 WorkHero,https://workhero.pro,ashby,workhero,,,,,,via hn
 Krea,https://www.krea.ai,ashby,krea,,,,,,via hn
 Robotics and AI Institute,,lever,rai,,,,,,via hn
-NYC,,ashby,norm-ai,,,,,,via hn
+Norm AI,,ashby,norm-ai,,,,,,via hn
 Deeter Analytics,,ashby,deeter-analytics,,,,,,via hn
 Radical Numerics,https://www.radicalnumerics.ai,ashby,radical-numerics,,,,,,via hn
 Aptura AI,,ashby,aptura,,,,,,via hn
 Gauss Labs,,lever,gausslabs,,,,,,via hn
-Confido,https://bit.ly,ashby,confido,,,,,,via hn
+Confido,,ashby,confido,,,,,,via hn
 Pantograph,https://pantograph.com,ashby,pantograph,,,,,,via hn
 Ai2 / Allen Institute for AI,,greenhouse,thealleninstitute,,,,,,via hn
 WireScreen,,ashby,wirescreen,,,,,,via hn
@@ -62,7 +62,7 @@ Oscilar.com,https://oscilar.com,ashby,oscilar,,,,,,via hn
 BIT Capital,https://bitcap.com,personio,bitcap,,,,,,via hn
 Kepler,https://kepler.ai,ashby,kepler-ai,,,,,,via hn
 Blackshark AI,,lever_eu,blackshark,,,,,,via hn
-*Scribd,,ashby,ScribdInc,,,,,,via hn
+Scribd,,ashby,ScribdInc,,,,,,via hn
 Evertune AI,https://www.evertune.ai,ashby,evertune,,,,,,via hn
 Foxglove,https://www.foxglove.dev,ashby,foxglove,,,,,,via hn
 Alembic,,ashby,alembic,,,,,,via hn
@@ -77,7 +77,7 @@ Cloudflare,https://cloudflare.com,greenhouse,cloudflare,,,,,,via hn
 Mercor,,ashby,mercor,,,,,,via hn
 fal,https://fal.ai,ashby,fal-ai,,,,,,via hn
 AirOps,,ashby,airops,,,,,,via hn
-Rad AI Multiple roles,https://www.radai.com,ashby,radai,,,,,,via hn
+Rad AI,https://www.radai.com,ashby,radai,,,,,,via hn
 PhysicsX,https://physicsx.ai,greenhouse,physicsx,,,,,,via hn
 Akur8,,ashby,akur8,,,,,,via hn
 Nuance Labs,https://www.nuancelabs.ai,greenhouse,nuancelabs,,,,,,via hn
@@ -85,7 +85,6 @@ Quadrature,https://quadrature.ai,greenhouse,quadraturecapital,,,,,,via hn
 ando.work,https://www.ando.work,ashby,andotechnologies,,,,,,via hn
 Matterworks.ai,https://matterworks.ai,ashby,matterworks,,,,,,via hn
 Onos Health,https://onoshealth.com,ashby,onoshealth,,,,,,via hn
-BrandMultiplier,https://www.notion.so,ashby,notion,,,,,,via hn
 Mubit,https://mubit.ai,ashby,mubit,,,,,,via hn
 Prosper AI,https://getprosper.ai,ashby,prosper-ai,,,,,,via hn
 Flux.ai,https://flux.ai,ashby,flux,,,,,,via hn
@@ -98,7 +97,6 @@ Cleric,https://cleric.ai,ashby,cleric,,,,,,via hn
 Lightning AI,https://lightning.ai,greenhouse,lightningai,,,,,,via hn
 xdof,,ashby,xdof,,,,,,via hn
 Coram.ai,https://www.coram.ai,ashby,coram-ai,,,,,,via hn
-Kato,,ashby,Pear-VC,,,,,,via hn
 Emergent AI,,greenhouse,emergentlabsinc,,,,,,via hn
 AIRMO,https://www.airmo.io,personio,airmo,,,,,,via hn
 Cosuno,https://www.cosuno.com,ashby,cosuno,,,,,,via hn
@@ -114,10 +112,10 @@ Langdock,https://langdock.com,ashby,langdock,,,,,,via hn
 IDinsight,,bamboohr,idinsight,,,,,,via hn
 Terra AI,,ashby,terraai,,,,,,via hn
 Mercanis,https://mercanis.com,personio,mercanis,,,,,,via hn
-Teleskope[0],https://www.teleskope.ai,ashby,teleskope,,,,,,via hn
+Teleskope,https://www.teleskope.ai,ashby,teleskope,,,,,,via hn
 Dialogue AI,https://dialogueai.com,ashby,dialogueai,,,,,,via hn
-Adora AI [,https://adora-ai.com,lever,adora,,,,,,via hn
-Mithril [,https://mithril.ai,greenhouse,mithril,,,,,,via hn
+Adora AI,https://adora-ai.com,lever,adora,,,,,,via hn
+Mithril,https://mithril.ai,greenhouse,mithril,,,,,,via hn
 Radical AI,https://radical-ai.com,lever,RadicalAI,,,,,,via hn
 Duranta,https://www.getduranta.com,lever,getduranta,,,,,,via hn
 RADAR,https://goradar.com,greenhouse,radar,YC Winter 2013,,,Retail,"New York City, NY, USA",via yc
@@ -125,7 +123,6 @@ Qventus,http://qventus.com,greenhouse,qventus,YC Winter 2015,,,Healthcare IT,"Sa
 Mashgin,http://mashgin.com,lever,mashgin,YC Winter 2015,,,Retail,"San Francisco, CA, USA",via yc
 Deepgram,https://www.deepgram.com,ashby,Deepgram,YC Winter 2016,,,"Engineering, Product and Design","San Francisco, CA, USA",via yc
 Gecko Robotics,https://www.geckorobotics.com,ashby,gecko-robotics,YC Winter 2016,,,Manufacturing and Robotics,"Pittsburgh, PA, USA",via yc
-Athelas,http://athelas.com,ashby,Commure,YC Summer 2016,,,Healthcare,"San Francisco, CA, USA",via yc
 People.ai,https://people.ai,lever,people-ai,YC Summer 2016,,,Sales,"San Francisco, CA, USA",via yc
 Speak,http://speak.com,ashby,speak,YC Winter 2017,,,Social,"San Francisco, CA, USA",via yc
 Ambient.ai,https://ambient.ai,ashby,ambient.ai,YC Winter 2017,,,Security,"San Francisco, CA, USA",via yc
@@ -174,7 +171,6 @@ Metriport,https://metriport.com/,ashby,metriport,YC Summer 2022,,,Healthcare IT,
 Firecrawl,https://www.firecrawl.dev,ashby,firecrawl,YC Summer 2022,,,B2B,"San Francisco, CA, USA",via yc
 Oneleet,https://www.oneleet.com/?utm_source=yc&utm_medium=bookface,ashby,oneleet,YC Summer 2022,,,Security,"Amsterdam, NH, Netherlands",via yc
 Pump.co,https://www.pump.co/,greenhouse,pumpcareers,YC Summer 2022,,,Fintech,"San Francisco, CA, USA",via yc
-Knowtex,http://www.knowtex.ai/,ashby,ashby-embed-demo-org,YC Summer 2022,,,Healthcare IT,"San Francisco, CA, USA",via yc
 Cambio,https://www.cambio.ai/,ashby,cambio,YC Summer 2022,,,Real Estate and Construction,"San Francisco, CA, USA",via yc
 Axle,https://axle.insure,ashby,axleinsure,YC Summer 2022,,,Fintech,"New York City, NY, USA",via yc
 Credal.ai,https://credal.ai,ashby,credal,YC Winter 2023,,,Productivity,"New York City, NY, USA",via yc
@@ -183,7 +179,6 @@ Concourse,https://concourse.ai/,ashby,concourse,YC Winter 2023,,,Finance and Acc
 Latent,https://latenthealth.com,ashby,latent,YC Winter 2023,,,Healthcare IT,"San Francisco, CA, USA",via yc
 Salient,https://www.trysalient.com,ashby,salient,YC Winter 2023,,,B2B,"San Francisco, CA, USA",via yc
 Cosine,http://www.cosine.sh,ashby,cosine,YC Winter 2023,,,B2B,"London, England, United Kingdom",via yc
-Variance,https://www.variance.com/,ashby,intrinsic-safety,YC Winter 2023,,,Security,"San Francisco, CA, USA",via yc
 LiteLLM,https://www.litellm.ai/,ashby,litellm,YC Winter 2023,,,B2B,"San Francisco, CA, USA",via yc
 Elyos AI,https://www.elyos.ai/,ashby,elyos,YC Summer 2023,,,Operations,"London, England, United Kingdom",via yc
 Casca,https://www.cascading.ai/,ashby,casca,YC Summer 2023,,,Fintech,"San Francisco, CA, USA",via yc
@@ -210,7 +205,6 @@ Raindrop,https://www.raindrop.ai,ashby,Raindrop,YC Winter 2024,,,"Engineering, P
 Retell AI,https://retellai.com,ashby,retell-ai,YC Winter 2024,,,B2B,"San Francisco, CA, USA",via yc
 Mem0,https://mem0.ai,ashby,mem0,YC Summer 2024,,,Infrastructure,"San Francisco, CA, USA",via yc
 Codes Health,https://www.codeshealth.com/,ashby,codes-health,YC Summer 2024,,,B2B,"New York City, NY, USA",via yc
-Wordware,https://wordware.ai/,ashby,sauna.ai,YC Summer 2024,,,Consumer,"San Francisco, CA, USA",via yc
 FirstWork,https://firstwork.com,ashby,firstwork,YC Summer 2024,,,Human Resources,"San Francisco, CA, USA",via yc
 Clearly AI,https://clearly-ai.com,ashby,clearly-ai,YC Summer 2024,,,Security,"Seattle, WA, USA",via yc
 Zeit AI,https://zeit-ai.com/,ashby,zeit-ai,YC Summer 2024,,,Analytics,"Munich, BY, Germany",via yc
