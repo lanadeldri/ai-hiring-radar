@@ -32,6 +32,7 @@ Usage
 """
 import argparse
 import csv
+import difflib
 import html
 import re
 import sys
@@ -98,8 +99,39 @@ def is_ai_company(text, name="", website=""):
 
 
 SKIP_DOMAINS = ("news.ycombinator.com", "ycombinator.com", "linkedin.com", "twitter.com", "x.com",
-                "github.com", "workatastartup.com", "wellfound.com", "angel.co", "notion.site",
-                "docs.google.com", "forms.gle", "calendly.com", "youtube.com", "medium.com") + ATS_DOMAINS
+                "github.com", "gitlab.com", "workatastartup.com", "wellfound.com", "angel.co",
+                "notion.site", "notion.so", "docs.google.com", "drive.google.com", "google.com", "forms.gle",
+                "calendly.com", "cal.com", "youtube.com", "medium.com", "substack.com", "bit.ly", "t.co", "lnkd.in",
+                "linktr.ee", "typeform.com", "airtable.com", "tally.so", "dropbox.com", "huggingface.co",
+                "jobs.gem.com", "gem.com", "rippling.com", "workday.com", "myworkdayjobs.com", "jobvite.com") + ATS_DOMAINS
+
+
+def is_platform(url):
+    host = urlparse(url if "://" in (url or "") else "https://" + (url or "")).netloc.lower()
+    return any(host == d or host.endswith("." + d) for d in SKIP_DOMAINS)
+
+
+# --- does a job board belong to this company? -------------------------------
+# A board found via a link can be someone else's: a VC's portfolio board, the hosting platform's own
+# careers page (a Notion "website" leads to Notion's jobs), or a vendor demo. Require the board slug
+# to resemble the company name, its initials, or its website domain.
+GENERIC_WORDS = {"ai", "labs", "lab", "inc", "the", "health", "technologies", "technology", "tech", "robotics",
+                 "systems", "io", "co", "hq", "app", "software", "data", "bio", "group", "company", "and", "of", "for"}
+
+
+def board_matches(name, website, slug):
+    s = re.sub(r"[^a-z0-9]", "", slug.lower())
+    if not s or "demo" in s:
+        return False
+    words = re.findall(r"[a-z0-9]+", name.lower())
+    toks = [t for t in words if t not in GENERIC_WORDS and len(t) >= 3]
+    initials = "".join(w[0] for w in words if w not in ("and", "of", "for", "the"))
+    host = "" if is_platform(website) else urlparse(website if "://" in (website or "") else "https://" + (website or "")).netloc.lower()
+    label = re.sub(r"[^a-z0-9]", "", (host[4:] if host.startswith("www.") else host).split(".")[0]) if host else ""
+    for c in toks + [label, re.sub(r"[^a-z0-9]", "", name.lower())]:
+        if c and (c in s or (len(s) >= 4 and s in c) or difflib.SequenceMatcher(None, c, s).ratio() >= 0.7):
+            return True
+    return len(initials) >= 2 and s == initials
 
 
 # ---------------------------------------------------------------- parsing helpers
@@ -118,24 +150,38 @@ def find_website(raw_html):
     for href in re.findall(r'href="([^"]+)"', raw_html):
         href = html.unescape(href)
         host = urlparse(href).netloc.lower()
-        if host and not any(host.endswith(d) for d in SKIP_DOMAINS):
+        if host and not is_platform(href):
             return f"{urlparse(href).scheme or 'https'}://{host}"
     m = re.search(r"\b((?:https?://)?(?:www\.)?[a-z0-9-]+\.(?:ai|com|io|dev|co|app|so|xyz|tech))\b", strip_html(raw_html), re.I)
     if m:
         u = m.group(1)
         host = urlparse(u if "://" in u else "https://" + u).netloc.lower()
-        if not any(host.endswith(d) for d in SKIP_DOMAINS):
+        if not is_platform(host):
             return "https://" + host
     return ""
+
+
+NOT_A_NAME = re.compile(r"^(?:remote|onsite|on-site|hybrid|full[- ]time|part[- ]time|contract|nyc|sf|la|sf bay area|"
+                        r"bay area|new york|san francisco|london|berlin|paris|toronto|us|usa|eu|uk|europe|global|worldwide)$", re.I)
+
+
+def clean_name(name):
+    """'Teleskope[0]' -> 'Teleskope', 'Adora AI [' -> 'Adora AI', '*Scribd' -> 'Scribd', 'Rad AI Multiple roles' -> 'Rad AI'."""
+    name = re.sub(r"\s*\[\d*\]?\s*$", "", name)
+    name = re.sub(r"\s+(?:multiple|various|several|many)\s+(?:roles|positions|openings)\b.*$", "", name, flags=re.I)
+    return name.strip(" *:,.-[")
 
 
 def company_from_hn(text):
     """HN convention: 'Company | Role | Location | ...' on the first line."""
     first = text.strip().split("\n", 1)[0]
-    name = re.split(r"\s+[|–—]\s+|\s+-\s+|\s*\|\s*", first, maxsplit=1)[0]
-    name = re.sub(r"\s*\(.*?\)\s*", " ", name)                 # drop "(YC W24)" etc.
-    name = re.sub(r"https?://\S+", "", name).strip(" :,.")
-    return name if 1 < len(name) <= 40 else ""
+    parts = re.split(r"\s+[|–—]\s+|\s+-\s+|\s*\|\s*", first)
+    for part in parts[:2]:                                      # 'NYC | Norm AI | ...' -> 'Norm AI'
+        name = re.sub(r"\s*\(.*?\)\s*", " ", part)             # drop "(YC W24)" etc.
+        name = clean_name(re.sub(r"https?://\S+", "", name))
+        if 1 < len(name) <= 40 and not NOT_A_NAME.match(name):
+            return name
+    return ""
 
 
 def slug_guesses(name):
@@ -291,6 +337,9 @@ def resolve(lead):
     for ats, slug in boards:
         n = job_count(ats, slug)
         if n:
+            if not board_matches(lead["name"], lead.get("website", ""), slug):
+                return {**lead, "ats": ats, "slug": slug, "status": "new",
+                        "notes": f"{how} ({n} jobs), but the board name '{slug}' doesn't match the company — check it's theirs"}
             return {**lead, "ats": ats, "slug": slug, "status": "high", "notes": f"{how} ({n} jobs)"}
     if lead.get("guess"):
         g = guess_board(lead["name"])
@@ -359,6 +408,29 @@ def main():
         leads += leads_yc()
     if "funding" in sources:
         leads += leads_funding(args.max_funding)
+
+    # 0) tidy auto-added rows: clean names, drop platform "websites", and send boards that don't
+    #    match their company back to review (hand-added rows and rows you approved are never touched)
+    approved_by_you = {norm(c["name"]) for c in candidates if c["status"] == "added" and c["confidence"] != "high"}
+    for c in companies:
+        if not c["notes"].startswith("via "):
+            continue
+        if c["website"] and is_platform(c["website"]):
+            c["website"] = ""
+        new = clean_name(c["name"])
+        if new and new != c["name"]:
+            for cand in candidates:
+                if cand["name"] == c["name"]:
+                    cand["name"] = new
+            c["name"] = new
+    mismatched = [c for c in companies if c["notes"].startswith("via ") and norm(c["name"]) not in approved_by_you
+                  and not board_matches(c["name"], c["website"], c["slug"])]
+    for c in mismatched:
+        for cand in candidates:
+            if norm(cand["name"]) == norm(c["name"]) and cand["status"] == "added":
+                cand.update(status="new", confidence="review",
+                            notes=f"board '{c['slug']}' doesn't match the company name — set status=approved if it's theirs")
+    companies = [c for c in companies if c not in mismatched]
 
     # 1) drop earlier HN auto-adds that the AI filter rejects (hand-added rows are never touched)
     removed = [c["name"] for c in companies if c["notes"] == "via hn" and norm(c["name"]) in not_ai]
@@ -437,6 +509,8 @@ def main():
           f"{len(companies)} companies total · {time.time() - started:.0f}s")
     for n in removed:
         print(f"  - {n}")
+    for c in mismatched:
+        print(f"  ? {c['name']}: board '{c['slug']}' doesn't match, moved to review")
 
 
 if __name__ == "__main__":
