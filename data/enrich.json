@@ -1,14 +1,4 @@
 {
- "*Scribd": {
-  "amount": "$58M",
-  "checked_at": "2026-10-23",
-  "date": "2019-11-25",
-  "headline": "Reading Subscription Startup Scribd Raises $58M",
-  "round": "Series B",
-  "round_est": true,
-  "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUYwRFA1cXJySEsxdmg5WmlwaDNkMTJrWHJCWjNZSjdMUlNQOEVPOTlCQS13bV9QeHVlVHQyZlc1TEV6M0dnLVhOSnhZeVlNSlpHZ1UyN0xZTU5ydTlCdTk3elJPOTlKOFY0M0FYNzJwMS0yWV9GMnRRMEFKdW5aSTdKa2F0LTNPNkdnbg?oc=5"
- },
  "AIRMO": {
   "checked_at": "2026-10-23"
  },
@@ -18,8 +8,8 @@
   "yc_batch": "Fall 2024",
   "yc_stage": "Early"
  },
- "Adora AI [": {
-  "checked_at": "2026-10-23"
+ "Adora AI": {
+  "checked_at": "2026-10-28"
  },
  "AfterQuery": {
   "amount": "$30M",
@@ -134,19 +124,6 @@
   "yc_batch": "Summer 2017",
   "yc_stage": "Growth"
  },
- "Athelas": {
-  "amount": "$132M",
-  "checked_at": "2026-10-23",
-  "date": "2022-02-01",
-  "headline": "RPM startup Athelas raises $132M and more digital health fundings",
-  "round": "Series C+",
-  "round_est": true,
-  "round_text": "",
-  "team_size": 1000,
-  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX1cwWlpvR2J2NGl3bXNFSk45S0NTVWhCN2gtQVBtcnM1VnJhMmdVZEdNZ3N6NEN3TC1hRUpJelpzX2tIV1pISWtUNDZWR1pHcUhIT3ZFZjlZVWxKbkZtOVZwNUNITGw4NWJHeVRFanNoSHI2ZDhwaFN5ZjNXbGhIVkplS19TNVpObnFLczVnYm5KaDF6U19lelBqZ3JOcXN2QUE?oc=5",
-  "yc_batch": "Summer 2016",
-  "yc_stage": "Growth"
- },
  "Attendi": {
   "checked_at": "2026-10-23"
  },
@@ -243,9 +220,6 @@
   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR2hhSThBZENXSEVNdXpOZzhac1lqUkRERWJxX1RNMHNaOE1WOE5LNDExTmd1MzJuRHJ6d3NHUmI3OXp1YVQwUENrZUN6VEhvc0RvUl83QkxYVXVkZHNNdzdocXpFcjF0MmdEdklzMzhVX1JIZjFGNzljQmxIN3NKcEw3eTJCREtfRExWcnp5bGw1QQ?oc=5",
   "yc_batch": "Fall 2025",
   "yc_stage": "Early"
- },
- "BrandMultiplier": {
-  "checked_at": "2026-10-23"
  },
  "Bretton AI": {
   "amount": "$75M",
@@ -761,6 +735,9 @@
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSTRCOWF6ck1pUTZwWUFaS0pwWmprWkRlQnpjLUVCQmFEV3pnNXNocVJVTlRYRzIxSWxnVVQ3cjY4dHhUbXpCMEwzM1l5OXFHTm45LXpsT3lrYi1xWUcxVkQ4Z2tQSjlBZmpLVEh4SEVjU0NjbjJQZkxNU2dOSGlyRHUydzVsc0tmQUVxaEhJUTdTVWxBT3h2MkdQbzHSAaIBQVVfeXFMTzBpcEpackJja1pEMWFma0FvUXo2NnpmMXJEY2t4d1JEZm94RWJCRVEzREZIZWpOSndoQ3JHOEVRN0dsQXl4eTJzeEVpVFpJY2p4clM1U1hfOC1ZM0U3QjBON2JTS2lDWFc1cXJldWM5UFB1Q3M0RzJnRHJ2dVpDM0pCQnBWRXRKenhDS0NVREM4N2xmMmN3WmFoUWZLaVhST3lR?oc=5"
  },
+ "Forward Deployed Engineers": {
+  "checked_at": "2026-10-28"
+ },
  "Foxglove": {
   "amount": "$40M",
   "checked_at": "2026-10-23",
@@ -1007,9 +984,6 @@
   "round_text": "Seed",
   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZERnT3hxUkRSYWhIbWhVdzhGY2hOUFlNcFc4V090cTMySlJZVVBJaTVnd1J1NjA1VUc4aGdaN24tV0hpT2owNDc3WXFjb2VZQWFFS2w1NTlTeTZ1TWFQd1NoQkpFUU9KaTYwakYxcm1tVFZqNTR3Tk14bXZKWDMxcU13TTZPSFFpQm01aDMwb0E3ejJyaFE?oc=5"
  },
- "Kato": {
-  "checked_at": "2026-10-23"
- },
  "Kepler": {
   "amount": "$8M",
   "checked_at": "2026-10-23",
@@ -1019,11 +993,6 @@
   "round_est": true,
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3QzYllqQjBVOTNYaWp5RDBUVGE2bHR0aUxCc194dlB4MTVLam90bWJaNWMtSlZqM2RUQVpnem8ybWlNb0FPOFljalNCUDQtVUNBQmNGY2hYenNpeS0tU1dmcG5lM1cxbENwa0t5X2ZIVzA2ME0xYzEtRHJnNnp2Yy16QTlkaHZWLXZIMUJ5VGg1VGZzMmUzaVhOM2NFWEk2REtweXFEWFpUaWNRUzB4d213aHZDWTQtSE15cHpVcUd0dw?oc=5"
- },
- "Knowtex": {
-  "checked_at": "2026-10-23",
-  "yc_batch": "Summer 2022",
-  "yc_stage": "Early"
  },
  "Kraken Tech": {
   "checked_at": "2026-10-23"
@@ -1215,6 +1184,9 @@
   "yc_batch": "Summer 2024",
   "yc_stage": "Growth"
  },
+ "Member of Technical Staff": {
+  "checked_at": "2026-10-28"
+ },
  "Mercanis": {
   "amount": "€17.3M",
   "checked_at": "2026-10-23",
@@ -1261,8 +1233,8 @@
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnBwa3pVRlJrazdxNmg1aHdRVU16ckRpcHF3S1FweHpVaG93cUxrTm93SHhnTDQ1LWpqa3V2VG9EdFo2WmdLcFNVMExvVmN4U0dRQjAxWlI5cUFOdzNnZ3hDQlZGdFZVZXJCdmtQZmJaWHlmMVZqaWtlSlhGampWVnI4UjNIZEpkbkdnTjRWUDk3Slo4YmE2aktzZ1NlWkxfT2dKNHgyaTRKeE5TbFJr?oc=5"
  },
- "Mithril [": {
-  "checked_at": "2026-10-23"
+ "Mithril": {
+  "checked_at": "2026-10-28"
  },
  "Modal": {
   "amount": "$750M",
@@ -1313,9 +1285,6 @@
   "round_text": "Series A",
   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDZSM05mSjhEVW5WVzRWakFfQTFlQW92bm9yX2NBajdIQnd0MnJDRHg5Mzhycmd4cjA2SGRuMkYwN3NqdjRsanVPYlphYk5QdU9CenZtVE0ydzJWZXZjRG1HUzEzUXFFaE9oOENyYmc5bUp0VTNscDRxenA2YjNiOGNPVEhfTnF6WFYyUnBtdGh5VTdKVDRMeHhYYUhzMDdmaWFv?oc=5"
  },
- "NYC": {
-  "checked_at": "2026-10-23"
- },
  "Neo.Tax": {
   "checked_at": "2026-10-23"
  },
@@ -1328,6 +1297,16 @@
   "round_est": true,
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWMwbzJ4OWQ5U0ZyWHlZVGxDQkwzQ0ZtZ09fcFFrUFQ4RGdiVTB0MDJ0dTB4N3FQdWIzUGMzMUxxTUkyd0piNUxDRjZHMWxabW40SXZ0X0UtM2xNcGNpbnB5ZnVVUm9uanNzcHVaZGdYeGlieEdERDk5Vzg1LXZNMGJjck4tT0JSYjZSWkxiQ2pMcUx0R25GRG9vV2FDSzFidE9Z?oc=5"
+ },
+ "Norm AI": {
+  "amount": "$120M",
+  "checked_at": "2026-10-28",
+  "date": "2026-07-11",
+  "headline": "Norm AI Raises $120 Mn In Series C Round Led By Khosla Ventures, Reaches Unicorn Valuation",
+  "round": "Series C+",
+  "round_est": false,
+  "round_text": "Series C",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa1V3Z0QxX2toZU5oeGpMTWVkTzBLLUM4V2cxd2stVF9feklCdGw1N1hZc1JaSGRvNlBPU1JmUzFjU2xnOU1IUjh3OW5QMURZanVoWEJfQmtKaFRhcTAwNlNEdE43X2xkaU9mNkRSbVpfTUZmQ09GWWdSOGRkQXhaT2hOZ2c0am5pM195MFNOeFNjR1FLX01DVl9kSGR0clliRnJvWHBXeFMxNGxfQndWb3NWMUdUa3d5X0hXYmN5ZFJfbFBabzRRSw?oc=5"
  },
  "Nuance Labs": {
   "amount": "$50M",
@@ -1564,8 +1543,15 @@
   "yc_batch": "Winter 2013",
   "yc_stage": "Early"
  },
- "Rad AI Multiple roles": {
-  "checked_at": "2026-10-23"
+ "Rad AI": {
+  "amount": "$60M",
+  "checked_at": "2026-10-28",
+  "date": "2025-01-30",
+  "headline": "RAD AI CLOSES $60M SERIES C TO FURTHER SOLIDIFY LEADERSHIP IN HEALTHCARE GENERATIVE AI",
+  "round": "Series C+",
+  "round_est": false,
+  "round_text": "Series C",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTmdHZ21QU0VjcmhEZXpMSURRY0tjR2RQSXgyNHNhWHlCSE05MERUX2V1SW51UmVOUzlRc0xIRmg1QXowampFV2M5eUd4QlYyRE1QUVFYVUl5TXlURGJidUhfYXhGaXNGV1E5M3U3NGhwNzN2SWZ6bGRBdWNhZXVWXzY4VUZGdGN4eGZrNEQyd3ZCdVFITEozdHhlbFB6dU1wUjRFazZhWlhRRU15c25PdUNjSWdHUldYYkZ0di1tN3J1UGk1c04yU3hzQXV4X2ZXWHlUUGxKc3A?oc=5"
  },
  "Radical AI": {
   "checked_at": "2026-10-23"
@@ -1718,6 +1704,16 @@
   "team_size": 500,
   "yc_batch": "Summer 2016",
   "yc_stage": "Growth"
+ },
+ "Scribd": {
+  "amount": "$58M",
+  "checked_at": "2026-10-28",
+  "date": "2019-11-25",
+  "headline": "Reading Subscription Startup Scribd Raises $58M",
+  "round": "Series B",
+  "round_est": true,
+  "round_text": "",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUYwRFA1cXJySEsxdmg5WmlwaDNkMTJrWHJCWjNZSjdMUlNQOEVPOTlCQS13bV9QeHVlVHQyZlc1TEV6M0dnLVhOSnhZeVlNSlpHZ1UyN0xZTU5ydTlCdTk3elJPOTlKOFY0M0FYNzJwMS0yWV9GMnRRMEFKdW5aSTdKa2F0LTNPNkdnbg?oc=5"
  },
  "Second Nature": {
   "amount": "$22M",
@@ -1954,8 +1950,15 @@
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
- "Teleskope[0]": {
-  "checked_at": "2026-10-23"
+ "Teleskope": {
+  "amount": "$25M",
+  "checked_at": "2026-10-28",
+  "date": "2026-01-13",
+  "headline": "Teleskope Raises $25M to Address Enterprise Data Security with Agentic Automation",
+  "round": "Series A",
+  "round_est": true,
+  "round_text": "",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeTZUcEtabVpjOHNLU2RleTJVT045UnZTM0phaUtYbWR3VkVGVThRdFhkdjE4dWZoejluQmhKWjlZSktTR0xCeS1rdV9TSVR1VWpMYVozZXdZNk9tNWFRNXJ1MzhVTjJGUVhucGNSNXgtOThVOUVJRUlpMGZkZDZEYXBMWURCa1VmQmtNOHJZQllFWkJ5R2Nza1piRVIyZGRxSWhuUjlxcFBwNldTNG5DMDlyNTF1Z3dZX3FoY3RJOA?oc=5"
  },
  "Terra AI": {
   "amount": "$20M",
@@ -2024,19 +2027,6 @@
   "yc_batch": "Winter 2021",
   "yc_stage": "Growth"
  },
- "Variance": {
-  "amount": "$21.5M",
-  "checked_at": "2026-10-23",
-  "date": "2026-04-09",
-  "headline": "AI risk intelligence start-up Variance raises $21.5m Series A",
-  "round": "Series A",
-  "round_est": false,
-  "round_text": "Series A",
-  "team_size": 12,
-  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUlJdXRRNzZiYURQZDZ0dHRRUGlHS3BaVFZ2ZDFkMXo5cHdhcmpTZnVyVnZzbTdvYmZFM2Z3MlkxQ0h4bXpRRzltSi1aMG10MlRqS1FoV1dSNVFsaW9PbkdER3ZKYjBYZ1JtZlBWeGkyVnpZOUdLM2xUM29lN1F1RDhWV2lzRUMtdEsxZ3NRdVlINWs5b2hOT3R1Qkt3ZmsydTZKZWI5dU9Sal9BTjFyYThEem56Zw?oc=5",
-  "yc_batch": "Winter 2023",
-  "yc_stage": "Early"
- },
  "VergeSense": {
   "amount": "$12M",
   "checked_at": "2026-10-23",
@@ -2093,19 +2083,6 @@
   "checked_at": "2026-10-23",
   "team_size": 128,
   "yc_batch": "Summer 2018",
-  "yc_stage": "Growth"
- },
- "Wordware": {
-  "amount": "$30M",
-  "checked_at": "2026-10-23",
-  "date": "2024-11-21",
-  "headline": "Wordware raises $30M to simplify AI dev",
-  "round": "Series B",
-  "round_est": true,
-  "round_text": "",
-  "team_size": 15,
-  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaXdqUmhSTTczZ1hoOF94OVdrTGQ4eC1kd1JDVE8zaEpXMWptSFdjZC1lYjMwcWlsSEotZE52QmszVG52RG5wZFBXaWx0QjNoZUYwOFNFNF9tY1JlbXZxYWJqWE5vM3VNdmphaEhpaE9VdnZLS09WUmRFZGloRk9ySDVNSTZZU3g3N2JTY3lIMVo5LXRqRVNDODBGQ2thWTQwaDdaeVBMREZCdGY3dGVhajNUYWw5dw?oc=5",
-  "yc_batch": "Summer 2024",
   "yc_stage": "Growth"
  },
  "WorkHero": {
