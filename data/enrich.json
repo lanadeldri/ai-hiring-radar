@@ -527,6 +527,16 @@
   "yc_batch": "Fall 2025",
   "yc_stage": "Early"
  },
+ "Distru": {
+  "amount": "$6M",
+  "checked_at": "2026-10-29",
+  "date": "2024-11-21",
+  "headline": "Marijuana software company Distru secures $6 million funding",
+  "round": "Seed",
+  "round_est": true,
+  "round_text": "",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONFN4WmZuQjNoVnFCTkNxVmNxWGo1dkNRLVM1ZElKRkZZcnZkZGpxZmJTMGlKUjdwODJoZEJFd1M2dlJMaHFfSlR6Rm5rWE1CWnE1M3NPVlp1UjUzZFdUTGtxbno1XzNkQlhtd1ZfbWVPUV9MemlvOUMtYUJZbzFNM3pLcGJLOTFhUkhKSDFHWjJnREVMV29jU0FaYw?oc=5"
+ },
  "Duranta": {
   "checked_at": "2026-10-23"
  },
@@ -1579,6 +1589,9 @@
   "yc_batch": "Winter 2024",
   "yc_stage": "Growth"
  },
+ "Raylu.ai": {
+  "checked_at": "2026-10-29"
+ },
  "Reacher": {
   "checked_at": "2026-10-23",
   "team_size": 10,
@@ -1877,9 +1890,12 @@
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUzhFbVQwUGJmcTllWlZZN1JqaDI0dk0tTHFxcWZwdXZScS1tZ2F0TkdfZTBCTjVUQ21UU2dqMGRyLUFlRjIxajQ1WFE2T0N6M0V1c1hXcERPU0lFZl9wbXRxci04UURvN0tfczhOYlVfdFEtV0ZIUmZvSHB2UTgtS1ozT2o?oc=5"
  },
+ "Steel.dev": {
+  "checked_at": "2026-10-29"
+ },
  "Strada": {
   "checked_at": "2026-10-23",
-  "team_size": 21,
+  "team_size": 16,
   "yc_batch": "Summer 2023",
   "yc_stage": "Early"
  },
@@ -2026,6 +2042,19 @@
   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcXB1OGQ2UkpvR2VSeHFwUWswWnVXcW1LeWFTcDBxd25WYlRyRG1YVWVBSEdQVzM3YjVQR0JQeHVJQ00zVGQwaFJucG52dTNFUEtuWkNhM3J6bnVTc3RsaUY1VlFLT19WYi1jUGxCZ1p4bzkyZ2hTalpGMG9tMVoyYUQ0dGl6aXFfSjY2QVdudEVCSEVuc2pfNGZ3?oc=5",
   "yc_batch": "Winter 2021",
   "yc_stage": "Growth"
+ },
+ "Vera Health": {
+  "amount": "$28.5M",
+  "checked_at": "2026-10-29",
+  "date": "2026-10-28",
+  "headline": "Vera Health Secures $28.5M to Expand AI-Powered Clinical Search Platform",
+  "round": "Series A",
+  "round_est": true,
+  "round_text": "",
+  "team_size": 6,
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc0dYbk9QRlhqV2Nqd1R5WHkxOWgzaDJ5akp3RlBURGVDTlBIOWRvb0prTkRXTEZDS2ZPNlRWZEJXWFNkQm1BQXdiRFBkQU1FUWVQODd0WmhBZ3I3cFpqQ3MzcGJaaVNIc096X1QtaldYemZjdlpwNTVsR1RrX2tWUkVVMWlkcFpMWEpGMmMwQXo4X2JLR0psSlBwaE42THZxZHdiSQ?oc=5",
+  "yc_batch": "Summer 2024",
+  "yc_stage": "Early"
  },
  "VergeSense": {
   "amount": "$12M",
