@@ -362,6 +362,12 @@
   "yc_batch": "Summer 2020",
   "yc_stage": "Early"
  },
+ "CommodityAI": {
+  "checked_at": "2026-10-31",
+  "team_size": 6,
+  "yc_batch": "Winter 2024",
+  "yc_stage": "Early"
+ },
  "Compa.AI": {
   "amount": "$35M",
   "checked_at": "2026-10-23",
