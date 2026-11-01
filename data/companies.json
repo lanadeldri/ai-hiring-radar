@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-31T17:44:11.832331+00:00",
+ "updated_at": "2026-11-01T18:25:56.427372+00:00",
  "companies": [
   {
    "name": "Databricks",
@@ -20,10 +20,10 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVjdtVVBQRnQ0ZjI2aG5WcEtGR2REOEpHRWtGRm9YTDNRWGdWOU45cmZjdmZmM3VRSWxRWFJOSlZrakhmSjdZNDdIV3lkY0EwYUpIX0xiS2J1YXl4RHZ0enM1Q25ZVzJ1MTJuSG1zcXdzQ2VTd1NIZVRLS1FXN1FTWTZfbnA2RVVvSjVLdkVuOXU1V3dLSjdhVG5xcUxRN01hZHJGTXRucW5qLVd6NEtjaUF3?oc=5",
-   "open_roles": 901,
-   "eng_roles": 573,
-   "new_7d": 55,
-   "new_30d": 196,
+   "open_roles": 909,
+   "eng_roles": 574,
+   "new_7d": 61,
+   "new_30d": 199,
    "remote_roles": 78,
    "sample_eng_roles": [
     {
@@ -52,7 +52,7 @@
      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8886517002"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 8
   },
   {
    "name": "OpenAI",
@@ -66,11 +66,11 @@
    "sector": "Foundation models",
    "hq": "San Francisco",
    "notes": "",
-   "open_roles": 812,
-   "eng_roles": 492,
-   "new_7d": 68,
-   "new_30d": 228,
-   "remote_roles": 545,
+   "open_roles": 810,
+   "eng_roles": 491,
+   "new_7d": 66,
+   "new_30d": 218,
+   "remote_roles": 543,
    "sample_eng_roles": [
     {
      "title": "Manufacturing Quality Engineer, Data Center Equipment",
@@ -98,7 +98,7 @@
      "url": "https://jobs.ashbyhq.com/openai/0fca3b36-8aaa-491a-be87-09efacfeca5e"
     }
    ],
-   "delta_since_last": -5
+   "delta_since_last": -2
   },
   {
    "name": "Shield AI",
@@ -122,7 +122,7 @@
    "open_roles": 655,
    "eng_roles": 439,
    "new_7d": 16,
-   "new_30d": 160,
+   "new_30d": 159,
    "remote_roles": 29,
    "sample_eng_roles": [
     {
@@ -174,8 +174,8 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12Ym9Qb01fWm42TGpOMi01T1RBVEZacUllVVVWMTRWTW5TTExGN25OYXMxMHZZTGd1T3h0eEhMcldCazhqekNHQkNYbEhkWnpwSURr?oc=5",
    "open_roles": 675,
    "eng_roles": 334,
-   "new_7d": 35,
-   "new_30d": 181,
+   "new_7d": 34,
+   "new_30d": 177,
    "remote_roles": 58,
    "sample_eng_roles": [
     {
@@ -225,10 +225,10 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5TmhrWTUzRlV0RnRNeVRtOW5xemMweHByLVRvLVlReUhnMzRDSkYyUnNiMTM3X2VNcFQ1RmdxYlhsRkNkZVJ1Skt1MGZhX25xR3RWTFRuUndvOFhKNWNfckVMRjZZRHZHZVlnaE1hNUNBM2l1MFE?oc=5",
-   "open_roles": 464,
-   "eng_roles": 233,
+   "open_roles": 463,
+   "eng_roles": 232,
    "new_7d": 37,
-   "new_30d": 142,
+   "new_30d": 139,
    "remote_roles": 2,
    "sample_eng_roles": [
     {
@@ -257,7 +257,7 @@
      "url": "https://boards.greenhouse.io/cloudflare/jobs/8330121?gh_jid=8330121"
     }
    ],
-   "delta_since_last": 4
+   "delta_since_last": -1
   },
   {
    "name": "Harvey",
@@ -281,7 +281,7 @@
    "open_roles": 381,
    "eng_roles": 142,
    "new_7d": 57,
-   "new_30d": 170,
+   "new_30d": 157,
    "remote_roles": 302,
    "sample_eng_roles": [
     {
@@ -310,7 +310,7 @@
      "url": "https://jobs.ashbyhq.com/harvey/9b63e15d-2d43-4c4a-94be-75908e942ea7"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 0
   },
   {
    "name": "Tether",
@@ -380,7 +380,7 @@
    "open_roles": 229,
    "eng_roles": 104,
    "new_7d": 19,
-   "new_30d": 69,
+   "new_30d": 68,
    "remote_roles": 90,
    "sample_eng_roles": [
     {
@@ -433,7 +433,7 @@
    "open_roles": 220,
    "eng_roles": 97,
    "new_7d": 12,
-   "new_30d": 66,
+   "new_30d": 64,
    "remote_roles": 25,
    "sample_eng_roles": [
     {
@@ -462,7 +462,7 @@
      "url": "https://jobs.ashbyhq.com/sierra/953b48fe-5a8f-4732-8957-5b0a1d022dae"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Scale AI",
@@ -482,7 +482,7 @@
    "open_roles": 170,
    "eng_roles": 92,
    "new_7d": 6,
-   "new_30d": 24,
+   "new_30d": 21,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -511,7 +511,7 @@
      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4743438005"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Grafana Labs",
@@ -534,7 +534,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHV4THFRYmp3RkNxMHhhOXZMRjRfTUdRLWV5VXJ3ejZWTk83cDN2UE8ya2swWkFXUFRHUHlDZU9ZYjJVYTNhNGlkeWRrM3U1ZlZ1TzRKd3Jmb0U5X3JheHB6Rnp5Q1duRU5haHdONEJJaFg0UXpGX1R0bkJ0WEM2eVdsd2hDODZUT2gxOGR6VlRRal9oM0RhaUVtY2E0ZFpHSGRHWQ?oc=5",
    "open_roles": 120,
    "eng_roles": 76,
-   "new_7d": 9,
+   "new_7d": 8,
    "new_30d": 58,
    "remote_roles": 120,
    "sample_eng_roles": [
@@ -564,7 +564,7 @@
      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6236204004"
     }
    ],
-   "delta_since_last": -4
+   "delta_since_last": 0
   },
   {
    "name": "Together AI",
@@ -617,7 +617,7 @@
      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5267197007"
     }
    ],
-   "delta_since_last": 2
+   "delta_since_last": 0
   },
   {
    "name": "Perplexity",
@@ -670,7 +670,7 @@
      "url": "https://jobs.ashbyhq.com/perplexity/f45ba174-7e99-4743-9d19-6e4d3e196458"
     }
    ],
-   "delta_since_last": 3
+   "delta_since_last": 0
   },
   {
    "name": "Cursor (Anysphere)",
@@ -684,10 +684,10 @@
    "sector": "Dev tools",
    "hq": "San Francisco",
    "notes": "",
-   "open_roles": 125,
-   "eng_roles": 59,
+   "open_roles": 124,
+   "eng_roles": 58,
    "new_7d": 9,
-   "new_30d": 31,
+   "new_30d": 29,
    "remote_roles": 54,
    "sample_eng_roles": [
     {
@@ -740,7 +740,7 @@
    "open_roles": 133,
    "eng_roles": 58,
    "new_7d": 1,
-   "new_30d": 18,
+   "new_30d": 16,
    "remote_roles": 15,
    "sample_eng_roles": [
     {
@@ -790,11 +790,11 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNmJ5SFp0bDhiRDNSdnNqRTFRd2twbnJVdEIxRm9fLV9nSThiT3RZS0ZRNkJQQ3pIMjlHWEY2QzMyZjhpRllKRlpoc1dkSG5sZlhCYXVfZFVVMER5emw1cmJxNVVTNmZHVmZGQWluazMwbW8xajlvaFJGSnJZOGpIbQ?oc=5",
-   "open_roles": 104,
+   "open_roles": 105,
    "eng_roles": 51,
-   "new_7d": 5,
-   "new_30d": 24,
-   "remote_roles": 98,
+   "new_7d": 6,
+   "new_30d": 25,
+   "remote_roles": 99,
    "sample_eng_roles": [
     {
      "title": "Software Engineer - Storage Systems (Agent Infra)",
@@ -822,63 +822,7 @@
      "url": "https://jobs.ashbyhq.com/baseten/26af6cd9-6ef1-4d6b-b5f6-77a581e45dc4"
     }
    ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Cohere",
-   "website": "https://cohere.com",
-   "ats": "ashby",
-   "slug": "cohere",
-   "board_url": "https://jobs.ashbyhq.com/cohere",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Foundation models",
-   "hq": "Toronto",
-   "notes": "",
-   "funding_amount": "$100M",
-   "funding_date": "2026-04-15",
-   "funding_headline": "Cohere Raises $100M to Accelerate Global Expansion of Security-First Enterprise AI",
-   "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "team_size": 7,
-   "funding_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZzZTTERPbVF0VHFYN056N0RsS1FEeTBtU0ZIbXlDVFVROG1JdWkxZ3BxTkxmMXNsQzZTZTdqeEpMT2RxYlRVU0lwd0stQjd3MFkxWklPVmJUMENRNVRERUU3U1NzVGo3TzhTZy1CMUg0SzBTbm5SaGM0R2FqTWs5OUVzMTBKekJFZk9TZEdEZnlXeU9rdmZrMG9BN1ZRTU9UZWNLMWplY0Y4ZGZJREJhZVVlMmhZZw?oc=5",
-   "yc_batch": "Summer 2020",
-   "yc_stage": "Early",
-   "open_roles": 122,
-   "eng_roles": 50,
-   "new_7d": 14,
-   "new_30d": 38,
-   "remote_roles": 110,
-   "sample_eng_roles": [
-    {
-     "title": "Senior Security Engineer",
-     "location": "Toronto; San Francisco; London; New York; Montreal",
-     "url": "https://jobs.ashbyhq.com/cohere/cb981ecd-a161-482c-8d8e-5f19bb6e7fdd"
-    },
-    {
-     "title": "Forward Deployed Engineer, Infrastructure Specialist (North America)",
-     "location": "Toronto; Canada; Vancouver; Ottawa; Montreal",
-     "url": "https://jobs.ashbyhq.com/cohere/be48aafc-9610-4ebd-8414-a0722a3cd59a"
-    },
-    {
-     "title": "Forward Deployed Engineer, Inference",
-     "location": "United States",
-     "url": "https://jobs.ashbyhq.com/cohere/8df498e9-aba8-487f-80ba-362b492bad09"
-    },
-    {
-     "title": "Web Developer",
-     "location": "Toronto; San Francisco; Canada; New York; Vancouver; Ottawa; Montreal",
-     "url": "https://jobs.ashbyhq.com/cohere/4232d337-fbc7-4e8c-81d5-2903ab0eb6e8"
-    },
-    {
-     "title": "Engineering Manager, Cohere APIs and DevEx",
-     "location": "Toronto; Ottawa; Montreal",
-     "url": "https://jobs.ashbyhq.com/cohere/dca93d1a-9ab8-442b-aa76-950595e8b9c3"
-    }
-   ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Glean",
@@ -931,7 +875,7 @@
      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4746685005"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 0
   },
   {
    "name": "LangChain",
@@ -954,7 +898,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObEMtckNUSEhFXy1lem5oWjVDUUs4NFNUSVp5RmxxZE1qbHNkekZNM2E3ekhXWHlxLUtzQ1BjLW5yWk85czNCWWRzS3ZIekE5NDZnNkhvTlJvN1VvalRxQzBVbWNjQnJQdUExb1ltVmxUbWFpWFVOVU00T2lDUGI1cDRFcnZmanRGZHVjdkJITFAtZk5aa29JTlZrNGFzeG8zODRPSUtwU2NxazUyVHFHQTBhWTJ3VGY3c3BkYg?oc=5",
    "open_roles": 98,
    "eng_roles": 49,
-   "new_7d": 4,
+   "new_7d": 3,
    "new_30d": 50,
    "remote_roles": 38,
    "sample_eng_roles": [
@@ -985,6 +929,62 @@
     }
    ],
    "delta_since_last": 0
+  },
+  {
+   "name": "Cohere",
+   "website": "https://cohere.com",
+   "ats": "ashby",
+   "slug": "cohere",
+   "board_url": "https://jobs.ashbyhq.com/cohere",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Foundation models",
+   "hq": "Toronto",
+   "notes": "",
+   "funding_amount": "$100M",
+   "funding_date": "2026-04-15",
+   "funding_headline": "Cohere Raises $100M to Accelerate Global Expansion of Security-First Enterprise AI",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "team_size": 7,
+   "funding_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZzZTTERPbVF0VHFYN056N0RsS1FEeTBtU0ZIbXlDVFVROG1JdWkxZ3BxTkxmMXNsQzZTZTdqeEpMT2RxYlRVU0lwd0stQjd3MFkxWklPVmJUMENRNVRERUU3U1NzVGo3TzhTZy1CMUg0SzBTbm5SaGM0R2FqTWs5OUVzMTBKekJFZk9TZEdEZnlXeU9rdmZrMG9BN1ZRTU9UZWNLMWplY0Y4ZGZJREJhZVVlMmhZZw?oc=5",
+   "yc_batch": "Summer 2020",
+   "yc_stage": "Early",
+   "open_roles": 120,
+   "eng_roles": 48,
+   "new_7d": 14,
+   "new_30d": 37,
+   "remote_roles": 108,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Security Engineer",
+     "location": "Toronto; San Francisco; London; New York; Montreal",
+     "url": "https://jobs.ashbyhq.com/cohere/cb981ecd-a161-482c-8d8e-5f19bb6e7fdd"
+    },
+    {
+     "title": "Forward Deployed Engineer, Infrastructure Specialist (North America)",
+     "location": "Toronto; Canada; Vancouver; Ottawa; Montreal",
+     "url": "https://jobs.ashbyhq.com/cohere/be48aafc-9610-4ebd-8414-a0722a3cd59a"
+    },
+    {
+     "title": "Forward Deployed Engineer, Inference",
+     "location": "United States",
+     "url": "https://jobs.ashbyhq.com/cohere/8df498e9-aba8-487f-80ba-362b492bad09"
+    },
+    {
+     "title": "Web Developer",
+     "location": "Toronto; San Francisco; Canada; New York; Vancouver; Ottawa; Montreal",
+     "url": "https://jobs.ashbyhq.com/cohere/4232d337-fbc7-4e8c-81d5-2903ab0eb6e8"
+    },
+    {
+     "title": "Engineering Manager, Cohere APIs and DevEx",
+     "location": "Toronto; Ottawa; Montreal",
+     "url": "https://jobs.ashbyhq.com/cohere/dca93d1a-9ab8-442b-aa76-950595e8b9c3"
+    }
+   ],
+   "delta_since_last": -2
   },
   {
    "name": "Mercor",
@@ -1037,7 +1037,7 @@
      "url": "https://jobs.ashbyhq.com/mercor/ae344099-3fde-4027-bfde-f953db8b4728"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Overview",
@@ -1107,11 +1107,11 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjZGbWFRbHV5Q0VzVXdJRHJjS3NraWtueVlFYjQzSGpWeEl1NXFCMnQ1VWtQb0ZDVk5SM0dmVEZ2aW9lQ0JrNlBybVBJc1RXOWVXY2Q2YUJabHBSejFfSDBuSTFNTnNfTlowS2Vsb0RGdEhlUDVxUkQ5Vl9oUnR2VFZyQmVNeGVjV1VB?oc=5",
-   "open_roles": 144,
-   "eng_roles": 42,
+   "open_roles": 139,
+   "eng_roles": 40,
    "new_7d": 26,
-   "new_30d": 104,
-   "remote_roles": 110,
+   "new_30d": 97,
+   "remote_roles": 108,
    "sample_eng_roles": [
     {
      "title": "Full-Stack Engineer - ElevenCreative Enterprise",
@@ -1139,7 +1139,7 @@
      "url": "https://jobs.ashbyhq.com/elevenlabs/e53c5be6-5c1a-4870-ad85-8397a1f201de"
     }
    ],
-   "delta_since_last": -6
+   "delta_since_last": -5
   },
   {
    "name": "Deepgram",
@@ -1166,7 +1166,7 @@
    "open_roles": 81,
    "eng_roles": 39,
    "new_7d": 1,
-   "new_30d": 31,
+   "new_30d": 26,
    "remote_roles": 73,
    "sample_eng_roles": [
     {
@@ -1248,7 +1248,7 @@
      "url": "https://job-boards.eu.greenhouse.io/physicsx/jobs/5008721101"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Cognite",
@@ -1536,7 +1536,7 @@
    "open_roles": 34,
    "eng_roles": 20,
    "new_7d": 5,
-   "new_30d": 10,
+   "new_30d": 9,
    "remote_roles": 34,
    "sample_eng_roles": [
     {
@@ -1589,7 +1589,7 @@
    "open_roles": 28,
    "eng_roles": 20,
    "new_7d": 1,
-   "new_30d": 15,
+   "new_30d": 14,
    "remote_roles": 28,
    "sample_eng_roles": [
     {
@@ -1644,8 +1644,8 @@
    "yc_stage": "Growth",
    "open_roles": 44,
    "eng_roles": 20,
-   "new_7d": 4,
-   "new_30d": 21,
+   "new_7d": 2,
+   "new_30d": 19,
    "remote_roles": 44,
    "sample_eng_roles": [
     {
@@ -1698,7 +1698,7 @@
    "open_roles": 46,
    "eng_roles": 19,
    "new_7d": 6,
-   "new_30d": 23,
+   "new_30d": 22,
    "remote_roles": 7,
    "sample_eng_roles": [
     {
@@ -1727,7 +1727,7 @@
      "url": "https://jobs.ashbyhq.com/fal-ai/1a2b8668-de1e-40ab-9839-7a1605b5cb04"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Roboflow",
@@ -1783,7 +1783,7 @@
      "url": "https://jobs.ashbyhq.com/roboflow/bbcda2ca-5919-4aaa-b3c5-c2fd47c07172"
     }
    ],
-   "delta_since_last": 2
+   "delta_since_last": 0
   },
   {
    "name": "Firecrawl",
@@ -1916,7 +1916,7 @@
    "open_roles": 48,
    "eng_roles": 18,
    "new_7d": 4,
-   "new_30d": 17,
+   "new_30d": 16,
    "remote_roles": 47,
    "sample_eng_roles": [
     {
@@ -2124,7 +2124,7 @@
    "open_roles": 66,
    "eng_roles": 15,
    "new_7d": 8,
-   "new_30d": 29,
+   "new_30d": 25,
    "remote_roles": 65,
    "sample_eng_roles": [
     {
@@ -2334,10 +2334,10 @@
    "funding_round_est": false,
    "funding_round_text": "Series B",
    "funding_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRm5mMVVSQ2tZNVVSVERTMy1JMmowUnJNRnBhOXBUOVJJTnZLdXphZ0xDa1B1WkxhcE0tdW5UWlNwZWlQVUEzY2c2a2pONHE1WUI2cC1ucEd2aVBaRFNCdDFwYkxMeENaRGR6YjhwcE91enJEb0VibFQ2Sm5UV1pLbS1tMGwtZHRqN3JldGJMNTd4Ql9aaFE?oc=5",
-   "open_roles": 77,
+   "open_roles": 76,
    "eng_roles": 14,
-   "new_7d": 5,
-   "new_30d": 31,
+   "new_7d": 6,
+   "new_30d": 29,
    "remote_roles": 12,
    "sample_eng_roles": [
     {
@@ -2366,7 +2366,7 @@
      "url": "https://jobs.ashbyhq.com/tandem-health/abda453c-bab5-46c4-ae7d-7b07e47a882e"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Gecko Robotics",
@@ -2555,7 +2555,7 @@
    "open_roles": 22,
    "eng_roles": 12,
    "new_7d": 0,
-   "new_30d": 17,
+   "new_30d": 16,
    "remote_roles": 9,
    "sample_eng_roles": [
     {
@@ -2756,11 +2756,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmhKV1FMb3JXTWNLSVlYTVEtZkFaLWR2LWNNRmNzdWY5eVByVnpGNkZ4c2ZGOVM5aTZQSUkweEJrbDFDY0RVVlRQVUhmYnRKZzJkMU5FdFE1MHZLUzJmSGE5enp4ajdSR010dlp6b1JVSEhZdHNUMmFTeWRWb0phTGQta3cwaS0tWTBGZnZURHZ0YTF3RU5PMEFIZEVaZw?oc=5",
    "yc_batch": "Summer 2023",
    "yc_stage": "Growth",
-   "open_roles": 32,
+   "open_roles": 33,
    "eng_roles": 11,
-   "new_7d": 0,
-   "new_30d": 20,
-   "remote_roles": 29,
+   "new_7d": 1,
+   "new_30d": 21,
+   "remote_roles": 30,
    "sample_eng_roles": [
     {
      "title": "Research Scientist",
@@ -2788,7 +2788,7 @@
      "url": "https://jobs.ashbyhq.com/outset/3fbb835a-f700-42cc-a27c-2945da98415c"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "xdof",
@@ -3127,7 +3127,7 @@
    "open_roles": 43,
    "eng_roles": 9,
    "new_7d": 3,
-   "new_30d": 17,
+   "new_30d": 14,
    "remote_roles": 7,
    "sample_eng_roles": [
     {
@@ -3337,7 +3337,7 @@
    "open_roles": 25,
    "eng_roles": 8,
    "new_7d": 0,
-   "new_30d": 14,
+   "new_30d": 13,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -3419,7 +3419,7 @@
      "url": "https://jobs.ashbyhq.com/krea/b9157fc5-2e11-4b05-b74e-b881dab3aca2"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Oscilar.com",
@@ -3535,7 +3535,7 @@
    "open_roles": 48,
    "eng_roles": 8,
    "new_7d": 0,
-   "new_30d": 4,
+   "new_30d": 3,
    "remote_roles": 42,
    "sample_eng_roles": [
     {
@@ -3644,7 +3644,7 @@
    "open_roles": 10,
    "eng_roles": 8,
    "new_7d": 0,
-   "new_30d": 3,
+   "new_30d": 1,
    "remote_roles": 2,
    "sample_eng_roles": [
     {
@@ -3834,7 +3834,7 @@
      "url": "https://jobs.ashbyhq.com/litellm/6e025e39-6f8a-46bd-91f7-8784d1f5076b"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Weave",
@@ -3914,7 +3914,7 @@
    "open_roles": 15,
    "eng_roles": 7,
    "new_7d": 0,
-   "new_30d": 8,
+   "new_30d": 7,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -3960,7 +3960,7 @@
    "open_roles": 11,
    "eng_roles": 7,
    "new_7d": 1,
-   "new_30d": 5,
+   "new_30d": 3,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -4203,7 +4203,7 @@
      "url": "https://jobs.ashbyhq.com/campfire/d7f80e1c-e92a-49df-8ac8-4be6179e5387"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Abundant",
@@ -4325,7 +4325,7 @@
    "open_roles": 16,
    "eng_roles": 6,
    "new_7d": 0,
-   "new_30d": 4,
+   "new_30d": 3,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -4377,7 +4377,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM21YNXFrdEtlYjRoOTh4XzVvTUhnMG5NWUJXTkhHSXNZSVgyUDgzUEVhRHFwaDh2OE5XbnllTFM1ZzhBM0cyeUJRT2djMkFYVWJ3RTd4bjdqMWRpaHNIZDNMZEpkUlFuelpMbGZ5eEtjdzZHVVBrdVBwQVR6U0J4VGJTSnhmNDkxUGtudzVvaVlLVFRkbHdBOFBfRUtyaHhSZzVwSng1UTBETjBkazln?oc=5",
    "open_roles": 24,
    "eng_roles": 6,
-   "new_7d": 7,
+   "new_7d": 6,
    "new_30d": 12,
    "remote_roles": 23,
    "sample_eng_roles": [
@@ -4696,7 +4696,7 @@
    "yc_stage": "Early",
    "open_roles": 26,
    "eng_roles": 6,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 15,
    "remote_roles": 8,
    "sample_eng_roles": [
@@ -5052,7 +5052,7 @@
      "url": "https://jobs.ashbyhq.com/bland/a3a383e0-9c15-4777-a95b-536cb8c1174c"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Pantograph",
@@ -5168,7 +5168,7 @@
    "open_roles": 9,
    "eng_roles": 5,
    "new_7d": 1,
-   "new_30d": 4,
+   "new_30d": 3,
    "remote_roles": 5,
    "sample_eng_roles": [
     {
@@ -6264,7 +6264,7 @@
    "open_roles": 7,
    "eng_roles": 4,
    "new_7d": 0,
-   "new_30d": 2,
+   "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -7083,7 +7083,7 @@
      "url": "https://jobs.ashbyhq.com/radical-numerics/1231630f-f9b5-4f0e-9b08-475fcfd2f3c6"
     }
    ],
-   "delta_since_last": -7
+   "delta_since_last": 0
   },
   {
    "name": "WireScreen",
@@ -7222,7 +7222,7 @@
    "open_roles": 20,
    "eng_roles": 3,
    "new_7d": 1,
-   "new_30d": 5,
+   "new_30d": 4,
    "remote_roles": 10,
    "sample_eng_roles": [
     {
@@ -7821,7 +7821,7 @@
    "yc_stage": "Growth",
    "open_roles": 10,
    "eng_roles": 3,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 3,
    "remote_roles": 1,
    "sample_eng_roles": [
@@ -9141,7 +9141,7 @@
    "yc_stage": "Early",
    "open_roles": 4,
    "eng_roles": 2,
-   "new_7d": 3,
+   "new_7d": 1,
    "new_30d": 3,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -9291,7 +9291,7 @@
    "open_roles": 4,
    "eng_roles": 2,
    "new_7d": 0,
-   "new_30d": 2,
+   "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -9391,7 +9391,7 @@
    "open_roles": 3,
    "eng_roles": 1,
    "new_7d": 0,
-   "new_30d": 2,
+   "new_30d": 0,
    "remote_roles": 3,
    "sample_eng_roles": [
     {
@@ -9535,7 +9535,7 @@
    "open_roles": 3,
    "eng_roles": 1,
    "new_7d": 0,
-   "new_30d": 1,
+   "new_30d": 0,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -9577,7 +9577,7 @@
      "url": "https://jobs.ashbyhq.com/second-nature/88fc670b-d2ff-46a9-af53-280037931613"
     }
    ],
-   "delta_since_last": 2
+   "delta_since_last": 0
   },
   {
    "name": "Compa.AI",
@@ -9941,7 +9941,7 @@
    "open_roles": 2,
    "eng_roles": 1,
    "new_7d": 0,
-   "new_30d": 1,
+   "new_30d": 0,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -10346,7 +10346,7 @@
      "url": "https://jobs.ashbyhq.com/commodityai/d6d8fdd6-358e-47b1-9f46-0b70652faf3d"
     }
    ],
-   "delta_since_last": null
+   "delta_since_last": 0
   },
   {
    "name": "Complement AI",
@@ -10427,13 +10427,13 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "open_roles": 1,
+   "open_roles": 0,
    "eng_roles": 0,
    "new_7d": 0,
    "new_30d": 0,
    "remote_roles": 0,
    "sample_eng_roles": [],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "VergeSense",
@@ -10705,7 +10705,7 @@
    "new_30d": 0,
    "remote_roles": 0,
    "sample_eng_roles": [],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Capy",
