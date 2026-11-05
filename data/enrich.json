@@ -1620,6 +1620,19 @@
   "yc_batch": "Winter 2020",
   "yc_stage": "Growth"
  },
+ "Reducto": {
+  "amount": "$75M",
+  "checked_at": "2026-11-05",
+  "date": "2025-10-15",
+  "headline": "Reducto raises $75 million Series B; Andreessen Horowitz leads to scale AI document processing",
+  "round": "Series B",
+  "round_est": false,
+  "round_text": "Series B",
+  "team_size": 30,
+  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVVBfMURTUjJQOVBLNHpiaVNDdDhIZW44RDAtdS1SNENibmZ6WXBLVmJuejh4dHpkRUJyc0x5NWtoZHFNTUhfVjVXVV9oWUVaR0lkZG9HMXlhdHp5ejljTnFBc0hsaXlTTEN0dGVnNXNZb1Q3N2VGMUsxdElOUUVId0l4S0QxY2lPUlZBdkxfaEpVazdOMXZUMHFENWJ0Z1NFem5tYlhINzZiSUMzWmV6NDl3eXNuODJUUzN5d0VjVlMwMkpwNHU4T3U5RS11bmliX2IyX0VSclRkWUw1?oc=5",
+  "yc_batch": "Winter 2024",
+  "yc_stage": "Growth"
+ },
  "Relling": {
   "checked_at": "2026-10-23",
   "yc_batch": "Summer 2025",
@@ -1690,7 +1703,7 @@
   "team_size": 15,
   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Vd0R5cUNYbGtwQXl6N3hSWVV0S0Q3NVhucTNUcGYySUVUQk9VTzRySVpZVy1zZDk2ZWRPQlBHSURtSE1GTnNOVy01UVJmdlNoNDZBcXVNMUlLMHRFYVFwejJkdw?oc=5",
   "yc_batch": "Winter 2025",
-  "yc_stage": "Early"
+  "yc_stage": "Growth"
  },
  "Salient": {
   "amount": "$60M",
@@ -1981,6 +1994,19 @@
  },
  "Tether": {
   "checked_at": "2026-10-23"
+ },
+ "Tint": {
+  "amount": "$600,000",
+  "checked_at": "2026-11-05",
+  "date": "2021-12-22",
+  "headline": "Tint bags $600,000 for tech disrupting the way we buy paint",
+  "round": "Seed",
+  "round_est": true,
+  "round_text": "",
+  "team_size": 40,
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLS1YRUlLU0xSN3o2ZFpfd3ZtTVFkNEFhVV9TRTBTdjUyay1XQUxadXBqVlVOTzZsbC1HU0I4OU81VmNNbC1XY25Ob0lYa25yYi1aeTlhM2NfU1JQX0RCMnBzX3AwWU5oMTljUVdUTjJ5R2U4UmN3OFFfM25nNk9rWg?oc=5",
+  "yc_batch": "Winter 2021",
+  "yc_stage": "Early"
  },
  "Together AI": {
   "amount": "$800M",
