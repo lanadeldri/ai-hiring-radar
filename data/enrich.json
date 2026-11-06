@@ -648,7 +648,7 @@
   "team_size": 35,
   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWZFMFBOQThJRllNbjJxMjVJejZMMGNuR2htdGpqYW9HbEpfY19DY0xhb0pzZEdSM0Z0REF2d0g4RHp0REdjT0lSd1RzMEh6NE5QTzBDb2FuV2RVSndWR2tCUXVRdGtWX3RwcHFTWDAxa2RLYkxrN2FELTNIUEJUM1F6RGRhbWxjZktNMllnUDYyY2VhWlJwNGU4N0ltR1k?oc=5",
   "yc_batch": "Summer 2024",
-  "yc_stage": "Growth"
+  "yc_stage": "Early"
  },
  "Fanvue": {
   "amount": "$22M",
@@ -1421,6 +1421,19 @@
   "round_est": true,
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sZWJzQnVrUjRuMEduYUxTYWxvalFLeWZFTF85eUJ3ZUU5am9GVEZNbFRqUXRMbGtMZzBGYzRuc29PRmp5aXpxeHdvbTJZdmROME82TWRUblFmS29DcHlOdUFUSEZqU092Tks5aVZlNmxSWm9fOTlxcFlB?oc=5"
+ },
+ "Pharos": {
+  "amount": "$5M",
+  "checked_at": "2026-11-06",
+  "date": "2026-05-22",
+  "headline": "Pharos raises $5M Seed to automate hospital quality reporting with AI",
+  "round": "Seed",
+  "round_est": false,
+  "round_text": "Seed",
+  "team_size": 10,
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcEVrYlFlNTN1S3E3SVV0MXNuclgzY0k2WEt0Q2tiVWoxRnp1alVOQU5kTlVwVWFkMlk3enNNT3Nrb0ZqZVVab2NyZHVxSFBCT2h4YU1TQ3VEMlpuOHA5VWFOSTZXWTVXdFJHMmU0V2UycjBZNElub2lUXzNJVWFDOVZDVHJVd3NOZEhxRG5Ed1VWSUgxdjhUb2NXRjdYV0Rvd0VFbQ?oc=5",
+  "yc_batch": "Summer 2024",
+  "yc_stage": "Early"
  },
  "PhysicsX": {
   "amount": "£225M",
