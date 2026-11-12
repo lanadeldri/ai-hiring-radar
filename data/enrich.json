@@ -1,4 +1,7 @@
 {
+ "3ive": {
+  "checked_at": "2026-11-12"
+ },
  "AIRMO": {
   "checked_at": "2026-10-23"
  },
@@ -996,6 +999,9 @@
   "round_est": true,
   "round_text": "",
   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3QzYllqQjBVOTNYaWp5RDBUVGE2bHR0aUxCc194dlB4MTVLam90bWJaNWMtSlZqM2RUQVpnem8ybWlNb0FPOFljalNCUDQtVUNBQmNGY2hYenNpeS0tU1dmcG5lM1cxbENwa0t5X2ZIVzA2ME0xYzEtRHJnNnp2Yy16QTlkaHZWLXZIMUJ5VGg1VGZzMmUzaVhOM2NFWEk2REtweXFEWFpUaWNRUzB4d213aHZDWTQtSE15cHpVcUd0dw?oc=5"
+ },
+ "Kinelo": {
+  "checked_at": "2026-11-12"
  },
  "Kraken Tech": {
   "checked_at": "2026-10-23"
@@ -2074,6 +2080,19 @@
   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcXB1OGQ2UkpvR2VSeHFwUWswWnVXcW1LeWFTcDBxd25WYlRyRG1YVWVBSEdQVzM3YjVQR0JQeHVJQ00zVGQwaFJucG52dTNFUEtuWkNhM3J6bnVTc3RsaUY1VlFLT19WYi1jUGxCZ1p4bzkyZ2hTalpGMG9tMVoyYUQ0dGl6aXFfSjY2QVdudEVCSEVuc2pfNGZ3?oc=5",
   "yc_batch": "Winter 2021",
   "yc_stage": "Growth"
+ },
+ "Variance": {
+  "amount": "$21.5M",
+  "checked_at": "2026-11-12",
+  "date": "2026-04-10",
+  "headline": "AI risk intelligence start-up Variance raises $21.5m Series A",
+  "round": "Series A",
+  "round_est": false,
+  "round_text": "Series A",
+  "team_size": 12,
+  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWUlJdXRRNzZiYURQZDZ0dHRRUGlHS3BaVFZ2ZDFkMXo5cHdhcmpTZnVyVnZzbTdvYmZFM2Z3MlkxQ0h4bXpRRzltSi1aMG10MlRqS1FoV1dSNVFsaW9PbkdER3ZKYjBYZ1JtZlBWeGkyVnpZOUdLM2xUM29lN1F1RDhWV2lzRUMtdEsxZ3NRdVlINWs5b2hOT3R1Qkt3ZmsydTZKZWI5dU9Sal9BTjFyYThEem56Zw?oc=5",
+  "yc_batch": "Winter 2023",
+  "yc_stage": "Early"
  },
  "Vera Health": {
   "amount": "$28.5M",
