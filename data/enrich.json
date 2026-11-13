@@ -79,6 +79,16 @@
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
+ "Alternative Payments": {
+  "amount": "$22M",
+  "checked_at": "2026-11-13",
+  "date": "2025-04-28",
+  "headline": "Alternative Payments Secures $22M to Fix Outdated B2B Payment Systems",
+  "round": "Series A",
+  "round_est": true,
+  "round_text": "",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZkVFaVIxdHRJUnhsM0xGY0NDRGZkYXl3ZTZuTVF0UHhUVjhSSi1fekxJWi1IM21MQUNfQV9yUFJkVk1wMnlKTkpaaGNUd3ZmLWxpQjNNNEJLU0l2a3NsdUJHMk4zb3dELW9DYkJFZVB3cDAtLUM2X0JCWEZ2cTNtcWdvZUdmTGl2cVdUc0J2WWNLSVhEWm5icGtCc0c5ZDZvMzNaSkgtTmVJR0dmZUMwY1k5dW9iWjVNSTdudFJMM2lpTDREQlpVMzJobDFvd0lXYUswdlBR?oc=5"
+ },
  "Ambient.ai": {
   "amount": "$20M",
   "checked_at": "2026-10-23",
@@ -249,6 +259,9 @@
   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQktUQjRucjdqeEluU1pNNTJ4cWZzbEFtTkVfOTEtelBZT29KMW93aFJUUWVRTjMzOGFWVGMwUzZWMUhVaS16M0FYUm96NmFfRm9DTVNITGV3ZzZSVUdlYjUtODY1d0xxZUE4bGJzNGwzd2hka29WeHBZQVpPMjQ1ZWxoY1VwaG9SU0lMVW9rOE1hcjhmWDdqSw?oc=5",
   "yc_batch": "Winter 2019",
   "yc_stage": "Growth"
+ },
+ "CERN": {
+  "checked_at": "2026-11-13"
  },
  "CTGT": {
   "checked_at": "2026-10-23",
