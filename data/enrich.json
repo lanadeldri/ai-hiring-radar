@@ -802,6 +802,19 @@
   "yc_batch": "Summer 2023",
   "yc_stage": "Growth"
  },
+ "Gigs": {
+  "amount": "$73M",
+  "checked_at": "2026-11-19",
+  "date": "2024-12-12",
+  "headline": "Mobile services startup Gigs raises $73 mln in rare non-AI-centered funding",
+  "round": "Series B",
+  "round_est": true,
+  "round_text": "",
+  "team_size": 150,
+  "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYlpZZFpnWkE5ZTZ2ZzdUZVRRRXlYN0VfRlEySDU3SjBfc3poME1uV1puN1gtSkU0QUZWcnhjczNXbXhoZkVkMVlxNG53RlZ1RjBiMEh4Mk43bVpHQk5HZDFvRVNDdS1YaXFHUTBtdVNBaFhGUS1vR0wwM0lKM1Z3UHNCQXBuN3RQNl82aGg4bmVRX1l5Yk1nVndKRXozYTFTYy1GRXpLLWdqaEtfTlFBSVZKUW1odTJLRE10OFFmczA4amdJQkNpYWV3?oc=5",
+  "yc_batch": "Winter 2021",
+  "yc_stage": "Growth"
+ },
  "Glean": {
   "amount": "$150M",
   "checked_at": "2026-10-23",
