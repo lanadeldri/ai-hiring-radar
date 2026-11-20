@@ -290,10 +290,10 @@
   "round": "Series B",
   "round_est": false,
   "round_text": "Series B",
-  "team_size": 105,
+  "team_size": 190,
   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU09xak9iMmtfc2Y5LU5id0ZvR05LU2VBME9wN2w4amVicU9zbndWT2ptc253MDVaYzlRNjU5dHpvS3JDNG15bjdweWNOY2dGR2pCdHc5YlJvbmlPNnI3QWxDeWpXUnZ3WGlvMHFBZjVrOGxzRXR3dlZET2pyTk04OGotaHdmVVIyUllEdjdGT3hpUQ?oc=5",
   "yc_batch": "Summer 2023",
-  "yc_stage": "Growth"
+  "yc_stage": "Early"
  },
  "Capy": {
   "checked_at": "2026-10-23",
@@ -664,7 +664,7 @@
   "team_size": 35,
   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWZFMFBOQThJRllNbjJxMjVJejZMMGNuR2htdGpqYW9HbEpfY19DY0xhb0pzZEdSM0Z0REF2d0g4RHp0REdjT0lSd1RzMEh6NE5QTzBDb2FuV2RVSndWR2tCUXVRdGtWX3RwcHFTWDAxa2RLYkxrN2FELTNIUEJUM1F6RGRhbWxjZktNMllnUDYyY2VhWlJwNGU4N0ltR1k?oc=5",
   "yc_batch": "Summer 2024",
-  "yc_stage": "Growth"
+  "yc_stage": "Early"
  },
  "Fanvue": {
   "amount": "$22M",
@@ -1386,7 +1386,7 @@
  },
  "Open": {
   "checked_at": "2026-10-23",
-  "team_size": 21,
+  "team_size": 22,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
