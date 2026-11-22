@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T20:06:30.128174+00:00",
+ "updated_at": "2026-11-22T20:22:05.755699+00:00",
  "companies": [
   {
    "name": "Databricks",
@@ -20,10 +20,10 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVjdtVVBQRnQ0ZjI2aG5WcEtGR2REOEpHRWtGRm9YTDNRWGdWOU45cmZjdmZmM3VRSWxRWFJOSlZrakhmSjdZNDdIV3lkY0EwYUpIX0xiS2J1YXl4RHZ0enM1Q25ZVzJ1MTJuSG1zcXdzQ2VTd1NIZVRLS1FXN1FTWTZfbnA2RVVvSjVLdkVuOXU1V3dLSjdhVG5xcUxRN01hZHJGTXRucW5qLVd6NEtjaUF3?oc=5",
-   "open_roles": 895,
+   "open_roles": 893,
    "eng_roles": 564,
-   "new_7d": 45,
-   "new_30d": 177,
+   "new_7d": 44,
+   "new_30d": 176,
    "remote_roles": 81,
    "sample_eng_roles": [
     {
@@ -66,39 +66,46 @@
    "sector": "Foundation models",
    "hq": "San Francisco",
    "notes": "",
+   "funding_amount": "$11B",
+   "funding_date": "2026-11-08",
+   "funding_headline": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "funding_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
    "open_roles": 852,
    "eng_roles": 491,
-   "new_7d": 95,
-   "new_30d": 285,
-   "remote_roles": 602,
+   "new_7d": 101,
+   "new_30d": 280,
+   "remote_roles": 601,
    "sample_eng_roles": [
     {
-     "title": "Researcher, Cyber Safety Training",
+     "title": "Research Engineer / Research Scientist, Health",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/0503a31f-5550-44e8-bec3-99b493532000"
+     "url": "https://jobs.ashbyhq.com/openai/6785d983-8831-46d0-9c81-443f83664948"
     },
     {
-     "title": "Mechanical Design Engineer, Battery Pack",
+     "title": "Research Engineer / Research Scientist, Human Flourishing",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/ebe31cd6-0b6a-4214-b3c1-7dd7074753d6"
+     "url": "https://jobs.ashbyhq.com/openai/740b5d1b-f63d-49bb-962d-8e2778e925ef"
     },
     {
-     "title": "Manager, Data Engineering, Trust & Safety",
+     "title": "Research Engineer / Research Scientist - Post Training, Memory",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/019170f9-ae56-49fc-8450-f505d39180bb"
+     "url": "https://jobs.ashbyhq.com/openai/ecfe655c-1369-4bcd-aae0-4a3b75fdf61b"
     },
     {
-     "title": "Engineering Manager, Robotics Embedded Systems",
+     "title": "Research Engineer/Research Scientist- Post Training, Model Experience",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/70cfa7de-bf97-41e3-9784-8e123439a1d8"
+     "url": "https://jobs.ashbyhq.com/openai/bc85c1a9-0f75-4c3a-807b-6d2bb26c8445"
     },
     {
-     "title": "Data Scientist, Integrity",
+     "title": "Research Engineer/Research Scientist-Post Training, Proactivity",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/f6cada21-0f54-4d8a-884e-e3c64edd4789"
+     "url": "https://jobs.ashbyhq.com/openai/d1906ab2-b829-4a13-b1f2-f4af97d699fa"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 0
   },
   {
    "name": "Anthropic",
@@ -112,18 +119,18 @@
    "sector": "Foundation models",
    "hq": "San Francisco",
    "notes": "",
-   "funding_amount": "$320.8B",
-   "funding_date": "2026-10-19",
-   "funding_headline": "Anthropic Secures $320.8 Billion Funding: Is This Paying for the AI Doomsday Theory?",
+   "funding_amount": "$93.5B",
+   "funding_date": "2026-11-20",
+   "funding_headline": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
    "funding_round": "Series C+",
    "funding_round_est": true,
    "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12Ym9Qb01fWm42TGpOMi01T1RBVEZacUllVVVWMTRWTW5TTExGN25OYXMxMHZZTGd1T3h0eEhMcldCazhqekNHQkNYbEhkWnpwSURr?oc=5",
-   "open_roles": 635,
+   "funding_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFTVBJTG4td0xyYWJNdUpwM2hqSzNKMVdWZG5QMGxGN184UXU0SXdqY1pORWk1Q2J6YVdRM3dncVRneldLSXhzZ0p0azF2QmsxNGM0YzZxcFBSZ282UGh0MXVPX1dUckI4cWxWNtIBckFVX3lxTFAtcXZnZF9OcHBTcTNMVWVGN1lrVVRORHZCMVFDWFZyQk5PY1ppQVRJajByR0JMT1R4d2hlUURiNUdqZk9mb3EtUzVDSWM1SllIbFg4NmJTTEFUX3hocFMweWFKZW9odmNkaWptOUtabzl1dw?oc=5",
+   "open_roles": 636,
    "eng_roles": 328,
-   "new_7d": 38,
-   "new_30d": 163,
-   "remote_roles": 56,
+   "new_7d": 40,
+   "new_30d": 159,
+   "remote_roles": 55,
    "sample_eng_roles": [
     {
      "title": "Research Engineer, Finetuning",
@@ -151,7 +158,7 @@
      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490978008"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 1
   },
   {
    "name": "Cloudflare",
@@ -175,7 +182,7 @@
    "open_roles": 504,
    "eng_roles": 253,
    "new_7d": 50,
-   "new_30d": 167,
+   "new_30d": 159,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -204,7 +211,7 @@
      "url": "https://boards.greenhouse.io/cloudflare/jobs/8401112?gh_jid=8401112"
     }
    ],
-   "delta_since_last": 8
+   "delta_since_last": 0
   },
   {
    "name": "Harvey",
@@ -227,8 +234,8 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1oeGh3RjNjY3lBT19GbFhiMmYzb1RPUUVZQVA2OEtDVG1rYTJMRmo3Y012cmp2R2UzaXZqU1RPeUpxVlli?oc=5",
    "open_roles": 390,
    "eng_roles": 158,
-   "new_7d": 35,
-   "new_30d": 157,
+   "new_7d": 34,
+   "new_30d": 155,
    "remote_roles": 324,
    "sample_eng_roles": [
     {
@@ -257,7 +264,7 @@
      "url": "https://jobs.ashbyhq.com/harvey/56357288-3ba6-4808-8121-becc6c1efe38"
     }
    ],
-   "delta_since_last": 2
+   "delta_since_last": 0
   },
   {
    "name": "Mistral AI",
@@ -281,7 +288,7 @@
    "open_roles": 260,
    "eng_roles": 113,
    "new_7d": 19,
-   "new_30d": 85,
+   "new_30d": 83,
    "remote_roles": 101,
    "sample_eng_roles": [
     {
@@ -370,13 +377,20 @@
    "sector": "Data / infra",
    "hq": "San Francisco",
    "notes": "",
+   "funding_amount": "$1B",
+   "funding_date": "2024-05-21",
+   "funding_headline": "Scale AI Raises $1B In Accel-Led Round; Hits $13.8B Valuation",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
    "team_size": 500,
+   "funding_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mOHZsUWZqNXhIb0VkZzhMZmZhaVVRS1NsUXlCOUc0RjFLYnhwaFpDUnhTSERwZFJXNUkwSFltcUtFLXpyVjdUUDRfT1Z0X2lGWXg4OXUtZjltUkZNZ2hCaVFqSWNFUUlWd0FLWkVLUE1Uc19pR1ZXc3VSMUQ?oc=5",
    "yc_batch": "Summer 2016",
    "yc_stage": "Growth",
-   "open_roles": 169,
-   "eng_roles": 87,
+   "open_roles": 166,
+   "eng_roles": 85,
    "new_7d": 4,
-   "new_30d": 30,
+   "new_30d": 29,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -405,7 +419,7 @@
      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751635005"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": -3
   },
   {
    "name": "Sierra",
@@ -429,7 +443,7 @@
    "open_roles": 194,
    "eng_roles": 83,
    "new_7d": 3,
-   "new_30d": 42,
+   "new_30d": 26,
    "remote_roles": 22,
    "sample_eng_roles": [
     {
@@ -479,11 +493,11 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHV4THFRYmp3RkNxMHhhOXZMRjRfTUdRLWV5VXJ3ejZWTk83cDN2UE8ya2swWkFXUFRHUHlDZU9ZYjJVYTNhNGlkeWRrM3U1ZlZ1TzRKd3Jmb0U5X3JheHB6Rnp5Q1duRU5haHdONEJJaFg0UXpGX1R0bkJ0WEM2eVdsd2hDODZUT2gxOGR6VlRRal9oM0RhaUVtY2E0ZFpHSGRHWQ?oc=5",
-   "open_roles": 140,
-   "eng_roles": 79,
+   "open_roles": 139,
+   "eng_roles": 78,
    "new_7d": 20,
-   "new_30d": 75,
-   "remote_roles": 140,
+   "new_30d": 73,
+   "remote_roles": 139,
    "sample_eng_roles": [
     {
      "title": "Staff Field Engineer | Canada | Remote",
@@ -511,7 +525,7 @@
      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6267147004"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Perplexity",
@@ -535,7 +549,7 @@
    "open_roles": 151,
    "eng_roles": 67,
    "new_7d": 16,
-   "new_30d": 49,
+   "new_30d": 44,
    "remote_roles": 71,
    "sample_eng_roles": [
     {
@@ -564,7 +578,7 @@
      "url": "https://jobs.ashbyhq.com/Perplexity/3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Glean",
@@ -588,7 +602,7 @@
    "open_roles": 129,
    "eng_roles": 54,
    "new_7d": 12,
-   "new_30d": 28,
+   "new_30d": 23,
    "remote_roles": 29,
    "sample_eng_roles": [
     {
@@ -617,7 +631,7 @@
      "url": "https://job-boards.greenhouse.io/gleanwork/jobs/4734007005"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Baseten",
@@ -641,7 +655,7 @@
    "open_roles": 108,
    "eng_roles": 54,
    "new_7d": 12,
-   "new_30d": 34,
+   "new_30d": 32,
    "remote_roles": 105,
    "sample_eng_roles": [
     {
@@ -670,7 +684,7 @@
      "url": "https://jobs.ashbyhq.com/baseten/68401d04-ff32-492e-9258-2b32c5507c06"
     }
    ],
-   "delta_since_last": 3
+   "delta_since_last": 0
   },
   {
    "name": "Overview",
@@ -690,7 +704,7 @@
    "open_roles": 69,
    "eng_roles": 54,
    "new_7d": 3,
-   "new_30d": 15,
+   "new_30d": 14,
    "remote_roles": 54,
    "sample_eng_roles": [
     {
@@ -772,7 +786,7 @@
      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5268939007"
     }
    ],
-   "delta_since_last": 3
+   "delta_since_last": 0
   },
   {
    "name": "Cohere",
@@ -786,20 +800,20 @@
    "sector": "Foundation models",
    "hq": "Toronto",
    "notes": "",
-   "funding_amount": "$100M",
-   "funding_date": "2026-04-15",
-   "funding_headline": "Cohere Raises $100M to Accelerate Global Expansion of Security-First Enterprise AI",
+   "funding_amount": "$5B",
+   "funding_date": "2026-10-29",
+   "funding_headline": "Cohere Raises $5 Billion for Alternative AI Vision",
    "funding_round": "Series C+",
    "funding_round_est": true,
    "funding_round_text": "",
    "team_size": 7,
-   "funding_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZzZTTERPbVF0VHFYN056N0RsS1FEeTBtU0ZIbXlDVFVROG1JdWkxZ3BxTkxmMXNsQzZTZTdqeEpMT2RxYlRVU0lwd0stQjd3MFkxWklPVmJUMENRNVRERUU3U1NzVGo3TzhTZy1CMUg0SzBTbm5SaGM0R2FqTWs5OUVzMTBKekJFZk9TZEdEZnlXeU9rdmZrMG9BN1ZRTU9UZWNLMWplY0Y4ZGZJREJhZVVlMmhZZw?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3pUV1Zkbk91bnAxV05jTEQwTENodkl3WE5CZmRvTzZLTzBIU1RxM0dpQUdvZFY0VmQtYmphV2FvakpET2NTNXlBZDFLLUEycXJOQjB6enNJMHJ3amtObzVBRXVaRVozOGJjSC1FR3FJY0R5Q1Y3OHB2V3N6ZFEybnRYR3hJTENWc2JfSmh1aURBQzRlOTBOQ2l1V2FyUmpqWnRFS08ycVpBU2xRMjZXbQ?oc=5",
    "yc_batch": "Summer 2020",
    "yc_stage": "Early",
    "open_roles": 124,
    "eng_roles": 45,
    "new_7d": 11,
-   "new_30d": 47,
+   "new_30d": 45,
    "remote_roles": 113,
    "sample_eng_roles": [
     {
@@ -828,7 +842,7 @@
      "url": "https://jobs.ashbyhq.com/cohere/2a9a9b65-4f1b-4387-aa7f-d58c78e738c4"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Mercor",
@@ -842,17 +856,17 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "funding_amount": "$20B",
-   "funding_date": "2026-08-19",
-   "funding_headline": "Mercor secures $20B valuation as Nvidia extends spending to its own AI data supplier",
+   "funding_amount": "$750M",
+   "funding_date": "2026-11-14",
+   "funding_headline": "Mercor lands $750M funding round, valuing staffing platform at $20B",
    "funding_round": "Series C+",
    "funding_round_est": true,
    "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42bi1zb2dYMjVIekI0bWwtS05JbTExNjFuV1piT0ltdmFNV3VoY2VHZHdOZEx1VWQyekM1TTdYZlZiZEFRc0NkOF9SM1F1VUtaYjdJR0ZPeHhuNGZBcHJxd29VYWtpX0tfSGdSYWRvVVZoaGtoYnlLR2RUOA?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTZLX3Z4c3JkblNZVzdlalFBQ1lyU1AwMVJNc0tmTDQtRWxHMEltaUhaSU5CTkp1SkdvN0ZqWnpvRFVEd0pVSE5VUVpqaU5EZWJqRGRoLXBaaUh6M2p1djNsRUNPckUzZzN5dTMzREY0VFVEWFU2b2ZCMUZzcFVWWHRBY3hHVmlMOTloMnlvYnhmeG14ZkttRGRPM2I3X1pYcVB5XzNCc2VMMTBEUEhyM0w3RDVBMkl4U09kLQ?oc=5",
    "open_roles": 109,
    "eng_roles": 44,
    "new_7d": 22,
-   "new_30d": 50,
+   "new_30d": 48,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -881,7 +895,7 @@
      "url": "https://jobs.ashbyhq.com/mercor/861df396-2508-4ede-97b8-51a85bbc98e2"
     }
    ],
-   "delta_since_last": 2
+   "delta_since_last": 0
   },
   {
    "name": "Decagon",
@@ -905,7 +919,7 @@
    "open_roles": 109,
    "eng_roles": 42,
    "new_7d": 3,
-   "new_30d": 11,
+   "new_30d": 9,
    "remote_roles": 12,
    "sample_eng_roles": [
     {
@@ -934,7 +948,7 @@
      "url": "https://jobs.ashbyhq.com/decagon/cfc21b6c-75ed-4b01-925a-6636778ebf04"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "LangChain",
@@ -948,13 +962,13 @@
    "sector": "Dev tools",
    "hq": "San Francisco",
    "notes": "",
-   "funding_amount": "$25M",
-   "funding_date": "2024-02-15",
-   "funding_headline": "LangChain raises $25M, launches LangSmith",
-   "funding_round": "Series A",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObEMtckNUSEhFXy1lem5oWjVDUUs4NFNUSVp5RmxxZE1qbHNkekZNM2E3ekhXWHlxLUtzQ1BjLW5yWk85czNCWWRzS3ZIekE5NDZnNkhvTlJvN1VvalRxQzBVbWNjQnJQdUExb1ltVmxUbWFpWFVOVU00T2lDUGI1cDRFcnZmanRGZHVjdkJITFAtZk5aa29JTlZrNGFzeG8zODRPSUtwU2NxazUyVHFHQTBhWTJ3VGY3c3BkYg?oc=5",
+   "funding_amount": "$300M",
+   "funding_date": "2026-11-18",
+   "funding_headline": "LangChain Raises $300m At $3bn Valuation In Series C Round",
+   "funding_round": "Series C+",
+   "funding_round_est": false,
+   "funding_round_text": "Series C",
+   "funding_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVzlFd2U1clJmVzhzdjlUYndsdXI5UzlEMFZ2QUlSZlBnVjZsRDFSOS1qdEh3cGVVbU9FU2ktTnJFTk5sU3NHREx6Nl96aHM1bXJKSEN4c0ZyRDc0VzBNUnBQdDhwU29uVmhwbmRFX0RVSHgzM0J6Z1AyM25tV3NxWFRxUGVVRkM1NElScnlSSnhLQ0c0Rmt2ZVhrcnhFVV81UzRoQlVmZDQ?oc=5",
    "open_roles": 102,
    "eng_roles": 38,
    "new_7d": 3,
@@ -1008,11 +1022,11 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjZGbWFRbHV5Q0VzVXdJRHJjS3NraWtueVlFYjQzSGpWeEl1NXFCMnQ1VWtQb0ZDVk5SM0dmVEZ2aW9lQ0JrNlBybVBJc1RXOWVXY2Q2YUJabHBSejFfSDBuSTFNTnNfTlowS2Vsb0RGdEhlUDVxUkQ5Vl9oUnR2VFZyQmVNeGVjV1VB?oc=5",
-   "open_roles": 121,
+   "open_roles": 122,
    "eng_roles": 37,
-   "new_7d": 21,
-   "new_30d": 55,
-   "remote_roles": 95,
+   "new_7d": 22,
+   "new_30d": 54,
+   "remote_roles": 96,
    "sample_eng_roles": [
     {
      "title": "Data Scientist - Product Analytics",
@@ -1040,7 +1054,7 @@
      "url": "https://jobs.ashbyhq.com/ElevenLabs/709b53e4-9db5-47ae-9c4b-a6fb9f33044c"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 1
   },
   {
    "name": "PhysicsX",
@@ -1054,13 +1068,13 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "funding_amount": "£225M",
-   "funding_date": "2026-06-09",
-   "funding_headline": "PhysicsX raises £225m to accelerate AI for industrial engineering",
+   "funding_amount": "$300M",
+   "funding_date": "2026-06-19",
+   "funding_headline": "PhysicsX raises $300 million at $2.4 billion valuation: How this London AI startup is revolutionising engineering",
    "funding_round": "Series C+",
    "funding_round_est": true,
    "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ21WUUVydW9wblJhWmFFZ2QtRFpYbE9CX3prWHNkMlE1OXZ5c05qYnhKbVVkcmJkbldVZ0ZfX0pjRVFLeGNxblgwb0JzRVZjcE9pd1I2ZnE3SFdfMUJGVkVEY1BvMVAycWtpX0JyV2c0Mm5STlpiZjRGRmlOMXZRRHVZZThEeFF0UkVrSVlsV0ZuYWNQSktrZUkyRF9yVzNUWWc?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWUFqd0hxdlNiVUdyazNPLWMwX1BpUThIeTZXQmpDdjI5NlJpeE8xUmp1TXZiLU93MVN4aFhMMy1WaU80OXVSLUI0dDNGYUgxSjkxYVhndVc0Rlp2NHAydFV5OU9mdTVFYXpjNm44UHFLallMYmdnZjIxc2xaVDQ2ZldsVVlhNUhUVXZyR2JWRnViRTRfSUdwZHVzSmsxenAzR3hiZDlzLVBNaFpicC1ISGtuNFZUR1c5MkViT1VFTWtrMTlxRnUtZlctT3VuOFJOazNZcmhKZw?oc=5",
    "open_roles": 47,
    "eng_roles": 36,
    "new_7d": 1,
@@ -1245,7 +1259,7 @@
      "url": "https://jobs.ashbyhq.com/cursor/d06d229f-eb2c-46d7-8e0f-96da5ecaec88"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Deepgram",
@@ -1266,12 +1280,12 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "team_size": 115,
-   "funding_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10VUJ3d0JXMUctbEtIV2FJMFRUeXBsUTJuREN6UzZtWENuaDAtaU9sQ3JJMzlxYmxEdUhXZ2pGeHR2d0ROSkZ6dFdfQTF6V2tHcG5jXzlabGJLRmZoOEpTaHd1eU9aalNBdFprRk5pSV9QekphUVduXzNRMGc?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BUzUxM2tUb3FNRkNwZFlmZng0OTRldEMxZFQzYTBIZEpsVlJaSUpQNmtRR2lsbU9PRjhfWHhHVFdoU3pvemQ4b0IyUDd6MzdVRm10U2xXZW1ZUDc3Sk5FNVUyUVJ1YTlkV1RveXBJOTU?oc=5",
    "yc_batch": "Winter 2016",
    "yc_stage": "Growth",
    "open_roles": 52,
    "eng_roles": 26,
-   "new_7d": 4,
+   "new_7d": 3,
    "new_30d": 10,
    "remote_roles": 45,
    "sample_eng_roles": [
@@ -1301,7 +1315,7 @@
      "url": "https://jobs.ashbyhq.com/Deepgram/a0678103-1b9c-44a4-92c0-f705850a8fa1"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "May Mobility",
@@ -1403,7 +1417,7 @@
      "url": "https://jobs.smartrecruiters.com/CERN/744000161810029"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Replit",
@@ -1427,7 +1441,7 @@
    "open_roles": 38,
    "eng_roles": 23,
    "new_7d": 9,
-   "new_30d": 21,
+   "new_30d": 20,
    "remote_roles": 38,
    "sample_eng_roles": [
     {
@@ -1456,7 +1470,7 @@
      "url": "https://jobs.ashbyhq.com/replit/563751ea-cb0b-412e-ae07-c5638b87f81a"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "fal",
@@ -1470,17 +1484,17 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "funding_amount": "$140M",
-   "funding_date": "2025-12-09",
-   "funding_headline": "AI startup Fal raises $140 million at $4.5 billion valuation",
+   "funding_amount": "$1.3B",
+   "funding_date": "2026-11-04",
+   "funding_headline": "Fal raises $1.3B Series F at $16B: How two engineers turned a pivot into an AI media giant",
    "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUDk2ME8xaHc5QjJXaERzU045ekZRdG14S1JxQzNiR3pNQ2lLV2tYRDZuZjN4NVNXdmwtRUhKUkdheDhHSzhUYkNBNk45Y0o3N2R0YVl5ZFVzbVVYNlRTcVRsLVQ1N2pDY1ZPTW5NZUFaQUlFX3dydlpoNUdKSm5qdUdSUzVCV2M5cGo5cndkVHhfVmFCNWlzOUs0VEI4OGxZOS1ob1VDVkNoXzVSbWctMkRIUHA?oc=5",
+   "funding_round_est": false,
+   "funding_round_text": "Series F",
+   "funding_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJUTd4bjVyNmhYRWNyamNTSXN2Uy1fOVFyenk4aXFqTllpWnM5TTdRbkFTTmhPRFEtUUZfTG1Lc2JjY1hSb3NYbEtsa1ZNWHR3UTRPWXcwLVhQWi1KMnA5dnZqRnp3VmZZQWktelA0bC00S3IzR1dybklKSXFzQQ?oc=5",
    "open_roles": 50,
    "eng_roles": 23,
    "new_7d": 3,
-   "new_30d": 16,
+   "new_30d": 15,
    "remote_roles": 6,
    "sample_eng_roles": [
     {
@@ -1509,7 +1523,7 @@
      "url": "https://jobs.ashbyhq.com/fal-ai/c3442fcd-8679-41a3-ad16-b1e1883d916c"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Aptura AI",
@@ -1525,7 +1539,7 @@
    "notes": "via hn",
    "open_roles": 40,
    "eng_roles": 22,
-   "new_7d": 4,
+   "new_7d": 3,
    "new_30d": 6,
    "remote_roles": 31,
    "sample_eng_roles": [
@@ -1626,12 +1640,12 @@
    "hq": "New York",
    "notes": "",
    "funding_amount": "$750M",
-   "funding_date": "2026-10-14",
-   "funding_headline": "AI cloud startup Modal raises $750M at $15.75B valuation",
+   "funding_date": "2026-10-15",
+   "funding_headline": "AI Inference Infrastructure Startup Modal Raises $750M Series D",
    "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmF0ZHk0WGI4b2ZSYTcyQ1ctalFMMW9IQTZFQU12emY0dWNhWFU5WVA5MEZLTjRkaWE5eUZKSjFyYU1FSzAtWmZBc29PQVA3UkYzRmNVbFNfTVZPVHZUWDJFMHdNeExwZjlaVlhKN21Cc2lhU0NUU3pqZ0hOOERvcUYtbUQwZUsyenRqMVBVdjhGTXdKVVE?oc=5",
+   "funding_round_est": false,
+   "funding_round_text": "Series D",
+   "funding_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZRTF3TXhUSjlpUWo2N0ZBM2ZZWFhCOFVablBFbVpWMVFWMlVabjNnMDBkemd1MzBrYV9PLUVpTkxRTGc3SkFUbUVzV0NHU1VCSS04?oc=5",
    "open_roles": 52,
    "eng_roles": 19,
    "new_7d": 11,
@@ -1835,7 +1849,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTmdHZ21QU0VjcmhEZXpMSURRY0tjR2RQSXgyNHNhWHlCSE05MERUX2V1SW51UmVOUzlRc0xIRmg1QXowampFV2M5eUd4QlYyRE1QUVFYVUl5TXlURGJidUhfYXhGaXNGV1E5M3U3NGhwNzN2SWZ6bGRBdWNhZXVWXzY4VUZGdGN4eGZrNEQyd3ZCdVFITEozdHhlbFB6dU1wUjRFazZhWlhRRU15c25PdUNjSWdHUldYYkZ0di1tN3J1UGk1c04yU3hzQXV4X2ZXWHlUUGxKc3A?oc=5",
    "open_roles": 27,
    "eng_roles": 17,
-   "new_7d": 2,
+   "new_7d": 1,
    "new_30d": 11,
    "remote_roles": 11,
    "sample_eng_roles": [
@@ -1945,7 +1959,7 @@
    "open_roles": 48,
    "eng_roles": 15,
    "new_7d": 2,
-   "new_30d": 11,
+   "new_30d": 9,
    "remote_roles": 45,
    "sample_eng_roles": [
     {
@@ -2290,7 +2304,7 @@
      "url": "https://apply.workable.com/j/F4EA21F6D3"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Ai2 / Allen Institute for AI",
@@ -2463,13 +2477,13 @@
    "funding_round_est": false,
    "funding_round_text": "Series B",
    "team_size": 65,
-   "funding_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcVYzZzJOQmxBU1NUb0djT2pmZjdRRjBYSVB2SmExeEkyUzVsTkFoalRvSjFicUdrWmNBQTF1Uk1nVExLOTVHQUZpbk05a2F3MGhOcnBpWjJVelBHcEdFNHNtamRNLU9FclJLQ2ZPcWNsT3FySlFNUjVJODF3TkhVbW5aYjViSmhLQmRfNTA4a1BxZms?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRU95b2YwX3A4ZlNYbGtuNnBZRkM0MURhM2VsLXFZTzRZaTRYVW55ZmdLODB1UDNMLUZtNjVZMVJ4dnBjWThjbzMzU2NQemkxbnNqOHY4eEF4SDRzMzRhcDlDT2txR2pTX2dpQkYxc2pYSDE0Vnd4LU5zTDJJRVU1ZHlaRjRnS3g1SkcySTRWMlV5XzdKREF6WVVtdw?oc=5",
    "yc_batch": "Summer 2021",
    "yc_stage": "Growth",
    "open_roles": 36,
    "eng_roles": 13,
    "new_7d": 0,
-   "new_30d": 10,
+   "new_30d": 9,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -2569,12 +2583,12 @@
    "notes": "via yc",
    "funding_amount": "$61M",
    "funding_date": "2025-11-06",
-   "funding_headline": "AI Startup Giga Raises $61 Mn From Redpoint Ventures, Y Combinator & Nexus Venture Partners",
-   "funding_round": "Series B",
-   "funding_round_est": true,
-   "funding_round_text": "",
+   "funding_headline": "Nexus-backed AI startup Giga snags $61 mn in Series A round",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
    "team_size": 30,
-   "funding_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYm13OVpmSDcyS2VlS3ZGMVBsRkM1M2hlWmFoUjlyY1dLMmp2SDA0T1FfWmR2LWRTOVpsWWhMTl9XSjh3WGpER2gyUTBqQVJpMElyYWpQYkdDS1Rkdy1WeWRoaUJIM3NxdG11dk83cnFMOVFWMVZpb0ZPbFVsWTN3bThsZGVxRngtVjJnU2p2cEpHZnRlQVFQRU5CWFppTmNvWjlHS3dXUjRZSnNLdmVYWWR5WFpuSk5sNnBhOXpCQ0M5eVJacW5Z?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVLVFab1I2aTFlX3BIN3ZWbXNneEFXcHQ0ZEUtSko4S3d5cGZncjRIZl9YNktQSGc3WjJNUnBzeFlEOFU2bFhtdzh5My01bXlDU09yb1hucXltWVJyeDNuek93WmJXYzlLbzBwQWN6dTdLaVlYVDNB0gF_QVVfeXFMTmdhTnYwV2FBbHNYNmNvZ1lnd1E3cVRrLWNIMGRZdjgzdG9GMlQ3b0h5elZ4azRucUY2VEVCd3dOWG1CRWYwN3d1OWpCNFBZZTNLSjk1aWhwOW9KX2xiaFdleFRSelFmUnRjcFhZdXRRalhTaldjdlRmeFd3ZTdWdw?oc=5",
    "yc_batch": "Summer 2023",
    "yc_stage": "Growth",
    "open_roles": 32,
@@ -2636,7 +2650,7 @@
    "open_roles": 40,
    "eng_roles": 13,
    "new_7d": 2,
-   "new_30d": 13,
+   "new_30d": 12,
    "remote_roles": 40,
    "sample_eng_roles": [
     {
@@ -2798,7 +2812,7 @@
    "open_roles": 17,
    "eng_roles": 11,
    "new_7d": 2,
-   "new_30d": 4,
+   "new_30d": 3,
    "remote_roles": 17,
    "sample_eng_roles": [
     {
@@ -2953,7 +2967,7 @@
    "open_roles": 24,
    "eng_roles": 10,
    "new_7d": 4,
-   "new_30d": 6,
+   "new_30d": 5,
    "remote_roles": 23,
    "sample_eng_roles": [
     {
@@ -3009,7 +3023,7 @@
    "open_roles": 33,
    "eng_roles": 10,
    "new_7d": 1,
-   "new_30d": 5,
+   "new_30d": 3,
    "remote_roles": 30,
    "sample_eng_roles": [
     {
@@ -3038,7 +3052,7 @@
      "url": "https://jobs.ashbyhq.com/outset/3fbb835a-f700-42cc-a27c-2945da98415c"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Retell AI",
@@ -3188,7 +3202,7 @@
      "url": "https://jobs.ashbyhq.com/alembic/fa40e0f3-b470-4c39-af6c-52875c695083"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "LiveEO",
@@ -3262,7 +3276,7 @@
    "funding_round_est": false,
    "funding_round_text": "Series B",
    "funding_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONnJ3eVp6MlQ5c1cyeVhPTm9uQmJUUE53aWlyYTlUVnV5eWppT3Q4RmNLVjB6dDl2THdVUmpfbDNKY3ZMWTZ6LWNLNWdodk9GU095NnN0MHFieVl4NDAtQTlwT2ZWb3ljamZpZlVsaUlBeEd2MEM2RUVJSU1WNEc4NmlESjR0b3ZLNWdZSGczX1h4c2xqOGNxNlNmM1RmVHZ4M1VLam1wZUtsejliOFVNdl9naFR2aGQ1cjJvOUlic0ZFX2tQVVpmTDZYSGlGMjhiVzNqc3l2aWY5WVRjcV9J?oc=5",
-   "open_roles": 45,
+   "open_roles": 44,
    "eng_roles": 9,
    "new_7d": 1,
    "new_30d": 11,
@@ -3294,7 +3308,7 @@
      "url": "https://jobs.ashbyhq.com/coram-ai/042f309a-4896-4f5c-8db3-57e03f69dd00"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Mashgin",
@@ -3320,7 +3334,7 @@
    "yc_stage": "Growth",
    "open_roles": 11,
    "eng_roles": 9,
-   "new_7d": 2,
+   "new_7d": 1,
    "new_30d": 3,
    "remote_roles": 4,
    "sample_eng_roles": [
@@ -3350,7 +3364,7 @@
      "url": "https://jobs.lever.co/mashgin/61092a1a-3e1b-4b70-8384-7abf807774e8"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Skyways",
@@ -3525,7 +3539,7 @@
    "funding_round_est": false,
    "funding_round_text": "Series B",
    "team_size": 5,
-   "funding_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdzd0V24tdkVrOVpRcTlBaVNSOVFNSkhraS1vSEFyQjBuSEg3bW91d2dfdl9tYVUwc2hUTkNzcGxXUUdPTXROZ2VMcWpnQk0yVlFtWkJtaTdoMERkZHNZU0xMUnphYmxsVHFvaVdfN241Y0hLamJzY0dZX0pBR0dNbkhzQQ?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1hUkc4aHpWdE01aGIwZ1R2RVBxUko0QjZwX1p0aTVUM3BDUFNuMTNkMkthR2t4eDZhWmRhOFRWRGtaWEdfQnZxVjJmblRYT0h2VnUxR1k4VEJVWDJ0SVVqU0k2d01ERDJYREhpMTNTaVd3Z1luQ29UbTQzemQ2UkFPdkhUbDlzVTdwX1BZd21pZ0lid0lvWGotWlA1UQ?oc=5",
    "yc_batch": "Winter 2024",
    "yc_stage": "Early",
    "open_roles": 26,
@@ -3683,7 +3697,7 @@
    "open_roles": 11,
    "eng_roles": 8,
    "new_7d": 0,
-   "new_30d": 3,
+   "new_30d": 2,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -3758,7 +3772,7 @@
      "url": "https://jobs.ashbyhq.com/pantograph/dfe5cf92-33f3-4ab7-8dc8-f8aa75693ac7"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Prompt Health",
@@ -3875,13 +3889,13 @@
    "hq": "San Francisco, CA, USA",
    "notes": "via yc",
    "funding_amount": "$26M",
-   "funding_date": "2026-08-28",
-   "funding_headline": "Metriport Raises $26M in Funding",
+   "funding_date": "2026-09-12",
+   "funding_headline": "Metriport Secures $26M Series A to Build Open Patient Context Layer",
    "funding_round": "Series A",
-   "funding_round_est": true,
-   "funding_round_text": "",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
    "team_size": 29,
-   "funding_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jRWlNM1pqaFBORXZkR2k3MEtqeFBQbUlkNW4yYnY4TE40bFoxUVlMVzdZZkVRMEtkVmFmV2VueTlEbTBJU0RMMmtObkt6NFhid2FBRy1RZEYweHdJRHByc3Q1TnBVd2JIMTJpU0RSeUFhWk90NjV3?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbkJTbGIxWFV3SDVVODlXR3d5VTJCSWp0Z0czVE4takxBbFdJTjdHUlgxb0JnRTZBMVJDTUxQbEpSOGt3NTdaMnVFMWdpaGVPNkVGV0ZMMjE5b1dIbm9EdlpiaC14TWdBSkliX1pqczhpVHdJMnQzbDluZmJMVE1BRGNWdTJIVnp2V2p5ZzFjb2w3cnpEU1BkckpPaTQ2dXRDWkViNWZEQmxnSTBIVThfb0dxb25FaXctam45M2h5R3N3S1ZzOFRMTlFzVG80dW5fbDEweWZfOUptN3RxMTk3RVMzNzl4QQ?oc=5",
    "yc_batch": "Summer 2022",
    "yc_stage": "Growth",
    "open_roles": 14,
@@ -4046,11 +4060,11 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWkJtQ2tMalRaT1l2Z1YxRTMyLTl0TkY1Q01PcnhqalcwMlh5VEFsN2hwVmI0S1Nzd2Fyc2FiLWdELWY2MElnZEZoU1c1V09CMVUteUNsS0dXZndiOXBHY1daUUk3RUhmR3R5c05vZzZYdEZYeWo4RG9jaG5MRXBiWGx1OTRpanpneTZFTGZ6ZEVoR05BaE4tM2w1TWZQdw?oc=5",
-   "open_roles": 27,
+   "open_roles": 28,
    "eng_roles": 7,
-   "new_7d": 3,
+   "new_7d": 4,
    "new_30d": 5,
-   "remote_roles": 15,
+   "remote_roles": 16,
    "sample_eng_roles": [
     {
      "title": "Member of Technical Staff, Vision/Language Research",
@@ -4078,7 +4092,7 @@
      "url": "https://jobs.ashbyhq.com/XDOF/1e7de4e3-094f-4267-876d-2ccb8b2246eb"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Pickle Robot",
@@ -4094,11 +4108,11 @@
    "notes": "via hn",
    "funding_amount": "$50M",
    "funding_date": "2024-11-20",
-   "funding_headline": "Pickle Robot lands $50 million in VC for truck-unloading robots",
+   "funding_headline": "Pickle Robot closes $50 million in Series B funding",
    "funding_round": "Series B",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUHNPMGc4aE1WNVNJNlFnalVUanMySWZBVEROVGRuMnc3NEM2ekoxdlVmcF84d20zWjNTSWd0ak14WDBBSkpOZ3M5akZiRlFhcTJRc2VKT2Ffd3l2X0p4Rm1Bcjc5YkVaVVNDMEVjRE5GQUxsV0MxY1VFTkdnOFc3WkZMTkx4bk9IcUhnblVvcl8tMk0?oc=5",
+   "funding_round_est": false,
+   "funding_round_text": "Series B",
+   "funding_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZ1ZiUDNzMHA0d0sxamhIOE9hdFNRZlhSb3FoMnVhOVhYUUNGUzZmMFF4YjI0cUF6YTZYR1VRQUZiNjNPMzcwTmV1WXNteDVLcGdvRzhaMnJzX0o3eFJBQTVWT0M0RE5oT2d5UXg0ZzUzTHhKOU5ocUJWX0R2UGc?oc=5",
    "open_roles": 11,
    "eng_roles": 7,
    "new_7d": 1,
@@ -4204,11 +4218,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSWFOSG04V2ZrSnplQ0lfdWNGandyQXZia3RXbEZJT0Vncm9vb2ZiWWIyRTlxU2dKTFF2SnFSbmJGVE9rWDJzUGJieGlaOHo5aEVEOGN4NDhwcG9oUmxGN21oWWFaX0pHLWE0TV9MaXNSbEFDVFA2VV9ONlVBcHNYeFFLSldLbkdDR2xocnJwU3Y2d0pn?oc=5",
    "yc_batch": "Summer 2017",
    "yc_stage": "Growth",
-   "open_roles": 17,
+   "open_roles": 16,
    "eng_roles": 7,
    "new_7d": 1,
    "new_30d": 9,
-   "remote_roles": 2,
+   "remote_roles": 1,
    "sample_eng_roles": [
     {
      "title": "Forward Deployed Engineer, Partnerships",
@@ -4443,7 +4457,7 @@
      "url": "https://jobs.ashbyhq.com/bland/2e815d0d-8e7a-43cc-8853-c1b029aeb499"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Mach9",
@@ -4458,13 +4472,13 @@
    "hq": "San Francisco, CA, USA",
    "notes": "via yc",
    "funding_amount": "$34M",
-   "funding_date": "2026-10-22",
-   "funding_headline": "Mach9 Raises $34 Million in Series A to Expand AI Surveying Tools",
+   "funding_date": "2026-10-24",
+   "funding_headline": "Mach9 Raises $34M Series A for AI CAD That Turns LiDAR Scans Into Civil Engineering Drawings",
    "funding_round": "Series A",
    "funding_round_est": false,
    "funding_round_text": "Series A",
    "team_size": 25,
-   "funding_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sa0p1X1F6UHlVV2VPY0VsY0NkcE1raTQ2ZjBvbC1odzFMblV4Mzg0UUNvZzl0MXhHR0U5My1pcWwwWUZ3U1ZlcFlzMlkwbmpJMko0bDUxc2I?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SMGplTDhRakpHb3pvUXk1UUVwZWZmVmhwVFNwQWdxTDZJVlBzbndmVHVnWktSVGU2NWtLX2RjX2JNM2c4elI1TW03Uk8xeHRWeWtj?oc=5",
    "yc_batch": "Summer 2021",
    "yc_stage": "Early",
    "open_roles": 20,
@@ -4572,7 +4586,7 @@
    "open_roles": 29,
    "eng_roles": 6,
    "new_7d": 1,
-   "new_30d": 7,
+   "new_30d": 6,
    "remote_roles": 22,
    "sample_eng_roles": [
     {
@@ -4621,7 +4635,7 @@
    "open_roles": 17,
    "eng_roles": 6,
    "new_7d": 1,
-   "new_30d": 11,
+   "new_30d": 9,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -4889,13 +4903,13 @@
    "hq": "San Francisco, CA, USA",
    "notes": "via yc",
    "funding_amount": "$15M",
-   "funding_date": "2026-10-22",
-   "funding_headline": "Firstwork raises $15M Series A to scale applied AI for frontline workforce operations",
+   "funding_date": "2026-10-24",
+   "funding_headline": "Firstwork Raises $15 Mn In Series A Round Led By Earlybird Venture Capital",
    "funding_round": "Series A",
    "funding_round_est": false,
    "funding_round_text": "Series A",
    "team_size": 9,
-   "funding_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeTJUWHhpQjF6QUlIVmxSVjJtS2tYY05vbi04VXVNdEVtWkYyMWFVU1pPZzRWRXpGS3owVkp2QVNJRW41dURodzQ5RHRWazBWNlZidF8tTi1XekNkMmhfNENkV1Z1dzUtLXMtVGNSWFowZXBlRHFSUXFiOURtNkhHSExCYXg2akE2djR2UWFfZ3BuTWhYX0toRzdjbTN1clhzdTNiMDJKS2RwMHpmNFM0Tw?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWFMNEF4anZwT2lPX2kwMUhaRzhHN2Z4eS1POVRPODlJLWt5dVVHZEtLSjYyQWI1SFFoUmZPa0FzQnQ2empRdDRxcE1FYjdqbzBwLXU5Q21NX21aSDZlN2t2Wi0tMTRnX1h5M2V1akhwUWpSZW04aTYtek8wbFRXS280UXlzVEd4blhoVzZyTmlLdUpaOEJLaDMxMkQtZ3dWRTFZVlhqY0U2YkxBcVZKdXAyZ2c?oc=5",
    "yc_batch": "Summer 2024",
    "yc_stage": "Growth",
    "open_roles": 19,
@@ -5495,12 +5509,12 @@
    "notes": "via yc",
    "funding_amount": "$12M",
    "funding_date": "2021-07-22",
-   "funding_headline": "AI startup Prodigal gets $12 million funding from Menlo Ventures, others",
+   "funding_headline": "Prodigal Raises $12M to Give Lenders Actionable Insights, Streamline Their Operations Using AI",
    "funding_round": "Series A",
    "funding_round_est": true,
    "funding_round_text": "",
    "team_size": 99,
-   "funding_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZU5jZUFXT3hSQ0E1M05VX25OR1luTUpYQ1lYN0RGNUxQcXR6Z2M5UkgzVHRJYnB2YzF6M3liR2xHUHVQOWF1NXRZRGlFMU1JdVpiWk8yMEhKclkyVUZ0emVUVkJzYlNOTnlEVl96VnlHLXp4aTZXVkpPOW5xM1N2STkzdk5ZNzhoQ1FvUmZHWTZtcjF4dDRDZzlqamxBeGZLWF9uZ3pOQUQ2V3Z5RzdPN2VwODhJQVBMbnkwMmtlZmJzU0ppQ1diN0F3ZGxvR255RkHSAdcBQVVfeXFMT1dtUnNkcHZjSkpUck5pMDdPNkVEd0JqREN4aUROcWVuOFVNM2RmN1JoOGRiWldNSXd2WEJKYlhhdHhqUmpMLWVEcXdxOE9WN2FHNHZlT3FJV2EzYWhKZmh6VlNjWExZNFZUT0JQWERZZ0ZCak9BUUZ1SXlGM2d1bG1zTDJsRXFrX2lBX2Q5d05CWnd5S2NpdXVtVEQyUHlvTmR3T1kxMUx6em9qT2g4Z2p3a3dwLVkyT2M0SVJSRWg0VHc3d0ktVFA0b3l1S0dkaXNBdHAtXzQ?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxUWWtxOTlpdWgwQ3dEd2oxdjdoNUhueWFkaHlSRVZjZ1hpNjRBdEd0YjZndUdaZ1JiOGJzQ1hqZUdlTkhCaUpucDhhUDdlSEhhZjAta0JvUFdyTndJRmpDbHRuSy0zaFdGTzBYSHVKZmpOSklzUDRwcjAwTmVZVG1CZTJ0YUFma1dDWkxTQlNZd1dmd05WaE56d3dRRFNaMldsRF9mNnJKV2U4QWZJbXg1WlpoRkVNeG8xMEJtX3laOGl5MURhd2hlTldXaGhtMS1mUlFWRmRBOFljNkpYM2dB?oc=5",
    "yc_batch": "Summer 2018",
    "yc_stage": "Early",
    "open_roles": 13,
@@ -5600,7 +5614,7 @@
    "notes": "via yc",
    "funding_amount": "$15M",
    "funding_date": "2026-07-09",
-   "funding_headline": "Agave Secures $15M Series A for Construction AI",
+   "funding_headline": "Agave Secures $15M Series A for Construction AI | SaaS News",
    "funding_round": "Series A",
    "funding_round_est": false,
    "funding_round_text": "Series A",
@@ -5923,54 +5937,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "Rebar",
-   "website": "",
-   "ats": "ashby",
-   "slug": "rebar",
-   "board_url": "https://jobs.ashbyhq.com/rebar",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$14M",
-   "funding_date": "2026-03-11",
-   "funding_headline": "Rebar Closes $14M Series A Led by Prudence to Rapidly Scale its AI Platform for HVAC, Electrical and Plumbing Industries",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
-   "funding_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxORTJJUkdpM1RPYjQxN1NLLWZKbExNSE5kUGszWTNjTFZ4QW5JMVJmWGVLZmVOOVhWcDV5cEw1d0ZzWTc2SHA3TWlQNDJaUWhlSF9Jc093eElnN0JRVU5hcTdKaU1DTk50dlNETi1zRDhER1Bya0t5bmNRMFJsbjJrYlZUYk1WMWJMUWdEY1Y3eWZ5RHVVNi1SQnJvNWUxTWMzMkVUcUpBQW5rLWcwNExXN2RqcEVlNHZkZHpudmQwQTM1dThVa1VtNTlld1AzdTdkOTZpdVplbzJDRThWR1d1R1NubjNXUG9LTENKRXJLS1JCcjNhS25JZ2QwUFpCcWtvRHhYMHNuMmNzUQ?oc=5",
-   "open_roles": 13,
-   "eng_roles": 4,
-   "new_7d": 3,
-   "new_30d": 4,
-   "remote_roles": 1,
-   "sample_eng_roles": [
-    {
-     "title": "Software Engineering Manager, Product",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/rebar/b19766ba-60cc-4f85-aa2c-afcc40f68277"
-    },
-    {
-     "title": "Software Engineer, Client Success",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/rebar/39c9876c-6227-4ab0-9626-ace7076bd554"
-    },
-    {
-     "title": "Software Engineer, Product",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/rebar/5ab49c2d-9a70-4723-9217-7704a455155c"
-    },
-    {
-     "title": "Software Engineer, Applied AI",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/rebar/ad41a627-d9a4-49a4-a1b4-f7202d9d5eb1"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "Tabula Bio",
    "website": "https://tabulabio.com",
    "ats": "ashby",
@@ -6026,7 +5992,7 @@
    "open_roles": 4,
    "eng_roles": 4,
    "new_7d": 0,
-   "new_30d": 2,
+   "new_30d": 0,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -6115,7 +6081,7 @@
    "open_roles": 13,
    "eng_roles": 4,
    "new_7d": 1,
-   "new_30d": 9,
+   "new_30d": 8,
    "remote_roles": 12,
    "sample_eng_roles": [
     {
@@ -6163,7 +6129,7 @@
    "open_roles": 12,
    "eng_roles": 4,
    "new_7d": 0,
-   "new_30d": 4,
+   "new_30d": 3,
    "remote_roles": 12,
    "sample_eng_roles": [
     {
@@ -6201,7 +6167,14 @@
    "sector": "Government",
    "hq": "San Francisco, CA, USA",
    "notes": "via yc",
+   "funding_amount": "$25M",
+   "funding_date": "2022-02-24",
+   "funding_headline": "Tech Platform Promise Raises $25M in Series B",
+   "funding_round": "Series B",
+   "funding_round_est": false,
+   "funding_round_text": "Series B",
    "team_size": 80,
+   "funding_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdzVnRlpjTk9ONHFIZFNLdXM3VW5FWTl5SnJPbGExcXZ4aFMyUzJzOWg2bGtpb19YSHROY2hBb1FPam9MWFlMeW5WRm1iS3NaYUhjWi11MHhSOVYwaTAwSFBWd0xwa0gyaXhma2dKamhBLUw5SWRtS1dYcHVHNWNyRHMyQ0dpS0NMeGJZLTdzZUNmUU84UTJ4SUZDVEJNQQ?oc=5",
    "yc_batch": "Winter 2018",
    "yc_stage": "Growth",
    "open_roles": 14,
@@ -6913,7 +6886,7 @@
    "open_roles": 21,
    "eng_roles": 4,
    "new_7d": 2,
-   "new_30d": 8,
+   "new_30d": 7,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -6981,6 +6954,49 @@
     }
    ],
    "delta_since_last": 0
+  },
+  {
+   "name": "Rebar",
+   "website": "",
+   "ats": "ashby",
+   "slug": "rebar",
+   "board_url": "https://jobs.ashbyhq.com/rebar",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$14M",
+   "funding_date": "2026-03-11",
+   "funding_headline": "Rebar Closes $14M Series A Led by Prudence to Rapidly Scale its AI Platform for HVAC, Electrical and Plumbing Industries",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "funding_url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxORTJJUkdpM1RPYjQxN1NLLWZKbExNSE5kUGszWTNjTFZ4QW5JMVJmWGVLZmVOOVhWcDV5cEw1d0ZzWTc2SHA3TWlQNDJaUWhlSF9Jc093eElnN0JRVU5hcTdKaU1DTk50dlNETi1zRDhER1Bya0t5bmNRMFJsbjJrYlZUYk1WMWJMUWdEY1Y3eWZ5RHVVNi1SQnJvNWUxTWMzMkVUcUpBQW5rLWcwNExXN2RqcEVlNHZkZHpudmQwQTM1dThVa1VtNTlld1AzdTdkOTZpdVplbzJDRThWR1d1R1NubjNXUG9LTENKRXJLS1JCcjNhS25JZ2QwUFpCcWtvRHhYMHNuMmNzUQ?oc=5",
+   "open_roles": 12,
+   "eng_roles": 3,
+   "new_7d": 3,
+   "new_30d": 4,
+   "remote_roles": 1,
+   "sample_eng_roles": [
+    {
+     "title": "Software Engineering Manager, Product",
+     "location": "New York City",
+     "url": "https://jobs.ashbyhq.com/rebar/b19766ba-60cc-4f85-aa2c-afcc40f68277"
+    },
+    {
+     "title": "Software Engineer, Client Success",
+     "location": "New York City",
+     "url": "https://jobs.ashbyhq.com/rebar/39c9876c-6227-4ab0-9626-ace7076bd554"
+    },
+    {
+     "title": "Software Engineer, Product",
+     "location": "New York City",
+     "url": "https://jobs.ashbyhq.com/rebar/5ab49c2d-9a70-4723-9217-7704a455155c"
+    }
+   ],
+   "delta_since_last": -1
   },
   {
    "name": "Close",
@@ -7083,7 +7099,7 @@
    "open_roles": 12,
    "eng_roles": 3,
    "new_7d": 1,
-   "new_30d": 4,
+   "new_30d": 3,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -7342,7 +7358,7 @@
      "url": "https://job-boards.greenhouse.io/radar/jobs/8316030"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": 0
   },
   {
    "name": "JITX",
@@ -7427,7 +7443,7 @@
      "url": "https://jobs.ashbyhq.com/bunkerhillhealth/8e4b579f-374a-4983-abd2-57b3d68d2ce2"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Ello",
@@ -7473,7 +7489,7 @@
      "url": "https://jobs.ashbyhq.com/ello/f843ac3e-8106-4cb0-bb77-72caa489ab23"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Humaans",
@@ -7579,14 +7595,14 @@
    "sector": "Fintech",
    "hq": "New York City, NY, USA",
    "notes": "via yc",
-   "funding_amount": "$17.5M",
-   "funding_date": "2026-08-13",
-   "funding_headline": "Axle secures $17.5m Series A as insurtech company expands automated platform",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
+   "funding_amount": "$9M",
+   "funding_date": "2026-11-12",
+   "funding_headline": "Axle Raises $9 Million To Bring AI To Wall Street’s Relationship Business",
+   "funding_round": "Seed",
+   "funding_round_est": true,
+   "funding_round_text": "",
    "team_size": 20,
-   "funding_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRGVRckJOSGVLMEY3WU55NTZHcWtYX0VvblhGV19pQ3o4SG5odncxT2xpdDR4dHp6OHZWR2NHWFFiNDlTcWtOVjZoMWV2Z19SMVg1alFxQ3p4SXFDcTB3N2pQcGtqZldLdFhFNktFZE9hSHA1ZlNOaGNfMEVCM25tUW1GNmVRLWJNQnF3am11UmZOeDRnSlBKZE9UUmFCZl9FdE1OMUtUYk8?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkQ1b1FQbGhhRnplUEZfUjlWYlBzbC1qei1KWjRPcGJzWnVrbDhXeXI4WllqT1lCWTliekQ5RFRUaWJXSlE4OHZUNGxSRUppUk1tdXB5cnRRdnRSUFR2bGVBMDJlQUZ6cnlPZWJCRkI1R25rR3h3UGZXcWxPcndVbmdRQ1ZNQ01wQ3BhWjhuZEgtTmdldUVEdlFoUUVhN3piUU9PblBfSENvcFRWOTZV?oc=5",
    "yc_batch": "Summer 2022",
    "yc_stage": "Early",
    "open_roles": 8,
@@ -7710,7 +7726,14 @@
    "sector": "B2B",
    "hq": "New York City, NY, USA",
    "notes": "via yc",
+   "funding_amount": "$41M",
+   "funding_date": "2026-11-13",
+   "funding_headline": "Garage Raises $41M for its AI-Powered Marketplace for Fire Trucks and Municipal Equipment",
+   "funding_round": "Series B",
+   "funding_round_est": true,
+   "funding_round_text": "",
    "team_size": 35,
+   "funding_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPczRzS1ZFT2w0WTYzSllOdGZMdFprTXo4Uno5OVFoZUc3SExhdm1wZ0FrR2ExaWJIY0pQVmFlbF80ZjBaMmpMREJkNnI5WF8xYTZ4eUJFb2ZvVjRaU2pFdmN3aDY0Uk5mQUZWZW1EUVVzWXlFcDZ1OWNDVm9sdWc1dlJWTzZGOWR2VjdSb2pnS19EU0JUNTY5dS1DYVdLd0FaSGo5bmRuWVhUbUlUZGZrcmg2Y3VvdnRxQU91VDM5Mm9XUHpNVGc?oc=5",
    "yc_batch": "Winter 2024",
    "yc_stage": "Growth",
    "open_roles": 16,
@@ -8131,7 +8154,7 @@
    "open_roles": 4,
    "eng_roles": 2,
    "new_7d": 0,
-   "new_30d": 1,
+   "new_30d": 0,
    "remote_roles": 4,
    "sample_eng_roles": [
     {
@@ -8199,7 +8222,7 @@
    "notes": "via hn",
    "open_roles": 2,
    "eng_roles": 2,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -8379,7 +8402,7 @@
    "open_roles": 14,
    "eng_roles": 2,
    "new_7d": 2,
-   "new_30d": 5,
+   "new_30d": 4,
    "remote_roles": 4,
    "sample_eng_roles": [
     {
@@ -8483,6 +8506,13 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
+   "funding_amount": "$55M",
+   "funding_date": "2025-07-22",
+   "funding_headline": "Radical AI Lands $55 million To Apply AI To Materials Science",
+   "funding_round": "Series B",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "funding_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWHQ1ZFlHZ21xdTFpaDRmaUlIRUNaZlMzbmc3RWZrZE9CaGZCVkdiV0R4YWVsVGVJenRDb28tQWljb2JVaEMtX3U3djhMWWJVS2pyYTBWUHZpUkJ2QXctSkdxOHB1YnVTRVdGanBQUkY5aFpqVEQwdWtZQlVpVi0ycDlqQ1Q0ZGpVNmRjU1NZSEp1clNOQ1RIMk5rS3BWVm9PSGc?oc=5",
    "open_roles": 2,
    "eng_roles": 2,
    "new_7d": 0,
@@ -8597,19 +8627,19 @@
    "hq": "San Francisco, CA, USA",
    "notes": "via yc",
    "funding_amount": "$50M",
-   "funding_date": "2026-05-12",
-   "funding_headline": "Voice AI startup Vapi raises $50M",
+   "funding_date": "2026-05-17",
+   "funding_headline": "Vapi closes $50M Series B as voice AI agents hit 1 billion calls",
    "funding_round": "Series B",
-   "funding_round_est": true,
-   "funding_round_text": "",
+   "funding_round_est": false,
+   "funding_round_text": "Series B",
    "team_size": 50,
-   "funding_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcXB1OGQ2UkpvR2VSeHFwUWswWnVXcW1LeWFTcDBxd25WYlRyRG1YVWVBSEdQVzM3YjVQR0JQeHVJQ00zVGQwaFJucG52dTNFUEtuWkNhM3J6bnVTc3RsaUY1VlFLT19WYi1jUGxCZ1p4bzkyZ2hTalpGMG9tMVoyYUQ0dGl6aXFfSjY2QVdudEVCSEVuc2pfNGZ3?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTk2MDI1NXhLWkRmZlVpZDZZMUw0Ulk5S1ZMYTQxcHdWLW1XLUNpYUdlNmh6UmZVd0xfTzZHV21JQ1ZQSWdpdVpQS3haMmI3cGg2UkVON2xQUWY2VXJwTEJRdkd3RmRSU3oxdTZ2TFdNVWFWUFVuRzM4N1FuNlVKaF9Jc1VKZk9N?oc=5",
    "yc_batch": "Winter 2021",
    "yc_stage": "Growth",
    "open_roles": 5,
    "eng_roles": 2,
    "new_7d": 0,
-   "new_30d": 4,
+   "new_30d": 1,
    "remote_roles": 5,
    "sample_eng_roles": [
     {
@@ -8711,7 +8741,7 @@
    "open_roles": 11,
    "eng_roles": 2,
    "new_7d": 0,
-   "new_30d": 3,
+   "new_30d": 1,
    "remote_roles": 3,
    "sample_eng_roles": [
     {
@@ -9482,7 +9512,7 @@
      "url": "https://jobs.ashbyhq.com/neo-tax/e782fb94-ebc2-48ca-914d-cbc6088cc101"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Compa.AI",
@@ -9563,12 +9593,12 @@
    "hq": "",
    "notes": "via hn",
    "funding_amount": "$50M",
-   "funding_date": "2026-09-14",
-   "funding_headline": "Nuance Labs bags $50M in funding to fix the awkwardness of AI avatars",
-   "funding_round": "Series B",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmh1R0hGTC11R2pfeUJZZWQ1WHdYVXhWRU1wa1FQNFUwS1hwU29rUEsxcWpqMHBER3VmeEdaSHRObTZYaUxKTUZiLTBBdjJpOFdnd0htR3RjSXF3ODhIVDFNa1RHNXVuZ0VkLUQ5bE1uQXAyNkp5dkxqdzZZMUhaVVdfNWItSVZwZmZqWjU0TkE2dEs0ckNEdEpLWEZCZkIwMERhbmdvaXQ?oc=5",
+   "funding_date": "2026-09-15",
+   "funding_headline": "Nuance Labs Raises $50M Series A to Build the Foundation Model for Human Conversation and Expression",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "funding_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FWEphNUotZUk1TUZENk9FX1FSeVVIVWRkczE2M0xxUGJHYmpkaUxzSDRHVnljeDFva2htUkh0SVU2bmVzV0V6ZndVbmNUV3RobTBz?oc=5",
    "open_roles": 6,
    "eng_roles": 1,
    "new_7d": 0,
@@ -9693,7 +9723,7 @@
    "open_roles": 5,
    "eng_roles": 1,
    "new_7d": 0,
-   "new_30d": 1,
+   "new_30d": 0,
    "remote_roles": 5,
    "sample_eng_roles": [
     {
@@ -9718,7 +9748,7 @@
    "notes": "via yc",
    "funding_amount": "$50M",
    "funding_date": "2022-04-20",
-   "funding_headline": "Mutiny, which personalizes website copy and headlines using AI, raises $50M",
+   "funding_headline": "Mutiny raises $50M to personalize website copy with AI",
    "funding_round": "Series B",
    "funding_round_est": true,
    "funding_round_text": "",
@@ -9924,7 +9954,7 @@
    "open_roles": 4,
    "eng_roles": 1,
    "new_7d": 0,
-   "new_30d": 2,
+   "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -9983,7 +10013,7 @@
    "eng_roles": 1,
    "new_7d": 1,
    "new_30d": 2,
-   "remote_roles": 5,
+   "remote_roles": 6,
    "sample_eng_roles": [
     {
      "title": "Software Engineer",
@@ -10194,13 +10224,13 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "funding_amount": "$150M",
-   "funding_date": "2026-10-08",
-   "funding_headline": "Shield AI lands $150M Navy contract to advance AI-piloted fighter jet that will be built south of Seattle",
+   "funding_amount": "$2.5B",
+   "funding_date": "2026-11-06",
+   "funding_headline": "Shield AI Raises $2.5B to Buy Echodyne for $5.3B",
    "funding_round": "Series C+",
    "funding_round_est": true,
    "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQblB2UVdHandrZkJWUnAtYUxidUZtMG90d3g0TURjVXdJd2ZmY0kxWE1FX1hnQUtNOGV2ZzBhVWx0a1I5NnF3T2toRTdNeWtXYzI5ZFAzaFNpRDNZOEI4bmpYSThObjBjWFl2aERPdkFhNEtoOFhqcEdHUDEyLVg2dWVCYTViRDRUTkpHTl9ER0NpQ3ZGQWhJQUQtcUd1Wl9VYWxxX0VaN0U0VHpqdjNCOG05SDBrVVVQR2N0dkt4YXpZOThNdlF0NWdERFhkdmo3?oc=5",
+   "funding_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUjJJeDdsenV2YVM0OUNzVWRJbC16c1V4RFlvRWhnNlgwRmpCYUlzcGZ0MmNubVBQNnZVOHl3VE9OdVZRa0NxVE5TU25vSHBUVGdSdVJjMzVFajlpMUYyRThxbzN0TFVXdktzR1BLZElJU0JrT0hjcnNZbnRGaUJwNDh4dkdXUQ?oc=5",
    "open_roles": 0,
    "eng_roles": 0,
    "new_7d": 0,
@@ -10241,6 +10271,13 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
+   "funding_amount": "$5M",
+   "funding_date": "2025-10-27",
+   "funding_headline": "WorkHero Raises $5M Seed Round to Advance Its AI-Powered Back Office Platform for Small HVAC Contractors",
+   "funding_round": "Seed",
+   "funding_round_est": false,
+   "funding_round_text": "Seed",
+   "funding_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaWdMTDFqTTd0NmllaWZoeUkwVHF0YXVxSm56OWx6Mlc0anN6aFJONWgya3JqSl9XM3d5cndndEhfa0QyTUNvdnhDVjgwdXRtNWhiRmRkVDdRRktyelpOSzR0MXItZ25xb0trdmY0VW44dDk5d0xNdEFISFJpbXpfTg?oc=5",
    "open_roles": 3,
    "eng_roles": 0,
    "new_7d": 0,
@@ -10341,7 +10378,7 @@
    "new_30d": 1,
    "remote_roles": 2,
    "sample_eng_roles": [],
-   "delta_since_last": 1
+   "delta_since_last": 0
   },
   {
    "name": "Flux.ai",
@@ -10575,7 +10612,14 @@
    "sector": "Analytics",
    "hq": "New York City, NY, USA",
    "notes": "via yc",
+   "funding_amount": "$11M",
+   "funding_date": "2024-10-21",
+   "funding_headline": "Rollstack Raises $11M Series A to Automate Your Presentations with AI",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
    "team_size": 30,
+   "funding_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaVlMM1RKREc3U0lIQno5WFdkbFkzZlRtWTZUWmpuNm00d3FiUUpqZUQ0al9sMVFmMVlQTng5cFBKUFprSVhZNDBsZTg0LXdQallibTdLTkhFVkZrU0VWNThKNWRmZXZKY0hhc1BsZThOM1RtOUxVWFFidjA4OUhKS1VMSFpRYWEtWXZYQVRRdFRNOWdzbmExTXN2U0o1My1jV2hSSlBWM0xVaVFJZHZyZFkybUU0M2hmbDljekU0QVJTQQ?oc=5",
    "yc_batch": "Winter 2023",
    "yc_stage": "Growth",
    "open_roles": 2,
@@ -10886,13 +10930,13 @@
    "funding_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLS1YRUlLU0xSN3o2ZFpfd3ZtTVFkNEFhVV9TRTBTdjUyay1XQUxadXBqVlVOTzZsbC1HU0I4OU81VmNNbC1XY25Ob0lYa25yYi1aeTlhM2NfU1JQX0RCMnBzX3AwWU5oMTljUVdUTjJ5R2U4UmN3OFFfM25nNk9rWg?oc=5",
    "yc_batch": "Winter 2021",
    "yc_stage": "Early",
-   "open_roles": 1,
+   "open_roles": 0,
    "eng_roles": 0,
    "new_7d": 0,
-   "new_30d": 1,
-   "remote_roles": 1,
+   "new_30d": 0,
+   "remote_roles": 0,
    "sample_eng_roles": [],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Kinelo",
@@ -10913,6 +10957,29 @@
    "remote_roles": 1,
    "sample_eng_roles": [],
    "delta_since_last": 0
+  },
+  {
+   "name": "Litmus",
+   "website": "https://litmushiring.com/",
+   "ats": "ashby",
+   "slug": "litmushiring",
+   "board_url": "https://jobs.ashbyhq.com/litmushiring",
+   "stage": "YC Summer 2026",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "B2B",
+   "hq": "San Francisco, CA, USA",
+   "notes": "via yc",
+   "team_size": 4,
+   "yc_batch": "Summer 2026",
+   "yc_stage": "Early",
+   "open_roles": 3,
+   "eng_roles": 0,
+   "new_7d": 3,
+   "new_30d": 3,
+   "remote_roles": 1,
+   "sample_eng_roles": [],
+   "delta_since_last": null
   }
  ]
 }

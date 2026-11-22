@@ -3,10 +3,10 @@
   "checked_at": "2026-11-12"
  },
  "AIRMO": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Abundant": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 7,
   "yc_batch": "Fall 2024",
   "yc_stage": "Early"
@@ -16,7 +16,7 @@
  },
  "AfterQuery": {
   "amount": "$30M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-04-23",
   "headline": "AfterQuery raises $30 mn to scale expert AI training data platform",
   "round": "Series B",
@@ -29,9 +29,9 @@
  },
  "Agave": {
   "amount": "$15M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-09",
-  "headline": "Agave Secures $15M Series A for Construction AI",
+  "headline": "Agave Secures $15M Series A for Construction AI | SaaS News",
   "round": "Series A",
   "round_est": false,
   "round_text": "Series A",
@@ -41,11 +41,11 @@
   "yc_stage": "Early"
  },
  "Ai2 / Allen Institute for AI": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "AirOps": {
   "amount": "$40M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-10",
   "headline": "AirOps raises $40 million Series B at $225 million valuation to rethink marketing in the age of AI",
   "round": "Series B",
@@ -55,7 +55,7 @@
  },
  "Akur8": {
   "amount": "$120M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-09-16",
   "headline": "Akur8 raises $120m to fuel its next-gen actuarial platform growth",
   "round": "Series C+",
@@ -65,7 +65,7 @@
  },
  "Alembic": {
   "amount": "$145M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-17",
   "headline": "Alembic Raises $145 Million to Accelerate Enterprise Adoption of Causal AI",
   "round": "Series C+",
@@ -74,7 +74,7 @@
   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVFNDVFBZNVpGYk1nWVFMWjItMDhPQ0laQ0tNQ3ZnTVZBMGd2YjFKZXJCc1h5dTVGRlB3d0FVWHM4dzczUHBnTlJ5MzZSMEFmNjZSN0JsNGZHekVuT0ZMWHM2a0JMc2FmeDQzVDJjdEVyYi1GUDR6T0hiTUlGcm42cGVDSDBJelpHdG95dUFqdVpUYWhGcklzN2dWTWdXX252a2JpOVhOa0FJcjI3aWZfcnJGeGx3UEVrQUNNR2xKNzFmVEpRS2tvdU9DSzBUdw?oc=5"
  },
  "Alex": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 30,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
@@ -91,7 +91,7 @@
  },
  "Ambient.ai": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2023-10-30",
   "headline": "Ambient.ai Raises $20M Strategic Growth Investment from Allegion Ventures",
   "round": "Series A",
@@ -103,30 +103,30 @@
   "yc_stage": "Growth"
  },
  "Anthropic": {
-  "amount": "$320.8B",
-  "checked_at": "2026-10-23",
-  "date": "2026-10-19",
-  "headline": "Anthropic Secures $320.8 Billion Funding: Is This Paying for the AI Doomsday Theory?",
+  "amount": "$93.5B",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-20",
+  "headline": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12Ym9Qb01fWm42TGpOMi01T1RBVEZacUllVVVWMTRWTW5TTExGN25OYXMxMHZZTGd1T3h0eEhMcldCazhqekNHQkNYbEhkWnpwSURr?oc=5"
+  "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFTVBJTG4td0xyYWJNdUpwM2hqSzNKMVdWZG5QMGxGN184UXU0SXdqY1pORWk1Q2J6YVdRM3dncVRneldLSXhzZ0p0azF2QmsxNGM0YzZxcFBSZ282UGh0MXVPX1dUckI4cWxWNtIBckFVX3lxTFAtcXZnZF9OcHBTcTNMVWVGN1lrVVRORHZCMVFDWFZyQk5PY1ppQVRJajByR0JMT1R4d2hlUURiNUdqZk9mb3EtUzVDSWM1SllIbFg4NmJTTEFUX3hocFMweWFKZW9odmNkaWptOUtabzl1dw?oc=5"
  },
  "Aptura AI": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Aquabyte": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Arini": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 17,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
  "AssemblyAI": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2023-12-04",
   "headline": "AssemblyAI lands $50M to build and serve AI speech models",
   "round": "Series B",
@@ -138,11 +138,11 @@
   "yc_stage": "Growth"
  },
  "Attendi": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Auctor": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-04-15",
   "headline": "Software implementation startup Auctor raises $20M",
   "round": "Series A",
@@ -154,24 +154,24 @@
   "yc_stage": "Early"
  },
  "Axle": {
-  "amount": "$17.5M",
-  "checked_at": "2026-10-23",
-  "date": "2026-08-13",
-  "headline": "Axle secures $17.5m Series A as insurtech company expands automated platform",
-  "round": "Series A",
-  "round_est": false,
-  "round_text": "Series A",
+  "amount": "$9M",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-12",
+  "headline": "Axle Raises $9 Million To Bring AI To Wall Street’s Relationship Business",
+  "round": "Seed",
+  "round_est": true,
+  "round_text": "",
   "team_size": 20,
-  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRGVRckJOSGVLMEY3WU55NTZHcWtYX0VvblhGV19pQ3o4SG5odncxT2xpdDR4dHp6OHZWR2NHWFFiNDlTcWtOVjZoMWV2Z19SMVg1alFxQ3p4SXFDcTB3N2pQcGtqZldLdFhFNktFZE9hSHA1ZlNOaGNfMEVCM25tUW1GNmVRLWJNQnF3am11UmZOeDRnSlBKZE9UUmFCZl9FdE1OMUtUYk8?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkQ1b1FQbGhhRnplUEZfUjlWYlBzbC1qei1KWjRPcGJzWnVrbDhXeXI4WllqT1lCWTliekQ5RFRUaWJXSlE4OHZUNGxSRUppUk1tdXB5cnRRdnRSUFR2bGVBMDJlQUZ6cnlPZWJCRkI1R25rR3h3UGZXcWxPcndVbmdRQ1ZNQ01wQ3BhWjhuZEgtTmdldUVEdlFoUUVhN3piUU9PblBfSENvcFRWOTZV?oc=5",
   "yc_batch": "Summer 2022",
   "yc_stage": "Early"
  },
  "BIT Capital": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Baseten": {
   "amount": "$300M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-08-04",
   "headline": "Baseten raises $300M at $5B valuation as AI inference infrastructure becomes venture capital's favorite bet",
   "round": "Series C+",
@@ -181,7 +181,7 @@
  },
  "Beacon AI": {
   "amount": "$225M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-09",
   "headline": "Beacon Raises $225M Series C to Bring AI to the Everyday Economy",
   "round": "Series C+",
@@ -190,11 +190,11 @@
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTnhuMGp4U2hWNW01emRJOGNaZW5OMjJnOWpSTW1pOEFNNTNhUHhWQWdKLS1iODRRVklQSlV4Yld2NG9kU2JqQ3lvem9YMDZIalpwTGQ0b0lUcmVBTThkdHRXdUw4MEZnWUN0NzQ4aWROMlIxdFVPQVFJaFVxUmtYSWhzakNaUkRDSVgyY08wTnBRVFlWOXlQUEdLN3lXSUtLQjU2M0ZIeG9wdGRMSl9KWE55M0YzMnVwWm1fMUt1RHI?oc=5"
  },
  "Blackshark AI": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Bland AI": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-16",
   "headline": "Bland raises $50M Series C, pushing total funding past $100M",
   "round": "Series C+",
@@ -204,7 +204,7 @@
  },
  "Blee": {
   "amount": "$27M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-14",
   "headline": "Blee Raises $27 Million to Introduce AI Content Governance to the Enterprise",
   "round": "Series A",
@@ -216,14 +216,14 @@
   "yc_stage": "Growth"
  },
  "Blissway": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 22,
   "yc_batch": "Summer 2020",
   "yc_stage": "Early"
  },
  "Bolna AI": {
   "amount": "$6.3M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-21",
   "headline": "Voice AI startup Bolna raises $6.3M led by General Catalyst",
   "round": "Seed",
@@ -236,7 +236,7 @@
  },
  "Bretton AI": {
   "amount": "$75M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-19",
   "headline": "Bretton AI Closes $75M Series B to Expand Agentic AI for Financial Crime Compliance",
   "round": "Series B",
@@ -249,7 +249,7 @@
  },
  "Bunkerhill Health": {
   "amount": "$55M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-16",
   "headline": "Bunkerhill Health Secures $55M to Expand Carebricks Agentic AI Platform for Health Systems",
   "round": "Series B",
@@ -264,14 +264,14 @@
   "checked_at": "2026-11-13"
  },
  "CTGT": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 10,
   "yc_batch": "Fall 2024",
   "yc_stage": "Early"
  },
  "Cambio": {
   "amount": "$18M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-23",
   "headline": "Cambio Raises $18M Series A to Transform Commercial Real Estate Operations with Agentic AI",
   "round": "Series A",
@@ -284,7 +284,7 @@
  },
  "Campfire": {
   "amount": "$65M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-10-16",
   "headline": "Campfire secures $65m Series B to transform finance AI",
   "round": "Series B",
@@ -296,14 +296,14 @@
   "yc_stage": "Growth"
  },
  "Capy": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 6,
   "yc_batch": "Fall 2024",
   "yc_stage": "Early"
  },
  "Casca": {
   "amount": "$29M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-08-19",
   "headline": "Casca Raises $29 Million Series A for AI Loan Origination",
   "round": "Series A",
@@ -315,14 +315,14 @@
   "yc_stage": "Growth"
  },
  "Cinder": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 30,
   "yc_batch": "Winter 2022",
   "yc_stage": "Growth"
  },
  "Clearly AI": {
   "amount": "$8.4M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-28",
   "headline": "Clearly AI raises $8.4 million seed round to automate security and privacy reviews",
   "round": "Seed",
@@ -334,14 +334,14 @@
   "yc_stage": "Early"
  },
  "Cleric": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Close": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Cloudflare": {
   "amount": "$2.5B",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-08-14",
   "headline": "Cloudflare Raises $2.5 Billion in Zero-Coupon Convertible Notes, Shares Pull Back",
   "round": "Series C+",
@@ -350,14 +350,14 @@
   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5TmhrWTUzRlV0RnRNeVRtOW5xemMweHByLVRvLVlReUhnMzRDSkYyUnNiMTM3X2VNcFQ1RmdxYlhsRkNkZVJ1Skt1MGZhX25xR3RWTFRuUndvOFhKNWNfckVMRjZZRHZHZVlnaE1hNUNBM2l1MFE?oc=5"
  },
  "Codes Health": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 35,
   "yc_batch": "Summer 2024",
   "yc_stage": "Early"
  },
  "Cognite": {
   "amount": "$150M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2021-05-19",
   "headline": "Industrial SaaS startup Cognite raises $150M on a unicorn valuation of $1.6B",
   "round": "Series C+",
@@ -366,15 +366,15 @@
   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMnBma1hEeXEwMWctZDV3VlVER1RrWk1lNEhhUlFlN2VpbDBnSmU1Y3BzM1dxNmMzQ2hFd1g4NzVsOHFKM1B4T2xidjI1dTN0ZnFKb3NmbVNBaUxfSndOQTZZS1R3dU50YlZQVVk4TkRNUmxILWFSbTcybmI0UzFsbGQ2MEZVTTJSUDdpZndJMVZNQkE0cllZa21KWExnZ3ZLem5GN1B3?oc=5"
  },
  "Cohere": {
-  "amount": "$100M",
-  "checked_at": "2026-10-23",
-  "date": "2026-04-15",
-  "headline": "Cohere Raises $100M to Accelerate Global Expansion of Security-First Enterprise AI",
+  "amount": "$5B",
+  "checked_at": "2026-11-22",
+  "date": "2026-10-29",
+  "headline": "Cohere Raises $5 Billion for Alternative AI Vision",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
   "team_size": 7,
-  "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZzZTTERPbVF0VHFYN056N0RsS1FEeTBtU0ZIbXlDVFVROG1JdWkxZ3BxTkxmMXNsQzZTZTdqeEpMT2RxYlRVU0lwd0stQjd3MFkxWklPVmJUMENRNVRERUU3U1NzVGo3TzhTZy1CMUg0SzBTbm5SaGM0R2FqTWs5OUVzMTBKekJFZk9TZEdEZnlXeU9rdmZrMG9BN1ZRTU9UZWNLMWplY0Y4ZGZJREJhZVVlMmhZZw?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3pUV1Zkbk91bnAxV05jTEQwTENodkl3WE5CZmRvTzZLTzBIU1RxM0dpQUdvZFY0VmQtYmphV2FvakpET2NTNXlBZDFLLUEycXJOQjB6enNJMHJ3amtObzVBRXVaRVozOGJjSC1FR3FJY0R5Q1Y3OHB2V3N6ZFEybnRYR3hJTENWc2JfSmh1aURBQzRlOTBOQ2l1V2FyUmpqWnRFS08ycVpBU2xRMjZXbQ?oc=5",
   "yc_batch": "Summer 2020",
   "yc_stage": "Early"
  },
@@ -386,7 +386,7 @@
  },
  "Compa.AI": {
   "amount": "$35M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-26",
   "headline": "Compa Raises $35M Series B to Accelerate AI for Enterprise Compensation",
   "round": "Series B",
@@ -395,11 +395,11 @@
   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMmRiTkV6R2dUUzljRXQzc1BSRXdFTjBqWmxFaEpWTm02UHA3Tkl3WWY0QXlzZlcyYW1Keldud251bjZBOEh0RlR4VjluX2FuNFh4Wmswa3Q0NjRwYUNBdUlLbWVpR3JvS0JiYUdua2JBaDlYN2xpaFhPaTl3ZENRMlI5SllUNHNUTVVVbElXZFlsTmRkYjVmM0J4VUlqYXJFWFlmQ0pqbW9rN3djLTlvUjNSTjhSeS0wV3c3bUhMYUFnYklGWFhtYmZR?oc=5"
  },
  "Complement AI": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Concourse": {
   "amount": "$12M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-05",
   "headline": "Concourse Raises $12M to Connect AI Agents Directly to Enterprise Financial Stacks",
   "round": "Series A",
@@ -412,20 +412,20 @@
  },
  "Confido": {
   "amount": "$55M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-28",
   "headline": "Confido, An AI-Powered Platform For CPG Brands, Raises $55M In Series B Funding Round",
   "round": "Series B",
   "round_est": false,
   "round_text": "Series B",
   "team_size": 65,
-  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcVYzZzJOQmxBU1NUb0djT2pmZjdRRjBYSVB2SmExeEkyUzVsTkFoalRvSjFicUdrWmNBQTF1Uk1nVExLOTVHQUZpbk05a2F3MGhOcnBpWjJVelBHcEdFNHNtamRNLU9FclJLQ2ZPcWNsT3FySlFNUjVJODF3TkhVbW5aYjViSmhLQmRfNTA4a1BxZms?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRU95b2YwX3A4ZlNYbGtuNnBZRkM0MURhM2VsLXFZTzRZaTRYVW55ZmdLODB1UDNMLUZtNjVZMVJ4dnBjWThjbzMzU2NQemkxbnNqOHY4eEF4SDRzMzRhcDlDT2txR2pTX2dpQkYxc2pYSDE0Vnd4LU5zTDJJRVU1ZHlaRjRnS3g1SkcySTRWMlV5XzdKREF6WVVtdw?oc=5",
   "yc_batch": "Summer 2021",
   "yc_stage": "Growth"
  },
  "Coram.ai": {
   "amount": "$35M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-18",
   "headline": "Coram AI raises $35M Series B to scale AI security",
   "round": "Series B",
@@ -435,7 +435,7 @@
  },
  "Cosine": {
   "amount": "$2.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-08-13",
   "headline": "Y Combinator-backed AI developer startup Cosine raises $2.5m",
   "round": "Seed",
@@ -448,7 +448,7 @@
  },
  "Cosuno": {
   "amount": "$30M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2022-02-09",
   "headline": "German construction tech startup Cosuno raises $30M Series B by Avenir Growth",
   "round": "Series B",
@@ -457,17 +457,17 @@
   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM21YNXFrdEtlYjRoOTh4XzVvTUhnMG5NWUJXTkhHSXNZSVgyUDgzUEVhRHFwaDh2OE5XbnllTFM1ZzhBM0cyeUJRT2djMkFYVWJ3RTd4bjdqMWRpaHNIZDNMZEpkUlFuelpMbGZ5eEtjdzZHVVBrdVBwQVR6U0J4VGJTSnhmNDkxUGtudzVvaVlLVFRkbHdBOFBfRUtyaHhSZzVwSng1UTBETjBkazln?oc=5"
  },
  "Credal.ai": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 14,
   "yc_batch": "Winter 2023",
   "yc_stage": "Early"
  },
  "Cursor (Anysphere)": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Databricks": {
   "amount": "$5B",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-08-18",
   "headline": "Databricks Raises $5 Billion at $190 Billion Valuation as AI Growth Accelerates",
   "round": "Series C+",
@@ -477,7 +477,7 @@
  },
  "Datafold": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2021-11-09",
   "headline": "Datafold Raises $20M Series A To Help Data Teams Deliver Reliable Products Faster",
   "round": "Series A",
@@ -490,7 +490,7 @@
  },
  "Decagon": {
   "amount": "$250M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-30",
   "headline": "Decagon raises $250M for AI agents, triples valuation to $4.5B",
   "round": "Series C+",
@@ -499,36 +499,36 @@
   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFFtWVpQX01KQTU0dDBfdHFzancxMU5wU01tT1NyRnZKZjI4aEtTd2laaUpPQVQyVmVodG41elkzQ2tGT3dFdi1xSmx4dHdVQVRJdWdpNmJMa1NQeHNSdnBYZjFpcTRKcGlVZ3c4ZWdpaDNDRGRxb0dpcjZtX05tVlB5dVd6ZHlheEJGZHBhSXM?oc=5"
  },
  "Decoda Health": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 19,
   "yc_batch": "Summer 2023",
   "yc_stage": "Early"
  },
  "Dedalus Labs": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 8,
   "yc_batch": "Summer 2025",
   "yc_stage": "Early"
  },
  "Deepgram": {
   "amount": "$130M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-14",
   "headline": "Deepgram raises $130m at $1.3bn valuation for voice AI growth",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
   "team_size": 115,
-  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE10VUJ3d0JXMUctbEtIV2FJMFRUeXBsUTJuREN6UzZtWENuaDAtaU9sQ3JJMzlxYmxEdUhXZ2pGeHR2d0ROSkZ6dFdfQTF6V2tHcG5jXzlabGJLRmZoOEpTaHd1eU9aalNBdFprRk5pSV9QekphUVduXzNRMGc?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BUzUxM2tUb3FNRkNwZFlmZng0OTRldEMxZFQzYTBIZEpsVlJaSUpQNmtRR2lsbU9PRjhfWHhHVFdoU3pvemQ4b0IyUDd6MzdVRm10U2xXZW1ZUDc3Sk5FNVUyUVJ1YTlkV1RveXBJOTU?oc=5",
   "yc_batch": "Winter 2016",
   "yc_stage": "Growth"
  },
  "Deeter Analytics": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "DiligenceSquared": {
   "amount": "$5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-10",
   "headline": "DiligenceSquared Raises $5M to Bring Full-Stack Diligence Automation to Investment Firms",
   "round": "Seed",
@@ -551,7 +551,7 @@
  },
  "E2B": {
   "amount": "$21M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-07-28",
   "headline": "Czech startup E2B raises $21M Series A led by Insight Partners to scale AI agent infrastructure",
   "round": "Series A",
@@ -561,7 +561,7 @@
  },
  "ElevenLabs": {
   "amount": "$300M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-30",
   "headline": "ElevenLabs Closes $300M Employee Tender Offer at $22B Valuation",
   "round": "Series C+",
@@ -571,7 +571,7 @@
  },
  "Ello": {
   "amount": "$15M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2023-09-07",
   "headline": "AI reading coach startup Ello raises $15M to bolster child literacy",
   "round": "Series A",
@@ -584,7 +584,7 @@
  },
  "Eloquent AI": {
   "amount": "$7.4M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-09-12",
   "headline": "Eloquent AI raises $7.4m to transform FS customer ops",
   "round": "Seed",
@@ -597,7 +597,7 @@
  },
  "Elyos AI": {
   "amount": "€11.1M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-19",
   "headline": "YC-backed UK startup Elyos AI raises €11.1 million to build AI agents for trades and field services - EU-Startups",
   "round": "Series A",
@@ -610,7 +610,7 @@
  },
  "Emergent AI": {
   "amount": "$130M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-16",
   "headline": "Emergent raises $130 million in Series C funding round led by Creaegis",
   "round": "Series C+",
@@ -622,7 +622,7 @@
  },
  "EnsoData": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-06-25",
   "headline": "EnsoData Raises $20M to Expand AI-Powered Sleep Solutions",
   "round": "Series A",
@@ -632,7 +632,7 @@
  },
  "Evertune AI": {
   "amount": "$15M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-08-12",
   "headline": "Evertune Raises $15 Million Series A",
   "round": "Series A",
@@ -642,7 +642,7 @@
  },
  "F2": {
   "amount": "$24M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-10",
   "headline": "F2 Raises $24M to Deploy LLM-Agnostic Operating System across Private Credit & Commercial Banks",
   "round": "Series A",
@@ -655,7 +655,7 @@
  },
  "FINNY AI": {
   "amount": "$17M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-11",
   "headline": "FINNY raises $17M for its prospecting technology",
   "round": "Series A",
@@ -668,7 +668,7 @@
  },
  "Fanvue": {
   "amount": "$22M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-04-14",
   "headline": "Fanvue raises $22m Series A after scaling to $100m ARR with AI-powered creator tools",
   "round": "Series A",
@@ -678,7 +678,7 @@
  },
  "Fieldguide": {
   "amount": "$75M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-20",
   "headline": "Fieldguide raises $75M at $700M valuation to automate audit work with AI",
   "round": "Series B",
@@ -690,11 +690,11 @@
   "yc_stage": "Growth"
  },
  "Fig": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Finto": {
   "amount": "$3.4M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-08",
   "headline": "Y Combinator-backed German startup Finto raises $3.4M, says chose Munich over Silicon Valley",
   "round": "Seed",
@@ -707,7 +707,7 @@
  },
  "Firecrawl": {
   "amount": "$75M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-23",
   "headline": "Firecrawl Raises $75M Series B, Launches Alexandria",
   "round": "Series B",
@@ -720,20 +720,20 @@
  },
  "FirstWork": {
   "amount": "$15M",
-  "checked_at": "2026-10-23",
-  "date": "2026-10-22",
-  "headline": "Firstwork raises $15M Series A to scale applied AI for frontline workforce operations",
+  "checked_at": "2026-11-22",
+  "date": "2026-10-24",
+  "headline": "Firstwork Raises $15 Mn In Series A Round Led By Earlybird Venture Capital",
   "round": "Series A",
   "round_est": false,
   "round_text": "Series A",
   "team_size": 9,
-  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeTJUWHhpQjF6QUlIVmxSVjJtS2tYY05vbi04VXVNdEVtWkYyMWFVU1pPZzRWRXpGS3owVkp2QVNJRW41dURodzQ5RHRWazBWNlZidF8tTi1XekNkMmhfNENkV1Z1dzUtLXMtVGNSWFowZXBlRHFSUXFiOURtNkhHSExCYXg2akE2djR2UWFfZ3BuTWhYX0toRzdjbTN1clhzdTNiMDJKS2RwMHpmNFM0Tw?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWFMNEF4anZwT2lPX2kwMUhaRzhHN2Z4eS1POVRPODlJLWt5dVVHZEtLSjYyQWI1SFFoUmZPa0FzQnQ2empRdDRxcE1FYjdqbzBwLXU5Q21NX21aSDZlN2t2Wi0tMTRnX1h5M2V1akhwUWpSZW04aTYtek8wbFRXS280UXlzVEd4blhoVzZyTmlLdUpaOEJLaDMxMkQtZ3dWRTFZVlhqY0U2YkxBcVZKdXAyZ2c?oc=5",
   "yc_batch": "Summer 2024",
   "yc_stage": "Growth"
  },
  "Flagright": {
   "amount": "$12.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-19",
   "headline": "Flagright raises $12.5M for AI financial-crime compliance",
   "round": "Series A",
@@ -746,7 +746,7 @@
  },
  "Flux.ai": {
   "amount": "$5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-11",
   "headline": "Flux Raises $5 Million to Expand AI-Powered Engineering Intelligence Platform",
   "round": "Seed",
@@ -759,7 +759,7 @@
  },
  "Foxglove": {
   "amount": "$40M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-12",
   "headline": "Foxglove raises $40M to scale its data platform for roboticists",
   "round": "Series B",
@@ -768,17 +768,24 @@
   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM3Jsc1NuMWd3VERmZE5iY2hYOFE5SG9XSElwS1FMZ2ZvYVVFUmtxS3VYSTcyaV9vcUkzbkFXemVXT3RrMHJTQnNta1VsTTFfa2lqV01aakVJMGtaVV9zdThGWlBUSnFsV2dqbGZ6dVdGa0hhc0tUV05Jdm5UOEdpVlppemdXd1VSZEx3?oc=5"
  },
  "Garage": {
-  "checked_at": "2026-10-23",
+  "amount": "$41M",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-13",
+  "headline": "Garage Raises $41M for its AI-Powered Marketplace for Fire Trucks and Municipal Equipment",
+  "round": "Series B",
+  "round_est": true,
+  "round_text": "",
   "team_size": 35,
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPczRzS1ZFT2w0WTYzSllOdGZMdFprTXo4Uno5OVFoZUc3SExhdm1wZ0FrR2ExaWJIY0pQVmFlbF80ZjBaMmpMREJkNnI5WF8xYTZ4eUJFb2ZvVjRaU2pFdmN3aDY0Uk5mQUZWZW1EUVVzWXlFcDZ1OWNDVm9sdWc1dlJWTzZGOWR2VjdSb2pnS19EU0JUNTY5dS1DYVdLd0FaSGo5bmRuWVhUbUlUZGZrcmg2Y3VvdnRxQU91VDM5Mm9XUHpNVGc?oc=5",
   "yc_batch": "Winter 2024",
   "yc_stage": "Growth"
  },
  "Gauss Labs": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Gecko Robotics": {
   "amount": "$125M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-06-13",
   "headline": "Gecko Robotics secures $125M Series D, reaches unicorn status with $1.25B valuation",
   "round": "Series C+",
@@ -791,14 +798,14 @@
  },
  "Giga": {
   "amount": "$61M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-06",
-  "headline": "AI Startup Giga Raises $61 Mn From Redpoint Ventures, Y Combinator & Nexus Venture Partners",
-  "round": "Series B",
-  "round_est": true,
-  "round_text": "",
+  "headline": "Nexus-backed AI startup Giga snags $61 mn in Series A round",
+  "round": "Series A",
+  "round_est": false,
+  "round_text": "Series A",
   "team_size": 30,
-  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYm13OVpmSDcyS2VlS3ZGMVBsRkM1M2hlWmFoUjlyY1dLMmp2SDA0T1FfWmR2LWRTOVpsWWhMTl9XSjh3WGpER2gyUTBqQVJpMElyYWpQYkdDS1Rkdy1WeWRoaUJIM3NxdG11dk83cnFMOVFWMVZpb0ZPbFVsWTN3bThsZGVxRngtVjJnU2p2cEpHZnRlQVFQRU5CWFppTmNvWjlHS3dXUjRZSnNLdmVYWWR5WFpuSk5sNnBhOXpCQ0M5eVJacW5Z?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVLVFab1I2aTFlX3BIN3ZWbXNneEFXcHQ0ZEUtSko4S3d5cGZncjRIZl9YNktQSGc3WjJNUnBzeFlEOFU2bFhtdzh5My01bXlDU09yb1hucXltWVJyeDNuek93WmJXYzlLbzBwQWN6dTdLaVlYVDNB0gF_QVVfeXFMTmdhTnYwV2FBbHNYNmNvZ1lnd1E3cVRrLWNIMGRZdjgzdG9GMlQ3b0h5elZ4azRucUY2VEVCd3dOWG1CRWYwN3d1OWpCNFBZZTNLSjk1aWhwOW9KX2xiaFdleFRSelFmUnRjcFhZdXRRalhTaldjdlRmeFd3ZTdWdw?oc=5",
   "yc_batch": "Summer 2023",
   "yc_stage": "Growth"
  },
@@ -817,7 +824,7 @@
  },
  "Glean": {
   "amount": "$150M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-06-16",
   "headline": "Glean Raises $150M at $7.2B Valuation to Expand Global AI Work Platform",
   "round": "Series C+",
@@ -827,7 +834,7 @@
  },
  "Glimpse": {
   "amount": "$35M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-26",
   "headline": "Glimpse raises $35 million to scale AI-driven dispute automation for CPG brands",
   "round": "Series B",
@@ -840,7 +847,7 @@
  },
  "GovDash": {
   "amount": "$30M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-01-15",
   "headline": "GovDash secures $30M to expand AI-driven government contracting software",
   "round": "Series B",
@@ -853,7 +860,7 @@
  },
  "Grafana Labs": {
   "amount": "$270M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-08-26",
   "headline": "Grafana Labs Raises $270M, Boosting Valuation to Over $6B",
   "round": "Series C+",
@@ -863,7 +870,7 @@
  },
  "Greenboard": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-05-13",
   "headline": "Greenboard raises $20m to launch AI compliance tool",
   "round": "Series A",
@@ -876,7 +883,7 @@
  },
  "Harper": {
   "amount": "$47M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-26",
   "headline": "Harper raises $47m to modernise business insurance with AI",
   "round": "Series B",
@@ -889,7 +896,7 @@
  },
  "Harvey": {
   "amount": "$550M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-12",
   "headline": "US-Based Legal AI Startup Harvey Raises $550 Million at $15.5 Billion Valuation",
   "round": "Series C+",
@@ -899,7 +906,7 @@
  },
  "Hedge": {
   "amount": "$3.7M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2022-04-19",
   "headline": "Solana DeFi Platform Hedge Raises $3.7 Million to Offer Interest-Free Loans",
   "round": "Seed",
@@ -912,7 +919,7 @@
  },
  "Heron": {
   "amount": "$16M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-07-16",
   "headline": "AI workflow automation startup Heron lands $16m Series A",
   "round": "Series A",
@@ -925,7 +932,7 @@
  },
  "Humaans": {
   "amount": "£13M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2022-10-05",
   "headline": "HR platform Humaans raises £13m with backing from Slack CEO",
   "round": "Series A",
@@ -937,17 +944,17 @@
   "yc_stage": "Growth"
  },
  "IDinsight": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Innate": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 7,
   "yc_batch": "Fall 2024",
   "yc_stage": "Early"
  },
  "Inscribe": {
   "amount": "$25M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2023-01-26",
   "headline": "Inscribe bags $25M to fight financial fraud with AI",
   "round": "Series A",
@@ -960,7 +967,7 @@
  },
  "Interfere": {
   "amount": "$5.1M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-15",
   "headline": "Interfere raises $5.1M seed to help teams decode software bugs",
   "round": "Seed",
@@ -972,20 +979,20 @@
   "yc_stage": "Early"
  },
  "Invert": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 25,
   "yc_batch": "Winter 2022",
   "yc_stage": "Growth"
  },
  "JITX": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 18,
   "yc_batch": "Summer 2018",
   "yc_stage": "Early"
  },
  "JUPUS": {
   "amount": "€13M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-23",
   "headline": "JUPUS raises €13M Series A to scale its AI assistant for law firms",
   "round": "Series A",
@@ -995,7 +1002,7 @@
  },
  "Julius": {
   "amount": "$10M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-07-28",
   "headline": "AI data analyst startup Julius nabs $10M seed round",
   "round": "Seed",
@@ -1008,7 +1015,7 @@
  },
  "Juna AI": {
   "amount": "$7.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-11-18",
   "headline": "Industrial AI startup Juna.ai raises $7.5M in seed funding",
   "round": "Seed",
@@ -1018,7 +1025,7 @@
  },
  "Kepler": {
   "amount": "$8M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-01",
   "headline": "Indian Space Startup Kepler Raises $8M to Build 6 Defense Satellites",
   "round": "Seed",
@@ -1030,11 +1037,11 @@
   "checked_at": "2026-11-12"
  },
  "Kraken Tech": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Krea": {
   "amount": "$83M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-04-08",
   "headline": "Krea bags $83M to unify GenAI tools for creatives",
   "round": "Series C+",
@@ -1044,7 +1051,7 @@
  },
  "Laminar": {
   "amount": "$3M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-17",
   "headline": "Agent debugging startup Laminar raises $3M seed to tackle the observability gap in AI agents",
   "round": "Seed",
@@ -1056,30 +1063,30 @@
   "yc_stage": "Early"
  },
  "LangChain": {
-  "amount": "$25M",
-  "checked_at": "2026-10-23",
-  "date": "2024-02-15",
-  "headline": "LangChain raises $25M, launches LangSmith",
-  "round": "Series A",
-  "round_est": true,
-  "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxObEMtckNUSEhFXy1lem5oWjVDUUs4NFNUSVp5RmxxZE1qbHNkekZNM2E3ekhXWHlxLUtzQ1BjLW5yWk85czNCWWRzS3ZIekE5NDZnNkhvTlJvN1VvalRxQzBVbWNjQnJQdUExb1ltVmxUbWFpWFVOVU00T2lDUGI1cDRFcnZmanRGZHVjdkJITFAtZk5aa29JTlZrNGFzeG8zODRPSUtwU2NxazUyVHFHQTBhWTJ3VGY3c3BkYg?oc=5"
+  "amount": "$300M",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-18",
+  "headline": "LangChain Raises $300m At $3bn Valuation In Series C Round",
+  "round": "Series C+",
+  "round_est": false,
+  "round_text": "Series C",
+  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVzlFd2U1clJmVzhzdjlUYndsdXI5UzlEMFZ2QUlSZlBnVjZsRDFSOS1qdEh3cGVVbU9FU2ktTnJFTk5sU3NHREx6Nl96aHM1bXJKSEN4c0ZyRDc0VzBNUnBQdDhwU29uVmhwbmRFX0RVSHgzM0J6Z1AyM25tV3NxWFRxUGVVRkM1NElScnlSSnhLQ0c0Rmt2ZVhrcnhFVV81UzRoQlVmZDQ?oc=5"
  },
  "Langdock": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 65,
   "yc_batch": "Summer 2023",
   "yc_stage": "Early"
  },
  "Lapel": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 14,
   "yc_batch": "Spring 2025",
   "yc_stage": "Early"
  },
  "Latent": {
   "amount": "$80M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-23",
   "headline": "Latent Raises $80M For AI Medication Approval Platform",
   "round": "Series C+",
@@ -1092,7 +1099,7 @@
  },
  "Legion Health": {
   "amount": "$16M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-01",
   "headline": "Legion Health raises $16M of planned $25M round",
   "round": "Series A",
@@ -1105,7 +1112,7 @@
  },
  "Lightning AI": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-11-22",
   "headline": "Lightning AI secures $50m to enhance AI development tools",
   "round": "Series B",
@@ -1114,14 +1121,20 @@
   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YbGpNN0UzcE5EQ0t0MVBCYWxibGNIOUtTSVlzQ0w4YXNQNzdvMjQyNWdZQm1NM1IyZDZ0a1lYX2h6d1N6dDZhLU9oWm05c2U0Mi1SZlJrT2drOTV5ODJNZjlHZXE3VFE?oc=5"
  },
  "LiteLLM": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 20,
   "yc_batch": "Winter 2023",
   "yc_stage": "Early"
  },
+ "Litmus": {
+  "checked_at": "2026-11-22",
+  "team_size": 4,
+  "yc_batch": "Summer 2026",
+  "yc_stage": "Early"
+ },
  "LiveEO": {
   "amount": "€28M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-05-29",
   "headline": "LiveEO Raises €28M To Expand AI Infrastructure Monitoring",
   "round": "Series A",
@@ -1131,7 +1144,7 @@
  },
  "LiveFlow": {
   "amount": "$13.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-09-24",
   "headline": "LiveFlow Raises $13.5 Million for New Accounting Automation Products",
   "round": "Series A",
@@ -1143,11 +1156,11 @@
   "yc_stage": "Growth"
  },
  "Longshot Systems": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Lucis": {
   "amount": "€17.3M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-05-26",
   "headline": "YC-backed French preventive health platform Lucis raises €17.3 million Series A led by Singular - EU-Startups",
   "round": "Series A",
@@ -1160,20 +1173,20 @@
  },
  "Mach9": {
   "amount": "$34M",
-  "checked_at": "2026-10-23",
-  "date": "2026-10-22",
-  "headline": "Mach9 Raises $34 Million in Series A to Expand AI Surveying Tools",
+  "checked_at": "2026-11-22",
+  "date": "2026-10-24",
+  "headline": "Mach9 Raises $34M Series A for AI CAD That Turns LiDAR Scans Into Civil Engineering Drawings",
   "round": "Series A",
   "round_est": false,
   "round_text": "Series A",
   "team_size": 25,
-  "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5sa0p1X1F6UHlVV2VPY0VsY0NkcE1raTQ2ZjBvbC1odzFMblV4Mzg0UUNvZzl0MXhHR0U5My1pcWwwWUZ3U1ZlcFlzMlkwbmpJMko0bDUxc2I?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SMGplTDhRakpHb3pvUXk1UUVwZWZmVmhwVFNwQWdxTDZJVlBzbndmVHVnWktSVGU2NWtLX2RjX2JNM2c4elI1TW03Uk8xeHRWeWtj?oc=5",
   "yc_batch": "Summer 2021",
   "yc_stage": "Early"
  },
  "Mashgin": {
   "amount": "$62.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2022-05-10",
   "headline": "Self-checkout tech maker Mashgin raises $62.5M",
   "round": "Series B",
@@ -1185,17 +1198,17 @@
   "yc_stage": "Growth"
  },
  "Mastra": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 30,
   "yc_batch": "Winter 2025",
   "yc_stage": "Early"
  },
  "Matterworks.ai": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "May Mobility": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2019-12-04",
   "headline": "May Mobility raises $50M to develop autonomous shuttles",
   "round": "Series B",
@@ -1208,7 +1221,7 @@
  },
  "Mem0": {
   "amount": "$24M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-15",
   "headline": "Mem0 Secures $24M to Advance AI Memory Technology",
   "round": "Series A",
@@ -1224,7 +1237,7 @@
  },
  "Mercanis": {
   "amount": "€17.3M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-06-18",
   "headline": "German AI startup Mercanis raises €17.3 million for its Agentic-AI procurement solution - EU-Startups",
   "round": "Series A",
@@ -1233,34 +1246,34 @@
   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWjE1YnVHVzd3NmtManJ5amh4ZFZJdDJfcGRuT3pCQTdmdFdUb3lrWjlFYzJrQ29CbmRWNzFtOGlObHpnQnZYVFEtQm9pVVE0VVZhak5iYnd4ZVJhSHZ6SHVRUWZoYzJJbWIwOHJ6aG5fME9ZSFhTTU1mNEJqNFNvT1F3YnYxSUhFUHlxS3VnWmxjRGhvZzJ6NXJsaUhHRy1zR1A1c1h5NUk1bWZUYU9hdDZWeWgzenl1SzJYRHBJdVdhUQ?oc=5"
  },
  "Mercor": {
-  "amount": "$20B",
-  "checked_at": "2026-10-23",
-  "date": "2026-08-19",
-  "headline": "Mercor secures $20B valuation as Nvidia extends spending to its own AI data supplier",
+  "amount": "$750M",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-14",
+  "headline": "Mercor lands $750M funding round, valuing staffing platform at $20B",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42bi1zb2dYMjVIekI0bWwtS05JbTExNjFuV1piT0ltdmFNV3VoY2VHZHdOZEx1VWQyekM1TTdYZlZiZEFRc0NkOF9SM1F1VUtaYjdJR0ZPeHhuNGZBcHJxd29VYWtpX0tfSGdSYWRvVVZoaGtoYnlLR2RUOA?oc=5"
+  "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTZLX3Z4c3JkblNZVzdlalFBQ1lyU1AwMVJNc0tmTDQtRWxHMEltaUhaSU5CTkp1SkdvN0ZqWnpvRFVEd0pVSE5VUVpqaU5EZWJqRGRoLXBaaUh6M2p1djNsRUNPckUzZzN5dTMzREY0VFVEWFU2b2ZCMUZzcFVWWHRBY3hHVmlMOTloMnlvYnhmeG14ZkttRGRPM2I3X1pYcVB5XzNCc2VMMTBEUEhyM0w3RDVBMkl4U09kLQ?oc=5"
  },
  "Meticulous AI": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Metriport": {
   "amount": "$26M",
-  "checked_at": "2026-10-23",
-  "date": "2026-08-28",
-  "headline": "Metriport Raises $26M in Funding",
+  "checked_at": "2026-11-22",
+  "date": "2026-09-12",
+  "headline": "Metriport Secures $26M Series A to Build Open Patient Context Layer",
   "round": "Series A",
-  "round_est": true,
-  "round_text": "",
+  "round_est": false,
+  "round_text": "Series A",
   "team_size": 29,
-  "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1jRWlNM1pqaFBORXZkR2k3MEtqeFBQbUlkNW4yYnY4TE40bFoxUVlMVzdZZkVRMEtkVmFmV2VueTlEbTBJU0RMMmtObkt6NFhid2FBRy1RZEYweHdJRHByc3Q1TnBVd2JIMTJpU0RSeUFhWk90NjV3?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbkJTbGIxWFV3SDVVODlXR3d5VTJCSWp0Z0czVE4takxBbFdJTjdHUlgxb0JnRTZBMVJDTUxQbEpSOGt3NTdaMnVFMWdpaGVPNkVGV0ZMMjE5b1dIbm9EdlpiaC14TWdBSkliX1pqczhpVHdJMnQzbDluZmJMVE1BRGNWdTJIVnp2V2p5ZzFjb2w3cnpEU1BkckpPaTQ2dXRDWkViNWZEQmxnSTBIVThfb0dxb25FaXctam45M2h5R3N3S1ZzOFRMTlFzVG80dW5fbDEweWZfOUptN3RxMTk3RVMzNzl4QQ?oc=5",
   "yc_batch": "Summer 2022",
   "yc_stage": "Growth"
  },
  "Mistral AI": {
   "amount": "€3B",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-11",
   "headline": "Mistral raises €3B as Europe's AI champion courts China, Microsoft and Samsung",
   "round": "Series C+",
@@ -1273,17 +1286,17 @@
  },
  "Modal": {
   "amount": "$750M",
-  "checked_at": "2026-10-23",
-  "date": "2026-10-14",
-  "headline": "AI cloud startup Modal raises $750M at $15.75B valuation",
+  "checked_at": "2026-11-22",
+  "date": "2026-10-15",
+  "headline": "AI Inference Infrastructure Startup Modal Raises $750M Series D",
   "round": "Series C+",
-  "round_est": true,
-  "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmF0ZHk0WGI4b2ZSYTcyQ1ctalFMMW9IQTZFQU12emY0dWNhWFU5WVA5MEZLTjRkaWE5eUZKSjFyYU1FSzAtWmZBc29PQVA3UkYzRmNVbFNfTVZPVHZUWDJFMHdNeExwZjlaVlhKN21Cc2lhU0NUU3pqZ0hOOERvcUYtbUQwZUsyenRqMVBVdjhGTXdKVVE?oc=5"
+  "round_est": false,
+  "round_text": "Series D",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZRTF3TXhUSjlpUWo2N0ZBM2ZZWFhCOFVablBFbVpWMVFWMlVabjNnMDBkemd1MzBrYV9PLUVpTkxRTGc3SkFUbUVzV0NHU1VCSS04?oc=5"
  },
  "Momentic": {
   "amount": "$15M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-24",
   "headline": "Momentic raises $15M to automate software testing",
   "round": "Series A",
@@ -1295,13 +1308,13 @@
   "yc_stage": "Early"
  },
  "Mubit": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Mutiny": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2022-04-20",
-  "headline": "Mutiny, which personalizes website copy and headlines using AI, raises $50M",
+  "headline": "Mutiny raises $50M to personalize website copy with AI",
   "round": "Series B",
   "round_est": true,
   "round_text": "",
@@ -1312,7 +1325,7 @@
  },
  "NODA AI": {
   "amount": "$25M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-26",
   "headline": "NODA AI Raises $25M Bessemer-led Series A at $125M Valuation",
   "round": "Series A",
@@ -1321,11 +1334,11 @@
   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDZSM05mSjhEVW5WVzRWakFfQTFlQW92bm9yX2NBajdIQnd0MnJDRHg5Mzhycmd4cjA2SGRuMkYwN3NqdjRsanVPYlphYk5QdU9CenZtVE0ydzJWZXZjRG1HUzEzUXFFaE9oOENyYmc5bUp0VTNscDRxenA2YjNiOGNPVEhfTnF6WFYyUnBtdGh5VTdKVDRMeHhYYUhzMDdmaWFv?oc=5"
  },
  "Neo.Tax": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Neon Health": {
   "amount": "$6M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-09-02",
   "headline": "Neon Health raises $6M for AI to help patients access specialty drugs",
   "round": "Seed",
@@ -1345,38 +1358,38 @@
  },
  "Nuance Labs": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
-  "date": "2026-09-14",
-  "headline": "Nuance Labs bags $50M in funding to fix the awkwardness of AI avatars",
-  "round": "Series B",
-  "round_est": true,
-  "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSmh1R0hGTC11R2pfeUJZZWQ1WHdYVXhWRU1wa1FQNFUwS1hwU29rUEsxcWpqMHBER3VmeEdaSHRObTZYaUxKTUZiLTBBdjJpOFdnd0htR3RjSXF3ODhIVDFNa1RHNXVuZ0VkLUQ5bE1uQXAyNkp5dkxqdzZZMUhaVVdfNWItSVZwZmZqWjU0TkE2dEs0ckNEdEpLWEZCZkIwMERhbmdvaXQ?oc=5"
+  "checked_at": "2026-11-22",
+  "date": "2026-09-15",
+  "headline": "Nuance Labs Raises $50M Series A to Build the Foundation Model for Human Conversation and Expression",
+  "round": "Series A",
+  "round_est": false,
+  "round_text": "Series A",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9FWEphNUotZUk1TUZENk9FX1FSeVVIVWRkczE2M0xxUGJHYmpkaUxzSDRHVnljeDFva2htUkh0SVU2bmVzV0V6ZndVbmNUV3RobTBz?oc=5"
  },
  "OffDeal": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 25,
   "yc_batch": "Winter 2024",
   "yc_stage": "Growth"
  },
  "Ojin": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "OneSchema": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 20,
   "yc_batch": "Summer 2021",
   "yc_stage": "Early"
  },
  "Oneleet": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 75,
   "yc_batch": "Summer 2022",
   "yc_stage": "Growth"
  },
  "Onos Health": {
   "amount": "$17M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-08-29",
   "headline": "Onos Health Raises $17 Million Series A As AI Platform Cuts Behavioral Health Program Costs More Than 6%",
   "round": "Series A",
@@ -1385,20 +1398,27 @@
   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0F2X04tZklON2V6dkNHblk0SWxpbEdSMXJ2dUZRT1lHc3VyUW1UZURmaTVubVl4ZjluN1BsWDlOLXhrSkxnSUVXSUpqNkFKV0JqVWZGaWZPR01QWTNkSjJ3WmNwZGNOcUNzUVRFZUxodlV5UUp6ZHk1VGc1NGw5d3Y1ano3Ml9LcGxYeS11WWIyWUpIazdNWDd0QlJLY2FhMTFRS0JnUktDV3VSY0xuS2JYQmIwMnNld0RqNjE4MNIBxAFBVV95cUxNYlNBMG52cWM5dHhkelZtRWV1QjVMT2p0dGVoUzlicF9IYzFZTXFZRlUwMEFvMjU5eWVJRVJ3aXhJUzc3THZIZnBBdVJMc1p1c0xWcm9fc18xVklzY0VEdlh4VXhsaUI1TFFfS18zZ3hkRlNvMFV2QmcxVE50MkwwWHBySU56QURfemtja1dIZVMzV2FaS1NKMVJkcnhITzd2RDZXd2FwMC1fQVdIaklRd0NTVDFQcmY1Q3RMQ3daNnY0U1hF?oc=5"
  },
  "Open": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 22,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
  "OpenAI": {
-  "checked_at": "2026-10-23"
+  "amount": "$11B",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-08",
+  "headline": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says",
+  "round": "Series C+",
+  "round_est": true,
+  "round_text": "",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5"
  },
  "Oscilar.com": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Outset": {
   "amount": "$30M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-12-11",
   "headline": "Outset Secures $30M to Expand AI Customer Experience Platform",
   "round": "Series B",
@@ -1410,17 +1430,17 @@
   "yc_stage": "Growth"
  },
  "Overview": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 40,
   "yc_batch": "Winter 2019",
   "yc_stage": "Growth"
  },
  "Pantograph": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "People.ai": {
   "amount": "$100M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2021-08-17",
   "headline": "People.ai Secures $100M In Series D Funding",
   "round": "Series C+",
@@ -1433,7 +1453,7 @@
  },
  "PermitFlow": {
   "amount": "$54M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-12-09",
   "headline": "PermitFlow Raises $54M to Cut Permit Approval Times from Months to Days",
   "round": "Series B",
@@ -1446,7 +1466,7 @@
  },
  "Perplexity": {
   "amount": "$1.5B",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-09-11",
   "headline": "Perplexity AI Raises $1.5B in Total, Now Valued at $20B",
   "round": "Series C+",
@@ -1468,40 +1488,40 @@
   "yc_stage": "Early"
  },
  "PhysicsX": {
-  "amount": "£225M",
-  "checked_at": "2026-10-23",
-  "date": "2026-06-09",
-  "headline": "PhysicsX raises £225m to accelerate AI for industrial engineering",
+  "amount": "$300M",
+  "checked_at": "2026-11-22",
+  "date": "2026-06-19",
+  "headline": "PhysicsX raises $300 million at $2.4 billion valuation: How this London AI startup is revolutionising engineering",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ21WUUVydW9wblJhWmFFZ2QtRFpYbE9CX3prWHNkMlE1OXZ5c05qYnhKbVVkcmJkbldVZ0ZfX0pjRVFLeGNxblgwb0JzRVZjcE9pd1I2ZnE3SFdfMUJGVkVEY1BvMVAycWtpX0JyV2c0Mm5STlpiZjRGRmlOMXZRRHVZZThEeFF0UkVrSVlsV0ZuYWNQSktrZUkyRF9yVzNUWWc?oc=5"
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWUFqd0hxdlNiVUdyazNPLWMwX1BpUThIeTZXQmpDdjI5NlJpeE8xUmp1TXZiLU93MVN4aFhMMy1WaU80OXVSLUI0dDNGYUgxSjkxYVhndVc0Rlp2NHAydFV5OU9mdTVFYXpjNm44UHFLallMYmdnZjIxc2xaVDQ2ZldsVVlhNUhUVXZyR2JWRnViRTRfSUdwZHVzSmsxenAzR3hiZDlzLVBNaFpicC1ISGtuNFZUR1c5MkViT1VFTWtrMTlxRnUtZlctT3VuOFJOazNZcmhKZw?oc=5"
  },
  "Pickle Robot": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-11-20",
-  "headline": "Pickle Robot lands $50 million in VC for truck-unloading robots",
+  "headline": "Pickle Robot closes $50 million in Series B funding",
   "round": "Series B",
-  "round_est": true,
-  "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUHNPMGc4aE1WNVNJNlFnalVUanMySWZBVEROVGRuMnc3NEM2ekoxdlVmcF84d20zWjNTSWd0ak14WDBBSkpOZ3M5akZiRlFhcTJRc2VKT2Ffd3l2X0p4Rm1Bcjc5YkVaVVNDMEVjRE5GQUxsV0MxY1VFTkdnOFc3WkZMTkx4bk9IcUhnblVvcl8tMk0?oc=5"
+  "round_est": false,
+  "round_text": "Series B",
+  "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZ1ZiUDNzMHA0d0sxamhIOE9hdFNRZlhSb3FoMnVhOVhYUUNGUzZmMFF4YjI0cUF6YTZYR1VRQUZiNjNPMzcwTmV1WXNteDVLcGdvRzhaMnJzX0o3eFJBQTVWT0M0RE5oT2d5UXg0ZzUzTHhKOU5ocUJWX0R2UGc?oc=5"
  },
  "PicnicAI": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 100,
   "yc_batch": "Summer 2014",
   "yc_stage": "Growth"
  },
  "Pivot Robotics": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 8,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
  "PointOne": {
   "amount": "$16M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-24",
   "headline": "Legal Timekeeping Startup PointOne Raises $16M in Series A Funding",
   "round": "Series A",
@@ -1513,14 +1533,14 @@
   "yc_stage": "Early"
  },
  "Popl": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 60,
   "yc_batch": "Winter 2021",
   "yc_stage": "Early"
  },
  "Prior Labs": {
   "amount": "€9M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-02-05",
   "headline": "Prior Labs raises €9 million for foundation models for spreadsheets and databases - EU-Startups",
   "round": "Seed",
@@ -1530,29 +1550,36 @@
  },
  "Prodigal": {
   "amount": "$12M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2021-07-22",
-  "headline": "AI startup Prodigal gets $12 million funding from Menlo Ventures, others",
+  "headline": "Prodigal Raises $12M to Give Lenders Actionable Insights, Streamline Their Operations Using AI",
   "round": "Series A",
   "round_est": true,
   "round_text": "",
   "team_size": 99,
-  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZU5jZUFXT3hSQ0E1M05VX25OR1luTUpYQ1lYN0RGNUxQcXR6Z2M5UkgzVHRJYnB2YzF6M3liR2xHUHVQOWF1NXRZRGlFMU1JdVpiWk8yMEhKclkyVUZ0emVUVkJzYlNOTnlEVl96VnlHLXp4aTZXVkpPOW5xM1N2STkzdk5ZNzhoQ1FvUmZHWTZtcjF4dDRDZzlqamxBeGZLWF9uZ3pOQUQ2V3Z5RzdPN2VwODhJQVBMbnkwMmtlZmJzU0ppQ1diN0F3ZGxvR255RkHSAdcBQVVfeXFMT1dtUnNkcHZjSkpUck5pMDdPNkVEd0JqREN4aUROcWVuOFVNM2RmN1JoOGRiWldNSXd2WEJKYlhhdHhqUmpMLWVEcXdxOE9WN2FHNHZlT3FJV2EzYWhKZmh6VlNjWExZNFZUT0JQWERZZ0ZCak9BUUZ1SXlGM2d1bG1zTDJsRXFrX2lBX2Q5d05CWnd5S2NpdXVtVEQyUHlvTmR3T1kxMUx6em9qT2g4Z2p3a3dwLVkyT2M0SVJSRWg0VHc3d0ktVFA0b3l1S0dkaXNBdHAtXzQ?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRkxUWWtxOTlpdWgwQ3dEd2oxdjdoNUhueWFkaHlSRVZjZ1hpNjRBdEd0YjZndUdaZ1JiOGJzQ1hqZUdlTkhCaUpucDhhUDdlSEhhZjAta0JvUFdyTndJRmpDbHRuSy0zaFdGTzBYSHVKZmpOSklzUDRwcjAwTmVZVG1CZTJ0YUFma1dDWkxTQlNZd1dmd05WaE56d3dRRFNaMldsRF9mNnJKV2U4QWZJbXg1WlpoRkVNeG8xMEJtX3laOGl5MURhd2hlTldXaGhtMS1mUlFWRmRBOFljNkpYM2dB?oc=5",
   "yc_batch": "Summer 2018",
   "yc_stage": "Early"
  },
  "Promise": {
-  "checked_at": "2026-10-23",
+  "amount": "$25M",
+  "checked_at": "2026-11-22",
+  "date": "2022-02-24",
+  "headline": "Tech Platform Promise Raises $25M in Series B",
+  "round": "Series B",
+  "round_est": false,
+  "round_text": "Series B",
   "team_size": 80,
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdzVnRlpjTk9ONHFIZFNLdXM3VW5FWTl5SnJPbGExcXZ4aFMyUzJzOWg2bGtpb19YSHROY2hBb1FPam9MWFlMeW5WRm1iS3NaYUhjWi11MHhSOVYwaTAwSFBWd0xwa0gyaXhma2dKamhBLUw5SWRtS1dYcHVHNWNyRHMyQ0dpS0NMeGJZLTdzZUNmUU84UTJ4SUZDVEJNQQ?oc=5",
   "yc_batch": "Winter 2018",
   "yc_stage": "Growth"
  },
  "Prompt Health": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Prosper AI": {
   "amount": "$30M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-24",
   "headline": "Prosper AI Raises $30 Mn in Series A to Expand Healthcare AI Operations Platform",
   "round": "Series A",
@@ -1564,23 +1591,23 @@
   "yc_stage": "Early"
  },
  "Pump.co": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 75,
   "yc_batch": "Summer 2022",
   "yc_stage": "Early"
  },
  "Quadrature": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Qventus": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 230,
   "yc_batch": "Winter 2015",
   "yc_stage": "Growth"
  },
  "RADAR": {
   "amount": "$170M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-19",
   "headline": "RADAR Raises $170M as it Brings Physical Retail Into the AI Era",
   "round": "Series C+",
@@ -1602,11 +1629,18 @@
   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTmdHZ21QU0VjcmhEZXpMSURRY0tjR2RQSXgyNHNhWHlCSE05MERUX2V1SW51UmVOUzlRc0xIRmg1QXowampFV2M5eUd4QlYyRE1QUVFYVUl5TXlURGJidUhfYXhGaXNGV1E5M3U3NGhwNzN2SWZ6bGRBdWNhZXVWXzY4VUZGdGN4eGZrNEQyd3ZCdVFITEozdHhlbFB6dU1wUjRFazZhWlhRRU15c25PdUNjSWdHUldYYkZ0di1tN3J1UGk1c04yU3hzQXV4X2ZXWHlUUGxKc3A?oc=5"
  },
  "Radical AI": {
-  "checked_at": "2026-10-23"
+  "amount": "$55M",
+  "checked_at": "2026-11-22",
+  "date": "2025-07-22",
+  "headline": "Radical AI Lands $55 million To Apply AI To Materials Science",
+  "round": "Series B",
+  "round_est": true,
+  "round_text": "",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWHQ1ZFlHZ21xdTFpaDRmaUlIRUNaZlMzbmc3RWZrZE9CaGZCVkdiV0R4YWVsVGVJenRDb28tQWljb2JVaEMtX3U3djhMWWJVS2pyYTBWUHZpUkJ2QXctSkdxOHB1YnVTRVdGanBQUkY5aFpqVEQwdWtZQlVpVi0ycDlqQ1Q0ZGpVNmRjU1NZSEp1clNOQ1RIMk5rS3BWVm9PSGc?oc=5"
  },
  "Radical Numerics": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-15",
   "headline": "Radical Numerics Raises $50M in Seed Funding",
   "round": "Seed",
@@ -1616,7 +1650,7 @@
  },
  "Raindrop": {
   "amount": "$35M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-17",
   "headline": "Raindrop raises $35M Series A to catch AI agents going rogue",
   "round": "Series A",
@@ -1631,20 +1665,20 @@
   "checked_at": "2026-10-29"
  },
  "Reacher": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 10,
   "yc_batch": "Summer 2025",
   "yc_stage": "Early"
  },
  "Ready": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 75,
   "yc_batch": "Summer 2020",
   "yc_stage": "Early"
  },
  "Rebar": {
   "amount": "$14M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-11",
   "headline": "Rebar Closes $14M Series A Led by Prudence to Rapidly Scale its AI Platform for HVAC, Electrical and Plumbing Industries",
   "round": "Series A",
@@ -1654,7 +1688,7 @@
  },
  "Recall.ai": {
   "amount": "$38M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-09-05",
   "headline": "Recall.ai lands $38M to unlock spoken data at scale",
   "round": "Series B",
@@ -1679,13 +1713,13 @@
   "yc_stage": "Growth"
  },
  "Relling": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "yc_batch": "Summer 2025",
   "yc_stage": "Early"
  },
  "Replit": {
   "amount": "$400M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-01",
   "headline": "Replit raises $400M as AI coding shifts from “editor” to “agent”",
   "round": "Series C+",
@@ -1694,20 +1728,20 @@
   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlBaY3c1ZVU1STE5b2NielVhXzhqMXdfODE1RWNvNWRDdlBMY05xb0lCRjRRek9OV2VxOF9sUXVQUEUzZUN5UnRCZjlxUGN2RTNFeHJyT28yeDlJYnZ4ZU85RzlReVJmM3pwUDlBc3ZSX1dHaGJHUHI1bXJvaEg5cTlhNjBOVFVDWlkteUJoRXhOWXBwa3d1WTFaTVdzV19sS1JpbExIdw?oc=5"
  },
  "Replo": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 20,
   "yc_batch": "Summer 2021",
   "yc_stage": "Early"
  },
  "Retell AI": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 50,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
  "Roboflow": {
   "amount": "$40M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-11-19",
   "headline": "Vision AI training and deployment startup Roboflow raises $40M",
   "round": "Series B",
@@ -1719,17 +1753,24 @@
   "yc_stage": "Growth"
  },
  "Robotics and AI Institute": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Rollstack": {
-  "checked_at": "2026-10-23",
+  "amount": "$11M",
+  "checked_at": "2026-11-22",
+  "date": "2024-10-21",
+  "headline": "Rollstack Raises $11M Series A to Automate Your Presentations with AI",
+  "round": "Series A",
+  "round_est": false,
+  "round_text": "Series A",
   "team_size": 30,
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaVlMM1RKREc3U0lIQno5WFdkbFkzZlRtWTZUWmpuNm00d3FiUUpqZUQ0al9sMVFmMVlQTng5cFBKUFprSVhZNDBsZTg0LXdQallibTdLTkhFVkZrU0VWNThKNWRmZXZKY0hhc1BsZThOM1RtOUxVWFFidjA4OUhKS1VMSFpRYWEtWXZYQVRRdFRNOWdzbmExTXN2U0o1My1jV2hSSlBWM0xVaVFJZHZyZFkybUU0M2hmbDljekU0QVJTQQ?oc=5",
   "yc_batch": "Winter 2023",
   "yc_stage": "Growth"
  },
  "Runway": {
   "amount": "$315M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-10",
   "headline": "AI video startup Runway raises $315M at $5.3B valuation, eyes more capable world models",
   "round": "Series C+",
@@ -1739,7 +1780,7 @@
  },
  "SalesPatriot": {
   "amount": "$5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-10-30",
   "headline": "Polish-American startup SalesPatriot secures $5M to expand AI-driven defense procurement platform",
   "round": "Seed",
@@ -1752,7 +1793,7 @@
  },
  "Salient": {
   "amount": "$60M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-08-01",
   "headline": "Salient raises $60m to automate loan servicing with AI",
   "round": "Series B",
@@ -1764,8 +1805,15 @@
   "yc_stage": "Growth"
  },
  "Scale AI": {
-  "checked_at": "2026-10-23",
+  "amount": "$1B",
+  "checked_at": "2026-11-22",
+  "date": "2024-05-21",
+  "headline": "Scale AI Raises $1B In Accel-Led Round; Hits $13.8B Valuation",
+  "round": "Series C+",
+  "round_est": true,
+  "round_text": "",
   "team_size": 500,
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mOHZsUWZqNXhIb0VkZzhMZmZhaVVRS1NsUXlCOUc0RjFLYnhwaFpDUnhTSERwZFJXNUkwSFltcUtFLXpyVjdUUDRfT1Z0X2lGWXg4OXUtZjltUkZNZ2hCaVFqSWNFUUlWd0FLWkVLUE1Uc19pR1ZXc3VSMUQ?oc=5",
   "yc_batch": "Summer 2016",
   "yc_stage": "Growth"
  },
@@ -1781,7 +1829,7 @@
  },
  "Second Nature": {
   "amount": "$22M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-10-17",
   "headline": "Second Nature raises $22M for its AI sales training platform",
   "round": "Series A",
@@ -1791,7 +1839,7 @@
  },
  "Seeq": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2024-08-06",
   "headline": "Industrial analytics startup Seeq lands $50M to continue its growth",
   "round": "Series B",
@@ -1801,36 +1849,36 @@
  },
  "Shepherd": {
   "amount": "$42M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-03-25",
   "headline": "Shepherd raises $42m in Series B round for insurance platform",
   "round": "Series B",
   "round_est": false,
   "round_text": "Series B",
   "team_size": 5,
-  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdzd0V24tdkVrOVpRcTlBaVNSOVFNSkhraS1vSEFyQjBuSEg3bW91d2dfdl9tYVUwc2hUTkNzcGxXUUdPTXROZ2VMcWpnQk0yVlFtWkJtaTdoMERkZHNZU0xMUnphYmxsVHFvaVdfN241Y0hLamJzY0dZX0pBR0dNbkhzQQ?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNU1hUkc4aHpWdE01aGIwZ1R2RVBxUko0QjZwX1p0aTVUM3BDUFNuMTNkMkthR2t4eDZhWmRhOFRWRGtaWEdfQnZxVjJmblRYT0h2VnUxR1k4VEJVWDJ0SVVqU0k2d01ERDJYREhpMTNTaVd3Z1luQ29UbTQzemQ2UkFPdkhUbDlzVTdwX1BZd21pZ0lid0lvWGotWlA1UQ?oc=5",
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
  "Shield AI": {
-  "amount": "$150M",
-  "checked_at": "2026-10-23",
-  "date": "2026-10-08",
-  "headline": "Shield AI lands $150M Navy contract to advance AI-piloted fighter jet that will be built south of Seattle",
+  "amount": "$2.5B",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-06",
+  "headline": "Shield AI Raises $2.5B to Buy Echodyne for $5.3B",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQblB2UVdHandrZkJWUnAtYUxidUZtMG90d3g0TURjVXdJd2ZmY0kxWE1FX1hnQUtNOGV2ZzBhVWx0a1I5NnF3T2toRTdNeWtXYzI5ZFAzaFNpRDNZOEI4bmpYSThObjBjWFl2aERPdkFhNEtoOFhqcEdHUDEyLVg2dWVCYTViRDRUTkpHTl9ER0NpQ3ZGQWhJQUQtcUd1Wl9VYWxxX0VaN0U0VHpqdjNCOG05SDBrVVVQR2N0dkt4YXpZOThNdlF0NWdERFhkdmo3?oc=5"
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUjJJeDdsenV2YVM0OUNzVWRJbC16c1V4RFlvRWhnNlgwRmpCYUlzcGZ0MmNubVBQNnZVOHl3VE9OdVZRa0NxVE5TU25vSHBUVGdSdVJjMzVFajlpMUYyRThxbzN0TFVXdktzR1BLZElJU0JrT0hjcnNZbnRGaUJwNDh4dkdXUQ?oc=5"
  },
  "Short Story": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 120,
   "yc_batch": "Summer 2019",
   "yc_stage": "Growth"
  },
  "Sierra": {
   "amount": "$950M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-05-05",
   "headline": "Sierra raises $950M at $15B as AI customer agents move to the enterprise mainstream",
   "round": "Series C+",
@@ -1839,40 +1887,40 @@
   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSTdjZkJuX0RWXzlHbk9FSEJhaTU0UXpCc3ZGVlA2Tk5NNmZ0SlhPZ2hxYlpzZmhjb3VVbzAxbHkzTkNRSmo4WnBTdkZXaVhyMURkUHpoRkRrWFNYQmNEWkstTmhPSlpoWWMxYzM0V3ByblNwWDZELUo2TVFjMEtURWoydDNoVnVMcXBkSTNNZ0M4TE9fakJnNXVUR04wT3pvMXVQc2NqUXk5V2R5M19TQXlVbUprQQ?oc=5"
  },
  "Sieve": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 34,
   "yc_batch": "Winter 2022",
   "yc_stage": "Growth"
  },
  "Sift": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "yc_batch": "Summer 2011",
   "yc_stage": "Growth"
  },
  "Signal 1 AI": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Sim": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 10,
   "yc_batch": "Spring 2025",
   "yc_stage": "Early"
  },
  "Simple AI": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 11,
   "yc_batch": "Summer 2024",
   "yc_stage": "Early"
  },
  "Skyways": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 33,
   "yc_batch": "Summer 2017",
   "yc_stage": "Growth"
  },
  "Slope": {
   "amount": "$30M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-04-11",
   "headline": "B2B payments platform Slope secures $30m funding to build out AI tools",
   "round": "Series B",
@@ -1885,7 +1933,7 @@
  },
  "Sola": {
   "amount": "$35M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-09-04",
   "headline": "Sola Raises $35M to Ramp Up Its AI-based Cybersecurity Tooling",
   "round": "Series B",
@@ -1898,7 +1946,7 @@
  },
  "Sourcegraph": {
   "amount": "$23M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2020-03-03",
   "headline": "Sourcegraph Raises $23M in Series B Funding Round",
   "round": "Series B",
@@ -1907,20 +1955,20 @@
   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY3U0MktfekxPeVZ4N1VfOURfQVpMUDJDSGdQZDFXcUhDR3NpdDBNRnpiTUlkMGEwX0J3bG1Ub0xCWXRkdmdzaE81bE1GdExwMkpkdGxkVmVfN2tCSkRoaGx3ZWRFdXZrZFFBRGNzTm1IcFoycHNSQnEweVlXSmFaMmhJcjRnOTVGTEgzelhn?oc=5"
  },
  "Speak": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 40,
   "yc_batch": "Winter 2017",
   "yc_stage": "Growth"
  },
  "Spellbrush": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 30,
   "yc_batch": "Winter 2018",
   "yc_stage": "Growth"
  },
  "Sphere": {
   "amount": "$21M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-18",
   "headline": "Sphere lands $21M Series A for AI tax compliance automation",
   "round": "Series A",
@@ -1933,7 +1981,7 @@
  },
  "Starbridge": {
   "amount": "$42M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-10-24",
   "headline": "Procurement AI Tech Provider Starbridge Raises $42M",
   "round": "Series B",
@@ -1945,26 +1993,26 @@
   "checked_at": "2026-10-29"
  },
  "Strada": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 16,
   "yc_batch": "Summer 2023",
   "yc_stage": "Early"
  },
  "Strix": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Subsets": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 7,
   "yc_batch": "Summer 2023",
   "yc_stage": "Early"
  },
  "Tabula Bio": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Taktile": {
   "amount": "$110M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-26",
   "headline": "Taktile raises $110M for AI finance platform — plus 7 more NYC VC deals to know",
   "round": "Series C+",
@@ -1977,7 +2025,7 @@
  },
  "Tamarind Bio": {
   "amount": "$13.6M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-24",
   "headline": "Tamarind Bio Secures $13.6M Series A to Make AI More Accessible for Biology - Genetic Engineering and Biotechnology News",
   "round": "Series A",
@@ -1990,7 +2038,7 @@
  },
  "Tandem Health": {
   "amount": "£75M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-21",
   "headline": "AI firm Tandem Health raises £75m in Series B funding",
   "round": "Series B",
@@ -2000,7 +2048,7 @@
  },
  "Tavus": {
   "amount": "$40M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-11-13",
   "headline": "Tavus raises $40 million to ‘teach AI to think like humans’",
   "round": "Series B",
@@ -2012,7 +2060,7 @@
   "yc_stage": "Growth"
  },
  "Tekton Dynamics": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 3,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
@@ -2029,7 +2077,7 @@
  },
  "Terra AI": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-07",
   "headline": "Terra AI Raises $20 Million Series A To Accelerate Critical Mineral And Energy Exploration",
   "round": "Series A",
@@ -2038,7 +2086,7 @@
   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1padVBGQ1hLYndJb3pNTm85MWpldnAxU1FwWHhKS3dkLUYtSFM3TE5pclExY1JRTW5BSWtnOWdwWk5qQXpna1pRang5a25YYW9DWnN3dUI2LUk2UkltUFViMlF3aWFXdGRNdmRLc21IOTYzUFlTdERPc05IVGRVYTRSa2d6d04tTWM5NUQ5V0JST01hOGxwSjJOa3REQ05WWFZIUlJPSzNNcDVFUUHSAbMBQVVfeXFMTW84aTB6MTdib0pwMnIzcDJXSUFSbVg2N0F6SVV0YTlHRE5VTUVrZVlGdEUwVmllODBYaGRWTEJPSXhtU1VXQk53WFRDN3E3QzF5X3JwT2lhZ0RHNkk3ak52VDlONHNid1NSTWZSaXRkWVNLb2QzSE4ta0k3bjFBNDgyelhGckFZcldNZEYzZGpWQTJ1NTRlR1FZUlpOMkEtbWs1YVVEY3JwQW1zMFRuYVU2Sk0?oc=5"
  },
  "Tether": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Tint": {
   "amount": "$600,000",
@@ -2055,7 +2103,7 @@
  },
  "Together AI": {
   "amount": "$800M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-03",
   "headline": "Together AI raises $800 million Series C at $8.3 billion valuation",
   "round": "Series C+",
@@ -2064,17 +2112,17 @@
   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xR0dUZ1MySThTcy1VNGIxbmdhbWdMMGVSU3JUNllEbHdLLWdQV3VVQ3I2eXlIT3pNSHNybExDQld2VW9CMW1ab2xhT091ZlBPUmtLaG15TnF0WUg5Q25BVElyMHVvdkxpa1dkem1NRE5QSVZFM3k3RkxPSEs?oc=5"
  },
  "Trace Labs": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Tuesday Labs": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 7,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
  },
  "TypeSafe AI": {
   "amount": "$870M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-10-13",
   "headline": "TypeSafe AI Raises $870M for Jev: Decision Model That Never Generates Text",
   "round": "Series C+",
@@ -2083,27 +2131,27 @@
   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUV9fRWhscW9KTDU3QVZCVHdoS3VlY0J6Yk9xSDJkQjMyQ04zRWJTN1N2VmQ1dU5MRll5bkhrLTRMSHpUdGhFNFRQamdIcDRjRWN5cWF0TmpkNkt2TmlsWGg3aFdfMjZyT2lpN1ZrNDczX3h4NnpiRlo2RXMwaktTUzBwdG9reGtBRUxsWmNyT0toaXBBbHYzNGsyaFNQWVFuTEtIM2UwWVhKNFZ1OGJjYkkzRzAwNDN1YWwwektDVHY?oc=5"
  },
  "Uplane": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 26,
   "yc_batch": "Fall 2025",
   "yc_stage": "Early"
  },
  "Usul": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 15,
   "yc_batch": "Summer 2024",
   "yc_stage": "Early"
  },
  "Vapi": {
   "amount": "$50M",
-  "checked_at": "2026-10-23",
-  "date": "2026-05-12",
-  "headline": "Voice AI startup Vapi raises $50M",
+  "checked_at": "2026-11-22",
+  "date": "2026-05-17",
+  "headline": "Vapi closes $50M Series B as voice AI agents hit 1 billion calls",
   "round": "Series B",
-  "round_est": true,
-  "round_text": "",
+  "round_est": false,
+  "round_text": "Series B",
   "team_size": 50,
-  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcXB1OGQ2UkpvR2VSeHFwUWswWnVXcW1LeWFTcDBxd25WYlRyRG1YVWVBSEdQVzM3YjVQR0JQeHVJQ00zVGQwaFJucG52dTNFUEtuWkNhM3J6bnVTc3RsaUY1VlFLT19WYi1jUGxCZ1p4bzkyZ2hTalpGMG9tMVoyYUQ0dGl6aXFfSjY2QVdudEVCSEVuc2pfNGZ3?oc=5",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTk2MDI1NXhLWkRmZlVpZDZZMUw0Ulk5S1ZMYTQxcHdWLW1XLUNpYUdlNmh6UmZVd0xfTzZHV21JQ1ZQSWdpdVpQS3haMmI3cGg2UkVON2xQUWY2VXJwTEJRdkd3RmRSU3oxdTZ2TFdNVWFWUFVuRzM4N1FuNlVKaF9Jc1VKZk9N?oc=5",
   "yc_batch": "Winter 2021",
   "yc_stage": "Growth"
  },
@@ -2135,7 +2183,7 @@
  },
  "VergeSense": {
   "amount": "$12M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2020-12-22",
   "headline": "VergeSense raises $12M Series B for its workplace analytics service",
   "round": "Series B",
@@ -2148,7 +2196,7 @@
  },
  "Veritus": {
   "amount": "$10.1M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-02-11",
   "headline": "Veritus Secures $10.1M Seed Round to Deploy AI Agents Across Consumer Lending",
   "round": "Seed",
@@ -2161,7 +2209,7 @@
  },
  "Weave": {
   "amount": "$13.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-07-29",
   "headline": "Weave raises $13.5M Series A to measure whether AI coding spend pays off",
   "round": "Series A",
@@ -2174,7 +2222,7 @@
  },
  "Weave Bio": {
   "amount": "$20M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-10-16",
   "headline": "Weave Bio Secures $20M Series A Funding to Enhance Its AI-Native Regulatory Platform",
   "round": "Series A",
@@ -2183,20 +2231,27 @@
   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5"
  },
  "WireScreen": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "Within": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 128,
   "yc_batch": "Summer 2018",
   "yc_stage": "Growth"
  },
  "WorkHero": {
-  "checked_at": "2026-10-23"
+  "amount": "$5M",
+  "checked_at": "2026-11-22",
+  "date": "2025-10-27",
+  "headline": "WorkHero Raises $5M Seed Round to Advance Its AI-Powered Back Office Platform for Small HVAC Contractors",
+  "round": "Seed",
+  "round_est": false,
+  "round_text": "Seed",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaWdMTDFqTTd0NmllaWZoeUkwVHF0YXVxSm56OWx6Mlc0anN6aFJONWgya3JqSl9XM3d5cndndEhfa0QyTUNvdnhDVjgwdXRtNWhiRmRkVDdRRktyelpOSzR0MXItZ25xb0trdmY0VW44dDk5d0xNdEFISFJpbXpfTg?oc=5"
  },
  "Zeit AI": {
   "amount": "$5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-09-04",
   "headline": "Zeit AI Raises $5M in Seed Funding",
   "round": "Seed",
@@ -2208,14 +2263,14 @@
   "yc_stage": "Early"
  },
  "Zensors": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 12,
   "yc_batch": "Summer 2021",
   "yc_stage": "Early"
  },
  "akeno": {
   "amount": "€4.5M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2025-05-15",
   "headline": "German AI startup akeno raises €4.5 million to automate production planning - EU-Startups",
   "round": "Seed",
@@ -2224,40 +2279,40 @@
   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYWJGQV9sSnhENGVtWEJqMHZkaDB6Y0NubDd2V2M3cGF0Tmt4bV8xOUV0UlVnTEdwTlpJcE9sQk9NRDJDcDF4dGpfVWMtUFl4OGZBNTdEclhiX1Q5dmRqQ3djVUpWTjNqRnJuZ1N5NGZ0TXcyTDFMY3hPVXRUQ1IzSDdaQjhaRmRUX2NDS2xRbDZMdlVHU0FPb1dVYXYxODJFQXBOZjRBeUdCWUZJQ1lhSndn?oc=5"
  },
  "ando.work": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "authzed": {
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "team_size": 31,
   "yc_batch": "Winter 2021",
   "yc_stage": "Growth"
  },
  "fal": {
-  "amount": "$140M",
-  "checked_at": "2026-10-23",
-  "date": "2025-12-09",
-  "headline": "AI startup Fal raises $140 million at $4.5 billion valuation",
+  "amount": "$1.3B",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-04",
+  "headline": "Fal raises $1.3B Series F at $16B: How two engineers turned a pivot into an AI media giant",
+  "round": "Series C+",
+  "round_est": false,
+  "round_text": "Series F",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJUTd4bjVyNmhYRWNyamNTSXN2Uy1fOVFyenk4aXFqTllpWnM5TTdRbkFTTmhPRFEtUUZfTG1Lc2JjY1hSb3NYbEtsa1ZNWHR3UTRPWXcwLVhQWi1KMnA5dnZqRnp3VmZZQWktelA0bC00S3IzR1dybklKSXFzQQ?oc=5"
+ },
+ "fractile.ai": {
+  "amount": "$720M",
+  "checked_at": "2026-11-22",
+  "date": "2026-11-11",
+  "headline": "Fractile Lands $720M to Challenge Nvidia in AI Chip Race",
   "round": "Series C+",
   "round_est": true,
   "round_text": "",
-  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUDk2ME8xaHc5QjJXaERzU045ekZRdG14S1JxQzNiR3pNQ2lLV2tYRDZuZjN4NVNXdmwtRUhKUkdheDhHSzhUYkNBNk45Y0o3N2R0YVl5ZFVzbVVYNlRTcVRsLVQ1N2pDY1ZPTW5NZUFaQUlFX3dydlpoNUdKSm5qdUdSUzVCV2M5cGo5cndkVHhfVmFCNWlzOUs0VEI4OGxZOS1ob1VDVkNoXzVSbWctMkRIUHA?oc=5"
- },
- "fractile.ai": {
-  "amount": "£165M",
-  "checked_at": "2026-10-23",
-  "date": "2026-05-15",
-  "headline": "Fractile raises £165m Series B as UK AI inference-chip race heats up",
-  "round": "Series B",
-  "round_est": false,
-  "round_text": "Series B",
-  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSEtQQm9tUVc4a205Z1BMaFBnUk01ZjhjVktPYzVLa3dndno5NUp0c2FLTE5PZkdWd3BNbE4xMGNQLUJwb2d3QjNsbVFnTmNab2o1eXZFWFdaY2F0bThldE5VYWNsRnhtSVR1MmwxOWNhcHRjeUx0RFA5YWgtWlBfczM1bXAyWms?oc=5"
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUzViWmpjTGhvbk1nZFo3VmM0Vk5RdXJZVTVvT09Jbm4tWkp4NEFBWWI4U1NoY2l6QkJLSjVQRnRFX19ySHFsTmstWTkyNFhNMWRnd2xTNEhLcUw0UC0tRFdUZWRkX2p2QzBoRlVTMm5aNlhSWEVtX0N3bWxxNzRJdnJDeExISXhzbUsxX2xCcERvZw?oc=5"
  },
  "neoshare": {
-  "checked_at": "2026-10-23"
+  "checked_at": "2026-11-22"
  },
  "xdof": {
   "amount": "$70M",
-  "checked_at": "2026-10-23",
+  "checked_at": "2026-11-22",
   "date": "2026-06-17",
   "headline": "XDOF raises $70M to build the data pipelines for training robots",
   "round": "Series B",
