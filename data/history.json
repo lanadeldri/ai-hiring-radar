@@ -138,7 +138,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 631
+   "open_roles": 634
   }
  ],
  "OpenAI": [
@@ -280,7 +280,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 854
+   "open_roles": 875
   }
  ],
  "Cursor (Anysphere)": [
@@ -706,7 +706,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 122
+   "open_roles": 117
   }
  ],
  "Cohere": [
@@ -848,7 +848,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 125
+   "open_roles": 122
   }
  ],
  "Mistral AI": [
@@ -990,7 +990,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 262
+   "open_roles": 266
   }
  ],
  "Scale AI": [
@@ -1132,7 +1132,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 160
+   "open_roles": 158
   }
  ],
  "Databricks": [
@@ -1274,7 +1274,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 882
+   "open_roles": 890
   }
  ],
  "Glean": [
@@ -1416,7 +1416,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 129
+   "open_roles": 122
   }
  ],
  "Harvey": [
@@ -1558,7 +1558,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 396
+   "open_roles": 395
   }
  ],
  "Sierra": [
@@ -1700,7 +1700,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 199
+   "open_roles": 203
   }
  ],
  "Decagon": [
@@ -1842,7 +1842,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 114
+   "open_roles": 105
   }
  ],
  "Replit": [
@@ -1984,7 +1984,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 38
+   "open_roles": 37
   }
  ],
  "Modal": [
@@ -2268,7 +2268,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 108
+   "open_roles": 107
   }
  ],
  "Together AI": [
@@ -2552,7 +2552,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 99
+   "open_roles": 101
   }
  ],
  "Runway": [
@@ -2694,7 +2694,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 45
+   "open_roles": 48
   }
  ],
  "Bland AI": [
@@ -2836,7 +2836,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 15
+   "open_roles": 14
   }
  ],
  "Shepherd": [
@@ -3576,7 +3576,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 71
+   "open_roles": 72
   }
  ],
  "Komodo Health": [
@@ -4162,7 +4162,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 26
+   "open_roles": 25
   }
  ],
  "Kraken Tech": [
@@ -4754,7 +4754,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 1
+   "open_roles": 0
   }
  ],
  "Seeq": [
@@ -4892,7 +4892,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 30
+   "open_roles": 29
   }
  ],
  "Fig": [
@@ -5164,7 +5164,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 208
+   "open_roles": 205
   }
  ],
  "neoshare": [
@@ -7498,7 +7498,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 139
+   "open_roles": 136
   }
  ],
  "Tabula Bio": [
@@ -7896,7 +7896,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 28
+   "open_roles": 30
   }
  ],
  "Weave Bio": [
@@ -8164,7 +8164,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 24
+   "open_roles": 25
   }
  ],
  "BIT Capital": [
@@ -10066,7 +10066,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 504
+   "open_roles": 512
   }
  ],
  "Mercor": [
@@ -10200,7 +10200,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 109
+   "open_roles": 108
   }
  ],
  "fal": [
@@ -10334,7 +10334,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 49
+   "open_roles": 52
   }
  ],
  "AirOps": [
@@ -10628,7 +10628,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 47
+   "open_roles": 45
   }
  ],
  "Akur8": [
@@ -10762,7 +10762,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 13
+   "open_roles": 14
   }
  ],
  "Nuance Labs": [
@@ -11432,7 +11432,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 9
+   "open_roles": 6
   }
  ],
  "BrandMultiplier": [
@@ -11994,7 +11994,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 65
+   "open_roles": 61
   }
  ],
  "akeno": [
@@ -12750,7 +12750,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 49
+   "open_roles": 50
   }
  ],
  "xdof": [
@@ -12884,7 +12884,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 28
+   "open_roles": 29
   }
  ],
  "Coram.ai": [
@@ -13018,7 +13018,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 43
+   "open_roles": 44
   }
  ],
  "Kato": [
@@ -13178,7 +13178,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 46
+   "open_roles": 44
   }
  ],
  "AIRMO": [
@@ -13446,7 +13446,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 25
+   "open_roles": 28
   }
  ],
  "Meticulous AI": [
@@ -13848,7 +13848,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 3
+   "open_roles": 4
   }
  ],
  "Pickle Robot": [
@@ -13982,7 +13982,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 13
+   "open_roles": 11
   }
  ],
  "EnsoData": [
@@ -15054,7 +15054,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 18
+   "open_roles": 16
   }
  ],
  "Teleskope[0]": [
@@ -15626,7 +15626,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 16
+   "open_roles": 15
   }
  ],
  "Mashgin": [
@@ -16992,7 +16992,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 16
+   "open_roles": 18
   }
  ],
  "Spellbrush": [
@@ -18332,7 +18332,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 6
+   "open_roles": 8
   }
  ],
  "Recall.ai": [
@@ -19002,7 +19002,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 38
+   "open_roles": 39
   }
  ],
  "Glimpse": [
@@ -21548,7 +21548,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 9
+   "open_roles": 8
   }
  ],
  "GovDash": [
@@ -23316,7 +23316,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 23
+   "open_roles": 24
   }
  ],
  "Salient": [
@@ -23450,7 +23450,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 12
+   "open_roles": 13
   }
  ],
  "Cosine": [
@@ -23926,7 +23926,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 8
+   "open_roles": 9
   }
  ],
  "Casca": [
@@ -25400,7 +25400,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 5
+   "open_roles": 4
   }
  ],
  "Tuesday Labs": [
@@ -25668,7 +25668,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 5
+   "open_roles": 6
   }
  ],
  "Garage": [
@@ -26874,7 +26874,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 21
+   "open_roles": 18
   }
  ],
  "Mem0": [
@@ -27142,7 +27142,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 18
+   "open_roles": 16
   }
  ],
  "Wordware": [
@@ -27302,7 +27302,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 18
+   "open_roles": 19
   }
  ],
  "Clearly AI": [
@@ -28776,7 +28776,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 7
+   "open_roles": 6
   }
  ],
  "Harper": [
@@ -29312,7 +29312,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 12
+   "open_roles": 13
   }
  ],
  "Eloquent AI": [
@@ -32188,7 +32188,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 17
+   "open_roles": 16
   }
  ],
  "Rad AI": [
@@ -32848,7 +32848,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 4
+   "open_roles": 3
   }
  ],
  "Distru": [
@@ -33792,7 +33792,7 @@
   },
   {
    "date": "2026-11-24",
-   "open_roles": 56
+   "open_roles": 58
   }
  ],
  "Gigs": [
