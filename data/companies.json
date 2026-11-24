@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T20:22:05.755699+00:00",
+ "updated_at": "2026-11-24T00:51:26.247989+00:00",
  "companies": [
   {
    "name": "Databricks",
@@ -20,12 +20,17 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVjdtVVBQRnQ0ZjI2aG5WcEtGR2REOEpHRWtGRm9YTDNRWGdWOU45cmZjdmZmM3VRSWxRWFJOSlZrakhmSjdZNDdIV3lkY0EwYUpIX0xiS2J1YXl4RHZ0enM1Q25ZVzJ1MTJuSG1zcXdzQ2VTd1NIZVRLS1FXN1FTWTZfbnA2RVVvSjVLdkVuOXU1V3dLSjdhVG5xcUxRN01hZHJGTXRucW5qLVd6NEtjaUF3?oc=5",
-   "open_roles": 893,
-   "eng_roles": 564,
-   "new_7d": 44,
-   "new_30d": 176,
-   "remote_roles": 81,
+   "open_roles": 882,
+   "eng_roles": 560,
+   "new_7d": 39,
+   "new_30d": 174,
+   "remote_roles": 80,
    "sample_eng_roles": [
+    {
+     "title": "Solutions Architect - Financial Services (Insurance)",
+     "location": "Illinois; Massachusetts; New Jersey; New York",
+     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8928995002"
+    },
     {
      "title": "Sr. Staff Forward Deployed Engineer",
      "location": "Remote - Washington D.C.; Washington, D.C.",
@@ -45,14 +50,9 @@
      "title": "Sr. Manager, Field Engineering - Enterprise",
      "location": "Sydney, Australia",
      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8397554002"
-    },
-    {
-     "title": "Solutions Architect - Public Sector (Manufacturing / Supply Chain)",
-     "location": "United States",
-     "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8893767002"
     }
    ],
-   "delta_since_last": -2
+   "delta_since_last": -11
   },
   {
    "name": "OpenAI",
@@ -73,39 +73,39 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
-   "open_roles": 852,
-   "eng_roles": 491,
-   "new_7d": 101,
-   "new_30d": 280,
-   "remote_roles": 601,
+   "open_roles": 854,
+   "eng_roles": 493,
+   "new_7d": 103,
+   "new_30d": 286,
+   "remote_roles": 605,
    "sample_eng_roles": [
     {
-     "title": "Research Engineer / Research Scientist, Health",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/6785d983-8831-46d0-9c81-443f83664948"
+     "title": "Cyber Partner Applied AI Architect",
+     "location": "Washington, DC; US - Remote",
+     "url": "https://jobs.ashbyhq.com/openai/aa22d0b6-38e9-4853-aff6-bc891ccc9747"
     },
     {
-     "title": "Research Engineer / Research Scientist, Human Flourishing",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/740b5d1b-f63d-49bb-962d-8e2778e925ef"
+     "title": "Applied AI Engineer, Mid-Market Enterprise",
+     "location": "San Francisco; New York City; US - Remote",
+     "url": "https://jobs.ashbyhq.com/openai/1af2996f-046c-466f-bf35-4b13da116af4"
     },
     {
-     "title": "Research Engineer / Research Scientist - Post Training, Memory",
+     "title": "Optical Mechanical Engineer",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/ecfe655c-1369-4bcd-aae0-4a3b75fdf61b"
+     "url": "https://jobs.ashbyhq.com/openai/0cbc1196-37ee-4c41-b02b-12653309a8f7"
     },
     {
-     "title": "Research Engineer/Research Scientist- Post Training, Model Experience",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/bc85c1a9-0f75-4c3a-807b-6d2bb26c8445"
+     "title": "Forward Deployed Engineer - Dublin",
+     "location": "Dublin, Ireland",
+     "url": "https://jobs.ashbyhq.com/openai/b40efa93-da3c-4593-bc98-03d203cd0488"
     },
     {
-     "title": "Research Engineer/Research Scientist-Post Training, Proactivity",
+     "title": "Strategic Sourcing Lead, Engineering & Research Technology",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/openai/d1906ab2-b829-4a13-b1f2-f4af97d699fa"
+     "url": "https://jobs.ashbyhq.com/openai/1dcee8e6-4543-4d01-bc0e-a230bd54b263"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 2
   },
   {
    "name": "Anthropic",
@@ -126,12 +126,22 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFTVBJTG4td0xyYWJNdUpwM2hqSzNKMVdWZG5QMGxGN184UXU0SXdqY1pORWk1Q2J6YVdRM3dncVRneldLSXhzZ0p0azF2QmsxNGM0YzZxcFBSZ282UGh0MXVPX1dUckI4cWxWNtIBckFVX3lxTFAtcXZnZF9OcHBTcTNMVWVGN1lrVVRORHZCMVFDWFZyQk5PY1ppQVRJajByR0JMT1R4d2hlUURiNUdqZk9mb3EtUzVDSWM1SllIbFg4NmJTTEFUX3hocFMweWFKZW9odmNkaWptOUtabzl1dw?oc=5",
-   "open_roles": 636,
-   "eng_roles": 328,
-   "new_7d": 40,
-   "new_30d": 159,
+   "open_roles": 631,
+   "eng_roles": 327,
+   "new_7d": 38,
+   "new_30d": 154,
    "remote_roles": 55,
    "sample_eng_roles": [
+    {
+     "title": "Applied AI Architect, Technology Partnerships",
+     "location": "San Francisco, CA | New York City, NY",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491480008"
+    },
+    {
+     "title": "Software Engineer, Model-to-Product Behavior Engineering",
+     "location": "San Francisco, CA",
+     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5487188008"
+    },
     {
      "title": "Research Engineer, Finetuning",
      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
@@ -146,19 +156,9 @@
      "title": "Research Operations, External Artifacts",
      "location": "Remote-Friendly, United States",
      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490492008"
-    },
-    {
-     "title": "Staff+ Software Engineer, Capacity Engineering",
-     "location": "San Francisco, CA | New York City, NY | Seattle, WA",
-     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490979008"
-    },
-    {
-     "title": "Principal Engineer Capacity/Compute",
-     "location": "Seattle, WA",
-     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5490978008"
     }
    ],
-   "delta_since_last": 1
+   "delta_since_last": -5
   },
   {
    "name": "Cloudflare",
@@ -180,11 +180,21 @@
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA5TmhrWTUzRlV0RnRNeVRtOW5xemMweHByLVRvLVlReUhnMzRDSkYyUnNiMTM3X2VNcFQ1RmdxYlhsRkNkZVJ1Skt1MGZhX25xR3RWTFRuUndvOFhKNWNfckVMRjZZRHZHZVlnaE1hNUNBM2l1MFE?oc=5",
    "open_roles": 504,
-   "eng_roles": 253,
-   "new_7d": 50,
-   "new_30d": 159,
+   "eng_roles": 251,
+   "new_7d": 53,
+   "new_30d": 163,
    "remote_roles": 0,
    "sample_eng_roles": [
+    {
+     "title": "Senior Customer Engineer - Brazil (US based)",
+     "location": "Distributed",
+     "url": "https://boards.greenhouse.io/cloudflare/jobs/8400366?gh_jid=8400366"
+    },
+    {
+     "title": "Senior Software Engineer (Threat Intelligence), Cloudforce One",
+     "location": "Hybrid",
+     "url": "https://boards.greenhouse.io/cloudflare/jobs/8397865?gh_jid=8397865"
+    },
     {
      "title": "Senior Platform Engineer, Replicate",
      "location": "In-Office",
@@ -199,16 +209,6 @@
      "title": "Systems Engineer - Network Data Plane Software",
      "location": "Hybrid",
      "url": "https://boards.greenhouse.io/cloudflare/jobs/8401119?gh_jid=8401119"
-    },
-    {
-     "title": "Senior Systems Engineer, Network Services",
-     "location": "Hybrid",
-     "url": "https://boards.greenhouse.io/cloudflare/jobs/8401108?gh_jid=8401108"
-    },
-    {
-     "title": "Distributed Systems Engineer - Network Services",
-     "location": "Hybrid",
-     "url": "https://boards.greenhouse.io/cloudflare/jobs/8401112?gh_jid=8401112"
     }
    ],
    "delta_since_last": 0
@@ -232,39 +232,39 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1oeGh3RjNjY3lBT19GbFhiMmYzb1RPUUVZQVA2OEtDVG1rYTJMRmo3Y012cmp2R2UzaXZqU1RPeUpxVlli?oc=5",
-   "open_roles": 390,
-   "eng_roles": 158,
-   "new_7d": 34,
-   "new_30d": 155,
-   "remote_roles": 324,
+   "open_roles": 396,
+   "eng_roles": 163,
+   "new_7d": 45,
+   "new_30d": 161,
+   "remote_roles": 330,
    "sample_eng_roles": [
     {
-     "title": "Creative AI Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/harvey/e46d48b8-57c7-401c-be33-f56774dc072d"
+     "title": "Legal Engineer, Product Specialist (Asset Management)",
+     "location": "Boston",
+     "url": "https://jobs.ashbyhq.com/harvey/cd88164d-613a-4e99-9f73-edeedcf2cc3a"
     },
     {
-     "title": "Creative AI Engineer",
+     "title": "Legal Engineer, Product Specialist (Asset Management)",
+     "location": "Chicago",
+     "url": "https://jobs.ashbyhq.com/harvey/871d564f-9577-4859-91a2-1aceef50ddf6"
+    },
+    {
+     "title": "Legal Engineer, Product Specialist (Asset Management)",
      "location": "New York",
-     "url": "https://jobs.ashbyhq.com/harvey/a42047fc-fbd1-4e14-bf10-15207ae2d060"
+     "url": "https://jobs.ashbyhq.com/harvey/35bd9daf-d303-4312-8145-e9be409485f5"
     },
     {
-     "title": "Senior AI Enablement Engineer, GTM",
+     "title": "Legal Engineering Manager, In-House (Corporate)",
+     "location": "Dallas",
+     "url": "https://jobs.ashbyhq.com/harvey/d1805f7b-835e-4bbd-97e7-77b88bc5e36d"
+    },
+    {
+     "title": "Engineering Manager, Production Engineering",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/harvey/ab302989-8958-4bdd-9110-5c13c8810986"
-    },
-    {
-     "title": "Senior AI Enablement Engineer, GTM",
-     "location": "Remote",
-     "url": "https://jobs.ashbyhq.com/harvey/d61a55d8-2480-40be-928d-e9f476ea76ce"
-    },
-    {
-     "title": "Senior AI Enablement Engineer, GTM",
-     "location": "New York",
-     "url": "https://jobs.ashbyhq.com/harvey/56357288-3ba6-4808-8121-becc6c1efe38"
+     "url": "https://jobs.ashbyhq.com/harvey/8e420b36-6711-49dd-8a64-f246270af7d3"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 6
   },
   {
    "name": "Mistral AI",
@@ -285,12 +285,17 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnBwa3pVRlJrazdxNmg1aHdRVU16ckRpcHF3S1FweHpVaG93cUxrTm93SHhnTDQ1LWpqa3V2VG9EdFo2WmdLcFNVMExvVmN4U0dRQjAxWlI5cUFOdzNnZ3hDQlZGdFZVZXJCdmtQZmJaWHlmMVZqaWtlSlhGampWVnI4UjNIZEpkbkdnTjRWUDk3Slo4YmE2aktzZ1NlWkxfT2dKNHgyaTRKeE5TbFJr?oc=5",
-   "open_roles": 260,
-   "eng_roles": 113,
-   "new_7d": 19,
-   "new_30d": 83,
+   "open_roles": 262,
+   "eng_roles": 115,
+   "new_7d": 17,
+   "new_30d": 86,
    "remote_roles": 101,
    "sample_eng_roles": [
+    {
+     "title": "Software Engineer, Inference",
+     "location": "London",
+     "url": "https://jobs.ashbyhq.com/mistral.ai/4271fd7a-bc7a-4c8d-905f-1a38940f0185"
+    },
     {
      "title": "SaaS Engineer",
      "location": "Paris",
@@ -310,14 +315,9 @@
      "title": "Research Engineer, Reinforcement Learning Systems",
      "location": "Palo Alto",
      "url": "https://jobs.ashbyhq.com/mistral.ai/74b8a9d7-f014-4a57-86aa-42be4896bf57"
-    },
-    {
-     "title": "Research Engineer, Reinforcement Learning Systems",
-     "location": "Paris; Warsaw; London",
-     "url": "https://jobs.ashbyhq.com/mistral.ai/dff09cb5-0c21-4bec-971b-297225d5fbcd"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 2
   },
   {
    "name": "Tether",
@@ -331,12 +331,17 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "open_roles": 206,
-   "eng_roles": 102,
-   "new_7d": 20,
-   "new_30d": 33,
-   "remote_roles": 204,
+   "open_roles": 208,
+   "eng_roles": 103,
+   "new_7d": 22,
+   "new_30d": 35,
+   "remote_roles": 206,
    "sample_eng_roles": [
+    {
+     "title": "Senior Devops Engineer (100% Remote, Worldwide)",
+     "location": "United Kingdom, London; Spain, Barcelona; Spain, Madrid; Portugal, Lisbon; Brazil, Rio de Janeiro; Brazil, Sao Paulo; Argentina, Buenos Aires; Andorra; Belgium ; Bosnia and Herzegovina, Sarajevo; Budapest, Hungary; Bulgaria, Sofia; Czech Republic, Prague; Finland, Helsinki; Italy, Como; Italy, Rome; Luxemburg ; Poland, Warsaw; Romania, Bucharest; Switzerland, Berne; Switzerland, Lugano; The Netherlands, Amsterdam; United Kindom; United Arab Emirates, Dubai",
+     "url": "https://tether.recruitee.com/o/senior-devops-engineer-remote-worldwide"
+    },
     {
      "title": "Head of Financial Infrastructure Partnerships & Expansion (Digital assets expertise)",
      "location": "Switzerland, Geneve",
@@ -356,70 +361,9 @@
      "title": "Head of Financial Infrastructure Partnerships & Expansion (Digital assets expertise)",
      "location": "United Kingdom, London",
      "url": "https://tether.recruitee.com/o/head-of-financial-infrastructure-partnerships-expansion-digital-assets-expertise"
-    },
-    {
-     "title": "Bare Developer (100% Remote - Worldwide) - C / JavaScript",
-     "location": "Ireland, Dublin; Israel, Tel Aviv; Italy, Como; Italy, Milano; Italy, Rome",
-     "url": "https://tether.recruitee.com/o/bare-developer-100-remote-worldwide-c-javascript-1"
     }
    ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Scale AI",
-   "website": "https://scale.com",
-   "ats": "greenhouse",
-   "slug": "scaleai",
-   "board_url": "https://job-boards.greenhouse.io/scaleai",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Data / infra",
-   "hq": "San Francisco",
-   "notes": "",
-   "funding_amount": "$1B",
-   "funding_date": "2024-05-21",
-   "funding_headline": "Scale AI Raises $1B In Accel-Led Round; Hits $13.8B Valuation",
-   "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "team_size": 500,
-   "funding_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mOHZsUWZqNXhIb0VkZzhMZmZhaVVRS1NsUXlCOUc0RjFLYnhwaFpDUnhTSERwZFJXNUkwSFltcUtFLXpyVjdUUDRfT1Z0X2lGWXg4OXUtZjltUkZNZ2hCaVFqSWNFUUlWd0FLWkVLUE1Uc19pR1ZXc3VSMUQ?oc=5",
-   "yc_batch": "Summer 2016",
-   "yc_stage": "Growth",
-   "open_roles": 166,
-   "eng_roles": 85,
-   "new_7d": 4,
-   "new_30d": 29,
-   "remote_roles": 0,
-   "sample_eng_roles": [
-    {
-     "title": "Senior Engineering Manager, Kuwait",
-     "location": "Kuwait City, Kuwait",
-     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4753437005"
-    },
-    {
-     "title": "Senior Applied AI Engineer",
-     "location": "Kuwait City, Kuwait",
-     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751149005"
-    },
-    {
-     "title": "Applied AI Engineer",
-     "location": "Kuwait City, Kuwait",
-     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751059005"
-    },
-    {
-     "title": "Full-Stack Software Engineer, (Forward Deployed), GPS",
-     "location": "Kuwait City, Kuwait",
-     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751645005"
-    },
-    {
-     "title": "Senior Full-Stack Software Engineer, (Forward deployed), GPS",
-     "location": "Kuwait City, Kuwait",
-     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751635005"
-    }
-   ],
-   "delta_since_last": -3
+   "delta_since_last": 2
   },
   {
    "name": "Sierra",
@@ -440,10 +384,10 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSTdjZkJuX0RWXzlHbk9FSEJhaTU0UXpCc3ZGVlA2Tk5NNmZ0SlhPZ2hxYlpzZmhjb3VVbzAxbHkzTkNRSmo4WnBTdkZXaVhyMURkUHpoRkRrWFNYQmNEWkstTmhPSlpoWWMxYzM0V3ByblNwWDZELUo2TVFjMEtURWoydDNoVnVMcXBkSTNNZ0M4TE9fakJnNXVUR04wT3pvMXVQc2NqUXk5V2R5M19TQXlVbUprQQ?oc=5",
-   "open_roles": 194,
+   "open_roles": 199,
    "eng_roles": 83,
-   "new_7d": 3,
-   "new_30d": 26,
+   "new_7d": 8,
+   "new_30d": 30,
    "remote_roles": 22,
    "sample_eng_roles": [
     {
@@ -472,7 +416,63 @@
      "url": "https://jobs.ashbyhq.com/Sierra/82385a8a-4dd8-4767-b079-f7bb9c64a0ac"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 5
+  },
+  {
+   "name": "Scale AI",
+   "website": "https://scale.com",
+   "ats": "greenhouse",
+   "slug": "scaleai",
+   "board_url": "https://job-boards.greenhouse.io/scaleai",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Data / infra",
+   "hq": "San Francisco",
+   "notes": "",
+   "funding_amount": "$1B",
+   "funding_date": "2024-05-21",
+   "funding_headline": "Scale AI Raises $1B In Accel-Led Round; Hits $13.8B Valuation",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "team_size": 500,
+   "funding_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1mOHZsUWZqNXhIb0VkZzhMZmZhaVVRS1NsUXlCOUc0RjFLYnhwaFpDUnhTSERwZFJXNUkwSFltcUtFLXpyVjdUUDRfT1Z0X2lGWXg4OXUtZjltUkZNZ2hCaVFqSWNFUUlWd0FLWkVLUE1Uc19pR1ZXc3VSMUQ?oc=5",
+   "yc_batch": "Summer 2016",
+   "yc_stage": "Growth",
+   "open_roles": 160,
+   "eng_roles": 81,
+   "new_7d": 5,
+   "new_30d": 30,
+   "remote_roles": 0,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Engineering Manager, Kuwait",
+     "location": "Kuwait City, Kuwait",
+     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4753437005"
+    },
+    {
+     "title": "Senior Applied AI Engineer",
+     "location": "Kuwait City, Kuwait",
+     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751149005"
+    },
+    {
+     "title": "Applied AI Engineer",
+     "location": "Kuwait City, Kuwait",
+     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751059005"
+    },
+    {
+     "title": "Full-Stack Software Engineer, (Forward Deployed), GPS",
+     "location": "Kuwait City, Kuwait",
+     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751645005"
+    },
+    {
+     "title": "Senior Full-Stack Software Engineer, (Forward deployed), GPS",
+     "location": "Kuwait City, Kuwait",
+     "url": "https://job-boards.greenhouse.io/scaleai/jobs/4751635005"
+    }
+   ],
+   "delta_since_last": -6
   },
   {
    "name": "Grafana Labs",
@@ -495,8 +495,8 @@
    "funding_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUHV4THFRYmp3RkNxMHhhOXZMRjRfTUdRLWV5VXJ3ejZWTk83cDN2UE8ya2swWkFXUFRHUHlDZU9ZYjJVYTNhNGlkeWRrM3U1ZlZ1TzRKd3Jmb0U5X3JheHB6Rnp5Q1duRU5haHdONEJJaFg0UXpGX1R0bkJ0WEM2eVdsd2hDODZUT2gxOGR6VlRRal9oM0RhaUVtY2E0ZFpHSGRHWQ?oc=5",
    "open_roles": 139,
    "eng_roles": 78,
-   "new_7d": 20,
-   "new_30d": 73,
+   "new_7d": 18,
+   "new_30d": 61,
    "remote_roles": 139,
    "sample_eng_roles": [
     {
@@ -525,7 +525,7 @@
      "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6267147004"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Perplexity",
@@ -547,15 +547,20 @@
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1sZWJzQnVrUjRuMEduYUxTYWxvalFLeWZFTF85eUJ3ZUU5am9GVEZNbFRqUXRMbGtMZzBGYzRuc29PRmp5aXpxeHdvbTJZdmROME82TWRUblFmS29DcHlOdUFUSEZqU092Tks5aVZlNmxSWm9fOTlxcFlB?oc=5",
    "open_roles": 151,
-   "eng_roles": 67,
-   "new_7d": 16,
-   "new_30d": 44,
+   "eng_roles": 68,
+   "new_7d": 12,
+   "new_30d": 43,
    "remote_roles": 71,
    "sample_eng_roles": [
     {
      "title": "Engineering Manager (Agent Verticals)",
      "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/Perplexity/d291c382-7252-45e5-8b47-ecec5d6be157"
+     "url": "https://jobs.ashbyhq.com/Perplexity/a2c00e70-8d38-441a-8633-ff1dbfbc94ee"
+    },
+    {
+     "title": "Member of Technical Staff (Software Engineer, SPACE - Sandbox Platform)",
+     "location": "San Francisco; New York City",
+     "url": "https://jobs.ashbyhq.com/Perplexity/9e738c21-f2ab-49d7-b545-b519bb2cf8ae"
     },
     {
      "title": "Research & Development Site Lead (London)",
@@ -571,11 +576,6 @@
      "title": "Member of Technical Staff (AI Software Engineer, Agent Engine)",
      "location": "San Francisco",
      "url": "https://jobs.ashbyhq.com/Perplexity/10a51134-6741-40ec-8cca-a8ac1534673b"
-    },
-    {
-     "title": "Engineering Manager (Agent Engine)",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/Perplexity/3f0dc0ad-aa9a-4cd8-aa75-245112f3b2de"
     }
    ],
    "delta_since_last": 0
@@ -601,8 +601,8 @@
    "funding_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVHlRREx2OFhkTWJVUUxIY0pFM0lDd3RVTFdIRlNWbzBFQ0FPel9kSkg2QW1lRGNNVmF0RjlQN2pMUnQ2MXF1c1ZhLWdMR3hxaE1MVUNsQmZLanZBMzRFQ1UzeE13QmFBaE5qV3gwR0F3dkVidDBCbmxUZlJ1Wk1sRXRleFRjSVZTa3BNcjlCUkhDTXdHQU1V?oc=5",
    "open_roles": 129,
    "eng_roles": 54,
-   "new_7d": 12,
-   "new_30d": 23,
+   "new_7d": 13,
+   "new_30d": 21,
    "remote_roles": 29,
    "sample_eng_roles": [
     {
@@ -654,7 +654,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNmJ5SFp0bDhiRDNSdnNqRTFRd2twbnJVdEIxRm9fLV9nSThiT3RZS0ZRNkJQQ3pIMjlHWEY2QzMyZjhpRllKRlpoc1dkSG5sZlhCYXVfZFVVMER5emw1cmJxNVVTNmZHVmZGQWluazMwbW8xajlvaFJGSnJZOGpIbQ?oc=5",
    "open_roles": 108,
    "eng_roles": 54,
-   "new_7d": 12,
+   "new_7d": 9,
    "new_30d": 32,
    "remote_roles": 105,
    "sample_eng_roles": [
@@ -701,10 +701,10 @@
    "team_size": 40,
    "yc_batch": "Winter 2019",
    "yc_stage": "Growth",
-   "open_roles": 69,
-   "eng_roles": 54,
+   "open_roles": 68,
+   "eng_roles": 53,
    "new_7d": 3,
-   "new_30d": 14,
+   "new_30d": 13,
    "remote_roles": 54,
    "sample_eng_roles": [
     {
@@ -733,7 +733,7 @@
      "url": "https://jobs.ashbyhq.com/overview/2fa820a6-19ed-417f-b274-832dd219d5e4"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Together AI",
@@ -754,19 +754,29 @@
    "funding_round_est": false,
    "funding_round_text": "Series C",
    "funding_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xR0dUZ1MySThTcy1VNGIxbmdhbWdMMGVSU3JUNllEbHdLLWdQV3VVQ3I2eXlIT3pNSHNybExDQld2VW9CMW1ab2xhT091ZlBPUmtLaG15TnF0WUg5Q25BVElyMHVvdkxpa1dkem1NRE5QSVZFM3k3RkxPSEs?oc=5",
-   "open_roles": 76,
-   "eng_roles": 50,
-   "new_7d": 4,
-   "new_30d": 16,
+   "open_roles": 81,
+   "eng_roles": 52,
+   "new_7d": 9,
+   "new_30d": 20,
    "remote_roles": 2,
    "sample_eng_roles": [
+    {
+     "title": "Partner Solutions Architect",
+     "location": "San Francisco",
+     "url": "https://job-boards.greenhouse.io/togetherai/jobs/5305527007"
+    },
+    {
+     "title": "Forward Deployed Engineer (Applied AI)",
+     "location": "San Francisco",
+     "url": "https://job-boards.greenhouse.io/togetherai/jobs/5302781007"
+    },
     {
      "title": "Manager, Solutions Architect",
      "location": "San Francisco",
      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5300653007"
     },
     {
-     "title": "Solutions Architect",
+     "title": "Solutions Architect, East",
      "location": "New York, NY",
      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5300712007"
     },
@@ -774,19 +784,9 @@
      "title": "Technical Support Engineer (Inference)",
      "location": "Pune or Bangalore, India",
      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5302660007"
-    },
-    {
-     "title": "Engineering Manager, Kubernetes Bare Metal Infrastructure",
-     "location": "San Francisco",
-     "url": "https://job-boards.greenhouse.io/togetherai/jobs/5282211007"
-    },
-    {
-     "title": "(Senior/Junior AI Inference Reliability Engineer, Compute Infra",
-     "location": "San Francisco",
-     "url": "https://job-boards.greenhouse.io/togetherai/jobs/5268939007"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 5
   },
   {
    "name": "Cohere",
@@ -810,11 +810,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3pUV1Zkbk91bnAxV05jTEQwTENodkl3WE5CZmRvTzZLTzBIU1RxM0dpQUdvZFY0VmQtYmphV2FvakpET2NTNXlBZDFLLUEycXJOQjB6enNJMHJ3amtObzVBRXVaRVozOGJjSC1FR3FJY0R5Q1Y3OHB2V3N6ZFEybnRYR3hJTENWc2JfSmh1aURBQzRlOTBOQ2l1V2FyUmpqWnRFS08ycVpBU2xRMjZXbQ?oc=5",
    "yc_batch": "Summer 2020",
    "yc_stage": "Early",
-   "open_roles": 124,
+   "open_roles": 125,
    "eng_roles": 45,
-   "new_7d": 11,
+   "new_7d": 10,
    "new_30d": 45,
-   "remote_roles": 113,
+   "remote_roles": 114,
    "sample_eng_roles": [
     {
      "title": "Staff Software Engineer, Data Infrastructure",
@@ -842,7 +842,60 @@
      "url": "https://jobs.ashbyhq.com/cohere/2a9a9b65-4f1b-4387-aa7f-d58c78e738c4"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
+  },
+  {
+   "name": "Decagon",
+   "website": "https://decagon.ai",
+   "ats": "ashby",
+   "slug": "decagon",
+   "board_url": "https://jobs.ashbyhq.com/decagon",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "AI agents (CX)",
+   "hq": "San Francisco",
+   "notes": "",
+   "funding_amount": "$250M",
+   "funding_date": "2026-01-30",
+   "funding_headline": "Decagon raises $250M for AI agents, triples valuation to $4.5B",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "funding_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFFtWVpQX01KQTU0dDBfdHFzancxMU5wU01tT1NyRnZKZjI4aEtTd2laaUpPQVQyVmVodG41elkzQ2tGT3dFdi1xSmx4dHdVQVRJdWdpNmJMa1NQeHNSdnBYZjFpcTRKcGlVZ3c4ZWdpaDNDRGRxb0dpcjZtX05tVlB5dVd6ZHlheEJGZHBhSXM?oc=5",
+   "open_roles": 114,
+   "eng_roles": 43,
+   "new_7d": 10,
+   "new_30d": 17,
+   "remote_roles": 14,
+   "sample_eng_roles": [
+    {
+     "title": "Software Engineer, Developer Platform",
+     "location": "San Francisco; New York City",
+     "url": "https://jobs.ashbyhq.com/decagon/491d67c4-b877-4ddc-895a-496eed6777ed"
+    },
+    {
+     "title": "Software Engineer, Cloud Infrastructure",
+     "location": "San Francisco; New York City",
+     "url": "https://jobs.ashbyhq.com/decagon/87d6c46a-365c-4d97-98ca-de7e29b6cf72"
+    },
+    {
+     "title": "Senior Software Engineer, Data Infrastructure",
+     "location": "San Francisco; New York City",
+     "url": "https://jobs.ashbyhq.com/decagon/97f14fcf-d8ff-41b2-9108-d35ddd9f595e"
+    },
+    {
+     "title": "Staff Software Engineer, Data Infrastructure",
+     "location": "San Francisco; New York City",
+     "url": "https://jobs.ashbyhq.com/decagon/68a779f4-5d46-42c9-ab7b-1c7ad3624939"
+    },
+    {
+     "title": "Agent Deployment Engineer - Spanish & Portuguese Speaking",
+     "location": "Brazil",
+     "url": "https://jobs.ashbyhq.com/decagon/5069134e-6af9-4274-9b81-c8e394bd7b6f"
+    }
+   ],
+   "delta_since_last": 5
   },
   {
    "name": "Mercor",
@@ -864,9 +917,9 @@
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTZLX3Z4c3JkblNZVzdlalFBQ1lyU1AwMVJNc0tmTDQtRWxHMEltaUhaSU5CTkp1SkdvN0ZqWnpvRFVEd0pVSE5VUVpqaU5EZWJqRGRoLXBaaUh6M2p1djNsRUNPckUzZzN5dTMzREY0VFVEWFU2b2ZCMUZzcFVWWHRBY3hHVmlMOTloMnlvYnhmeG14ZkttRGRPM2I3X1pYcVB5XzNCc2VMMTBEUEhyM0w3RDVBMkl4U09kLQ?oc=5",
    "open_roles": 109,
-   "eng_roles": 44,
-   "new_7d": 22,
-   "new_30d": 48,
+   "eng_roles": 43,
+   "new_7d": 6,
+   "new_30d": 49,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -898,112 +951,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "Decagon",
-   "website": "https://decagon.ai",
-   "ats": "ashby",
-   "slug": "decagon",
-   "board_url": "https://jobs.ashbyhq.com/decagon",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "AI agents (CX)",
-   "hq": "San Francisco",
-   "notes": "",
-   "funding_amount": "$250M",
-   "funding_date": "2026-01-30",
-   "funding_headline": "Decagon raises $250M for AI agents, triples valuation to $4.5B",
-   "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRFFtWVpQX01KQTU0dDBfdHFzancxMU5wU01tT1NyRnZKZjI4aEtTd2laaUpPQVQyVmVodG41elkzQ2tGT3dFdi1xSmx4dHdVQVRJdWdpNmJMa1NQeHNSdnBYZjFpcTRKcGlVZ3c4ZWdpaDNDRGRxb0dpcjZtX05tVlB5dVd6ZHlheEJGZHBhSXM?oc=5",
-   "open_roles": 109,
-   "eng_roles": 42,
-   "new_7d": 3,
-   "new_30d": 9,
-   "remote_roles": 12,
-   "sample_eng_roles": [
-    {
-     "title": "Agent Deployment Engineer - Spanish & Portuguese Speaking",
-     "location": "Brazil",
-     "url": "https://jobs.ashbyhq.com/decagon/5069134e-6af9-4274-9b81-c8e394bd7b6f"
-    },
-    {
-     "title": "Agent Deployment Engineer",
-     "location": "Australia",
-     "url": "https://jobs.ashbyhq.com/decagon/30b94a32-66bb-49cb-8879-03c9d00240f0"
-    },
-    {
-     "title": "Senior/Staff Software Engineer, Data Lifecycle",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/decagon/37a12b9f-fe2d-4379-90e5-ee9f3a52d0cb"
-    },
-    {
-     "title": "Staff Software Engineer, Product",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/decagon/cf01f336-471f-482a-b4fc-91a5a3266b0b"
-    },
-    {
-     "title": "Senior Software Engineer, Product",
-     "location": "New York City",
-     "url": "https://jobs.ashbyhq.com/decagon/cfc21b6c-75ed-4b01-925a-6636778ebf04"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "LangChain",
-   "website": "https://langchain.com",
-   "ats": "ashby",
-   "slug": "langchain",
-   "board_url": "https://jobs.ashbyhq.com/langchain",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Dev tools",
-   "hq": "San Francisco",
-   "notes": "",
-   "funding_amount": "$300M",
-   "funding_date": "2026-11-18",
-   "funding_headline": "LangChain Raises $300m At $3bn Valuation In Series C Round",
-   "funding_round": "Series C+",
-   "funding_round_est": false,
-   "funding_round_text": "Series C",
-   "funding_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVzlFd2U1clJmVzhzdjlUYndsdXI5UzlEMFZ2QUlSZlBnVjZsRDFSOS1qdEh3cGVVbU9FU2ktTnJFTk5sU3NHREx6Nl96aHM1bXJKSEN4c0ZyRDc0VzBNUnBQdDhwU29uVmhwbmRFX0RVSHgzM0J6Z1AyM25tV3NxWFRxUGVVRkM1NElScnlSSnhLQ0c0Rmt2ZVhrcnhFVV81UzRoQlVmZDQ?oc=5",
-   "open_roles": 102,
-   "eng_roles": 38,
-   "new_7d": 3,
-   "new_30d": 29,
-   "remote_roles": 33,
-   "sample_eng_roles": [
-    {
-     "title": "Agent Engineer, Pre-sales",
-     "location": "San Francisco, CA",
-     "url": "https://jobs.ashbyhq.com/langchain/32c6fe13-76e0-49a2-849d-991014416987"
-    },
-    {
-     "title": "Application Security Engineer",
-     "location": "San Francisco, CA; New York, NY",
-     "url": "https://jobs.ashbyhq.com/langchain/5095871a-9af2-4521-8c63-ff0d852f7354"
-    },
-    {
-     "title": "Sales Engineering Manager, Northern Europe & DACH",
-     "location": "Amsterdam",
-     "url": "https://jobs.ashbyhq.com/langchain/0ce4562c-3a98-408f-8945-15d8d4af6cb6"
-    },
-    {
-     "title": "EMEA Technical Support Engineer",
-     "location": "London",
-     "url": "https://jobs.ashbyhq.com/langchain/46c1a69d-5eff-425f-8f76-da7ddf047dd4"
-    },
-    {
-     "title": "Software Engineering Manager, AI Observability & Evals Platform (New York, NY)",
-     "location": "New York, NY",
-     "url": "https://jobs.ashbyhq.com/langchain/e1263bfe-b638-4019-b4d5-0aacca93b2b3"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "ElevenLabs",
    "website": "https://elevenlabs.io",
    "ats": "ashby",
@@ -1024,7 +971,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjZGbWFRbHV5Q0VzVXdJRHJjS3NraWtueVlFYjQzSGpWeEl1NXFCMnQ1VWtQb0ZDVk5SM0dmVEZ2aW9lQ0JrNlBybVBJc1RXOWVXY2Q2YUJabHBSejFfSDBuSTFNTnNfTlowS2Vsb0RGdEhlUDVxUkQ5Vl9oUnR2VFZyQmVNeGVjV1VB?oc=5",
    "open_roles": 122,
    "eng_roles": 37,
-   "new_7d": 22,
+   "new_7d": 21,
    "new_30d": 54,
    "remote_roles": 96,
    "sample_eng_roles": [
@@ -1054,6 +1001,112 @@
      "url": "https://jobs.ashbyhq.com/ElevenLabs/709b53e4-9db5-47ae-9c4b-a6fb9f33044c"
     }
    ],
+   "delta_since_last": 0
+  },
+  {
+   "name": "LangChain",
+   "website": "https://langchain.com",
+   "ats": "ashby",
+   "slug": "langchain",
+   "board_url": "https://jobs.ashbyhq.com/langchain",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Dev tools",
+   "hq": "San Francisco",
+   "notes": "",
+   "funding_amount": "$300M",
+   "funding_date": "2026-11-18",
+   "funding_headline": "LangChain Raises $300m At $3bn Valuation In Series C Round",
+   "funding_round": "Series C+",
+   "funding_round_est": false,
+   "funding_round_text": "Series C",
+   "funding_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVzlFd2U1clJmVzhzdjlUYndsdXI5UzlEMFZ2QUlSZlBnVjZsRDFSOS1qdEh3cGVVbU9FU2ktTnJFTk5sU3NHREx6Nl96aHM1bXJKSEN4c0ZyRDc0VzBNUnBQdDhwU29uVmhwbmRFX0RVSHgzM0J6Z1AyM25tV3NxWFRxUGVVRkM1NElScnlSSnhLQ0c0Rmt2ZVhrcnhFVV81UzRoQlVmZDQ?oc=5",
+   "open_roles": 99,
+   "eng_roles": 37,
+   "new_7d": 4,
+   "new_30d": 29,
+   "remote_roles": 33,
+   "sample_eng_roles": [
+    {
+     "title": "Agent Engineer, Pre-sales",
+     "location": "San Francisco, CA",
+     "url": "https://jobs.ashbyhq.com/langchain/32c6fe13-76e0-49a2-849d-991014416987"
+    },
+    {
+     "title": "Application Security Engineer",
+     "location": "San Francisco, CA; New York, NY",
+     "url": "https://jobs.ashbyhq.com/langchain/5095871a-9af2-4521-8c63-ff0d852f7354"
+    },
+    {
+     "title": "Sales Engineering Manager, Northern Europe & DACH",
+     "location": "Amsterdam",
+     "url": "https://jobs.ashbyhq.com/langchain/0ce4562c-3a98-408f-8945-15d8d4af6cb6"
+    },
+    {
+     "title": "EMEA Technical Support Engineer",
+     "location": "London",
+     "url": "https://jobs.ashbyhq.com/langchain/46c1a69d-5eff-425f-8f76-da7ddf047dd4"
+    },
+    {
+     "title": "Software Engineering Manager, AI Observability & Evals Platform (New York, NY)",
+     "location": "New York, NY",
+     "url": "https://jobs.ashbyhq.com/langchain/e1263bfe-b638-4019-b4d5-0aacca93b2b3"
+    }
+   ],
+   "delta_since_last": -3
+  },
+  {
+   "name": "Cognite",
+   "website": "",
+   "ats": "greenhouse",
+   "slug": "cognite",
+   "board_url": "https://job-boards.greenhouse.io/cognite",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$150M",
+   "funding_date": "2021-05-19",
+   "funding_headline": "Industrial SaaS startup Cognite raises $150M on a unicorn valuation of $1.6B",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "funding_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMnBma1hEeXEwMWctZDV3VlVER1RrWk1lNEhhUlFlN2VpbDBnSmU1Y3BzM1dxNmMzQ2hFd1g4NzVsOHFKM1B4T2xidjI1dTN0ZnFKb3NmbVNBaUxfSndOQTZZS1R3dU50YlZQVVk4TkRNUmxILWFSbTcybmI0UzFsbGQ2MEZVTTJSUDdpZndJMVZNQkE0cllZa21KWExnZ3ZLem5GN1B3?oc=5",
+   "open_roles": 65,
+   "eng_roles": 37,
+   "new_7d": 7,
+   "new_30d": 29,
+   "remote_roles": 3,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Solution Architect",
+     "location": "Germany",
+     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/4997889101"
+    },
+    {
+     "title": "Data Engineer",
+     "location": "Norway (Oslo)",
+     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/4986983101"
+    },
+    {
+     "title": "AI Solutions Engineer",
+     "location": "USA (Phoenix)",
+     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5034372101"
+    },
+    {
+     "title": "Frontend Software Engineer, Senior",
+     "location": "Norway (Oslo)",
+     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5037088101"
+    },
+    {
+     "title": "Sr Data Engineer - Value Support Engineering",
+     "location": "USA (Houston)",
+     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5036203101"
+    }
+   ],
    "delta_since_last": 1
   },
   {
@@ -1077,7 +1130,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWUFqd0hxdlNiVUdyazNPLWMwX1BpUThIeTZXQmpDdjI5NlJpeE8xUmp1TXZiLU93MVN4aFhMMy1WaU80OXVSLUI0dDNGYUgxSjkxYVhndVc0Rlp2NHAydFV5OU9mdTVFYXpjNm44UHFLallMYmdnZjIxc2xaVDQ2ZldsVVlhNUhUVXZyR2JWRnViRTRfSUdwZHVzSmsxenAzR3hiZDlzLVBNaFpicC1ISGtuNFZUR1c5MkViT1VFTWtrMTlxRnUtZlctT3VuOFJOazNZcmhKZw?oc=5",
    "open_roles": 47,
    "eng_roles": 36,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 15,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -1110,59 +1163,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "Cognite",
-   "website": "",
-   "ats": "greenhouse",
-   "slug": "cognite",
-   "board_url": "https://job-boards.greenhouse.io/cognite",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$150M",
-   "funding_date": "2021-05-19",
-   "funding_headline": "Industrial SaaS startup Cognite raises $150M on a unicorn valuation of $1.6B",
-   "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMnBma1hEeXEwMWctZDV3VlVER1RrWk1lNEhhUlFlN2VpbDBnSmU1Y3BzM1dxNmMzQ2hFd1g4NzVsOHFKM1B4T2xidjI1dTN0ZnFKb3NmbVNBaUxfSndOQTZZS1R3dU50YlZQVVk4TkRNUmxILWFSbTcybmI0UzFsbGQ2MEZVTTJSUDdpZndJMVZNQkE0cllZa21KWExnZ3ZLem5GN1B3?oc=5",
-   "open_roles": 64,
-   "eng_roles": 36,
-   "new_7d": 7,
-   "new_30d": 28,
-   "remote_roles": 3,
-   "sample_eng_roles": [
-    {
-     "title": "Data Engineer",
-     "location": "Norway (Oslo)",
-     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/4986983101"
-    },
-    {
-     "title": "AI Solutions Engineer",
-     "location": "USA (Phoenix)",
-     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5034372101"
-    },
-    {
-     "title": "Frontend Software Engineer, Senior",
-     "location": "Norway (Oslo)",
-     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5037088101"
-    },
-    {
-     "title": "Sr Data Engineer - Value Support Engineering",
-     "location": "USA (Houston)",
-     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5036203101"
-    },
-    {
-     "title": "Data Engineer",
-     "location": "India (Bengaluru)",
-     "url": "https://job-boards.eu.greenhouse.io/cognite/jobs/5039749101"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "Lightning AI",
    "website": "https://lightning.ai",
    "ats": "greenhouse",
@@ -1183,7 +1183,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1YbGpNN0UzcE5EQ0t0MVBCYWxibGNIOUtTSVlzQ0w4YXNQNzdvMjQyNWdZQm1NM1IyZDZ0a1lYX2h6d1N6dDZhLU9oWm05c2U0Mi1SZlJrT2drOTV5ODJNZjlHZXE3VFE?oc=5",
    "open_roles": 49,
    "eng_roles": 27,
-   "new_7d": 5,
+   "new_7d": 4,
    "new_30d": 14,
    "remote_roles": 11,
    "sample_eng_roles": [
@@ -1227,11 +1227,11 @@
    "sector": "Dev tools",
    "hq": "San Francisco",
    "notes": "",
-   "open_roles": 89,
+   "open_roles": 87,
    "eng_roles": 26,
    "new_7d": 4,
-   "new_30d": 79,
-   "remote_roles": 41,
+   "new_30d": 78,
+   "remote_roles": 42,
    "sample_eng_roles": [
     {
      "title": "Regional Director, Forward Deployed Engineering - Financial Services",
@@ -1259,6 +1259,105 @@
      "url": "https://jobs.ashbyhq.com/cursor/d06d229f-eb2c-46d7-8e0f-96da5ecaec88"
     }
    ],
+   "delta_since_last": -2
+  },
+  {
+   "name": "CERN",
+   "website": "",
+   "ats": "smartrecruiters",
+   "slug": "CERN",
+   "board_url": "https://jobs.smartrecruiters.com/CERN",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "open_roles": 56,
+   "eng_roles": 26,
+   "new_7d": 12,
+   "new_30d": 53,
+   "remote_roles": 0,
+   "sample_eng_roles": [
+    {
+     "title": "Mechanics and Cooling Engineer (EP-DT-DC-2026-264-GRAE)",
+     "location": "Geneva, GENEVA, Switzerland",
+     "url": "https://jobs.smartrecruiters.com/CERN/744000163268489"
+    },
+    {
+     "title": "Junior Electrical Testing Engineer (HSE-OHS-2026-263-GRAE)",
+     "location": "Geneva, GENEVA, Switzerland",
+     "url": "https://jobs.smartrecruiters.com/CERN/744000163183839"
+    },
+    {
+     "title": "AI Engineer (OSI-SIS-TS-2026-178-GRAP)",
+     "location": "Geneva, GENEVA, Switzerland",
+     "url": "https://jobs.smartrecruiters.com/CERN/744000163158559"
+    },
+    {
+     "title": "Power Electronics Engineer (Pulsed Power) (SY-ABT-PPG-2026-225-LD)",
+     "location": "Geneva, GENEVA, Switzerland",
+     "url": "https://jobs.smartrecruiters.com/CERN/744000162453369"
+    },
+    {
+     "title": "Junior Materials Engineer (HSE-OHS-2026-261-GRAE)",
+     "location": "Geneva, GENEVA, Switzerland",
+     "url": "https://jobs.smartrecruiters.com/CERN/744000162291952"
+    }
+   ],
+   "delta_since_last": 1
+  },
+  {
+   "name": "Replit",
+   "website": "https://replit.com",
+   "ats": "ashby",
+   "slug": "replit",
+   "board_url": "https://jobs.ashbyhq.com/replit",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Dev tools",
+   "hq": "San Francisco",
+   "notes": "",
+   "funding_amount": "$400M",
+   "funding_date": "2026-10-01",
+   "funding_headline": "Replit raises $400M as AI coding shifts from “editor” to “agent”",
+   "funding_round": "Series C+",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "funding_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlBaY3c1ZVU1STE5b2NielVhXzhqMXdfODE1RWNvNWRDdlBMY05xb0lCRjRRek9OV2VxOF9sUXVQUEUzZUN5UnRCZjlxUGN2RTNFeHJyT28yeDlJYnZ4ZU85RzlReVJmM3pwUDlBc3ZSX1dHaGJHUHI1bXJvaEg5cTlhNjBOVFVDWlkteUJoRXhOWXBwa3d1WTFaTVdzV19sS1JpbExIdw?oc=5",
+   "open_roles": 38,
+   "eng_roles": 24,
+   "new_7d": 9,
+   "new_30d": 20,
+   "remote_roles": 38,
+   "sample_eng_roles": [
+    {
+     "title": "Premium Support Engineer (Japan)",
+     "location": "Hybrid - Japan",
+     "url": "https://jobs.ashbyhq.com/replit/f4254bd9-e155-4294-8239-6c2033e37136"
+    },
+    {
+     "title": "Senior / Staff Software Engineer, Connectors Platform",
+     "location": "Foster City, CA",
+     "url": "https://jobs.ashbyhq.com/replit/fa9ee306-7e2b-4d94-87d1-0db292102f03"
+    },
+    {
+     "title": "Forward Deployed Engineer (UK)",
+     "location": "London Office",
+     "url": "https://jobs.ashbyhq.com/replit/f32821e3-8b65-4565-b12f-3a2f3e399fb9"
+    },
+    {
+     "title": "Staff Software Engineer, Enterprise",
+     "location": "Foster City, CA",
+     "url": "https://jobs.ashbyhq.com/replit/b7f12834-78d2-424d-bf83-0c942815fbf7"
+    },
+    {
+     "title": "Engineering Manager, Security (Cloud, Infrastructure & Application Security)",
+     "location": "Foster City, CA",
+     "url": "https://jobs.ashbyhq.com/replit/2b296184-4ef9-4587-98ec-cd20f39e003e"
+    }
+   ],
    "delta_since_last": 0
   },
   {
@@ -1283,11 +1382,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BUzUxM2tUb3FNRkNwZFlmZng0OTRldEMxZFQzYTBIZEpsVlJaSUpQNmtRR2lsbU9PRjhfWHhHVFdoU3pvemQ4b0IyUDd6MzdVRm10U2xXZW1ZUDc3Sk5FNVUyUVJ1YTlkV1RveXBJOTU?oc=5",
    "yc_batch": "Winter 2016",
    "yc_stage": "Growth",
-   "open_roles": 52,
-   "eng_roles": 26,
-   "new_7d": 3,
-   "new_30d": 10,
-   "remote_roles": 45,
+   "open_roles": 48,
+   "eng_roles": 24,
+   "new_7d": 2,
+   "new_30d": 7,
+   "remote_roles": 41,
    "sample_eng_roles": [
     {
      "title": "Development Platform Partner Manager",
@@ -1315,7 +1414,7 @@
      "url": "https://jobs.ashbyhq.com/Deepgram/a0678103-1b9c-44a4-92c0-f705850a8fa1"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -4
   },
   {
    "name": "May Mobility",
@@ -1339,8 +1438,8 @@
    "funding_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBISGJjYVdjRmlKMl95dHJKNzZFRkJ1eWZuMUJJU0dkVy12Tl9JVVJ4R2tOTXdONEt2d2FhN1RJMkpkSnI0dVJMMnJXRUxwQTByNWJFSWY5bFluY3pUTUdFTVZRaUIwNE1McEtNVDZtaVB5bllHLUpV?oc=5",
    "yc_batch": "Summer 2017",
    "yc_stage": "Growth",
-   "open_roles": 36,
-   "eng_roles": 25,
+   "open_roles": 34,
+   "eng_roles": 24,
    "new_7d": 2,
    "new_30d": 6,
    "remote_roles": 15,
@@ -1371,159 +1470,7 @@
      "url": "https://job-boards.greenhouse.io/maymobility/jobs/8925082002"
     }
    ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "CERN",
-   "website": "",
-   "ats": "smartrecruiters",
-   "slug": "CERN",
-   "board_url": "https://jobs.smartrecruiters.com/CERN",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "open_roles": 55,
-   "eng_roles": 24,
-   "new_7d": 15,
-   "new_30d": 51,
-   "remote_roles": 0,
-   "sample_eng_roles": [
-    {
-     "title": "Power Electronics Engineer (Pulsed Power) (SY-ABT-PPG-2026-225-LD)",
-     "location": "Geneva, GENEVA, Switzerland",
-     "url": "https://jobs.smartrecruiters.com/CERN/744000162453369"
-    },
-    {
-     "title": "Junior Materials Engineer (HSE-OHS-2026-261-GRAE)",
-     "location": "Geneva, GENEVA, Switzerland",
-     "url": "https://jobs.smartrecruiters.com/CERN/744000162291952"
-    },
-    {
-     "title": "Database Software Engineer (BE-CSS-IDE-2026-260-GRAE)",
-     "location": "Geneva, GENEVA, Switzerland",
-     "url": "https://jobs.smartrecruiters.com/CERN/744000162017587"
-    },
-    {
-     "title": "Big Data Software Engineer (BE-CSS-IDE-2026-176-GRAP)",
-     "location": "Geneva, GENEVA, Switzerland",
-     "url": "https://jobs.smartrecruiters.com/CERN/744000161847914"
-    },
-    {
-     "title": "Software Engineer in Physics Simulation (IT-CE-PSE-2026-167-GRAP)",
-     "location": "Geneva, GENEVA, Switzerland",
-     "url": "https://jobs.smartrecruiters.com/CERN/744000161810029"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Replit",
-   "website": "https://replit.com",
-   "ats": "ashby",
-   "slug": "replit",
-   "board_url": "https://jobs.ashbyhq.com/replit",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Dev tools",
-   "hq": "San Francisco",
-   "notes": "",
-   "funding_amount": "$400M",
-   "funding_date": "2026-10-01",
-   "funding_headline": "Replit raises $400M as AI coding shifts from “editor” to “agent”",
-   "funding_round": "Series C+",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQlBaY3c1ZVU1STE5b2NielVhXzhqMXdfODE1RWNvNWRDdlBMY05xb0lCRjRRek9OV2VxOF9sUXVQUEUzZUN5UnRCZjlxUGN2RTNFeHJyT28yeDlJYnZ4ZU85RzlReVJmM3pwUDlBc3ZSX1dHaGJHUHI1bXJvaEg5cTlhNjBOVFVDWlkteUJoRXhOWXBwa3d1WTFaTVdzV19sS1JpbExIdw?oc=5",
-   "open_roles": 38,
-   "eng_roles": 23,
-   "new_7d": 9,
-   "new_30d": 20,
-   "remote_roles": 38,
-   "sample_eng_roles": [
-    {
-     "title": "Senior / Staff Software Engineer, Connectors Platform",
-     "location": "Foster City, CA",
-     "url": "https://jobs.ashbyhq.com/replit/fa9ee306-7e2b-4d94-87d1-0db292102f03"
-    },
-    {
-     "title": "Forward Deployed Engineer (UK)",
-     "location": "London Office",
-     "url": "https://jobs.ashbyhq.com/replit/f32821e3-8b65-4565-b12f-3a2f3e399fb9"
-    },
-    {
-     "title": "Staff Software Engineer, Enterprise",
-     "location": "Foster City, CA",
-     "url": "https://jobs.ashbyhq.com/replit/b7f12834-78d2-424d-bf83-0c942815fbf7"
-    },
-    {
-     "title": "Engineering Manager, Security (Cloud, Infrastructure & Application Security)",
-     "location": "Foster City, CA",
-     "url": "https://jobs.ashbyhq.com/replit/2b296184-4ef9-4587-98ec-cd20f39e003e"
-    },
-    {
-     "title": "SOC Engineer",
-     "location": "Foster City, CA",
-     "url": "https://jobs.ashbyhq.com/replit/563751ea-cb0b-412e-ae07-c5638b87f81a"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "fal",
-   "website": "https://fal.ai",
-   "ats": "ashby",
-   "slug": "fal-ai",
-   "board_url": "https://jobs.ashbyhq.com/fal-ai",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$1.3B",
-   "funding_date": "2026-11-04",
-   "funding_headline": "Fal raises $1.3B Series F at $16B: How two engineers turned a pivot into an AI media giant",
-   "funding_round": "Series C+",
-   "funding_round_est": false,
-   "funding_round_text": "Series F",
-   "funding_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJUTd4bjVyNmhYRWNyamNTSXN2Uy1fOVFyenk4aXFqTllpWnM5TTdRbkFTTmhPRFEtUUZfTG1Lc2JjY1hSb3NYbEtsa1ZNWHR3UTRPWXcwLVhQWi1KMnA5dnZqRnp3VmZZQWktelA0bC00S3IzR1dybklKSXFzQQ?oc=5",
-   "open_roles": 50,
-   "eng_roles": 23,
-   "new_7d": 3,
-   "new_30d": 15,
-   "remote_roles": 6,
-   "sample_eng_roles": [
-    {
-     "title": "AI Fabric Architect",
-     "location": "Remote",
-     "url": "https://jobs.ashbyhq.com/fal-ai/61724c46-c697-49a6-933a-9ad3ddc8d40f"
-    },
-    {
-     "title": "Product Marketer, Developer Platform",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/fal-ai/ea301cfb-6954-4428-9d54-2b9df6048bc1"
-    },
-    {
-     "title": "Software Engineer, Applied Machine Learning",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/fal-ai/c351a0de-1826-4968-a023-a5243aba2ec6"
-    },
-    {
-     "title": "Senior Infrastructure Security Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/fal-ai/d47e9698-cecf-4376-8791-d9c38c672712"
-    },
-    {
-     "title": "Staff Security Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/fal-ai/c3442fcd-8679-41a3-ad16-b1e1883d916c"
-    }
-   ],
-   "delta_since_last": 0
+   "delta_since_last": -2
   },
   {
    "name": "Aptura AI",
@@ -1572,6 +1519,59 @@
    "delta_since_last": 0
   },
   {
+   "name": "fal",
+   "website": "https://fal.ai",
+   "ats": "ashby",
+   "slug": "fal-ai",
+   "board_url": "https://jobs.ashbyhq.com/fal-ai",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$1.3B",
+   "funding_date": "2026-11-04",
+   "funding_headline": "Fal raises $1.3B Series F at $16B: How two engineers turned a pivot into an AI media giant",
+   "funding_round": "Series C+",
+   "funding_round_est": false,
+   "funding_round_text": "Series F",
+   "funding_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBJUTd4bjVyNmhYRWNyamNTSXN2Uy1fOVFyenk4aXFqTllpWnM5TTdRbkFTTmhPRFEtUUZfTG1Lc2JjY1hSb3NYbEtsa1ZNWHR3UTRPWXcwLVhQWi1KMnA5dnZqRnp3VmZZQWktelA0bC00S3IzR1dybklKSXFzQQ?oc=5",
+   "open_roles": 49,
+   "eng_roles": 22,
+   "new_7d": 3,
+   "new_30d": 15,
+   "remote_roles": 6,
+   "sample_eng_roles": [
+    {
+     "title": "AI Fabric Architect",
+     "location": "Remote",
+     "url": "https://jobs.ashbyhq.com/fal-ai/61724c46-c697-49a6-933a-9ad3ddc8d40f"
+    },
+    {
+     "title": "Product Marketer, Developer Platform",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/fal-ai/ea301cfb-6954-4428-9d54-2b9df6048bc1"
+    },
+    {
+     "title": "Software Engineer, Applied Machine Learning",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/fal-ai/c351a0de-1826-4968-a023-a5243aba2ec6"
+    },
+    {
+     "title": "Senior Infrastructure Security Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/fal-ai/d47e9698-cecf-4376-8791-d9c38c672712"
+    },
+    {
+     "title": "Staff Security Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/fal-ai/c3442fcd-8679-41a3-ad16-b1e1883d916c"
+    }
+   ],
+   "delta_since_last": -1
+  },
+  {
    "name": "Taktile",
    "website": "http://www.taktile.com",
    "ats": "ashby",
@@ -1593,11 +1593,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSkkzXzlWdHlmSXNwbGZFTGlyRlY3TTE2a0NTN25QeEkwLXR1SWJRN3RuSVVtTnVEVUpyelZxeDI2YW1IWmtoc3pCdEJsVWdqbElzR0RWV1RUdGlJSGlBX1RxbVhabnlaTVd3X2c3aGlzaTlGVHlnaUF4OENDRE40S0VfS0Y5YllLeG9ILXF0SDZiNmItRUctbTJqanZtNFA4Z1Rza1BjVkdQNkk?oc=5",
    "yc_batch": "Summer 2020",
    "yc_stage": "Early",
-   "open_roles": 37,
+   "open_roles": 38,
    "eng_roles": 21,
    "new_7d": 3,
-   "new_30d": 10,
-   "remote_roles": 37,
+   "new_30d": 11,
+   "remote_roles": 38,
    "sample_eng_roles": [
     {
      "title": "Backend Engineer - Team Optimize",
@@ -1625,7 +1625,7 @@
      "url": "https://jobs.ashbyhq.com/taktile/e8f17427-9dbf-49ae-9401-bcd0f3e13f4a"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Modal",
@@ -1647,11 +1647,16 @@
    "funding_round_text": "Series D",
    "funding_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZRTF3TXhUSjlpUWo2N0ZBM2ZZWFhCOFVablBFbVpWMVFWMlVabjNnMDBkemd1MzBrYV9PLUVpTkxRTGc3SkFUbUVzV0NHU1VCSS04?oc=5",
    "open_roles": 52,
-   "eng_roles": 19,
-   "new_7d": 11,
-   "new_30d": 13,
+   "eng_roles": 20,
+   "new_7d": 5,
+   "new_30d": 14,
    "remote_roles": 2,
    "sample_eng_roles": [
+    {
+     "title": "Security Field Engineer",
+     "location": "New York",
+     "url": "https://jobs.ashbyhq.com/modal/3c5c84c6-141d-44d2-8f33-8eaaf067c774"
+    },
     {
      "title": "Forward Deployed Engineer - ML (London)",
      "location": "London",
@@ -1671,11 +1676,6 @@
      "title": "Documentation Engineer",
      "location": "New York",
      "url": "https://jobs.ashbyhq.com/modal/f3b0e8e8-d7f5-441c-9a83-d7711543f541"
-    },
-    {
-     "title": "Inference Engineering and Product Lead",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/modal/ead55e1a-873d-4837-8450-95fe8f4c8931"
     }
    ],
    "delta_since_last": 0
@@ -1748,11 +1748,11 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "open_roles": 73,
+   "open_roles": 75,
    "eng_roles": 18,
-   "new_7d": 7,
-   "new_30d": 28,
-   "remote_roles": 73,
+   "new_7d": 9,
+   "new_30d": 30,
+   "remote_roles": 75,
    "sample_eng_roles": [
     {
      "title": "Senior Analytics Engineer",
@@ -1780,7 +1780,7 @@
      "url": "https://jobs.ashbyhq.com/krakentech/a26ea748-6454-45bf-98d1-fbac581b75b3"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 2
   },
   {
    "name": "Robotics and AI Institute",
@@ -1796,7 +1796,7 @@
    "notes": "via hn",
    "open_roles": 24,
    "eng_roles": 17,
-   "new_7d": 7,
+   "new_7d": 6,
    "new_30d": 20,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -1850,7 +1850,7 @@
    "open_roles": 27,
    "eng_roles": 17,
    "new_7d": 1,
-   "new_30d": 11,
+   "new_30d": 10,
    "remote_roles": 11,
    "sample_eng_roles": [
     {
@@ -1904,9 +1904,9 @@
    "yc_batch": "Summer 2020",
    "yc_stage": "Growth",
    "open_roles": 35,
-   "eng_roles": 17,
-   "new_7d": 4,
-   "new_30d": 13,
+   "eng_roles": 16,
+   "new_7d": 5,
+   "new_30d": 14,
    "remote_roles": 35,
    "sample_eng_roles": [
     {
@@ -1956,11 +1956,11 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeXJtWVZvTHNCRnFpcjJjOG9kRmduUXJ3Z01RU1RZTWdwZWNYeHVKRVlXcmRIZ3NOR084LUxIeTFSOVNaVjdEUnhWcndrcG1VS1VuNU9UdWN5eVpDYkY3RTdjV21Ob0Vsck5zX1BNaEk0dUI3SUhqQTJiQ3BLYnU3U0FmZWxuRlhWRzc2cllxTi1mM0RIaVRtcTVMZmo2c0pvMW9LWFAySnFKSEtXemRDOVFvZFRJOWw2YjlZ?oc=5",
-   "open_roles": 48,
+   "open_roles": 45,
    "eng_roles": 15,
    "new_7d": 2,
    "new_30d": 9,
-   "remote_roles": 45,
+   "remote_roles": 42,
    "sample_eng_roles": [
     {
      "title": "Member of Technical Staff, ML Platform (Evals)",
@@ -1988,7 +1988,7 @@
      "url": "https://jobs.ashbyhq.com/runway-ml/9a9f687a-6d61-4ab5-8b26-c4d67d527560"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -3
   },
   {
    "name": "Beacon AI",
@@ -2011,7 +2011,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTnhuMGp4U2hWNW01emRJOGNaZW5OMjJnOWpSTW1pOEFNNTNhUHhWQWdKLS1iODRRVklQSlV4Yld2NG9kU2JqQ3lvem9YMDZIalpwTGQ0b0lUcmVBTThkdHRXdUw4MEZnWUN0NzQ4aWROMlIxdFVPQVFJaFVxUmtYSWhzakNaUkRDSVgyY08wTnBRVFlWOXlQUEdLN3lXSUtLQjU2M0ZIeG9wdGRMSl9KWE55M0YzMnVwWm1fMUt1RHI?oc=5",
    "open_roles": 17,
    "eng_roles": 15,
-   "new_7d": 13,
+   "new_7d": 10,
    "new_30d": 15,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -2042,6 +2042,59 @@
     }
    ],
    "delta_since_last": 0
+  },
+  {
+   "name": "NODA AI",
+   "website": "https://www.nodaintelligence.ai",
+   "ats": "ashby",
+   "slug": "noda-ai",
+   "board_url": "https://jobs.ashbyhq.com/noda-ai",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$25M",
+   "funding_date": "2026-02-26",
+   "funding_headline": "NODA AI Raises $25M Bessemer-led Series A at $125M Valuation",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "funding_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDZSM05mSjhEVW5WVzRWakFfQTFlQW92bm9yX2NBajdIQnd0MnJDRHg5Mzhycmd4cjA2SGRuMkYwN3NqdjRsanVPYlphYk5QdU9CenZtVE0ydzJWZXZjRG1HUzEzUXFFaE9oOENyYmc5bUp0VTNscDRxenA2YjNiOGNPVEhfTnF6WFYyUnBtdGh5VTdKVDRMeHhYYUhzMDdmaWFv?oc=5",
+   "open_roles": 28,
+   "eng_roles": 15,
+   "new_7d": 7,
+   "new_30d": 13,
+   "remote_roles": 26,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Edge Autonomy Engineer",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/noda-ai/b1f9fd63-d3a1-42a9-aede-487a100faed3"
+    },
+    {
+     "title": "Forward-Deployed Engineer, Full-Stack Software",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/noda-ai/2d625486-4a6d-4f80-947b-54726f7ce0c6"
+    },
+    {
+     "title": "Forward-Deployed Engineer, Network",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/noda-ai/52fb7359-e574-40fe-8032-a7854fba2dd2"
+    },
+    {
+     "title": "Forward-Deployed Engineer, Integration",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/noda-ai/76884d22-e078-4ef9-b115-9b672035e248"
+    },
+    {
+     "title": "Senior Full Stack Engineer",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/noda-ai/a42ae72b-bc9c-42b0-b734-ff110bd392ce"
+    }
+   ],
+   "delta_since_last": 1
   },
   {
    "name": "Gecko Robotics",
@@ -2100,55 +2153,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "LiteLLM",
-   "website": "https://www.litellm.ai/",
-   "ats": "ashby",
-   "slug": "litellm",
-   "board_url": "https://jobs.ashbyhq.com/litellm",
-   "stage": "YC Winter 2023",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "B2B",
-   "hq": "San Francisco, CA, USA",
-   "notes": "via yc",
-   "team_size": 20,
-   "yc_batch": "Winter 2023",
-   "yc_stage": "Early",
-   "open_roles": 18,
-   "eng_roles": 15,
-   "new_7d": 2,
-   "new_30d": 9,
-   "remote_roles": 3,
-   "sample_eng_roles": [
-    {
-     "title": "Staff Backend Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/litellm/3804f73b-1120-48aa-b2ec-83c3a5c8c14e"
-    },
-    {
-     "title": "Senior Backend Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/litellm/759314e2-8415-4946-8701-88b1a7fad1b5"
-    },
-    {
-     "title": "ML Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/litellm/ee96c797-fb2b-4f91-9639-6017ae73c34c"
-    },
-    {
-     "title": "Staff Engineer, Systems and Reliability",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/litellm/732f0a31-5622-4fca-9a2a-356d58fcfa1d"
-    },
-    {
-     "title": "Staff Engineer, AI",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/litellm/26b38d91-aa61-4f6e-a72a-421378046619"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "AfterQuery",
    "website": "https://afterquery.com",
    "ats": "ashby",
@@ -2172,8 +2176,8 @@
    "yc_stage": "Growth",
    "open_roles": 41,
    "eng_roles": 15,
-   "new_7d": 1,
-   "new_30d": 5,
+   "new_7d": 2,
+   "new_30d": 6,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -2353,57 +2357,53 @@
    "delta_since_last": 0
   },
   {
-   "name": "NODA AI",
-   "website": "https://www.nodaintelligence.ai",
+   "name": "LiteLLM",
+   "website": "https://www.litellm.ai/",
    "ats": "ashby",
-   "slug": "noda-ai",
-   "board_url": "https://jobs.ashbyhq.com/noda-ai",
-   "stage": "",
+   "slug": "litellm",
+   "board_url": "https://jobs.ashbyhq.com/litellm",
+   "stage": "YC Winter 2023",
    "last_raise": "",
    "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$25M",
-   "funding_date": "2026-02-26",
-   "funding_headline": "NODA AI Raises $25M Bessemer-led Series A at $125M Valuation",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
-   "funding_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcDZSM05mSjhEVW5WVzRWakFfQTFlQW92bm9yX2NBajdIQnd0MnJDRHg5Mzhycmd4cjA2SGRuMkYwN3NqdjRsanVPYlphYk5QdU9CenZtVE0ydzJWZXZjRG1HUzEzUXFFaE9oOENyYmc5bUp0VTNscDRxenA2YjNiOGNPVEhfTnF6WFYyUnBtdGh5VTdKVDRMeHhYYUhzMDdmaWFv?oc=5",
-   "open_roles": 27,
+   "sector": "B2B",
+   "hq": "San Francisco, CA, USA",
+   "notes": "via yc",
+   "team_size": 20,
+   "yc_batch": "Winter 2023",
+   "yc_stage": "Early",
+   "open_roles": 17,
    "eng_roles": 14,
-   "new_7d": 6,
-   "new_30d": 12,
-   "remote_roles": 25,
+   "new_7d": 3,
+   "new_30d": 8,
+   "remote_roles": 3,
    "sample_eng_roles": [
     {
-     "title": "Forward-Deployed Engineer, Full-Stack Software",
-     "location": "Austin",
-     "url": "https://jobs.ashbyhq.com/noda-ai/2d625486-4a6d-4f80-947b-54726f7ce0c6"
+     "title": "Performance Engineer, Load Testing",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/litellm/88e821ac-6a98-446e-829e-2188c0e67f64"
     },
     {
-     "title": "Forward-Deployed Engineer, Network",
-     "location": "Austin",
-     "url": "https://jobs.ashbyhq.com/noda-ai/52fb7359-e574-40fe-8032-a7854fba2dd2"
+     "title": "Staff Backend Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/litellm/3804f73b-1120-48aa-b2ec-83c3a5c8c14e"
     },
     {
-     "title": "Forward-Deployed Engineer, Integration",
-     "location": "Austin",
-     "url": "https://jobs.ashbyhq.com/noda-ai/76884d22-e078-4ef9-b115-9b672035e248"
+     "title": "Senior Backend Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/litellm/759314e2-8415-4946-8701-88b1a7fad1b5"
     },
     {
-     "title": "Senior Full Stack Engineer",
-     "location": "Austin",
-     "url": "https://jobs.ashbyhq.com/noda-ai/a42ae72b-bc9c-42b0-b734-ff110bd392ce"
+     "title": "ML Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/litellm/ee96c797-fb2b-4f91-9639-6017ae73c34c"
     },
     {
-     "title": "Senior Development Engineer – Recon Works",
-     "location": "Washington, D.C.",
-     "url": "https://jobs.ashbyhq.com/noda-ai/604b79f5-ee28-4738-b5dc-216732009c6a"
+     "title": "Staff Engineer, AI",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/litellm/26b38d91-aa61-4f6e-a72a-421378046619"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Tandem Health",
@@ -2535,30 +2535,30 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQW4zN1UxbWgwcTJ6WEljdnpUVDgxaTNRUlkyazVCdDVzWFplZEd4VnNDSHpCeG9FV0h0VnZNelFuUHdpSG9uTnRpeEhpdTBTcmZrZlRlZ2FKMXNmNnYzOW1rVExEc1NoYm03WHRCV2xuQUZXQTJJN0Z1bHNyajhUN2hPZHU3TnVJMU1ObVVtaU1qanRHY0NTRV9pbV9kMDIxVkNYbExOblR3RDFENHdVVnBISEZqcUViMEZCOTlHaXl2bm1xdkNmaW1R?oc=5",
    "yc_batch": "Summer 2024",
    "yc_stage": "Growth",
-   "open_roles": 48,
+   "open_roles": 46,
    "eng_roles": 13,
-   "new_7d": 0,
+   "new_7d": 1,
    "new_30d": 8,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
      "title": "Software Development Engineer in Test (SDET)",
-     "location": "Bangalore ",
+     "location": "Bengaluru",
      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4457197009"
     },
     {
      "title": "Senior GRC Engineer",
-     "location": "Bangalore",
+     "location": "Bengaluru",
      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4429196009"
     },
     {
      "title": "Senior Software  Engineer - Application Security",
-     "location": "Bangalore",
+     "location": "Bengaluru",
      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4410842009"
     },
     {
      "title": "Staff Engineer - Security",
-     "location": "Bangalore",
+     "location": "Bengaluru",
      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4403175009"
     },
     {
@@ -2567,7 +2567,60 @@
      "url": "https://job-boards.greenhouse.io/emergentlabsinc/jobs/4323651009"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -2
+  },
+  {
+   "name": "E2B",
+   "website": "https://e2b.dev",
+   "ats": "ashby",
+   "slug": "e2b",
+   "board_url": "https://jobs.ashbyhq.com/e2b",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$21M",
+   "funding_date": "2025-07-28",
+   "funding_headline": "Czech startup E2B raises $21M Series A led by Insight Partners to scale AI agent infrastructure",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "funding_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oTVEwUVY3WkFHUmNYTFQtRXZKVmFWZ3VpZlVzWEc5eS1JMEh5TE1IVGxlU0RxbmJ2NGdEXzRxcV9VWlhfUmNDUHpkRUhOU1luU2RqdnkyMA?oc=5",
+   "open_roles": 16,
+   "eng_roles": 13,
+   "new_7d": 5,
+   "new_30d": 9,
+   "remote_roles": 1,
+   "sample_eng_roles": [
+    {
+     "title": "Developer Relations Engineer",
+     "location": "Remote - EU",
+     "url": "https://jobs.ashbyhq.com/e2b/aad3ec86-cceb-4b0d-96ac-3333218d3186"
+    },
+    {
+     "title": "Data Scientist, Growth",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/e2b/8c026f4b-e17c-4454-b8c2-bea7511bc740"
+    },
+    {
+     "title": "Site Reliability Engineer - Platform",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/e2b/2a86d352-77a2-4b32-9b36-7a0cef76262f"
+    },
+    {
+     "title": "Software Engineer, Systems",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/e2b/98c4b5ca-05c0-4456-9b86-78fa4922d448"
+    },
+    {
+     "title": "Software Engineer, Infrastructure",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/e2b/b183352f-bfbb-42fa-9e8f-a03f42162b74"
+    }
+   ],
+   "delta_since_last": 2
   },
   {
    "name": "Giga",
@@ -2647,11 +2700,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQYlpZZFpnWkE5ZTZ2ZzdUZVRRRXlYN0VfRlEySDU3SjBfc3poME1uV1puN1gtSkU0QUZWcnhjczNXbXhoZkVkMVlxNG53RlZ1RjBiMEh4Mk43bVpHQk5HZDFvRVNDdS1YaXFHUTBtdVNBaFhGUS1vR0wwM0lKM1Z3UHNCQXBuN3RQNl82aGg4bmVRX1l5Yk1nVndKRXozYTFTYy1GRXpLLWdqaEtfTlFBSVZKUW1odTJLRE10OFFmczA4amdJQkNpYWV3?oc=5",
    "yc_batch": "Winter 2021",
    "yc_stage": "Growth",
-   "open_roles": 40,
+   "open_roles": 41,
    "eng_roles": 13,
-   "new_7d": 2,
-   "new_30d": 12,
-   "remote_roles": 40,
+   "new_7d": 3,
+   "new_30d": 13,
+   "remote_roles": 41,
    "sample_eng_roles": [
     {
      "title": "Backend Engineer",
@@ -2679,7 +2732,7 @@
      "url": "https://jobs.ashbyhq.com/gigs/5e2ac098-0881-4bf8-8fca-65aadf0f9ad3"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Prior Labs",
@@ -2700,10 +2753,10 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLUt3WVROLWt6b295NWx1WWZFcDhETHdza0JhSWthcnpJMnRsRGFxZHBKUmd2ZWlQZWpNcUxFaTlhWWVuSWdETGVNNGNwR0NiUUtxVlZGSmNKN3EwVmlMLTloZlNSRV9RaUU4UzJhT2cyUEFqSDQ1R19rNG9SX2VmOXJYQm84NzF5ZzRCX0R4dDJkQjl4bnBGbVI4ZjZ3bWxaTTlWd3Rtc2ZfNmllbWs4MmhHRkZvQk5TQ2c?oc=5",
-   "open_roles": 24,
+   "open_roles": 26,
    "eng_roles": 12,
-   "new_7d": 6,
-   "new_30d": 6,
+   "new_7d": 7,
+   "new_30d": 8,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -2732,7 +2785,7 @@
      "url": "https://jobs.ashbyhq.com/prior-labs/bd4fe067-0e99-4268-b5ad-d1f8e36c6976"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 2
   },
   {
    "name": "Reducto",
@@ -2758,7 +2811,7 @@
    "yc_stage": "Growth",
    "open_roles": 38,
    "eng_roles": 12,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 11,
    "remote_roles": 1,
    "sample_eng_roles": [
@@ -2811,10 +2864,15 @@
    "funding_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYUYwRFA1cXJySEsxdmg5WmlwaDNkMTJrWHJCWjNZSjdMUlNQOEVPOTlCQS13bV9QeHVlVHQyZlc1TEV6M0dnLVhOSnhZeVlNSlpHZ1UyN0xZTU5ydTlCdTk3elJPOTlKOFY0M0FYNzJwMS0yWV9GMnRRMEFKdW5aSTdKa2F0LTNPNkdnbg?oc=5",
    "open_roles": 17,
    "eng_roles": 11,
-   "new_7d": 2,
+   "new_7d": 3,
    "new_30d": 3,
    "remote_roles": 17,
    "sample_eng_roles": [
+    {
+     "title": "Principal Engineer (AI + Dev Tooling)",
+     "location": "San Francisco; Toronto; Los Angeles; Denver; Chicago; New York City; Vancouver; Seattle; Austin; Boston; Dallas",
+     "url": "https://jobs.ashbyhq.com/ScribdInc/48aae227-baa9-4b15-9369-38e23fc873b1"
+    },
     {
      "title": "Senior Software Engineer, Core Infrastructure",
      "location": "San Francisco; Ottawa; Charlotte; Phoenix; Toronto; Los Angeles; Denver; Salt Lake City; Raleigh; Chicago; Houston; Portland; New York City; Vancouver; San Diego; Sacramento; Jacksonville; Seattle; Austin; Miami; Boston; Dallas",
@@ -2826,11 +2884,6 @@
      "url": "https://jobs.ashbyhq.com/ScribdInc/be52ca1d-f715-4870-8629-ad0a41aa3c38"
     },
     {
-     "title": "Principal Engineer ( AI + Dev Tooling)",
-     "location": "San Francisco; Toronto; Los Angeles; Denver; Chicago; New York City; Vancouver; Seattle; Austin; Boston; Dallas",
-     "url": "https://jobs.ashbyhq.com/ScribdInc/48aae227-baa9-4b15-9369-38e23fc873b1"
-    },
-    {
      "title": "Staff Backend Engineer (Payments and Billing)",
      "location": "San Francisco; Toronto; Los Angeles; Denver; Chicago; New York City; Vancouver; Seattle; Austin; Boston; Dallas",
      "url": "https://jobs.ashbyhq.com/ScribdInc/469270ab-5517-400a-884d-afc85a3821b3"
@@ -2839,59 +2892,6 @@
      "title": "Tech Lead, Analytics Engineering — Payments, Identity, Trust and Safety",
      "location": "San Francisco; Toronto; Los Angeles; Denver; Chicago; New York City; Vancouver; Seattle; Austin; Boston; Dallas",
      "url": "https://jobs.ashbyhq.com/ScribdInc/eea8bfc2-f078-4f19-b659-69f4421c517d"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "E2B",
-   "website": "https://e2b.dev",
-   "ats": "ashby",
-   "slug": "e2b",
-   "board_url": "https://jobs.ashbyhq.com/e2b",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$21M",
-   "funding_date": "2025-07-28",
-   "funding_headline": "Czech startup E2B raises $21M Series A led by Insight Partners to scale AI agent infrastructure",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
-   "funding_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9oTVEwUVY3WkFHUmNYTFQtRXZKVmFWZ3VpZlVzWEc5eS1JMEh5TE1IVGxlU0RxbmJ2NGdEXzRxcV9VWlhfUmNDUHpkRUhOU1luU2RqdnkyMA?oc=5",
-   "open_roles": 14,
-   "eng_roles": 11,
-   "new_7d": 3,
-   "new_30d": 7,
-   "remote_roles": 0,
-   "sample_eng_roles": [
-    {
-     "title": "Site Reliability Engineer - Platform",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/e2b/2a86d352-77a2-4b32-9b36-7a0cef76262f"
-    },
-    {
-     "title": "Software Engineer, Systems",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/e2b/98c4b5ca-05c0-4456-9b86-78fa4922d448"
-    },
-    {
-     "title": "Software Engineer, Infrastructure",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/e2b/b183352f-bfbb-42fa-9e8f-a03f42162b74"
-    },
-    {
-     "title": "Trust & Safety Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/e2b/3cbcdcca-41e3-4791-958e-6ab02b82ab19"
-    },
-    {
-     "title": "Site Reliability Engineer - Enterprise",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/e2b/657ce888-be70-46cf-975f-ca7788694fdc"
     }
    ],
    "delta_since_last": 0
@@ -2920,8 +2920,8 @@
    "yc_stage": "Growth",
    "open_roles": 26,
    "eng_roles": 11,
-   "new_7d": 1,
-   "new_30d": 6,
+   "new_7d": 2,
+   "new_30d": 7,
    "remote_roles": 25,
    "sample_eng_roles": [
     {
@@ -2967,7 +2967,7 @@
    "open_roles": 24,
    "eng_roles": 10,
    "new_7d": 4,
-   "new_30d": 5,
+   "new_30d": 6,
    "remote_roles": 23,
    "sample_eng_roles": [
     {
@@ -3069,10 +3069,10 @@
    "team_size": 50,
    "yc_batch": "Winter 2024",
    "yc_stage": "Early",
-   "open_roles": 20,
+   "open_roles": 21,
    "eng_roles": 10,
-   "new_7d": 1,
-   "new_30d": 6,
+   "new_7d": 3,
+   "new_30d": 8,
    "remote_roles": 2,
    "sample_eng_roles": [
     {
@@ -3101,7 +3101,7 @@
      "url": "https://jobs.ashbyhq.com/retell-ai/358f4a48-14ad-4c58-b051-2b48a0159e47"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Relling",
@@ -3258,113 +3258,57 @@
    "delta_since_last": 0
   },
   {
-   "name": "Coram.ai",
-   "website": "https://www.coram.ai",
-   "ats": "ashby",
-   "slug": "coram-ai",
-   "board_url": "https://jobs.ashbyhq.com/coram-ai",
+   "name": "Pickle Robot",
+   "website": "",
+   "ats": "lever",
+   "slug": "picklerobot",
+   "board_url": "https://jobs.lever.co/picklerobot",
    "stage": "",
    "last_raise": "",
    "last_raise_date": "",
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "funding_amount": "$35M",
-   "funding_date": "2026-06-18",
-   "funding_headline": "Coram AI raises $35M Series B to scale AI security",
+   "funding_amount": "$50M",
+   "funding_date": "2024-11-20",
+   "funding_headline": "Pickle Robot closes $50 million in Series B funding",
    "funding_round": "Series B",
    "funding_round_est": false,
    "funding_round_text": "Series B",
-   "funding_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONnJ3eVp6MlQ5c1cyeVhPTm9uQmJUUE53aWlyYTlUVnV5eWppT3Q4RmNLVjB6dDl2THdVUmpfbDNKY3ZMWTZ6LWNLNWdodk9GU095NnN0MHFieVl4NDAtQTlwT2ZWb3ljamZpZlVsaUlBeEd2MEM2RUVJSU1WNEc4NmlESjR0b3ZLNWdZSGczX1h4c2xqOGNxNlNmM1RmVHZ4M1VLam1wZUtsejliOFVNdl9naFR2aGQ1cjJvOUlic0ZFX2tQVVpmTDZYSGlGMjhiVzNqc3l2aWY5WVRjcV9J?oc=5",
-   "open_roles": 44,
+   "funding_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZ1ZiUDNzMHA0d0sxamhIOE9hdFNRZlhSb3FoMnVhOVhYUUNGUzZmMFF4YjI0cUF6YTZYR1VRQUZiNjNPMzcwTmV1WXNteDVLcGdvRzhaMnJzX0o3eFJBQTVWT0M0RE5oT2d5UXg0ZzUzTHhKOU5ocUJWX0R2UGc?oc=5",
+   "open_roles": 13,
    "eng_roles": 9,
-   "new_7d": 1,
-   "new_30d": 11,
-   "remote_roles": 7,
+   "new_7d": 2,
+   "new_30d": 4,
+   "remote_roles": 0,
    "sample_eng_roles": [
     {
-     "title": "GTM Engineer",
-     "location": "Sunnyvale",
-     "url": "https://jobs.ashbyhq.com/coram-ai/1f10faa4-cae1-4953-b7e0-531a6acb0ec1"
+     "title": "Senior Software Quality Assurance Engineer",
+     "location": "Charlestown, MA",
+     "url": "https://jobs.lever.co/picklerobot/eed4ba70-2055-43f9-a57d-3fb5f6a2a897"
     },
     {
-     "title": "Member of Technical Staff, Frontend",
-     "location": "Sunnyvale",
-     "url": "https://jobs.ashbyhq.com/coram-ai/41c69d19-c28b-4d3c-9814-90e60616171c"
+     "title": "Deployment Engineer",
+     "location": "Greenville, SC",
+     "url": "https://jobs.lever.co/picklerobot/98a51dd5-de89-459b-946c-cc02cd8d5755"
     },
     {
-     "title": "Member of Technical Staff, Full Stack",
-     "location": "Sunnyvale",
-     "url": "https://jobs.ashbyhq.com/coram-ai/a6ceee18-33ae-40e6-9a1f-2f178c7199c5"
+     "title": "Manufacturing Test Engineer",
+     "location": "Charlestown, MA",
+     "url": "https://jobs.lever.co/picklerobot/ce714e73-4cce-42df-9f1d-137e3d52cf45"
     },
     {
-     "title": "Hardware Engineering Manager",
-     "location": "Sunnyvale",
-     "url": "https://jobs.ashbyhq.com/coram-ai/226c8dcc-9308-449d-b1d9-8cbc6cf7251b"
+     "title": "Junior Systems Engineer",
+     "location": "Charlestown, MA",
+     "url": "https://jobs.lever.co/picklerobot/7ba1e281-6f42-4c05-a898-01529866eebc"
     },
     {
-     "title": "Member of Technical Staff, Frontend",
-     "location": "Bangalore",
-     "url": "https://jobs.ashbyhq.com/coram-ai/042f309a-4896-4f5c-8db3-57e03f69dd00"
+     "title": "Senior Machine Learning Engineer - Perception",
+     "location": "Charlestown, MA",
+     "url": "https://jobs.lever.co/picklerobot/403803e1-68a0-4225-b657-a46e72b64d73"
     }
    ],
-   "delta_since_last": -1
-  },
-  {
-   "name": "Mashgin",
-   "website": "http://mashgin.com",
-   "ats": "lever",
-   "slug": "mashgin",
-   "board_url": "https://jobs.lever.co/mashgin",
-   "stage": "YC Winter 2015",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Retail",
-   "hq": "San Francisco, CA, USA",
-   "notes": "via yc",
-   "funding_amount": "$62.5M",
-   "funding_date": "2022-05-10",
-   "funding_headline": "Self-checkout tech maker Mashgin raises $62.5M",
-   "funding_round": "Series B",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "team_size": 150,
-   "funding_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRVFlMFZ3NkEzeGlSRUEtRmpaVUItT2lkZkUwWkFJRUNHd3pEQlhmUlNHY3BUS1NpS2E1d3o2ZEg0ZUJkdldXRFdNVGttcXpZSjJyeEQ4RzBFVDQzZkdJU3NoWVdnZWp4dWlNSENPaGlhSFpvYUN3SXBxYkVweS1lOVEzOVkydUxVN0ZCM1pn?oc=5",
-   "yc_batch": "Winter 2015",
-   "yc_stage": "Growth",
-   "open_roles": 11,
-   "eng_roles": 9,
-   "new_7d": 1,
-   "new_30d": 3,
-   "remote_roles": 4,
-   "sample_eng_roles": [
-    {
-     "title": "Sales Engineer",
-     "location": "Remote",
-     "url": "https://jobs.lever.co/mashgin/64f8eaa2-a5a3-4511-a8a2-1e26b39b69ed"
-    },
-    {
-     "title": "Hardware Validation Engineer",
-     "location": "San Jose, CA",
-     "url": "https://jobs.lever.co/mashgin/d168a51c-a8ec-476b-8a26-225a1cb48557"
-    },
-    {
-     "title": "Electrical Engineer",
-     "location": "San Jose, CA",
-     "url": "https://jobs.lever.co/mashgin/d0b3ec35-268b-46e2-81d6-e5e6b45a8d20"
-    },
-    {
-     "title": "Software Engineering Manager",
-     "location": "Palo Alto, CA",
-     "url": "https://jobs.lever.co/mashgin/b4296191-22e9-4a1f-a479-82dca6bf49b7"
-    },
-    {
-     "title": "Software Engineer, Full-Stack",
-     "location": "Belo Horizonte",
-     "url": "https://jobs.lever.co/mashgin/61092a1a-3e1b-4b70-8384-7abf807774e8"
-    }
-   ],
-   "delta_since_last": 0
+   "delta_since_last": 2
   },
   {
    "name": "Skyways",
@@ -3545,7 +3489,7 @@
    "open_roles": 26,
    "eng_roles": 8,
    "new_7d": 1,
-   "new_30d": 3,
+   "new_30d": 2,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -3650,7 +3594,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE03WUJfOWx4bXdoYWtvVHA0V3BnY3VjTUZGXzV4Z2p1SVlwZk1rcGRvNmhEczFsUWFrZzJyUnRmd1RPd01FUEZHem5QVUZBQ0JVNlBxMFFHa2llcUpzLW42ZV8xMU5sTHN6RG0tN1dCRVJ3QnlOSFlMVQ?oc=5",
    "open_roles": 14,
    "eng_roles": 8,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 4,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -3775,6 +3719,59 @@
    "delta_since_last": 0
   },
   {
+   "name": "Coram.ai",
+   "website": "https://www.coram.ai",
+   "ats": "ashby",
+   "slug": "coram-ai",
+   "board_url": "https://jobs.ashbyhq.com/coram-ai",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$35M",
+   "funding_date": "2026-06-18",
+   "funding_headline": "Coram AI raises $35M Series B to scale AI security",
+   "funding_round": "Series B",
+   "funding_round_est": false,
+   "funding_round_text": "Series B",
+   "funding_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONnJ3eVp6MlQ5c1cyeVhPTm9uQmJUUE53aWlyYTlUVnV5eWppT3Q4RmNLVjB6dDl2THdVUmpfbDNKY3ZMWTZ6LWNLNWdodk9GU095NnN0MHFieVl4NDAtQTlwT2ZWb3ljamZpZlVsaUlBeEd2MEM2RUVJSU1WNEc4NmlESjR0b3ZLNWdZSGczX1h4c2xqOGNxNlNmM1RmVHZ4M1VLam1wZUtsejliOFVNdl9naFR2aGQ1cjJvOUlic0ZFX2tQVVpmTDZYSGlGMjhiVzNqc3l2aWY5WVRjcV9J?oc=5",
+   "open_roles": 43,
+   "eng_roles": 8,
+   "new_7d": 1,
+   "new_30d": 11,
+   "remote_roles": 7,
+   "sample_eng_roles": [
+    {
+     "title": "GTM Engineer",
+     "location": "Sunnyvale",
+     "url": "https://jobs.ashbyhq.com/coram-ai/1f10faa4-cae1-4953-b7e0-531a6acb0ec1"
+    },
+    {
+     "title": "Member of Technical Staff, Frontend",
+     "location": "Sunnyvale",
+     "url": "https://jobs.ashbyhq.com/coram-ai/41c69d19-c28b-4d3c-9814-90e60616171c"
+    },
+    {
+     "title": "Member of Technical Staff, Full Stack",
+     "location": "Sunnyvale",
+     "url": "https://jobs.ashbyhq.com/coram-ai/a6ceee18-33ae-40e6-9a1f-2f178c7199c5"
+    },
+    {
+     "title": "Hardware Engineering Manager",
+     "location": "Sunnyvale",
+     "url": "https://jobs.ashbyhq.com/coram-ai/226c8dcc-9308-449d-b1d9-8cbc6cf7251b"
+    },
+    {
+     "title": "Member of Technical Staff, Frontend",
+     "location": "Bangalore",
+     "url": "https://jobs.ashbyhq.com/coram-ai/042f309a-4896-4f5c-8db3-57e03f69dd00"
+    }
+   ],
+   "delta_since_last": -1
+  },
+  {
    "name": "Prompt Health",
    "website": "https://www.prompthealth.com",
    "ats": "ashby",
@@ -3786,11 +3783,11 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "open_roles": 37,
+   "open_roles": 36,
    "eng_roles": 8,
    "new_7d": 1,
    "new_30d": 1,
-   "remote_roles": 31,
+   "remote_roles": 30,
    "sample_eng_roles": [
     {
      "title": "Staff Software Engineer",
@@ -3818,7 +3815,7 @@
      "url": "https://jobs.ashbyhq.com/Prompt/aec1e1c9-bb89-4019-bea6-f56e363f1d13"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Tavus",
@@ -3902,7 +3899,7 @@
    "eng_roles": 8,
    "new_7d": 1,
    "new_30d": 1,
-   "remote_roles": 7,
+   "remote_roles": 6,
    "sample_eng_roles": [
     {
      "title": "Senior Data Engineer",
@@ -4092,59 +4089,6 @@
      "url": "https://jobs.ashbyhq.com/XDOF/1e7de4e3-094f-4267-876d-2ccb8b2246eb"
     }
    ],
-   "delta_since_last": 1
-  },
-  {
-   "name": "Pickle Robot",
-   "website": "",
-   "ats": "lever",
-   "slug": "picklerobot",
-   "board_url": "https://jobs.lever.co/picklerobot",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$50M",
-   "funding_date": "2024-11-20",
-   "funding_headline": "Pickle Robot closes $50 million in Series B funding",
-   "funding_round": "Series B",
-   "funding_round_est": false,
-   "funding_round_text": "Series B",
-   "funding_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pZ1ZiUDNzMHA0d0sxamhIOE9hdFNRZlhSb3FoMnVhOVhYUUNGUzZmMFF4YjI0cUF6YTZYR1VRQUZiNjNPMzcwTmV1WXNteDVLcGdvRzhaMnJzX0o3eFJBQTVWT0M0RE5oT2d5UXg0ZzUzTHhKOU5ocUJWX0R2UGc?oc=5",
-   "open_roles": 11,
-   "eng_roles": 7,
-   "new_7d": 1,
-   "new_30d": 3,
-   "remote_roles": 0,
-   "sample_eng_roles": [
-    {
-     "title": "Deployment Engineer",
-     "location": "Greenville, SC",
-     "url": "https://jobs.lever.co/picklerobot/98a51dd5-de89-459b-946c-cc02cd8d5755"
-    },
-    {
-     "title": "Manufacturing Test Engineer",
-     "location": "Charlestown, MA",
-     "url": "https://jobs.lever.co/picklerobot/ce714e73-4cce-42df-9f1d-137e3d52cf45"
-    },
-    {
-     "title": "Senior Machine Learning Engineer - Perception",
-     "location": "Charlestown, MA",
-     "url": "https://jobs.lever.co/picklerobot/403803e1-68a0-4225-b657-a46e72b64d73"
-    },
-    {
-     "title": "Software Engineer – Task & Motion Planning",
-     "location": "Charlestown, MA",
-     "url": "https://jobs.lever.co/picklerobot/44a2d3e8-54d3-4a41-9085-0e7a2cbefc7d"
-    },
-    {
-     "title": "Senior Perception Software Engineer",
-     "location": "Charlestown, MA",
-     "url": "https://jobs.lever.co/picklerobot/c2f45fac-9720-4045-b242-a556544a1734"
-    }
-   ],
    "delta_since_last": 0
   },
   {
@@ -4197,6 +4141,111 @@
    "delta_since_last": 0
   },
   {
+   "name": "Mashgin",
+   "website": "http://mashgin.com",
+   "ats": "lever",
+   "slug": "mashgin",
+   "board_url": "https://jobs.lever.co/mashgin",
+   "stage": "YC Winter 2015",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Retail",
+   "hq": "San Francisco, CA, USA",
+   "notes": "via yc",
+   "funding_amount": "$62.5M",
+   "funding_date": "2022-05-10",
+   "funding_headline": "Self-checkout tech maker Mashgin raises $62.5M",
+   "funding_round": "Series B",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "team_size": 150,
+   "funding_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRVFlMFZ3NkEzeGlSRUEtRmpaVUItT2lkZkUwWkFJRUNHd3pEQlhmUlNHY3BUS1NpS2E1d3o2ZEg0ZUJkdldXRFdNVGttcXpZSjJyeEQ4RzBFVDQzZkdJU3NoWVdnZWp4dWlNSENPaGlhSFpvYUN3SXBxYkVweS1lOVEzOVkydUxVN0ZCM1pn?oc=5",
+   "yc_batch": "Winter 2015",
+   "yc_stage": "Growth",
+   "open_roles": 9,
+   "eng_roles": 7,
+   "new_7d": 1,
+   "new_30d": 3,
+   "remote_roles": 2,
+   "sample_eng_roles": [
+    {
+     "title": "Sales Engineer",
+     "location": "Remote",
+     "url": "https://jobs.lever.co/mashgin/64f8eaa2-a5a3-4511-a8a2-1e26b39b69ed"
+    },
+    {
+     "title": "Hardware Validation Engineer",
+     "location": "San Jose, CA",
+     "url": "https://jobs.lever.co/mashgin/d168a51c-a8ec-476b-8a26-225a1cb48557"
+    },
+    {
+     "title": "Electrical Engineer",
+     "location": "San Jose, CA",
+     "url": "https://jobs.lever.co/mashgin/d0b3ec35-268b-46e2-81d6-e5e6b45a8d20"
+    },
+    {
+     "title": "Software Engineering Manager",
+     "location": "Palo Alto, CA",
+     "url": "https://jobs.lever.co/mashgin/b4296191-22e9-4a1f-a479-82dca6bf49b7"
+    },
+    {
+     "title": "Software Engineer, Infrastructure",
+     "location": "Palo Alto, CA",
+     "url": "https://jobs.lever.co/mashgin/a2cd54bf-7a30-4ecb-ba62-755094100b27"
+    }
+   ],
+   "delta_since_last": -2
+  },
+  {
+   "name": "Speak",
+   "website": "http://speak.com",
+   "ats": "ashby",
+   "slug": "speak",
+   "board_url": "https://jobs.ashbyhq.com/speak",
+   "stage": "YC Winter 2017",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Social",
+   "hq": "San Francisco, CA, USA",
+   "notes": "via yc",
+   "team_size": 40,
+   "yc_batch": "Winter 2017",
+   "yc_stage": "Growth",
+   "open_roles": 30,
+   "eng_roles": 7,
+   "new_7d": 1,
+   "new_30d": 7,
+   "remote_roles": 23,
+   "sample_eng_roles": [
+    {
+     "title": "Infra & Platform Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/speak/c53b34f1-01d8-4cff-ae74-73c4d6706d6a"
+    },
+    {
+     "title": "Engineering Manager, Enterprise",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/speak/1a2d9a7f-6b28-4ca8-b4a2-47f2cdf52770"
+    },
+    {
+     "title": "Backend Engineer, Payments",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/speak/607e0571-9459-487c-8c9d-03248993aae8"
+    },
+    {
+     "title": "Full-Stack Engineer - Enterprise",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/speak/8428825b-a10f-47e2-acc6-5e24d11d6137"
+    },
+    {
+     "title": "Full-stack Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/speak/de6ed95d-d237-4747-8e96-0aa790ec856d"
+    }
+   ],
+   "delta_since_last": 1
+  },
+  {
    "name": "AssemblyAI",
    "website": "https://www.assemblyai.com",
    "ats": "greenhouse",
@@ -4221,7 +4270,7 @@
    "open_roles": 16,
    "eng_roles": 7,
    "new_7d": 1,
-   "new_30d": 9,
+   "new_30d": 6,
    "remote_roles": 1,
    "sample_eng_roles": [
     {
@@ -4250,7 +4299,7 @@
      "url": "https://job-boards.greenhouse.io/assemblyai/jobs/4747340005"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Spellbrush",
@@ -4325,7 +4374,7 @@
    "yc_stage": "Early",
    "open_roles": 15,
    "eng_roles": 7,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 7,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -4407,6 +4456,55 @@
    "delta_since_last": 0
   },
   {
+   "name": "9 Mothers",
+   "website": "https://9mothers.com",
+   "ats": "ashby",
+   "slug": "9-mothers",
+   "board_url": "https://jobs.ashbyhq.com/9-mothers",
+   "stage": "YC Spring 2026",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Defense",
+   "hq": "Austin, TX, USA",
+   "notes": "via yc",
+   "team_size": 35,
+   "yc_batch": "Spring 2026",
+   "yc_stage": "Early",
+   "open_roles": 10,
+   "eng_roles": 7,
+   "new_7d": 2,
+   "new_30d": 6,
+   "remote_roles": 0,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Mechanical Design Engineer, Mechanisms",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/9-mothers/d251bed3-f0eb-4b6f-982c-16a34953219a"
+    },
+    {
+     "title": "Sr. Electrical Harness Engineer",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/9-mothers/08f4ee14-b1fd-4a9f-9122-96f153e08619"
+    },
+    {
+     "title": "Sr. Mechatronics Engineer - Actuation & Drivetrain",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/9-mothers/1ea85050-cd71-422e-9ac5-f7d6adf0e4da"
+    },
+    {
+     "title": "Radar Engineer",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/9-mothers/62f36693-31b6-44ef-a0d1-5d7850bffe1f"
+    },
+    {
+     "title": "Senior Optomechanical Engineer",
+     "location": "Austin",
+     "url": "https://jobs.ashbyhq.com/9-mothers/a45cb4ab-9bfa-4533-95b9-14c1c312a21f"
+    }
+   ],
+   "delta_since_last": null
+  },
+  {
    "name": "Bland AI",
    "website": "https://bland.ai",
    "ats": "ashby",
@@ -4483,19 +4581,19 @@
    "yc_stage": "Early",
    "open_roles": 20,
    "eng_roles": 6,
-   "new_7d": 4,
-   "new_30d": 5,
+   "new_7d": 5,
+   "new_30d": 6,
    "remote_roles": 0,
    "sample_eng_roles": [
+    {
+     "title": "Perception Engineer",
+     "location": "San Francisco",
+     "url": "https://jobs.ashbyhq.com/mach9/622a014b-ff77-45bd-9caa-61a6506884ed"
+    },
     {
      "title": "Software Engineer - 3D Graphics",
      "location": "San Francisco",
      "url": "https://jobs.ashbyhq.com/mach9/b5aaabd0-d286-440c-8e95-c650fceb0fa8"
-    },
-    {
-     "title": "ML Engineer, Product",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/mach9/622a014b-ff77-45bd-9caa-61a6506884ed"
     },
     {
      "title": "Software Engineer - Test Automation (SDET)",
@@ -4516,108 +4614,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "Cosuno",
-   "website": "https://www.cosuno.com",
-   "ats": "ashby",
-   "slug": "cosuno",
-   "board_url": "https://jobs.ashbyhq.com/cosuno",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$30M",
-   "funding_date": "2022-02-09",
-   "funding_headline": "German construction tech startup Cosuno raises $30M Series B by Avenir Growth",
-   "funding_round": "Series B",
-   "funding_round_est": false,
-   "funding_round_text": "Series B",
-   "funding_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM21YNXFrdEtlYjRoOTh4XzVvTUhnMG5NWUJXTkhHSXNZSVgyUDgzUEVhRHFwaDh2OE5XbnllTFM1ZzhBM0cyeUJRT2djMkFYVWJ3RTd4bjdqMWRpaHNIZDNMZEpkUlFuelpMbGZ5eEtjdzZHVVBrdVBwQVR6U0J4VGJTSnhmNDkxUGtudzVvaVlLVFRkbHdBOFBfRUtyaHhSZzVwSng1UTBETjBkazln?oc=5",
-   "open_roles": 27,
-   "eng_roles": 6,
-   "new_7d": 2,
-   "new_30d": 15,
-   "remote_roles": 26,
-   "sample_eng_roles": [
-    {
-     "title": "GTM & Growth Engineer",
-     "location": "Berlin/Remote",
-     "url": "https://jobs.ashbyhq.com/cosuno/1949d828-fe66-4529-a7c7-c2350a5f23e0"
-    },
-    {
-     "title": "Senior Product Engineer",
-     "location": "Berlin/Remote",
-     "url": "https://jobs.ashbyhq.com/cosuno/6a09d242-a6c3-431c-8cc1-27f6a7f15651"
-    },
-    {
-     "title": "Senior Product Engineer (AI Agents)",
-     "location": "Berlin/Remote",
-     "url": "https://jobs.ashbyhq.com/cosuno/dd93b733-ed03-4d72-ba19-ed36afcbba75"
-    },
-    {
-     "title": "Engineering Manager",
-     "location": "Berlin/Remote",
-     "url": "https://jobs.ashbyhq.com/cosuno/71d83d81-0401-4e6b-b7ee-72f5af7434b2"
-    },
-    {
-     "title": "AI Automation Engineer",
-     "location": "Berlin/Remote",
-     "url": "https://jobs.ashbyhq.com/cosuno/564a3a0b-4748-493c-84ba-d8625913bf85"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Speak",
-   "website": "http://speak.com",
-   "ats": "ashby",
-   "slug": "speak",
-   "board_url": "https://jobs.ashbyhq.com/speak",
-   "stage": "YC Winter 2017",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Social",
-   "hq": "San Francisco, CA, USA",
-   "notes": "via yc",
-   "team_size": 40,
-   "yc_batch": "Winter 2017",
-   "yc_stage": "Growth",
-   "open_roles": 29,
-   "eng_roles": 6,
-   "new_7d": 1,
-   "new_30d": 6,
-   "remote_roles": 22,
-   "sample_eng_roles": [
-    {
-     "title": "Engineering Manager, Enterprise",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/speak/1a2d9a7f-6b28-4ca8-b4a2-47f2cdf52770"
-    },
-    {
-     "title": "Backend Engineer, Payments",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/speak/607e0571-9459-487c-8c9d-03248993aae8"
-    },
-    {
-     "title": "Full-Stack Engineer - Enterprise",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/speak/8428825b-a10f-47e2-acc6-5e24d11d6137"
-    },
-    {
-     "title": "Full-stack Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/speak/de6ed95d-d237-4747-8e96-0aa790ec856d"
-    },
-    {
-     "title": "Backend Engineer",
-     "location": "San Francisco",
-     "url": "https://jobs.ashbyhq.com/speak/29bdc4b4-de67-4463-a288-dd78db99bda4"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "Sieve",
    "website": "https://sievedata.com/",
    "ats": "ashby",
@@ -4632,11 +4628,11 @@
    "team_size": 34,
    "yc_batch": "Winter 2022",
    "yc_stage": "Growth",
-   "open_roles": 17,
+   "open_roles": 18,
    "eng_roles": 6,
-   "new_7d": 1,
-   "new_30d": 9,
-   "remote_roles": 1,
+   "new_7d": 2,
+   "new_30d": 10,
+   "remote_roles": 2,
    "sample_eng_roles": [
     {
      "title": "Deployment Engineer",
@@ -4664,7 +4660,7 @@
      "url": "https://jobs.ashbyhq.com/sieve/f35923e9-5770-4123-a6a9-c0ba5af66657"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Sphere",
@@ -4746,8 +4742,8 @@
    "yc_stage": "Growth",
    "open_roles": 14,
    "eng_roles": 6,
-   "new_7d": 3,
-   "new_30d": 4,
+   "new_7d": 2,
+   "new_30d": 3,
    "remote_roles": 11,
    "sample_eng_roles": [
     {
@@ -4804,7 +4800,7 @@
    "eng_roles": 6,
    "new_7d": 1,
    "new_30d": 4,
-   "remote_roles": 3,
+   "remote_roles": 5,
    "sample_eng_roles": [
     {
      "title": "Forward Deployed Engineer",
@@ -4891,62 +4887,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "FirstWork",
-   "website": "https://firstwork.com",
-   "ats": "ashby",
-   "slug": "firstwork",
-   "board_url": "https://jobs.ashbyhq.com/firstwork",
-   "stage": "YC Summer 2024",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Human Resources",
-   "hq": "San Francisco, CA, USA",
-   "notes": "via yc",
-   "funding_amount": "$15M",
-   "funding_date": "2026-10-24",
-   "funding_headline": "Firstwork Raises $15 Mn In Series A Round Led By Earlybird Venture Capital",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
-   "team_size": 9,
-   "funding_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWFMNEF4anZwT2lPX2kwMUhaRzhHN2Z4eS1POVRPODlJLWt5dVVHZEtLSjYyQWI1SFFoUmZPa0FzQnQ2empRdDRxcE1FYjdqbzBwLXU5Q21NX21aSDZlN2t2Wi0tMTRnX1h5M2V1akhwUWpSZW04aTYtek8wbFRXS280UXlzVEd4blhoVzZyTmlLdUpaOEJLaDMxMkQtZ3dWRTFZVlhqY0U2YkxBcVZKdXAyZ2c?oc=5",
-   "yc_batch": "Summer 2024",
-   "yc_stage": "Growth",
-   "open_roles": 19,
-   "eng_roles": 6,
-   "new_7d": 8,
-   "new_30d": 9,
-   "remote_roles": 18,
-   "sample_eng_roles": [
-    {
-     "title": "Senior Platform / Infrastructure Engineer",
-     "location": "India",
-     "url": "https://jobs.ashbyhq.com/firstwork/f0950a82-19ff-42e8-8a4c-b33084bd5624"
-    },
-    {
-     "title": "Staff Software Engineer (Remote)",
-     "location": "India",
-     "url": "https://jobs.ashbyhq.com/firstwork/a5db7926-81fb-4f70-bc51-751ad33e9f06"
-    },
-    {
-     "title": "Software Engineer (Remote)",
-     "location": "India",
-     "url": "https://jobs.ashbyhq.com/firstwork/75ed42df-9999-4cf1-a610-45133fe4df0e"
-    },
-    {
-     "title": "Senior Software Engineer (Remote)",
-     "location": "India",
-     "url": "https://jobs.ashbyhq.com/firstwork/2cc5364a-11d6-4dae-8c95-80aa16a330ef"
-    },
-    {
-     "title": "Forward Deployed Engineer",
-     "location": "India",
-     "url": "https://jobs.ashbyhq.com/firstwork/5360347f-4e6b-4dfe-8332-f9a4c8a691eb"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "Lapel",
    "website": "https://lapel.com/",
    "ats": "ashby",
@@ -5010,10 +4950,10 @@
    "team_size": 10,
    "yc_batch": "Summer 2025",
    "yc_stage": "Early",
-   "open_roles": 18,
+   "open_roles": 19,
    "eng_roles": 6,
    "new_7d": 2,
-   "new_30d": 11,
+   "new_30d": 12,
    "remote_roles": 18,
    "sample_eng_roles": [
     {
@@ -5042,7 +4982,7 @@
      "url": "https://jobs.ashbyhq.com/reacher/e4d436eb-dd77-44d0-9586-44d48ad84aea"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Auctor",
@@ -5244,6 +5184,59 @@
     }
    ],
    "delta_since_last": 0
+  },
+  {
+   "name": "Cosuno",
+   "website": "https://www.cosuno.com",
+   "ats": "ashby",
+   "slug": "cosuno",
+   "board_url": "https://jobs.ashbyhq.com/cosuno",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$30M",
+   "funding_date": "2022-02-09",
+   "funding_headline": "German construction tech startup Cosuno raises $30M Series B by Avenir Growth",
+   "funding_round": "Series B",
+   "funding_round_est": false,
+   "funding_round_text": "Series B",
+   "funding_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM21YNXFrdEtlYjRoOTh4XzVvTUhnMG5NWUJXTkhHSXNZSVgyUDgzUEVhRHFwaDh2OE5XbnllTFM1ZzhBM0cyeUJRT2djMkFYVWJ3RTd4bjdqMWRpaHNIZDNMZEpkUlFuelpMbGZ5eEtjdzZHVVBrdVBwQVR6U0J4VGJTSnhmNDkxUGtudzVvaVlLVFRkbHdBOFBfRUtyaHhSZzVwSng1UTBETjBkazln?oc=5",
+   "open_roles": 25,
+   "eng_roles": 5,
+   "new_7d": 2,
+   "new_30d": 13,
+   "remote_roles": 24,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Product Engineer",
+     "location": "Berlin/Remote",
+     "url": "https://jobs.ashbyhq.com/cosuno/6a09d242-a6c3-431c-8cc1-27f6a7f15651"
+    },
+    {
+     "title": "Senior Product Engineer (AI Agents)",
+     "location": "Berlin/Remote",
+     "url": "https://jobs.ashbyhq.com/cosuno/dd93b733-ed03-4d72-ba19-ed36afcbba75"
+    },
+    {
+     "title": "Engineering Manager",
+     "location": "Berlin/Remote",
+     "url": "https://jobs.ashbyhq.com/cosuno/71d83d81-0401-4e6b-b7ee-72f5af7434b2"
+    },
+    {
+     "title": "AI Automation Engineer",
+     "location": "Berlin/Remote",
+     "url": "https://jobs.ashbyhq.com/cosuno/564a3a0b-4748-493c-84ba-d8625913bf85"
+    },
+    {
+     "title": "Principal ML Engineer",
+     "location": "Berlin/Remote",
+     "url": "https://jobs.ashbyhq.com/cosuno/97016567-a187-4505-80e8-df6a5fee7da2"
+    }
+   ],
+   "delta_since_last": -2
   },
   {
    "name": "Meticulous AI",
@@ -5737,7 +5730,7 @@
    "open_roles": 7,
    "eng_roles": 5,
    "new_7d": 0,
-   "new_30d": 1,
+   "new_30d": 0,
    "remote_roles": 2,
    "sample_eng_roles": [
     {
@@ -5823,6 +5816,62 @@
     }
    ],
    "delta_since_last": 0
+  },
+  {
+   "name": "FirstWork",
+   "website": "https://firstwork.com",
+   "ats": "ashby",
+   "slug": "firstwork",
+   "board_url": "https://jobs.ashbyhq.com/firstwork",
+   "stage": "YC Summer 2024",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Human Resources",
+   "hq": "San Francisco, CA, USA",
+   "notes": "via yc",
+   "funding_amount": "$15M",
+   "funding_date": "2026-10-24",
+   "funding_headline": "Firstwork Raises $15 Mn In Series A Round Led By Earlybird Venture Capital",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "team_size": 9,
+   "funding_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRWFMNEF4anZwT2lPX2kwMUhaRzhHN2Z4eS1POVRPODlJLWt5dVVHZEtLSjYyQWI1SFFoUmZPa0FzQnQ2empRdDRxcE1FYjdqbzBwLXU5Q21NX21aSDZlN2t2Wi0tMTRnX1h5M2V1akhwUWpSZW04aTYtek8wbFRXS280UXlzVEd4blhoVzZyTmlLdUpaOEJLaDMxMkQtZ3dWRTFZVlhqY0U2YkxBcVZKdXAyZ2c?oc=5",
+   "yc_batch": "Summer 2024",
+   "yc_stage": "Growth",
+   "open_roles": 18,
+   "eng_roles": 5,
+   "new_7d": 3,
+   "new_30d": 8,
+   "remote_roles": 17,
+   "sample_eng_roles": [
+    {
+     "title": "Senior Platform / Infrastructure Engineer",
+     "location": "India",
+     "url": "https://jobs.ashbyhq.com/firstwork/f0950a82-19ff-42e8-8a4c-b33084bd5624"
+    },
+    {
+     "title": "Staff Software Engineer (Remote)",
+     "location": "India",
+     "url": "https://jobs.ashbyhq.com/firstwork/a5db7926-81fb-4f70-bc51-751ad33e9f06"
+    },
+    {
+     "title": "Senior Software Engineer (Remote)",
+     "location": "India",
+     "url": "https://jobs.ashbyhq.com/firstwork/2cc5364a-11d6-4dae-8c95-80aa16a330ef"
+    },
+    {
+     "title": "Forward Deployed Engineer",
+     "location": "India",
+     "url": "https://jobs.ashbyhq.com/firstwork/5360347f-4e6b-4dfe-8332-f9a4c8a691eb"
+    },
+    {
+     "title": "Head of Research & Editorial",
+     "location": "London",
+     "url": "https://jobs.ashbyhq.com/firstwork/ad796d5f-45c2-4a00-af64-d766f78212cb"
+    }
+   ],
+   "delta_since_last": -1
   },
   {
    "name": "SalesPatriot",
@@ -6108,6 +6157,57 @@
    "delta_since_last": 0
   },
   {
+   "name": "Prosper AI",
+   "website": "https://getprosper.ai",
+   "ats": "ashby",
+   "slug": "prosper-ai",
+   "board_url": "https://jobs.ashbyhq.com/prosper-ai",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$30M",
+   "funding_date": "2026-06-24",
+   "funding_headline": "Prosper AI Raises $30 Mn in Series A to Expand Healthcare AI Operations Platform",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "team_size": 60,
+   "funding_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNF9oRjlrSlhZSnpuRmhmY3N1UW1sSlFUekpoamthbGFNTzdyRE9NUDVOYVlsNVNZSUhJVHB3ZnRuZVdNejVtZW8xTm94MWhIR3Y5Zk9lZDRnaFFaQ2E0ODNaazJuZWFhQ19mZjBfRlFJOVB5Vkp0NkJYRVYyOUZoZEJkdDRDWjVPWWFlYmZRM3RqODlWODFfNVBTVXlzdDlQWU4tTW1oOVgxcEUwR3lwOFpnNA?oc=5",
+   "yc_batch": "Summer 2023",
+   "yc_stage": "Early",
+   "open_roles": 16,
+   "eng_roles": 4,
+   "new_7d": 4,
+   "new_30d": 6,
+   "remote_roles": 6,
+   "sample_eng_roles": [
+    {
+     "title": "Product Engineer",
+     "location": "Barcelona",
+     "url": "https://jobs.ashbyhq.com/prosper-ai/90a2b16b-dfb2-45aa-aa89-93e37a43aded"
+    },
+    {
+     "title": "AI Engineer",
+     "location": "Barcelona",
+     "url": "https://jobs.ashbyhq.com/prosper-ai/fc1781c3-3fee-47f6-bf76-c5e2a6357eaf"
+    },
+    {
+     "title": "Senior AI Engineer",
+     "location": "Barcelona",
+     "url": "https://jobs.ashbyhq.com/prosper-ai/29fbeb7b-5673-498f-8333-02a7e0ce61d1"
+    },
+    {
+     "title": "Senior Product Engineer",
+     "location": "Barcelona",
+     "url": "https://jobs.ashbyhq.com/prosper-ai/8ff0ac1c-7975-4712-9d9f-4dd455be7a63"
+    }
+   ],
+   "delta_since_last": 2
+  },
+  {
    "name": "Fanvue",
    "website": "",
    "ats": "ashby",
@@ -6221,10 +6321,10 @@
    "team_size": 128,
    "yc_batch": "Summer 2018",
    "yc_stage": "Growth",
-   "open_roles": 20,
+   "open_roles": 21,
    "eng_roles": 4,
-   "new_7d": 1,
-   "new_30d": 3,
+   "new_7d": 2,
+   "new_30d": 4,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -6246,6 +6346,57 @@
      "title": "AI Backend Engineer",
      "location": "San Francisco (HQ); New York",
      "url": "https://jobs.ashbyhq.com/within.ai/99de9d9b-d0c6-42a6-9e4d-2df097dae008"
+    }
+   ],
+   "delta_since_last": 1
+  },
+  {
+   "name": "Ello",
+   "website": "https://www.ello.com",
+   "ats": "ashby",
+   "slug": "ello",
+   "board_url": "https://jobs.ashbyhq.com/ello",
+   "stage": "YC Winter 2020",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "Education",
+   "hq": "San Francisco, CA, USA",
+   "notes": "via yc",
+   "funding_amount": "$15M",
+   "funding_date": "2023-09-07",
+   "funding_headline": "AI reading coach startup Ello raises $15M to bolster child literacy",
+   "funding_round": "Series A",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "team_size": 45,
+   "funding_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYUlYZkxwa19MUE1ZcWxBR0psT3FKU3ozVVJ1TWo5N2I5SXpsSDU0eWRaYTNfSVp5TGFkWUxuZ2dCSXBTUXdMMml0UGZWWUZrbGozb2IxZk0zNEQxNmdLRmxWN0FJRkhsOUlmT0ZNaG5VUjlXcXNBYzdZdVVwV0tOQzRBV3VzWEI1X3QzcGRCczZ4eUJGVXhOMk5HYXEydkxmY0tJUjNMNWRkWVZY?oc=5",
+   "yc_batch": "Winter 2020",
+   "yc_stage": "Early",
+   "open_roles": 6,
+   "eng_roles": 4,
+   "new_7d": 2,
+   "new_30d": 3,
+   "remote_roles": 0,
+   "sample_eng_roles": [
+    {
+     "title": "Director, Growth Engineering",
+     "location": "San Francisco, CA",
+     "url": "https://jobs.ashbyhq.com/ello/76e5890c-f7b8-4814-986c-379945870641"
+    },
+    {
+     "title": "Product Engineer (Learning)",
+     "location": "San Francisco, CA",
+     "url": "https://jobs.ashbyhq.com/ello/784b20d0-8689-4b61-9267-9254846d3961"
+    },
+    {
+     "title": "Product Engineer (Growth)",
+     "location": "San Francisco, CA",
+     "url": "https://jobs.ashbyhq.com/ello/60464edf-a471-47f7-9465-d2433037154d"
+    },
+    {
+     "title": "AI/ML Engineer",
+     "location": "San Francisco, CA",
+     "url": "https://jobs.ashbyhq.com/ello/f843ac3e-8106-4cb0-bb77-72caa489ab23"
     }
    ],
    "delta_since_last": 0
@@ -6316,10 +6467,10 @@
    "team_size": 30,
    "yc_batch": "Winter 2022",
    "yc_stage": "Growth",
-   "open_roles": 10,
+   "open_roles": 9,
    "eng_roles": 4,
    "new_7d": 0,
-   "new_30d": 1,
+   "new_30d": 0,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -6343,7 +6494,7 @@
      "url": "https://jobs.ashbyhq.com/cinder/24e71fe0-69b8-4b7e-8eb9-0befbac9541d"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Pump.co",
@@ -6413,7 +6564,7 @@
    "yc_stage": "Early",
    "open_roles": 23,
    "eng_roles": 4,
-   "new_7d": 3,
+   "new_7d": 2,
    "new_30d": 4,
    "remote_roles": 10,
    "sample_eng_roles": [
@@ -6705,7 +6856,7 @@
    "yc_stage": "Growth",
    "open_roles": 12,
    "eng_roles": 4,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 2,
    "remote_roles": 7,
    "sample_eng_roles": [
@@ -6883,10 +7034,10 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "open_roles": 21,
+   "open_roles": 22,
    "eng_roles": 4,
    "new_7d": 2,
-   "new_30d": 7,
+   "new_30d": 8,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -6910,7 +7061,7 @@
      "url": "https://jobs.ashbyhq.com/aiuc/84ae5a63-7a10-45ae-940f-3733ffaefd49"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Sourcegraph",
@@ -6996,7 +7147,7 @@
      "url": "https://jobs.ashbyhq.com/rebar/5ab49c2d-9a70-4723-9217-7704a455155c"
     }
    ],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Close",
@@ -7053,10 +7204,10 @@
    "funding_round_est": true,
    "funding_round_text": "",
    "funding_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUzhFbVQwUGJmcTllWlZZN1JqaDI0dk0tTHFxcWZwdXZScS1tZ2F0TkdfZTBCTjVUQ21UU2dqMGRyLUFlRjIxajQ1WFE2T0N6M0V1c1hXcERPU0lFZl9wbXRxci04UURvN0tfczhOYlVfdFEtV0ZIUmZvSHB2UTgtS1ozT2o?oc=5",
-   "open_roles": 6,
+   "open_roles": 7,
    "eng_roles": 3,
    "new_7d": 1,
-   "new_30d": 1,
+   "new_30d": 2,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -7075,7 +7226,7 @@
      "url": "https://jobs.ashbyhq.com/starbridge/e2e55c8c-2eaf-4349-874d-7c18ebb11228"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Radical Numerics",
@@ -7157,6 +7308,49 @@
    "delta_since_last": 0
   },
   {
+   "name": "Neon Health",
+   "website": "https://neonhealth.com",
+   "ats": "ashby",
+   "slug": "neon-health",
+   "board_url": "https://jobs.ashbyhq.com/neon-health",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$6M",
+   "funding_date": "2025-09-02",
+   "funding_headline": "Neon Health raises $6M for AI to help patients access specialty drugs",
+   "funding_round": "Seed",
+   "funding_round_est": true,
+   "funding_round_text": "",
+   "funding_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWMwbzJ4OWQ5U0ZyWHlZVGxDQkwzQ0ZtZ09fcFFrUFQ4RGdiVTB0MDJ0dTB4N3FQdWIzUGMzMUxxTUkyd0piNUxDRjZHMWxabW40SXZ0X0UtM2xNcGNpbnB5ZnVVUm9uanNzcHVaZGdYeGlieEdERDk5Vzg1LXZNMGJjck4tT0JSYjZSWkxiQ2pMcUx0R25GRG9vV2FDSzFidE9Z?oc=5",
+   "open_roles": 6,
+   "eng_roles": 3,
+   "new_7d": 0,
+   "new_30d": 0,
+   "remote_roles": 1,
+   "sample_eng_roles": [
+    {
+     "title": "Staff Software Engineer",
+     "location": "SF Office; Remote (USA)",
+     "url": "https://jobs.ashbyhq.com/neon-health/2ba6ce11-e634-4fef-9684-c8c6e4c87fd4"
+    },
+    {
+     "title": "AI Quality Engineer",
+     "location": "SF Office",
+     "url": "https://jobs.ashbyhq.com/neon-health/1bcf0a46-82a3-4b1d-9233-9c2f2a934c9b"
+    },
+    {
+     "title": "Software Engineer",
+     "location": "SF Office; Remote (USA)",
+     "url": "https://jobs.ashbyhq.com/neon-health/eb5b50a9-5cb6-4d1b-828e-189286f63320"
+    }
+   ],
+   "delta_since_last": 1
+  },
+  {
    "name": "akeno",
    "website": "https://www.akeno.ai",
    "ats": "workable",
@@ -7177,7 +7371,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYWJGQV9sSnhENGVtWEJqMHZkaDB6Y0NubDd2V2M3cGF0Tmt4bV8xOUV0UlVnTEdwTlpJcE9sQk9NRDJDcDF4dGpfVWMtUFl4OGZBNTdEclhiX1Q5dmRqQ3djVUpWTjNqRnJuZ1N5NGZ0TXcyTDFMY3hPVXRUQ1IzSDdaQjhaRmRUX2NDS2xRbDZMdlVHU0FPb1dVYXYxODJFQXBOZjRBeUdCWUZJQ1lhSndn?oc=5",
    "open_roles": 5,
    "eng_roles": 3,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -7446,52 +7640,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "Ello",
-   "website": "https://www.ello.com",
-   "ats": "ashby",
-   "slug": "ello",
-   "board_url": "https://jobs.ashbyhq.com/ello",
-   "stage": "YC Winter 2020",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "Education",
-   "hq": "San Francisco, CA, USA",
-   "notes": "via yc",
-   "funding_amount": "$15M",
-   "funding_date": "2023-09-07",
-   "funding_headline": "AI reading coach startup Ello raises $15M to bolster child literacy",
-   "funding_round": "Series A",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "team_size": 45,
-   "funding_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYUlYZkxwa19MUE1ZcWxBR0psT3FKU3ozVVJ1TWo5N2I5SXpsSDU0eWRaYTNfSVp5TGFkWUxuZ2dCSXBTUXdMMml0UGZWWUZrbGozb2IxZk0zNEQxNmdLRmxWN0FJRkhsOUlmT0ZNaG5VUjlXcXNBYzdZdVVwV0tOQzRBV3VzWEI1X3QzcGRCczZ4eUJGVXhOMk5HYXEydkxmY0tJUjNMNWRkWVZY?oc=5",
-   "yc_batch": "Winter 2020",
-   "yc_stage": "Early",
-   "open_roles": 6,
-   "eng_roles": 3,
-   "new_7d": 1,
-   "new_30d": 3,
-   "remote_roles": 0,
-   "sample_eng_roles": [
-    {
-     "title": "Product Engineer (Learning)",
-     "location": "San Francisco, CA",
-     "url": "https://jobs.ashbyhq.com/ello/784b20d0-8689-4b61-9267-9254846d3961"
-    },
-    {
-     "title": "Product Engineer (Growth)",
-     "location": "San Francisco, CA",
-     "url": "https://jobs.ashbyhq.com/ello/60464edf-a471-47f7-9465-d2433037154d"
-    },
-    {
-     "title": "AI/ML Engineer",
-     "location": "San Francisco, CA",
-     "url": "https://jobs.ashbyhq.com/ello/f843ac3e-8106-4cb0-bb77-72caa489ab23"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "Humaans",
    "website": "https://humaans.io",
    "ats": "ashby",
@@ -7605,7 +7753,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQkQ1b1FQbGhhRnplUEZfUjlWYlBzbC1qei1KWjRPcGJzWnVrbDhXeXI4WllqT1lCWTliekQ5RFRUaWJXSlE4OHZUNGxSRUppUk1tdXB5cnRRdnRSUFR2bGVBMDJlQUZ6cnlPZWJCRkI1R25rR3h3UGZXcWxPcndVbmdRQ1ZNQ01wQ3BhWjhuZEgtTmdldUVEdlFoUUVhN3piUU9PblBfSENvcFRWOTZV?oc=5",
    "yc_batch": "Summer 2022",
    "yc_stage": "Early",
-   "open_roles": 8,
+   "open_roles": 6,
    "eng_roles": 3,
    "new_7d": 0,
    "new_30d": 0,
@@ -7627,7 +7775,7 @@
      "url": "https://jobs.ashbyhq.com/axleinsure/c7e39d9c-db33-416d-9e92-4cf8d8c04f51"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -2
   },
   {
    "name": "Credal.ai",
@@ -7738,7 +7886,7 @@
    "yc_stage": "Growth",
    "open_roles": 16,
    "eng_roles": 3,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 8,
    "remote_roles": 2,
    "sample_eng_roles": [
@@ -7862,7 +8010,7 @@
    "yc_stage": "Growth",
    "open_roles": 36,
    "eng_roles": 3,
-   "new_7d": 3,
+   "new_7d": 1,
    "new_30d": 13,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -8278,44 +8426,6 @@
    "delta_since_last": 0
   },
   {
-   "name": "Neon Health",
-   "website": "https://neonhealth.com",
-   "ats": "ashby",
-   "slug": "neon-health",
-   "board_url": "https://jobs.ashbyhq.com/neon-health",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$6M",
-   "funding_date": "2025-09-02",
-   "funding_headline": "Neon Health raises $6M for AI to help patients access specialty drugs",
-   "funding_round": "Seed",
-   "funding_round_est": true,
-   "funding_round_text": "",
-   "funding_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWMwbzJ4OWQ5U0ZyWHlZVGxDQkwzQ0ZtZ09fcFFrUFQ4RGdiVTB0MDJ0dTB4N3FQdWIzUGMzMUxxTUkyd0piNUxDRjZHMWxabW40SXZ0X0UtM2xNcGNpbnB5ZnVVUm9uanNzcHVaZGdYeGlieEdERDk5Vzg1LXZNMGJjck4tT0JSYjZSWkxiQ2pMcUx0R25GRG9vV2FDSzFidE9Z?oc=5",
-   "open_roles": 5,
-   "eng_roles": 2,
-   "new_7d": 0,
-   "new_30d": 0,
-   "remote_roles": 1,
-   "sample_eng_roles": [
-    {
-     "title": "Staff Software Engineer",
-     "location": "SF Office; Remote (USA)",
-     "url": "https://jobs.ashbyhq.com/neon-health/2ba6ce11-e634-4fef-9684-c8c6e4c87fd4"
-    },
-    {
-     "title": "AI Quality Engineer",
-     "location": "SF Office",
-     "url": "https://jobs.ashbyhq.com/neon-health/1bcf0a46-82a3-4b1d-9233-9c2f2a934c9b"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
    "name": "Quadrature",
    "website": "https://quadrature.ai",
    "ats": "greenhouse",
@@ -8373,47 +8483,6 @@
      "title": "Frontend Engineer — React Native (Expo / JSI) (Contract to Hire)",
      "location": "Latin & South America | Remote",
      "url": "https://jobs.ashbyhq.com/andotechnologies/e09ddf04-5063-4e87-ab8e-665e27f133de"
-    }
-   ],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Prosper AI",
-   "website": "https://getprosper.ai",
-   "ats": "ashby",
-   "slug": "prosper-ai",
-   "board_url": "https://jobs.ashbyhq.com/prosper-ai",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$30M",
-   "funding_date": "2026-06-24",
-   "funding_headline": "Prosper AI Raises $30 Mn in Series A to Expand Healthcare AI Operations Platform",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
-   "team_size": 60,
-   "funding_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNF9oRjlrSlhZSnpuRmhmY3N1UW1sSlFUekpoamthbGFNTzdyRE9NUDVOYVlsNVNZSUhJVHB3ZnRuZVdNejVtZW8xTm94MWhIR3Y5Zk9lZDRnaFFaQ2E0ODNaazJuZWFhQ19mZjBfRlFJOVB5Vkp0NkJYRVYyOUZoZEJkdDRDWjVPWWFlYmZRM3RqODlWODFfNVBTVXlzdDlQWU4tTW1oOVgxcEUwR3lwOFpnNA?oc=5",
-   "yc_batch": "Summer 2023",
-   "yc_stage": "Early",
-   "open_roles": 14,
-   "eng_roles": 2,
-   "new_7d": 2,
-   "new_30d": 4,
-   "remote_roles": 4,
-   "sample_eng_roles": [
-    {
-     "title": "Senior AI Engineer",
-     "location": "Barcelona",
-     "url": "https://jobs.ashbyhq.com/prosper-ai/29fbeb7b-5673-498f-8333-02a7e0ce61d1"
-    },
-    {
-     "title": "Senior Product Engineer",
-     "location": "Barcelona",
-     "url": "https://jobs.ashbyhq.com/prosper-ai/8ff0ac1c-7975-4712-9d9f-4dd455be7a63"
     }
    ],
    "delta_since_last": 0
@@ -8595,10 +8664,10 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNzNzME80R1hOQnN6TFFZLXhIaV9oTF9nRWNqYUhWZjVNWl9CTGJXclZHamRlVUF2eFlOODNNVjdIamE0dE9PU25nOHdkd0g2cllrNUZCOEFlV2lKc3Y2SG1faElsLVA3TXU5Tml5STVRLUh6N05Fc3RmT1NjaFVZYVJjQU8tYWM3?oc=5",
    "yc_batch": "Winter 2020",
    "yc_stage": "Growth",
-   "open_roles": 5,
+   "open_roles": 6,
    "eng_roles": 2,
-   "new_7d": 0,
-   "new_30d": 0,
+   "new_7d": 1,
+   "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [
     {
@@ -8612,7 +8681,7 @@
      "url": "https://jobs.ashbyhq.com/Recall/7b02811e-bc91-4ef2-925d-f56a5acac13b"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Vapi",
@@ -8670,11 +8739,11 @@
    "team_size": 60,
    "yc_batch": "Winter 2021",
    "yc_stage": "Early",
-   "open_roles": 6,
+   "open_roles": 7,
    "eng_roles": 2,
-   "new_7d": 0,
-   "new_30d": 1,
-   "remote_roles": 6,
+   "new_7d": 1,
+   "new_30d": 2,
+   "remote_roles": 7,
    "sample_eng_roles": [
     {
      "title": "Customer Solutions Engineer",
@@ -8687,7 +8756,7 @@
      "url": "https://jobs.ashbyhq.com/popl/2bc28d53-699a-4796-8b0c-dce2794b0d4c"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Zensors",
@@ -9004,7 +9073,7 @@
    "funding_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObUk2aTBaQWpTMlJSV0RWV3JNWlNsRGRkNGhyU1Q5THVQSkVaTlFiTmdlSWVoR2JTcXBXRXB6TURmWUE1WV82UnFVNWZMYU5FSk55YkFybEVwVmRGSmZMTkd5ejhiMG9TTU9jNURjTUZJUjQ4RVdjYXNhY0RMa3RDUklzUTVhV194S2toMHBn?oc=5",
    "yc_batch": "Winter 2024",
    "yc_stage": "Growth",
-   "open_roles": 5,
+   "open_roles": 4,
    "eng_roles": 2,
    "new_7d": 0,
    "new_30d": 3,
@@ -9021,7 +9090,7 @@
      "url": "https://jobs.ashbyhq.com/Greenboard/bebf464d-0091-4ccd-9d34-38f3bab92326"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Zeit AI",
@@ -9152,7 +9221,7 @@
    "notes": "via hn",
    "open_roles": 4,
    "eng_roles": 2,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 1,
    "remote_roles": 4,
    "sample_eng_roles": [
@@ -9229,10 +9298,10 @@
    "funding_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc0dYbk9QRlhqV2Nqd1R5WHkxOWgzaDJ5akp3RlBURGVDTlBIOWRvb0prTkRXTEZDS2ZPNlRWZEJXWFNkQm1BQXdiRFBkQU1FUWVQODd0WmhBZ3I3cFpqQ3MzcGJaaVNIc096X1QtaldYemZjdlpwNTVsR1RrX2tWUkVVMWlkcFpMWEpGMmMwQXo4X2JLR0psSlBwaE42THZxZHdiSQ?oc=5",
    "yc_batch": "Summer 2024",
    "yc_stage": "Early",
-   "open_roles": 8,
+   "open_roles": 9,
    "eng_roles": 2,
-   "new_7d": 0,
-   "new_30d": 0,
+   "new_7d": 2,
+   "new_30d": 2,
    "remote_roles": 3,
    "sample_eng_roles": [
     {
@@ -9246,7 +9315,7 @@
      "url": "https://jobs.ashbyhq.com/verahealth/b5dbf8ee-ddff-483c-aca0-57b62bd90b84"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Alternative Payments",
@@ -9370,11 +9439,11 @@
    "team_size": 30,
    "yc_batch": "Winter 2025",
    "yc_stage": "Early",
-   "open_roles": 2,
+   "open_roles": 3,
    "eng_roles": 1,
-   "new_7d": 0,
-   "new_30d": 1,
-   "remote_roles": 2,
+   "new_7d": 1,
+   "new_30d": 2,
+   "remote_roles": 3,
    "sample_eng_roles": [
     {
      "title": "AI Engineer",
@@ -9382,7 +9451,7 @@
      "url": "https://jobs.ashbyhq.com/Mastra/531a3fe8-556f-4b83-bee7-20374f67f980"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Ojin",
@@ -9461,6 +9530,39 @@
     }
    ],
    "delta_since_last": 0
+  },
+  {
+   "name": "Weave Bio",
+   "website": "https://weave.bio",
+   "ats": "greenhouse",
+   "slug": "weave",
+   "board_url": "https://job-boards.greenhouse.io/weave",
+   "stage": "",
+   "last_raise": "",
+   "last_raise_date": "",
+   "sector": "",
+   "hq": "",
+   "notes": "via hn",
+   "funding_amount": "$20M",
+   "funding_date": "2025-10-16",
+   "funding_headline": "Weave Bio Secures $20M Series A Funding to Enhance Its AI-Native Regulatory Platform",
+   "funding_round": "Series A",
+   "funding_round_est": false,
+   "funding_round_text": "Series A",
+   "funding_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5",
+   "open_roles": 2,
+   "eng_roles": 1,
+   "new_7d": 1,
+   "new_30d": 1,
+   "remote_roles": 0,
+   "sample_eng_roles": [
+    {
+     "title": "Staff Software Engineer",
+     "location": "San Francisco Bay Area, CA",
+     "url": "https://job-boards.greenhouse.io/weave/jobs/4469086009"
+    }
+   ],
+   "delta_since_last": 1
   },
   {
    "name": "BIT Capital",
@@ -9886,11 +9988,11 @@
    "funding_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMUptc1ZDWVcybGZwcHJ5Z0JGMzVSVzhKZGZjbWItbDVWY19MSmRhZTVyX094b3IycGx2VHJsWjFKOW1xbTNGU2dUV3JiUkVrbkdSWUpSeTFYSk1XbmxGdlRMQ3VDdWtyTmtRaTNjQU16LWRPYjZRazdVaFRNRGRxeDAzQlhUaUxMNHBIUmt2b1NyQ2hkaEM3N0Z6Q1MwVEtRYzB4NTVzejJCdG5TcFdDYXVHTndHR0VM?oc=5",
    "yc_batch": "Winter 2022",
    "yc_stage": "Growth",
-   "open_roles": 25,
+   "open_roles": 24,
    "eng_roles": 1,
-   "new_7d": 3,
-   "new_30d": 6,
-   "remote_roles": 25,
+   "new_7d": 4,
+   "new_30d": 7,
+   "remote_roles": 24,
    "sample_eng_roles": [
     {
      "title": "Principal Software Engineer, Platform",
@@ -9898,7 +10000,7 @@
      "url": "https://jobs.ashbyhq.com/permitflow/ff27be84-25db-4d65-a421-ff9b0cd339a4"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "GovDash",
@@ -10009,9 +10111,9 @@
    "team_size": 35,
    "yc_batch": "Summer 2024",
    "yc_stage": "Early",
-   "open_roles": 17,
+   "open_roles": 18,
    "eng_roles": 1,
-   "new_7d": 1,
+   "new_7d": 0,
    "new_30d": 2,
    "remote_roles": 6,
    "sample_eng_roles": [
@@ -10021,7 +10123,7 @@
      "url": "https://jobs.ashbyhq.com/codes-health/c7e866ec-6abe-4fcb-a472-47b1b4a7ee18"
     }
    ],
-   "delta_since_last": 0
+   "delta_since_last": 1
   },
   {
    "name": "Innate",
@@ -10174,7 +10276,7 @@
    "notes": "via hn",
    "open_roles": 3,
    "eng_roles": 1,
-   "new_7d": 2,
+   "new_7d": 0,
    "new_30d": 2,
    "remote_roles": 0,
    "sample_eng_roles": [
@@ -10251,13 +10353,13 @@
    "sector": "",
    "hq": "",
    "notes": "via hn",
-   "open_roles": 2,
+   "open_roles": 1,
    "eng_roles": 0,
    "new_7d": 0,
    "new_30d": 1,
    "remote_roles": 0,
    "sample_eng_roles": [],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "WorkHero",
@@ -10283,53 +10385,6 @@
    "new_7d": 0,
    "new_30d": 0,
    "remote_roles": 3,
-   "sample_eng_roles": [],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Complement AI",
-   "website": "https://complement.ai",
-   "ats": "ashby",
-   "slug": "complement",
-   "board_url": "https://jobs.ashbyhq.com/complement",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "open_roles": 1,
-   "eng_roles": 0,
-   "new_7d": 0,
-   "new_30d": 0,
-   "remote_roles": 0,
-   "sample_eng_roles": [],
-   "delta_since_last": 0
-  },
-  {
-   "name": "Weave Bio",
-   "website": "https://weave.bio",
-   "ats": "greenhouse",
-   "slug": "weave",
-   "board_url": "https://job-boards.greenhouse.io/weave",
-   "stage": "",
-   "last_raise": "",
-   "last_raise_date": "",
-   "sector": "",
-   "hq": "",
-   "notes": "via hn",
-   "funding_amount": "$20M",
-   "funding_date": "2025-10-16",
-   "funding_headline": "Weave Bio Secures $20M Series A Funding to Enhance Its AI-Native Regulatory Platform",
-   "funding_round": "Series A",
-   "funding_round_est": false,
-   "funding_round_text": "Series A",
-   "funding_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5",
-   "open_roles": 1,
-   "eng_roles": 0,
-   "new_7d": 0,
-   "new_30d": 0,
-   "remote_roles": 0,
    "sample_eng_roles": [],
    "delta_since_last": 0
   },
@@ -10532,13 +10587,13 @@
    "funding_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOenFGQ2NHa1JLVHN0T1Z6czA4OHVfMGpZTTJrNEpQS3A0Skg0ZHpVVGRqYUtCdy02WkQtdVpGNVVYS25mSi1ReFNLY1RrUXNOWGY5dmVKWUIxUnRuX3FxV0c2bTRVbmNHaVI5ZGJIdjdVVENZZ1Rzek5DS0YtVXhFdmNacjZER2VFTDlueVR0SXdLLUh4R2puM1BBTUhvRWVfOTBLOF91dFo1cjVGelJzSUZaRlRDQ3VZUG40WDVVWQ?oc=5",
    "yc_batch": "Winter 2021",
    "yc_stage": "Growth",
-   "open_roles": 3,
+   "open_roles": 2,
    "eng_roles": 0,
    "new_7d": 0,
-   "new_30d": 3,
+   "new_30d": 2,
    "remote_roles": 0,
    "sample_eng_roles": [],
-   "delta_since_last": 0
+   "delta_since_last": -1
   },
   {
    "name": "Slope",
@@ -10936,7 +10991,7 @@
    "new_30d": 0,
    "remote_roles": 0,
    "sample_eng_roles": [],
-   "delta_since_last": -1
+   "delta_since_last": 0
   },
   {
    "name": "Kinelo",
@@ -10979,7 +11034,7 @@
    "new_30d": 3,
    "remote_roles": 1,
    "sample_eng_roles": [],
-   "delta_since_last": null
+   "delta_since_last": 0
   }
  ]
 }
