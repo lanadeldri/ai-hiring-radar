@@ -1362,6 +1362,12 @@
   "round_text": "Series C",
   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQa1V3Z0QxX2toZU5oeGpMTWVkTzBLLUM4V2cxd2stVF9feklCdGw1N1hZc1JaSGRvNlBPU1JmUzFjU2xnOU1IUjh3OW5QMURZanVoWEJfQmtKaFRhcTAwNlNEdE43X2xkaU9mNkRSbVpfTUZmQ09GWWdSOGRkQXhaT2hOZ2c0am5pM195MFNOeFNjR1FLX01DVl9kSGR0clliRnJvWHBXeFMxNGxfQndWb3NWMUdUa3d5X0hXYmN5ZFJfbFBabzRRSw?oc=5"
  },
+ "Nowadays": {
+  "checked_at": "2026-11-26",
+  "team_size": 6,
+  "yc_batch": "Summer 2023",
+  "yc_stage": "Early"
+ },
  "Nuance Labs": {
   "amount": "$50M",
   "checked_at": "2026-11-22",
@@ -1524,6 +1530,12 @@
   "team_size": 8,
   "yc_batch": "Winter 2024",
   "yc_stage": "Early"
+ },
+ "Podium": {
+  "checked_at": "2026-11-26",
+  "team_size": 1000,
+  "yc_batch": "Winter 2016",
+  "yc_stage": "Growth"
  },
  "PointOne": {
   "amount": "$16M",
@@ -2013,6 +2025,12 @@
   "yc_batch": "Summer 2023",
   "yc_stage": "Early"
  },
+ "Swayable": {
+  "checked_at": "2026-11-26",
+  "team_size": 30,
+  "yc_batch": "Winter 2018",
+  "yc_stage": "Early"
+ },
  "Tabula Bio": {
   "checked_at": "2026-11-22"
  },
@@ -2235,6 +2253,12 @@
   "round_est": false,
   "round_text": "Series A",
   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMUVxMEpiNzRkX2doZ3ltMHpKZWFMLWFtdHVFNTNybmlsYWh6dFE1UzlsSUZJT0VQUktMUmNUVUVnQmRqOEFTWW9pZUhMNlNLOWFrTWNoU1UyX051OU55LTJIVFhOZUEyaTFVS0lMNW5MZVZKVGNKeElEaV9KLXJCNlRUbkJBOWh0OWFjLVRZbkFCRlBwRThTcjhLU2RFN05SOUlVeEoyblQ4dmJLUnpOMlp6bXpuUXk3bHZCQXBhNE5vbTNOc0psRXM5ZWdLSkpoaGxEa1pKSzlhckk?oc=5"
+ },
+ "Weekend (fmr. Volley)": {
+  "checked_at": "2026-11-26",
+  "team_size": 80,
+  "yc_batch": "Winter 2018",
+  "yc_stage": "Growth"
  },
  "WireScreen": {
   "checked_at": "2026-11-22"
