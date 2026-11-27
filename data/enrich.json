@@ -18,7 +18,7 @@
   "yc_stage": "Early"
  },
  "Adora AI": {
-  "checked_at": "2026-10-28"
+  "checked_at": "2026-11-27"
  },
  "AfterQuery": {
   "amount": "$30M",
@@ -761,7 +761,7 @@
   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSTRCOWF6ck1pUTZwWUFaS0pwWmprWkRlQnpjLUVCQmFEV3pnNXNocVJVTlRYRzIxSWxnVVQ3cjY4dHhUbXpCMEwzM1l5OXFHTm45LXpsT3lrYi1xWUcxVkQ4Z2tQSjlBZmpLVEh4SEVjU0NjbjJQZkxNU2dOSGlyRHUydzVsc0tmQUVxaEhJUTdTVWxBT3h2MkdQbzHSAaIBQVVfeXFMTzBpcEpackJja1pEMWFma0FvUXo2NnpmMXJEY2t4d1JEZm94RWJCRVEzREZIZWpOSndoQ3JHOEVRN0dsQXl4eTJzeEVpVFpJY2p4clM1U1hfOC1ZM0U3QjBON2JTS2lDWFc1cXJldWM5UFB1Q3M0RzJnRHJ2dVpDM0pCQnBWRXRKenhDS0NVREM4N2xmMmN3WmFoUWZLaVhST3lR?oc=5"
  },
  "Forward Deployed Engineers": {
-  "checked_at": "2026-10-28"
+  "checked_at": "2026-11-27"
  },
  "Foxglove": {
   "amount": "$40M",
@@ -1239,7 +1239,7 @@
   "yc_stage": "Growth"
  },
  "Member of Technical Staff": {
-  "checked_at": "2026-10-28"
+  "checked_at": "2026-11-27"
  },
  "Mercanis": {
   "amount": "€17.3M",
@@ -1288,7 +1288,7 @@
   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVnBwa3pVRlJrazdxNmg1aHdRVU16ckRpcHF3S1FweHpVaG93cUxrTm93SHhnTDQ1LWpqa3V2VG9EdFo2WmdLcFNVMExvVmN4U0dRQjAxWlI5cUFOdzNnZ3hDQlZGdFZVZXJCdmtQZmJaWHlmMVZqaWtlSlhGampWVnI4UjNIZEpkbkdnTjRWUDk3Slo4YmE2aktzZ1NlWkxfT2dKNHgyaTRKeE5TbFJr?oc=5"
  },
  "Mithril": {
-  "checked_at": "2026-10-28"
+  "checked_at": "2026-11-27"
  },
  "Modal": {
   "amount": "$750M",
@@ -1354,7 +1354,7 @@
  },
  "Norm AI": {
   "amount": "$120M",
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-11-27",
   "date": "2026-07-11",
   "headline": "Norm AI Raises $120 Mn In Series C Round Led By Khosla Ventures, Reaches Unicorn Valuation",
   "round": "Series C+",
@@ -1638,13 +1638,13 @@
  },
  "Rad AI": {
   "amount": "$60M",
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-11-27",
   "date": "2025-01-30",
-  "headline": "RAD AI CLOSES $60M SERIES C TO FURTHER SOLIDIFY LEADERSHIP IN HEALTHCARE GENERATIVE AI",
+  "headline": "Rad AI raises $60M in Series C to bring generative AI to radiology",
   "round": "Series C+",
   "round_est": false,
   "round_text": "Series C",
-  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTmdHZ21QU0VjcmhEZXpMSURRY0tjR2RQSXgyNHNhWHlCSE05MERUX2V1SW51UmVOUzlRc0xIRmg1QXowampFV2M5eUd4QlYyRE1QUVFYVUl5TXlURGJidUhfYXhGaXNGV1E5M3U3NGhwNzN2SWZ6bGRBdWNhZXVWXzY4VUZGdGN4eGZrNEQyd3ZCdVFITEozdHhlbFB6dU1wUjRFazZhWlhRRU15c25PdUNjSWdHUldYYkZ0di1tN3J1UGk1c04yU3hzQXV4X2ZXWHlUUGxKc3A?oc=5"
+  "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU044ek1Rb0xBSGFza2lxNkd1X054STlmcnVVRDFLMEtLc2dEV01iR3YxOFBTSllaNUNiQ2dIeEh6a3c3d0gxNHNPTjFrTWlBNEJNelhiYXhwWnZhd3hhYzk0VjRQZ3NRVEVBRWZqVkdhN2dDMDRBdHFqdHpqZ1RIZjZ4Uzc3dE9mUENKN0hPaEtleEYzRENhdA?oc=5"
  },
  "Radical AI": {
   "amount": "$55M",
@@ -1837,7 +1837,7 @@
  },
  "Scribd": {
   "amount": "$58M",
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-11-27",
   "date": "2019-11-25",
   "headline": "Reading Subscription Startup Scribd Raises $58M",
   "round": "Series B",
@@ -2091,7 +2091,7 @@
  },
  "Teleskope": {
   "amount": "$25M",
-  "checked_at": "2026-10-28",
+  "checked_at": "2026-11-27",
   "date": "2026-01-13",
   "headline": "Teleskope Raises $25M to Address Enterprise Data Security with Agentic Automation",
   "round": "Series A",
